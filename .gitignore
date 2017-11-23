@@ -1,0 +1,8 @@
+/.idea/*
+/nbproject
+vendor/*
+!vendor/others
+.DS_Store
+!.gitignore
+composer.lock
+/*.php
