@@ -2,7 +2,6 @@
 
 namespace BitOasis\Common\Console;
 
-use BitOasis\Bitfinex\Constant\Symbol;
 use InvalidArgumentException;
 
 /**
@@ -21,19 +20,19 @@ class ConsoleUtils {
 			self::SHORTCUT => 'b',
 			self::DESCRIPTION => 'BTC',
 			self::PAIR => 'BTC-AED',
-			self::SYMBOL => Symbol::TBTCUSD,
+			self::SYMBOL => 'tBTCUSD',
 		],
 		'eth' => [
 			self::SHORTCUT => 'e',
 			self::DESCRIPTION => 'ETH',
 			self::PAIR => 'ETH-AED',
-			self::SYMBOL => Symbol::TETHUSD,
+			self::SYMBOL => 'tETHUSD',
 		],
 		'xrp' => [
 			self::SHORTCUT => 'x',
 			self::DESCRIPTION => 'XRP',
 			self::PAIR => 'XRP-AED',
-			self::SYMBOL => Symbol::TXRPUSD,
+			self::SYMBOL => 'tXRPUSD',
 		],
 	];
 
