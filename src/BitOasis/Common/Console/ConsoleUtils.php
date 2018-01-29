@@ -34,6 +34,12 @@ class ConsoleUtils {
 			self::PAIR => 'XRP-AED',
 			self::SYMBOL => 'tXRPUSD',
 		],
+		'ltc' => [
+			self::SHORTCUT => 'l',
+			self::DESCRIPTION => 'LTC',
+			self::PAIR => 'LTC-AED',
+			self::SYMBOL => 'tLTCUSD',
+		],
 	];
 
 	private function __construct() {
