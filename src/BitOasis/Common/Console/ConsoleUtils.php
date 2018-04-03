@@ -40,6 +40,12 @@ class ConsoleUtils {
 			self::PAIR => 'LTC-AED',
 			self::SYMBOL => 'tLTCUSD',
 		],
+		'bch' => [
+			self::SHORTCUT => 'c',
+			self::DESCRIPTION => 'BCH',
+			self::PAIR => 'BCH-AED',
+			self::SYMBOL => 'tBCHUSD',
+		],
 	];
 
 	private function __construct() {

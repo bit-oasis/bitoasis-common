@@ -10,8 +10,8 @@ class CurrencyCodePair implements Pair {
 	const DEFAULT_PAIR = 'BTC-AED';
 	const DEFAULT_CURRENCY_CODE = 'AED';
 	const DEFAULT_CRYPTOCURRENCY_CODE = 'BTC';
-	const PAIRS = ['BTC-AED' => 'BTC-AED', 'ETH-AED' => 'ETH-AED', 'XRP-AED' => 'XRP-AED', 'LTC-AED' => 'LTC-AED'];
-	const VALID_PAIRS = ['BTC-AED', 'BTC-USD', 'ETH-AED', 'ETH-USD', 'XRP-AED', 'XRP-USD', 'LTC-AED', 'LTC-USD'];
+	const PAIRS = ['BTC-AED' => 'BTC-AED', 'ETH-AED' => 'ETH-AED', 'XRP-AED' => 'XRP-AED', 'LTC-AED' => 'LTC-AED', 'BCH-AED' => 'BCH-AED'];
+	const VALID_PAIRS = ['BTC-AED', 'BTC-USD', 'ETH-AED', 'ETH-USD', 'XRP-AED', 'XRP-USD', 'LTC-AED', 'LTC-USD', 'BCH-AED', 'BCH-USD'];
 
 	/** @var string */
 	protected $currencyCode;
