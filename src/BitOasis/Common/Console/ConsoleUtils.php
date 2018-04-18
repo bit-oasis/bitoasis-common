@@ -46,6 +46,12 @@ class ConsoleUtils {
 			self::PAIR => 'BCH-AED',
 			self::SYMBOL => 'tBCHUSD',
 		],
+		'zec' => [
+			self::SHORTCUT => 'z',
+			self::DESCRIPTION => 'ZEC',
+			self::PAIR => 'ZEC-AED',
+			self::SYMBOL => 'tZECUSD',
+		],
 	];
 
 	private function __construct() {
