@@ -52,6 +52,12 @@ class ConsoleUtils {
 			self::PAIR => 'ZEC-AED',
 			self::SYMBOL => 'tZECUSD',
 		],
+		'xrm' => [
+			self::SHORTCUT => 'm',
+			self::DESCRIPTION => 'XMR',
+			self::PAIR => 'XMR-AED',
+			self::SYMBOL => 'tXMRUSD',
+		],
 	];
 
 	private function __construct() {
