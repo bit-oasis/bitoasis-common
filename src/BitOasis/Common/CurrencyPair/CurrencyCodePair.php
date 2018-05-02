@@ -8,32 +8,43 @@ namespace BitOasis\Common\CurrencyPair;
 class CurrencyCodePair implements Pair {
 
 	const DEFAULT_PAIR = 'BTC-AED';
+	/** @deprecated 1.1.0 use {@see DEFAULT_BASE_CRYPTOCURRENCY_CODE} @var string */
 	const DEFAULT_CURRENCY_CODE = 'AED';
+	const DEFAULT_BASE_CRYPTOCURRENCY_CODE = 'AED';
 	const DEFAULT_CRYPTOCURRENCY_CODE = 'BTC';
 	const PAIRS = ['BTC-AED' => 'BTC-AED', 'ETH-AED' => 'ETH-AED', 'XRP-AED' => 'XRP-AED', 'LTC-AED' => 'LTC-AED', 'BCH-AED' => 'BCH-AED', 'ZEC-AED' => 'ZEC-AED', 'XMR-AED' => 'XMR-AED'];
 	const VALID_PAIRS = ['BTC-AED', 'BTC-USD', 'ETH-AED', 'ETH-USD', 'XRP-AED', 'XRP-USD', 'LTC-AED', 'LTC-USD', 'BCH-AED', 'BCH-USD', 'ZEC-AED', 'ZEC-USD', 'XMR-AED', 'XMR-USD'];
+	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
 
 	/** @var string */
-	protected $currencyCode;
+	protected $baseCryptocurrencyCode;
 
 	/** @var string */
 	protected $cryptocurrencyCode;
 
 	/**
-	 * @param string $currencyCode
+	 * @param string $baseCryptocurrencyCode
 	 * @param string $cryptocurrencyCode
 	 * @throws InvalidCurrencyPairException
 	 */
-	public function __construct(string $currencyCode, string $cryptocurrencyCode) {
-		if(!in_array($cryptocurrencyCode . '-' . $currencyCode, self::VALID_PAIRS, true)) {
-			throw new InvalidCurrencyPairException('Unsupported currency pair ' . $cryptocurrencyCode . '-' . $currencyCode);
+	public function __construct(string $baseCryptocurrencyCode, string $cryptocurrencyCode) {
+		if(!self::isPairValid($cryptocurrencyCode . '-' . $baseCryptocurrencyCode)) {
+			throw new InvalidCurrencyPairException('Unsupported currency pair ' . $cryptocurrencyCode . '-' . $baseCryptocurrencyCode);
 		}
-		$this->currencyCode = $currencyCode;
+		$this->baseCryptocurrencyCode = $baseCryptocurrencyCode;
 		$this->cryptocurrencyCode = $cryptocurrencyCode;
 	}
 
+	/**
+	 * @deprecated 1.1.0 use {@see getBaseCryptocurrencyCode}
+	 * @return string
+	 */
 	public function getCurrencyCode(): string {
-		return $this->currencyCode;
+		return $this->baseCryptocurrencyCode;
+	}
+
+	public function getBaseCryptocurrencyCode(): string {
+		return $this->baseCryptocurrencyCode;
 	}
 
 	public function getCryptocurrencyCode(): string {
@@ -41,12 +52,22 @@ class CurrencyCodePair implements Pair {
 	}
 
 	public function getPairCode(): string {
-		return strtoupper($this->cryptocurrencyCode) . '-'. strtoupper($this->currencyCode);
+		return strtoupper($this->cryptocurrencyCode) . '-'. strtoupper($this->baseCryptocurrencyCode);
 	}
 
+	/**
+	 * @deprecated 1.1.0 use {@see equalsPairIgnoreUsdAedDifference}
+	 * @param string $codePair
+	 * @return bool
+	 */
 	public function equalsPairIgnoreFiatCurrencyDifference(string $codePair): bool {
+		return $this->equalsPairIgnoreUsdAedDifference($codePair);
+	}
+
+	public function equalsPairIgnoreUsdAedDifference(string $codePair): bool {
 		$currencies = explode('-', $codePair);
-	    return $currencies[0] === $this->getCryptocurrencyCode();
+	    return count($currencies) > 1 && $currencies[0] === $this->getCryptocurrencyCode()
+			&& self::isFiatCryptocurrency($currencies[1]) && self::isFiatCryptocurrency($this->getBaseCryptocurrencyCode());
 	}
 
 	/**
@@ -60,12 +81,16 @@ class CurrencyCodePair implements Pair {
 	    return new static($currencies[1], $currencies[0]);
 	}
 
-	public static function isCodeCombinationValid(string $cryptocurrencyCode, string $currencyCode): bool {
-		return self::isPairValid($cryptocurrencyCode . '-' . $currencyCode);
+	public static function isCodeCombinationValid(string $cryptocurrencyCode, string $baseCryptocurrencyCode): bool {
+		return self::isPairValid($cryptocurrencyCode . '-' . $baseCryptocurrencyCode);
 	}
 
 	public static function isPairValid(string $codePair): bool {
 		return in_array($codePair, self::VALID_PAIRS, true);
+	}
+
+	public static function isFiatCryptocurrency(string $code): bool {
+		return in_array($code, self::FIAT_CRYPTOCURRENCY_CODES, true);
 	}
 
 }
