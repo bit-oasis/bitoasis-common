@@ -93,4 +93,11 @@ class CurrencyCodePair implements Pair {
 		return in_array($code, self::FIAT_CRYPTOCURRENCY_CODES, true);
 	}
 
+	public static function getBaseCryptocurrencyCodeForDb(string $code): string {
+		if (self::isFiatCryptocurrency($code) && $code !== 'USD') {
+			return 'USD';
+		}
+		return $code;
+	}
+
 }
