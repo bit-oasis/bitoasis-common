@@ -100,4 +100,9 @@ class CurrencyCodePair implements Pair {
 		return $code;
 	}
 
+	public static function hasPairFiatBaseCryptocurrency(string $codePair): bool {
+		$currencies = explode('-', $codePair);
+	    return count($currencies) > 1 && self::isFiatCryptocurrency($currencies[1]);
+	}
+
 }
