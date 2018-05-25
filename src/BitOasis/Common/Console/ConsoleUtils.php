@@ -28,6 +28,12 @@ class ConsoleUtils {
 			self::PAIR => 'ETH-AED',
 			self::SYMBOL => 'tETHUSD',
 		],
+		'ethbtc' => [
+			self::SHORTCUT => 'eb',
+			self::DESCRIPTION => 'ETH-BTC',
+			self::PAIR => 'ETH-BTC',
+			self::SYMBOL => 'tETHBTC',
+		],
 		'xrp' => [
 			self::SHORTCUT => 'x',
 			self::DESCRIPTION => 'XRP',

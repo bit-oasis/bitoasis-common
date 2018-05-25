@@ -12,9 +12,10 @@ class CurrencyCodePair implements Pair {
 	const DEFAULT_CURRENCY_CODE = 'AED';
 	const DEFAULT_BASE_CRYPTOCURRENCY_CODE = 'AED';
 	const DEFAULT_CRYPTOCURRENCY_CODE = 'BTC';
-	const PAIRS = ['BTC-AED' => 'BTC-AED', 'ETH-AED' => 'ETH-AED', 'XRP-AED' => 'XRP-AED', 'LTC-AED' => 'LTC-AED', 'BCH-AED' => 'BCH-AED', 'ZEC-AED' => 'ZEC-AED', 'XMR-AED' => 'XMR-AED'];
-	const VALID_PAIRS = ['BTC-AED', 'BTC-USD', 'ETH-AED', 'ETH-USD', 'XRP-AED', 'XRP-USD', 'LTC-AED', 'LTC-USD', 'BCH-AED', 'BCH-USD', 'ZEC-AED', 'ZEC-USD', 'XMR-AED', 'XMR-USD'];
+	const PAIRS = ['BTC-AED' => 'BTC-AED', 'ETH-AED' => 'ETH-AED', 'XRP-AED' => 'XRP-AED', 'LTC-AED' => 'LTC-AED', 'BCH-AED' => 'BCH-AED', 'ZEC-AED' => 'ZEC-AED', 'XMR-AED' => 'XMR-AED', 'ETH-BTC' => 'ETH-BTC'];
+	const VALID_PAIRS = ['BTC-AED', 'BTC-USD', 'ETH-AED', 'ETH-USD', 'XRP-AED', 'XRP-USD', 'LTC-AED', 'LTC-USD', 'BCH-AED', 'BCH-USD', 'ZEC-AED', 'ZEC-USD', 'XMR-AED', 'XMR-USD', 'ETH-BTC'];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
+	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC'];
 
 	/** @var string */
 	protected $baseCryptocurrencyCode;
