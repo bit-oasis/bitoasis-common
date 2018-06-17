@@ -7,7 +7,13 @@ namespace BitOasis\Common\CurrencyPair;
  */
 interface Pair {
 
+	/**
+	 * @deprecated 1.1.0 use {@see getBaseCryptocurrencyCode}
+	 * @return string
+	 */
 	public function getCurrencyCode(): string;
+	
+	public function getBaseCryptocurrencyCode(): string;
 
 	public function getCryptocurrencyCode(): string;
 
