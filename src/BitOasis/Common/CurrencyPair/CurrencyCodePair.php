@@ -67,7 +67,7 @@ class CurrencyCodePair implements Pair {
 
 	public function equalsPairIgnoreUsdAedDifference(string $codePair): bool {
 		$currencies = explode('-', $codePair);
-	    return count($currencies) > 1 && $currencies[0] === $this->getCryptocurrencyCode()
+		return count($currencies) > 1 && $currencies[0] === $this->getCryptocurrencyCode()
 			&& self::isFiatCryptocurrency($currencies[1]) && self::isFiatCryptocurrency($this->getBaseCryptocurrencyCode());
 	}
 
@@ -79,7 +79,7 @@ class CurrencyCodePair implements Pair {
 		if(count($currencies) !== 2) {
 			throw new InvalidCurrencyPairException('Code pair ' . $codePair . "can't be parsed!");
 		}
-	    return new static($currencies[1], $currencies[0]);
+		return new static($currencies[1], $currencies[0]);
 	}
 
 	public static function isCodeCombinationValid(string $cryptocurrencyCode, string $baseCryptocurrencyCode): bool {
@@ -103,7 +103,7 @@ class CurrencyCodePair implements Pair {
 
 	public static function hasPairFiatBaseCryptocurrency(string $codePair): bool {
 		$currencies = explode('-', $codePair);
-	    return count($currencies) > 1 && self::isFiatCryptocurrency($currencies[1]);
+		return count($currencies) > 1 && self::isFiatCryptocurrency($currencies[1]);
 	}
 
 }
