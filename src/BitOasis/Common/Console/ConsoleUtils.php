@@ -29,10 +29,22 @@ class ConsoleUtils {
 			self::SYMBOL => 'tETHUSD',
 		],
 		'ethbtc' => [
-			self::SHORTCUT => 'eb',
+			self::SHORTCUT => 'eb', // todo: rename to single character
 			self::DESCRIPTION => 'ETH-BTC',
 			self::PAIR => 'ETH-BTC',
 			self::SYMBOL => 'tETHBTC',
+		],
+		'xrpbtc' => [
+			self::SHORTCUT => 'xb', // todo: rename to single character
+			self::DESCRIPTION => 'XRP-BTC',
+			self::PAIR => 'XRP-BTC',
+			self::SYMBOL => 'tXRPBTC',
+		],
+		'bchbtc' => [
+			self::SHORTCUT => 'cb', // todo: rename to single character
+			self::DESCRIPTION => 'BCH-BTC',
+			self::PAIR => 'BCH-BTC',
+			self::SYMBOL => 'tBCHBTC',
 		],
 		'xrp' => [
 			self::SHORTCUT => 'x',
