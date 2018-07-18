@@ -9,99 +9,83 @@ use InvalidArgumentException;
  */
 class ConsoleUtils {
 	
-	const SHORTCUT = 'shortcut';
 	const DESCRIPTION = 'description';
 	const PAIR = 'pair';
 	const SYMBOL = 'symbol';
 	
 	/** @var string[] */
 	protected static $consoleOptions = [
-		'btc' => [
-			self::SHORTCUT => 'b',
+		'btcaed' => [
 			self::DESCRIPTION => 'BTC',
 			self::PAIR => 'BTC-AED',
 			self::SYMBOL => 'tBTCUSD',
 		],
-		'eth' => [
-			self::SHORTCUT => 'e',
+		'ethaed' => [
 			self::DESCRIPTION => 'ETH',
 			self::PAIR => 'ETH-AED',
 			self::SYMBOL => 'tETHUSD',
 		],
-		'etc' => [
-			self::SHORTCUT => 'i',
+		'etcaed' => [
 			self::DESCRIPTION => 'ETC',
 			self::PAIR => 'ETC-AED',
 			self::SYMBOL => 'tETCUSD',
 		],
 		'ethbtc' => [
-			self::SHORTCUT => 'eb', // todo: rename to single character
 			self::DESCRIPTION => 'ETH-BTC',
 			self::PAIR => 'ETH-BTC',
 			self::SYMBOL => 'tETHBTC',
 		],
 		'xrpbtc' => [
-			self::SHORTCUT => 'xb', // todo: rename to single character
 			self::DESCRIPTION => 'XRP-BTC',
 			self::PAIR => 'XRP-BTC',
 			self::SYMBOL => 'tXRPBTC',
 		],
 		'bchbtc' => [
-			self::SHORTCUT => 'cb', // todo: rename to single character
 			self::DESCRIPTION => 'BCH-BTC',
 			self::PAIR => 'BCH-BTC',
 			self::SYMBOL => 'tBCHBTC',
 		],
 		'bcheth' => [
-			self::SHORTCUT => 'ce', // todo: rename to single character
 			self::DESCRIPTION => 'BCH-ETH',
 			self::PAIR => 'BCH-ETH',
 			self::SYMBOL => 'tBCHETH',
 		],
 		'zecbtc' => [
-			self::SHORTCUT => 'zb', // todo: rename to single character
 			self::DESCRIPTION => 'ZEC-BTC',
 			self::PAIR => 'ZEC-BTC',
 			self::SYMBOL => 'tZECBTC',
 		],
 		'ltcbtc' => [
-			self::SHORTCUT => 'lb', // todo: rename to single character
 			self::DESCRIPTION => 'LTC-BTC',
 			self::PAIR => 'LTC-BTC',
 			self::SYMBOL => 'tLTCBTC',
 		],
 		'etcbtc' => [
-			self::SHORTCUT => 'ib', // todo: rename to single character
 			self::DESCRIPTION => 'ETC-BTC',
 			self::PAIR => 'ETC-BTC',
 			self::SYMBOL => 'tETCBTC',
 		],
-		'xrp' => [
-			self::SHORTCUT => 'x',
+		'xrpaed' => [
 			self::DESCRIPTION => 'XRP',
 			self::PAIR => 'XRP-AED',
 			self::SYMBOL => 'tXRPUSD',
 		],
-		'ltc' => [
-			self::SHORTCUT => 'l',
+		'ltcaed' => [
 			self::DESCRIPTION => 'LTC',
 			self::PAIR => 'LTC-AED',
 			self::SYMBOL => 'tLTCUSD',
 		],
-		'bch' => [
-			self::SHORTCUT => 'c',
+		'bchaed' => [
 			self::DESCRIPTION => 'BCH',
 			self::PAIR => 'BCH-AED',
 			self::SYMBOL => 'tBCHUSD',
 		],
-		'zec' => [
-			self::SHORTCUT => 'z',
+		'zecaed' => [
 			self::DESCRIPTION => 'ZEC',
 			self::PAIR => 'ZEC-AED',
 			self::SYMBOL => 'tZECUSD',
 		],
-		'xrm' => [
-			self::SHORTCUT => 'm',
+		'xrmaed' => [
 			self::DESCRIPTION => 'XMR',
 			self::PAIR => 'XMR-AED',
 			self::SYMBOL => 'tXMRUSD',
@@ -123,16 +107,6 @@ class ConsoleUtils {
 	 */
 	public static function getConsoleOptions(): array {
 		return array_keys(static::$consoleOptions);
-	}
-
-	/**
-	 * @param string $option
-	 * @return string
-	 * @throws InvalidArgumentException
-	 */
-	public static function getOptionShortcut(string $option): string {
-		static::validateOption($option);
-		return static::$consoleOptions[$option][self::SHORTCUT];
 	}
 
 	/**
