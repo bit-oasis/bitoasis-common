@@ -55,7 +55,7 @@ class ConsoleUtils {
 		'bcheth' => [
 			self::SHORTCUT => 'ce', // todo: rename to single character
 			self::DESCRIPTION => 'BCH-ETH',
-			self::PAIR => 'BCH-ETG',
+			self::PAIR => 'BCH-ETH',
 			self::SYMBOL => 'tBCHETH',
 		],
 		'zecbtc' => [
