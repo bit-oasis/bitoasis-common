@@ -28,6 +28,12 @@ class ConsoleUtils {
 			self::PAIR => 'ETH-AED',
 			self::SYMBOL => 'tETHUSD',
 		],
+		'etc' => [
+			self::SHORTCUT => 'c',
+			self::DESCRIPTION => 'ETC',
+			self::PAIR => 'ETC-AED',
+			self::SYMBOL => 'tETCUSD',
+		],
 		'ethbtc' => [
 			self::SHORTCUT => 'eb', // todo: rename to single character
 			self::DESCRIPTION => 'ETH-BTC',
@@ -45,6 +51,30 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'BCH-BTC',
 			self::PAIR => 'BCH-BTC',
 			self::SYMBOL => 'tBCHBTC',
+		],
+		'bcheth' => [
+			self::SHORTCUT => 'ce', // todo: rename to single character
+			self::DESCRIPTION => 'BCH-ETH',
+			self::PAIR => 'BCH-ETG',
+			self::SYMBOL => 'tBCHETH',
+		],
+		'zecbtc' => [
+			self::SHORTCUT => 'zb', // todo: rename to single character
+			self::DESCRIPTION => 'ZEC-BTC',
+			self::PAIR => 'ZEC-BTC',
+			self::SYMBOL => 'tZECBTC',
+		],
+		'ltcbtc' => [
+			self::SHORTCUT => 'lb', // todo: rename to single character
+			self::DESCRIPTION => 'LTC-BTC',
+			self::PAIR => 'LTC-BTC',
+			self::SYMBOL => 'tLTCBTC',
+		],
+		'etcbtc' => [
+			self::SHORTCUT => 'cb', // todo: rename to single character
+			self::DESCRIPTION => 'ETC-BTC',
+			self::PAIR => 'ETC-BTC',
+			self::SYMBOL => 'tETCBTC',
 		],
 		'xrp' => [
 			self::SHORTCUT => 'x',
