@@ -29,7 +29,7 @@ class ConsoleUtils {
 			self::SYMBOL => 'tETHUSD',
 		],
 		'etc' => [
-			self::SHORTCUT => 'c',
+			self::SHORTCUT => 'i',
 			self::DESCRIPTION => 'ETC',
 			self::PAIR => 'ETC-AED',
 			self::SYMBOL => 'tETCUSD',
@@ -71,7 +71,7 @@ class ConsoleUtils {
 			self::SYMBOL => 'tLTCBTC',
 		],
 		'etcbtc' => [
-			self::SHORTCUT => 'cb', // todo: rename to single character
+			self::SHORTCUT => 'ib', // todo: rename to single character
 			self::DESCRIPTION => 'ETC-BTC',
 			self::PAIR => 'ETC-BTC',
 			self::SYMBOL => 'tETCBTC',
