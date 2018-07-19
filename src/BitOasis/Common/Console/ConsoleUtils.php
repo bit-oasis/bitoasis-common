@@ -85,7 +85,7 @@ class ConsoleUtils {
 			self::PAIR => 'ZEC-AED',
 			self::SYMBOL => 'tZECUSD',
 		],
-		'xrmaed' => [
+		'xmraed' => [
 			self::DESCRIPTION => 'XMR',
 			self::PAIR => 'XMR-AED',
 			self::SYMBOL => 'tXMRUSD',
