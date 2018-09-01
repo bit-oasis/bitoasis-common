@@ -90,6 +90,11 @@ class ConsoleUtils {
 			self::PAIR => 'XMR-AED',
 			self::SYMBOL => 'tXMRUSD',
 		],
+		'xlmaed' => [
+			self::DESCRIPTION => 'XLM',
+			self::PAIR => 'XLM-AED',
+			self::SYMBOL => 'tXLMUSD',
+		],
 	];
 
 	private function __construct() {

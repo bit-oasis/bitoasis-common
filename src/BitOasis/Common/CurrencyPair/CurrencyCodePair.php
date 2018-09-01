@@ -35,6 +35,8 @@ class CurrencyCodePair implements Pair {
 		'ZEC-BTC' => 'ZEC-BTC',
 
 		'XMR-AED' => 'XMR-AED',
+
+		'XLM-AED' => 'XLM-AED',
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD',
@@ -59,6 +61,8 @@ class CurrencyCodePair implements Pair {
 		'ZEC-BTC',
 
 		'XMR-AED', 'XMR-USD',
+
+		'XLM-AED', 'XLM-USD',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH'];
