@@ -45,11 +45,6 @@ class ConsoleUtils {
 			self::PAIR => 'BCH-BTC',
 			self::SYMBOL => 'tBCHBTC',
 		],
-		'bcheth' => [
-			self::DESCRIPTION => 'BCH-ETH',
-			self::PAIR => 'BCH-ETH',
-			self::SYMBOL => 'tBCHETH',
-		],
 		'zecbtc' => [
 			self::DESCRIPTION => 'ZEC-BTC',
 			self::PAIR => 'ZEC-BTC',

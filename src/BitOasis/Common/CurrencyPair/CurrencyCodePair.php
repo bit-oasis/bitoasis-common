@@ -20,7 +20,7 @@ class CurrencyCodePair implements Pair {
 
 		'BCH-AED' => 'BCH-AED',
 		'BCH-BTC' => 'BCH-BTC',
-		'BCH-ETH' => 'BCH-ETH',
+//		'BCH-ETH' => 'BCH-ETH', No longer supported
 
 		'XRP-AED' => 'XRP-AED',
 		'XRP-BTC' => 'XRP-BTC',
