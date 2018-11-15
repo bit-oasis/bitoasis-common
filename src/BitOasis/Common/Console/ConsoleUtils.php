@@ -43,7 +43,7 @@ class ConsoleUtils {
 		'bchbtc' => [
 			self::DESCRIPTION => 'BCH-BTC',
 			self::PAIR => 'BCH-BTC',
-			self::SYMBOL => 'tBCHBTC',
+			self::SYMBOL => 'tBABBTC',
 		],
 		'zecbtc' => [
 			self::DESCRIPTION => 'ZEC-BTC',
@@ -73,7 +73,7 @@ class ConsoleUtils {
 		'bchaed' => [
 			self::DESCRIPTION => 'BCH',
 			self::PAIR => 'BCH-AED',
-			self::SYMBOL => 'tBCHUSD',
+			self::SYMBOL => 'tBABUSD',
 		],
 		'zecaed' => [
 			self::DESCRIPTION => 'ZEC',
