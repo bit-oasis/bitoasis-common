@@ -60,6 +60,11 @@ class ConsoleUtils {
 			self::PAIR => 'ETC-BTC',
 			self::SYMBOL => 'tETCBTC',
 		],
+		'bsvbtc' => [
+			self::DESCRIPTION => 'BSV-BTC',
+			self::PAIR => 'BSV-BTC',
+			self::SYMBOL => 'tBSVBTC',
+		],
 		'xrpaed' => [
 			self::DESCRIPTION => 'XRP',
 			self::PAIR => 'XRP-AED',
@@ -89,6 +94,11 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'XLM',
 			self::PAIR => 'XLM-AED',
 			self::SYMBOL => 'tXLMUSD',
+		],
+		'bsvaed' => [
+			self::DESCRIPTION => 'BSV',
+			self::PAIR => 'BSV-AED',
+			self::SYMBOL => 'tBSVUSD',
 		],
 	];
 
