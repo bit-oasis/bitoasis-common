@@ -38,6 +38,8 @@ class CurrencyCodePair implements Pair {
 
 		'XLM-AED' => 'XLM-AED',
 
+		'EOS-AED' => 'EOS-AED',
+
 		'BSV-AED' => 'BSV-AED',
 		'BSV-BTC' => 'BSV-BTC',
 	];
@@ -66,6 +68,8 @@ class CurrencyCodePair implements Pair {
 		'XMR-AED', 'XMR-USD',
 
 		'XLM-AED', 'XLM-USD',
+
+		'EOS-AED', 'EOS-USD',
 
 		'BSV-AED', 'BSV-USD',
 		'BSV-BTC',
