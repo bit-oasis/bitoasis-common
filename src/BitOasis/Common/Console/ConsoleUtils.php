@@ -100,6 +100,11 @@ class ConsoleUtils {
 			self::PAIR => 'BSV-AED',
 			self::SYMBOL => 'tBSVUSD',
 		],
+		'eosaed' => [
+			self::DESCRIPTION => 'EOS',
+			self::PAIR => 'EOS-AED',
+			self::SYMBOL => 'tEOSUSD',
+		],
 	];
 
 	private function __construct() {
