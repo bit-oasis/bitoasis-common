@@ -44,7 +44,7 @@ class CurrencyCodePair implements Pair {
 		'BSV-BTC' => 'BSV-BTC',
 	];
 	const VALID_PAIRS = [
-		'BTC-AED', 'BTC-USD',
+		'BTC-AED', 'BTC-USD', 'BTC-KWD',
 
 		'ETH-AED', 'ETH-USD',
 		'ETH-BTC',
