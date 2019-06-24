@@ -45,6 +45,7 @@ class CurrencyCodePair implements Pair {
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD',
+		'BTC-KWD',
 
 		'ETH-AED', 'ETH-USD',
 		'ETH-BTC',
