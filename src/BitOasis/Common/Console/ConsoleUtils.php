@@ -65,6 +65,11 @@ class ConsoleUtils {
 			self::PAIR => 'BSV-BTC',
 			self::SYMBOL => 'tBSVBTC',
 		],
+		'eosbtc' => [
+			self::DESCRIPTION => 'EOS-BTC',
+			self::PAIR => 'EOS-BTC',
+			self::SYMBOL => 'tEOSBTC',
+		],
 		'xrpaed' => [
 			self::DESCRIPTION => 'XRP',
 			self::PAIR => 'XRP-AED',
