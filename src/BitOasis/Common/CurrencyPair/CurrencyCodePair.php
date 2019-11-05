@@ -40,9 +40,22 @@ class CurrencyCodePair implements Pair {
 
 		'EOS-AED' => 'EOS-AED',
 		'EOS-BTC' => 'EOS-BTC',
+		'EOS-ETH' => 'EOS-ETH',
 
 		'BSV-AED' => 'BSV-AED',
 		'BSV-BTC' => 'BSV-BTC',
+
+		'OMG-AED' => 'OMG-AED',
+		'OMG-BTC' => 'OMG-BTC',
+
+		'ZRX-AED' => 'ZRX-AED',
+		'ZRX-BTC' => 'ZRX-BTC',
+
+		'BAT-AED' => 'BAT-AED',
+		'BAT-BTC' => 'BAT-BTC',
+
+		'ALG-AED' => 'ALG-AED',
+		'ALG-BTC' => 'ALG-BTC',
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD', 'BTC-KWD',
@@ -72,9 +85,22 @@ class CurrencyCodePair implements Pair {
 
 		'EOS-AED', 'EOS-USD',
 		'EOS-BTC',
+		'EOS-ETH',
 
 		'BSV-AED', 'BSV-USD',
 		'BSV-BTC',
+
+		'OMG-AED', 'OMG-USD',
+		'OMG-BTC',
+
+		'ZRX-AED', 'ZRX-USD',
+		'ZRX-BTC',
+
+		'BAT-AED', 'BAT-USD',
+		'BAT-BTC',
+
+		'ALG-AED', 'ALG-USD',
+		'ALG-BTC',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH'];
