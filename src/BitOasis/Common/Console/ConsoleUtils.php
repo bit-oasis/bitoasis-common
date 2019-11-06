@@ -70,6 +70,26 @@ class ConsoleUtils {
 			self::PAIR => 'EOS-BTC',
 			self::SYMBOL => 'tEOSBTC',
 		],
+		'omgbtc' => [
+			self::DESCRIPTION => 'OMG-BTC',
+			self::PAIR => 'OMG-BTC',
+			self::SYMBOL => 'tOMGBTC',
+		],
+		'zrxbtc' => [
+			self::DESCRIPTION => 'ZRX-BTC',
+			self::PAIR => 'ZRX-BTC',
+			self::SYMBOL => 'tZRXBTC',
+		],
+		'batbtc' => [
+			self::DESCRIPTION => 'BAT-BTC',
+			self::PAIR => 'BAT-BTC',
+			self::SYMBOL => 'tBATBTC',
+		],
+		'algbtc' => [
+			self::DESCRIPTION => 'ALG-BTC',
+			self::PAIR => 'ALG-BTC',
+			self::SYMBOL => 'tALGBTC',
+		],
 		'xrpaed' => [
 			self::DESCRIPTION => 'XRP',
 			self::PAIR => 'XRP-AED',
@@ -109,6 +129,26 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'EOS',
 			self::PAIR => 'EOS-AED',
 			self::SYMBOL => 'tEOSUSD',
+		],
+		'omgaed' => [
+			self::DESCRIPTION => 'OMG',
+			self::PAIR => 'OMG-AED',
+			self::SYMBOL => 'tOMGUSD',
+		],
+		'zrxaed' => [
+			self::DESCRIPTION => 'ZRX',
+			self::PAIR => 'ZRX-AED',
+			self::SYMBOL => 'tZRXUSD',
+		],
+		'bataed' => [
+			self::DESCRIPTION => 'BAT',
+			self::PAIR => 'BAT-AED',
+			self::SYMBOL => 'tBATUSD',
+		],
+		'algaed' => [
+			self::DESCRIPTION => 'ALG',
+			self::PAIR => 'ALG-AED',
+			self::SYMBOL => 'tALGUSD',
 		],
 	];
 
