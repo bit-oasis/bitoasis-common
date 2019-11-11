@@ -150,6 +150,11 @@ class ConsoleUtils {
 			self::PAIR => 'ALG-AED',
 			self::SYMBOL => 'tALGUSD',
 		],
+		'usdtaed' => [
+			self::DESCRIPTION => 'USDT',
+			self::PAIR => 'USDT-AED',
+			self::SYMBOL => 'tUSTUSD',
+		],
 	];
 
 	private function __construct() {
