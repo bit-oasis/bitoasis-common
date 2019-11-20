@@ -70,6 +70,11 @@ class ConsoleUtils {
 			self::PAIR => 'EOS-BTC',
 			self::SYMBOL => 'tEOSBTC',
 		],
+		'eoseth' => [
+			self::DESCRIPTION => 'EOS-ETH',
+			self::PAIR => 'EOS-ETH',
+			self::SYMBOL => 'tEOSETH',
+		],
 		'omgbtc' => [
 			self::DESCRIPTION => 'OMG-BTC',
 			self::PAIR => 'OMG-BTC',
