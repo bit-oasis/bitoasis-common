@@ -90,9 +90,9 @@ class ConsoleUtils {
 			self::PAIR => 'BAT-BTC',
 			self::SYMBOL => 'tBATBTC',
 		],
-		'algbtc' => [
-			self::DESCRIPTION => 'ALG-BTC',
-			self::PAIR => 'ALG-BTC',
+		'algobtc' => [
+			self::DESCRIPTION => 'ALGO-BTC',
+			self::PAIR => 'ALGO-BTC',
 			self::SYMBOL => 'tALGBTC',
 		],
 		'xrpaed' => [
@@ -150,9 +150,9 @@ class ConsoleUtils {
 			self::PAIR => 'BAT-AED',
 			self::SYMBOL => 'tBATUSD',
 		],
-		'algaed' => [
-			self::DESCRIPTION => 'ALG',
-			self::PAIR => 'ALG-AED',
+		'algoaed' => [
+			self::DESCRIPTION => 'ALGO',
+			self::PAIR => 'ALGO-AED',
 			self::SYMBOL => 'tALGUSD',
 		],
 		'usdtaed' => [

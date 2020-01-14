@@ -54,8 +54,8 @@ class CurrencyCodePair implements Pair {
 		'BAT-AED' => 'BAT-AED',
 		'BAT-BTC' => 'BAT-BTC',
 
-		'ALG-AED' => 'ALG-AED',
-		'ALG-BTC' => 'ALG-BTC',
+		'ALGO-AED' => 'ALGO-AED',
+		'ALGO-BTC' => 'ALGO-BTC',
 
 		'USDT-AED' => 'USDT-AED',
 	];
@@ -101,8 +101,8 @@ class CurrencyCodePair implements Pair {
 		'BAT-AED', 'BAT-USD',
 		'BAT-BTC',
 
-		'ALG-AED', 'ALG-USD',
-		'ALG-BTC',
+		'ALGO-AED', 'ALGO-USD',
+		'ALGO-BTC',
 
 		'USDT-AED', 'USDT-USD',
 	];
