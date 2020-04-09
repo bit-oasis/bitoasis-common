@@ -105,9 +105,17 @@ class CurrencyCodePair implements Pair {
 		'ALGO-BTC',
 
 		'USDT-AED', 'USDT-USD',
+		'BTC-USDT',
+		'ETH-USDT',
+
+		'NEO-AED', 'NEO-USD',
+		'NEO-BTC',
+
+		'XTZ-AED', 'XTZ-USD',
+		'XTZ-BTC',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
-	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH'];
+	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT'];
 
 	/** @var string */
 	protected $baseCryptocurrencyCode;

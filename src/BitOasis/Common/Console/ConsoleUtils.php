@@ -160,6 +160,36 @@ class ConsoleUtils {
 			self::PAIR => 'USDT-AED',
 			self::SYMBOL => 'tUSTUSD',
 		],
+		'btcusdt' => [
+			self::DESCRIPTION => 'BTC-USDT',
+			self::PAIR => 'BTC-USDT',
+			self::SYMBOL => 'tBTCUST',
+		],
+		'ethusdt' => [
+			self::DESCRIPTION => 'ETH-USDT',
+			self::PAIR => 'ETH-USDT',
+			self::SYMBOL => 'tETHUST',
+		],
+		'neoaed' => [
+			self::DESCRIPTION => 'NEO',
+			self::PAIR => 'NEO-AED',
+			self::SYMBOL => 'tNEOUSD',
+		],
+		'neobtc' => [
+			self::DESCRIPTION => 'NEO-BTC',
+			self::PAIR => 'NEO-BTC',
+			self::SYMBOL => 'tNEOBTC',
+		],
+		'xtzaed' => [
+			self::DESCRIPTION => 'XTZ',
+			self::PAIR => 'XTZ-AED',
+			self::SYMBOL => 'tXTZUSD',
+		],
+		'xtzbtc' => [
+			self::DESCRIPTION => 'XTZ-BTC',
+			self::PAIR => 'XTZ-BTC',
+			self::SYMBOL => 'tXTZBTC',
+		],
 	];
 
 	private function __construct() {
