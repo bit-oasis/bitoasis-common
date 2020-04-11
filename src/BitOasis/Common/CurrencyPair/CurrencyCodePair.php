@@ -58,6 +58,15 @@ class CurrencyCodePair implements Pair {
 		'ALGO-BTC' => 'ALGO-BTC',
 
 		'USDT-AED' => 'USDT-AED',
+		'BTC-USDT' => 'BTC-USDT',
+		'ETH-USDT' => 'ETH-USDT',
+
+		'NEO-AED' => 'NEO-AED',
+		'NEO-BTC' => 'NEO-BTC',
+
+		'XTZ-AED' => 'XTZ-AED',
+		'XTZ-BTC' => 'XTZ-BTC',
+
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD', 'BTC-KWD',
