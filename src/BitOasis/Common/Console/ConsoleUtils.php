@@ -190,6 +190,21 @@ class ConsoleUtils {
 			self::PAIR => 'XTZ-BTC',
 			self::SYMBOL => 'tXTZBTC',
 		],
+		'linkaed' => [
+			self::DESCRIPTION => 'LINK-AED',
+			self::PAIR => 'LINK-AED',
+			self::SYMBOL => 'tLINKUSD',
+		],
+		'linkbtc' => [
+			self::DESCRIPTION => 'LINK-BTC',
+			self::PAIR => 'LINK-BTC',
+			self::SYMBOL => 'tLINKBTC',
+		],
+		'linketh' => [
+			self::DESCRIPTION => 'LINK-ETH',
+			self::PAIR => 'LINK-ETH',
+			self::SYMBOL => 'tLINKETH',
+		],
 	];
 
 	private function __construct() {
