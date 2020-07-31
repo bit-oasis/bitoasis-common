@@ -148,10 +148,10 @@ class CurrencyCodePair implements Pair {
 		'MKR-AED', 'MKR-USD',
 		'MKR-BTC',
 
-		'REP-AED' => 'REP-USD',
+		'REP-AED', 'REP-USD',
 		'REP-BTC',
 
-		'KNC-AED' => 'KNC-USD',
+		'KNC-AED', 'KNC-USD',
 		'KNC-BTC',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
