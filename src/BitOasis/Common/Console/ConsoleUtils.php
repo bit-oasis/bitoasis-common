@@ -205,6 +205,46 @@ class ConsoleUtils {
 			self::PAIR => 'LINK-ETH',
 			self::SYMBOL => 'tLINKETH',
 		],
+		'daiaed' => [
+			self::DESCRIPTION => 'DAI-AED',
+			self::PAIR => 'DAI-AED',
+			self::SYMBOL => 'tDAIUSD',
+		],
+		'daibtc' => [
+			self::DESCRIPTION => 'DAI-BTC',
+			self::PAIR => 'DAI-BTC',
+			self::SYMBOL => 'tDAIBTC',
+		],
+		'mkraed' => [
+			self::DESCRIPTION => 'MKR-AED',
+			self::PAIR => 'MKR-AED',
+			self::SYMBOL => 'tMKRUSD',
+		],
+		'mkrbtc' => [
+			self::DESCRIPTION => 'MKR-BTC',
+			self::PAIR => 'MKR-BTC',
+			self::SYMBOL => 'tMKRBTC',
+		],
+		'repaed' => [
+			self::DESCRIPTION => 'REP-AED',
+			self::PAIR => 'REP-AED',
+			self::SYMBOL => 'tREPUSD',
+		],
+		'repbtc' => [
+			self::DESCRIPTION => 'REP-BTC',
+			self::PAIR => 'REP-BTC',
+			self::SYMBOL => 'tREPBTC',
+		],
+		'kncaed' => [
+			self::DESCRIPTION => 'KNC-AED',
+			self::PAIR => 'KNC-AED',
+			self::SYMBOL => 'tKNCUSD',
+		],
+		'kncbtc' => [
+			self::DESCRIPTION => 'KNC-BTC',
+			self::PAIR => 'KNC-BTC',
+			self::SYMBOL => 'tKNCBTC',
+		],
 	];
 
 	private function __construct() {

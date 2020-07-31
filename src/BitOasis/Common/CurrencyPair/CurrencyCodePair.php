@@ -71,6 +71,17 @@ class CurrencyCodePair implements Pair {
 		'LINK-BTC' => 'LINK-BTC',
 		'LINK-ETH' => 'LINK-ETH',
 
+		'DAI-AED' => 'DAI-AED',
+		'DAI-BTC' => 'DAI-BTC',
+
+		'MKR-AED' => 'MKR-AED',
+		'MKR-BTC' => 'MKR-BTC',
+
+		'REP-AED' => 'REP-AED',
+		'REP-BTC' => 'REP-BTC',
+
+		'KNC-AED' => 'KNC-AED',
+		'KNC-BTC' => 'KNC-BTC',
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD', 'BTC-KWD',
@@ -130,6 +141,18 @@ class CurrencyCodePair implements Pair {
 		'LINK-AED', 'LINK-USD',
 		'LINK-BTC',
 		'LINK-ETH',
+
+		'DAI-AED', 'DAI-USD',
+		'DAI-BTC',
+
+		'MKR-AED', 'MKR-USD',
+		'MKR-BTC',
+
+		'REP-AED' => 'REP-USD',
+		'REP-BTC',
+
+		'KNC-AED' => 'KNC-USD',
+		'KNC-BTC',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT'];
