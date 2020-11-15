@@ -40,11 +40,11 @@ class ConsoleUtils {
 			self::PAIR => 'XRP-BTC',
 			self::SYMBOL => 'tXRPBTC',
 		],
-		'bchbtc' => [
-			self::DESCRIPTION => 'BCH-BTC',
-			self::PAIR => 'BCH-BTC',
-			self::SYMBOL => 'tBABBTC',
-		],
+//		'bchbtc' => [
+//			self::DESCRIPTION => 'BCH-BTC',
+//			self::PAIR => 'BCH-BTC',
+//			self::SYMBOL => 'tBCHN:BTC',
+//		],
 		'zecbtc' => [
 			self::DESCRIPTION => 'ZEC-BTC',
 			self::PAIR => 'ZEC-BTC',
@@ -108,7 +108,7 @@ class ConsoleUtils {
 		'bchaed' => [
 			self::DESCRIPTION => 'BCH',
 			self::PAIR => 'BCH-AED',
-			self::SYMBOL => 'tBABUSD',
+			self::SYMBOL => 'tBCHN:USD',
 		],
 		'zecaed' => [
 			self::DESCRIPTION => 'ZEC',
