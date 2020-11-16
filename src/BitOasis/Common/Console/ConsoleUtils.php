@@ -245,6 +245,31 @@ class ConsoleUtils {
 			self::PAIR => 'KNC-BTC',
 			self::SYMBOL => 'tKNCBTC',
 		],
+		'uniaed' => [
+			self::DESCRIPTION => 'UNI-AED',
+			self::PAIR => 'UNI-AED',
+			self::SYMBOL => 'tUNIUSD',
+		],
+		'yfiaed' => [
+			self::DESCRIPTION => 'YFI-AED',
+			self::PAIR => 'YFI-AED',
+			self::SYMBOL => 'tUFIUSD',
+		],
+		'balaed' => [
+			self::DESCRIPTION => 'BAL-AED',
+			self::PAIR => 'BAL-AED',
+			self::SYMBOL => 'tBALUSD',
+		],
+		'compaed' => [
+			self::DESCRIPTION => 'COMP-AED',
+			self::PAIR => 'COMP-AED',
+			self::SYMBOL => 'tCOMP:USD',
+		],
+		'snxaed' => [
+			self::DESCRIPTION => 'SNX-AED',
+			self::PAIR => 'SNX-AED',
+			self::SYMBOL => 'tSNXUSD',
+		],
 	];
 
 	private function __construct() {
