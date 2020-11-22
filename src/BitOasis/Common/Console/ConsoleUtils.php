@@ -253,7 +253,7 @@ class ConsoleUtils {
 		'yfiaed' => [
 			self::DESCRIPTION => 'YFI-AED',
 			self::PAIR => 'YFI-AED',
-			self::SYMBOL => 'tUFIUSD',
+			self::SYMBOL => 'tYFIUSD',
 		],
 		'balaed' => [
 			self::DESCRIPTION => 'BAL-AED',
