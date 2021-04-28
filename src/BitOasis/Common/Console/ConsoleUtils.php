@@ -120,6 +120,11 @@ class ConsoleUtils {
 			self::PAIR => 'XMR-AED',
 			self::SYMBOL => 'tXMRUSD',
 		],
+		'xmrbtc' => [
+			self::DESCRIPTION => 'XMR',
+			self::PAIR => 'XMR-BTC',
+			self::SYMBOL => 'tXMRBTC',
+		],
 		'xlmaed' => [
 			self::DESCRIPTION => 'XLM',
 			self::PAIR => 'XLM-AED',

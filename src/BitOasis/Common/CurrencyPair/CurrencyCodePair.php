@@ -35,6 +35,7 @@ class CurrencyCodePair implements Pair {
 		'ZEC-BTC' => 'ZEC-BTC',
 
 		'XMR-AED' => 'XMR-AED',
+		'XMR-BTC' => 'XMR-BTC',
 
 		'XLM-AED' => 'XLM-AED',
 
@@ -116,6 +117,7 @@ class CurrencyCodePair implements Pair {
 		'ZEC-BTC',
 
 		'XMR-AED', 'XMR-USD',
+		'XMR-BTC',
 
 		'XLM-AED', 'XLM-USD',
 
