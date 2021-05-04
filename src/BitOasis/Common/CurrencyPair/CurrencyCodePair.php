@@ -95,22 +95,22 @@ class CurrencyCodePair implements Pair {
 		'SNX-AED' => 'SNX-AED',
 	];
 	const VALID_PAIRS = [
-		'BTC-AED', 'BTC-USD', 'BTC-KWD',
+		'BTC-AED', 'BTC-USD', 'BTC-KWD', 'BTC-SAR',
 
-		'ETH-AED', 'ETH-USD',
+		'ETH-AED', 'ETH-USD', 'ETH-SAR',
 		'ETH-BTC',
 
 		'BCH-AED', 'BCH-USD',
 		'BCH-BTC',
 		'BCH-ETH',
 
-		'XRP-AED', 'XRP-USD',
+		'XRP-AED', 'XRP-USD', 'XRP-SAR',
 		'XRP-BTC',
 
 		'ETC-AED', 'ETC-USD',
 		'ETC-BTC',
 
-		'LTC-AED', 'LTC-USD',
+		'LTC-AED', 'LTC-USD', 'LTC-SAR',
 		'LTC-BTC',
 
 		'ZEC-AED', 'ZEC-USD',
@@ -119,7 +119,7 @@ class CurrencyCodePair implements Pair {
 		'XMR-AED', 'XMR-USD',
 		'XMR-BTC',
 
-		'XLM-AED', 'XLM-USD',
+		'XLM-AED', 'XLM-USD', 'XLM-SAR',
 
 		'EOS-AED', 'EOS-USD',
 		'EOS-BTC',
