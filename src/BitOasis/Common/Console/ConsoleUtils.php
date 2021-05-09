@@ -20,9 +20,19 @@ class ConsoleUtils {
 			self::PAIR => 'BTC-AED',
 			self::SYMBOL => 'tBTCUSD',
 		],
+		'btcsar' => [
+			self::DESCRIPTION => 'BTC',
+			self::PAIR => 'BTC-SAR',
+			self::SYMBOL => 'tBTCUSD',
+		],
 		'ethaed' => [
 			self::DESCRIPTION => 'ETH',
 			self::PAIR => 'ETH-AED',
+			self::SYMBOL => 'tETHUSD',
+		],
+		'ethsar' => [
+			self::DESCRIPTION => 'ETH',
+			self::PAIR => 'ETH-SAR',
 			self::SYMBOL => 'tETHUSD',
 		],
 		'etcaed' => [
@@ -100,9 +110,19 @@ class ConsoleUtils {
 			self::PAIR => 'XRP-AED',
 			self::SYMBOL => 'tXRPUSD',
 		],
+		'xrpsar' => [
+			self::DESCRIPTION => 'XRP',
+			self::PAIR => 'XRP-SAR',
+			self::SYMBOL => 'tXRPUSD',
+		],
 		'ltcaed' => [
 			self::DESCRIPTION => 'LTC',
 			self::PAIR => 'LTC-AED',
+			self::SYMBOL => 'tLTCUSD',
+		],
+		'ltcsar' => [
+			self::DESCRIPTION => 'LTC',
+			self::PAIR => 'LTC-SAR',
 			self::SYMBOL => 'tLTCUSD',
 		],
 		'bchaed' => [
@@ -128,6 +148,11 @@ class ConsoleUtils {
 		'xlmaed' => [
 			self::DESCRIPTION => 'XLM',
 			self::PAIR => 'XLM-AED',
+			self::SYMBOL => 'tXLMUSD',
+		],
+		'xlmsar' => [
+			self::DESCRIPTION => 'XLM',
+			self::PAIR => 'XLM-SAR',
 			self::SYMBOL => 'tXLMUSD',
 		],
 		'bsvaed' => [
@@ -163,6 +188,11 @@ class ConsoleUtils {
 		'usdtaed' => [
 			self::DESCRIPTION => 'USDT',
 			self::PAIR => 'USDT-AED',
+			self::SYMBOL => 'tUSTUSD',
+		],
+		'usdtsar' => [
+			self::DESCRIPTION => 'USDT',
+			self::PAIR => 'USDT-SAR',
 			self::SYMBOL => 'tUSTUSD',
 		],
 		'btcusdt' => [

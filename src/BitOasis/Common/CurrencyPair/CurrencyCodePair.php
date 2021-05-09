@@ -140,7 +140,7 @@ class CurrencyCodePair implements Pair {
 		'ALGO-AED', 'ALGO-USD',
 		'ALGO-BTC',
 
-		'USDT-AED', 'USDT-USD',
+		'USDT-AED', 'USDT-USD', 'USDT-SAR',
 		'BTC-USDT',
 		'ETH-USDT',
 
