@@ -14,8 +14,10 @@ class CurrencyCodePair implements Pair {
 	const DEFAULT_CRYPTOCURRENCY_CODE = 'BTC';
 	const PAIRS = [
 		'BTC-AED' => 'BTC-AED',
+		'BTC-SAR' => 'BTC-SAR',
 
 		'ETH-AED' => 'ETH-AED',
+		'ETH-SAR' => 'ETH-SAR',
 		'ETH-BTC' => 'ETH-BTC',
 
 		'BCH-AED' => 'BCH-AED',
@@ -23,12 +25,14 @@ class CurrencyCodePair implements Pair {
 //		'BCH-ETH' => 'BCH-ETH', No longer supported
 
 		'XRP-AED' => 'XRP-AED',
+		'XRP-SAR' => 'XRP-SAR',
 		'XRP-BTC' => 'XRP-BTC',
 
 		'ETC-AED' => 'ETC-AED',
 		'ETC-BTC' => 'ETC-BTC',
 
 		'LTC-AED' => 'LTC-AED',
+		'LTC-SAR' => 'LTC-SAR',
 		'LTC-BTC' => 'LTC-BTC',
 
 		'ZEC-AED' => 'ZEC-AED',
@@ -38,6 +42,7 @@ class CurrencyCodePair implements Pair {
 		'XMR-BTC' => 'XMR-BTC',
 
 		'XLM-AED' => 'XLM-AED',
+		'XLM-SAR' => 'XLM-SAR',
 
 		'EOS-AED' => 'EOS-AED',
 		'EOS-BTC' => 'EOS-BTC',
@@ -59,6 +64,7 @@ class CurrencyCodePair implements Pair {
 		'ALGO-BTC' => 'ALGO-BTC',
 
 		'USDT-AED' => 'USDT-AED',
+		'USDT-SAR' => 'USDT-SAR',
 		'BTC-USDT' => 'BTC-USDT',
 		'ETH-USDT' => 'ETH-USDT',
 
@@ -176,8 +182,8 @@ class CurrencyCodePair implements Pair {
 
 		'SNX-AED', 'SNX-USD',
 	];
-	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED'];
-	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT'];
+	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR'];
+	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR'];
 
 	/** @var string */
 	protected $baseCryptocurrencyCode;
