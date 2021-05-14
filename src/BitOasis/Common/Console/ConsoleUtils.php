@@ -305,6 +305,11 @@ class ConsoleUtils {
 			self::PAIR => 'SNX-AED',
 			self::SYMBOL => 'tSNXUSD',
 		],
+		'dogeaed' => [
+			self::DESCRIPTION => 'DOGE-AED',
+			self::PAIR => 'DOGE-AED',
+			self::SYMBOL => 'tDOGEUSD',
+		],
 	];
 
 	private function __construct() {

@@ -99,6 +99,9 @@ class CurrencyCodePair implements Pair {
 		'COMP-AED' => 'COMP-AED',
 
 		'SNX-AED' => 'SNX-AED',
+
+		'DOGE-AED' => 'DOGE-AED',
+		'DOGE-BTC' => 'DOGE-BTC',
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD', 'BTC-KWD', 'BTC-SAR',
@@ -181,6 +184,8 @@ class CurrencyCodePair implements Pair {
 		'COMP-AED', 'COMP-USD',
 
 		'SNX-AED', 'SNX-USD',
+
+		'DOGE-AED', 'DOGE-USD', 'DOGE-BTC'
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR'];
