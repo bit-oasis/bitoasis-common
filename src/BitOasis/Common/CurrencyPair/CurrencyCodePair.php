@@ -79,6 +79,7 @@ class CurrencyCodePair implements Pair {
 		'LINK-ETH' => 'LINK-ETH',
 
 		'DAI-AED' => 'DAI-AED',
+		'DAI-SAR' => 'DAI-SAR',
 		'DAI-BTC' => 'DAI-BTC',
 
 		'MKR-AED' => 'MKR-AED',
@@ -91,6 +92,8 @@ class CurrencyCodePair implements Pair {
 		'KNC-BTC' => 'KNC-BTC',
 
 		'UNI-AED' => 'UNI-AED',
+		'UNI-SAR' => 'UNI-SAR',
+		'UNI-USDT' => 'UNI-USDT',
 
 		'YFI-AED' => 'YFI-AED',
 
@@ -101,7 +104,43 @@ class CurrencyCodePair implements Pair {
 		'SNX-AED' => 'SNX-AED',
 
 		'DOGE-AED' => 'DOGE-AED',
+		'DOGE-SAR' => 'DOGE-SAR',
 		'DOGE-BTC' => 'DOGE-BTC',
+		'DOGE-USDT' => 'DOGE-USDT',
+
+		'AAVE-AED' => 'AAVE-AED',
+		'AAVE-SAR' => 'AAVE-SAR',
+		'AAVE-USDT' => 'AAVE-USDT',
+
+		'BNT-AED' => 'BNT-AED',
+		'BNT-SAR' => 'BNT-SAR',
+
+		'ENJ-AED' => 'ENJ-AED',
+		'ENJ-SAR' => 'ENJ-SAR',
+
+		'LRC-AED' => 'LRC-AED',
+		'LRC-SAR' => 'LRC-SAR',
+
+		'MANA-AED' => 'MANA-AED',
+		'MANA-SAR' => 'MANA-SAR',
+
+		'MATIC-AED' => 'MATIC-AED',
+		'MATIC-SAR' => 'MATIC-SAR',
+		'MATIC-USDT' => 'MATIC-USDT',
+
+		'STORJ-AED' => 'STORJ-AED',
+		'STORJ-SAR' => 'STORJ-SAR',
+
+		'SUSHI-AED' => 'SUSHI-AED',
+		'SUSHI-SAR' => 'SUSHI-SAR',
+		'SUSHI-USDT' => 'SUSHI-USDT',
+
+		'USDC-AED' => 'USDC-AED',
+		'USDC-SAR' => 'USDC-SAR',
+
+		'WAVES-AED' => 'WAVES-AED',
+		'WAVES-SAR' => 'WAVES-SAR',
+		'WAVES-USDT' => 'WAVES-USDT',
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD', 'BTC-KWD', 'BTC-SAR',
@@ -163,7 +202,7 @@ class CurrencyCodePair implements Pair {
 		'LINK-BTC',
 		'LINK-ETH',
 
-		'DAI-AED', 'DAI-USD',
+		'DAI-AED', 'DAI-SAR', 'DAI-USD',
 		'DAI-BTC',
 
 		'MKR-AED', 'MKR-USD',
@@ -175,7 +214,8 @@ class CurrencyCodePair implements Pair {
 		'KNC-AED', 'KNC-USD',
 		'KNC-BTC',
 
-		'UNI-AED', 'UNI-USD',
+		'UNI-AED', 'UNI-SAR', 'UNI-USD',
+		'UNI-USDT',
 
 		'YFI-AED', 'YFI-USD',
 
@@ -185,7 +225,32 @@ class CurrencyCodePair implements Pair {
 
 		'SNX-AED', 'SNX-USD',
 
-		'DOGE-AED', 'DOGE-USD', 'DOGE-BTC'
+		'DOGE-AED', 'DOGE-SAR', 'DOGE-USD',
+		'DOGE-BTC', 'DOGE-USDT',
+
+		'AAVE-AED', 'AAVE-SAR', 'AAVE-USD',
+		'AAVE-USDT',
+
+		'BNT-AED', 'BNT-SAR', 'BNT-USD',
+
+		'ENJ-AED', 'ENJ-SAR', 'ENJ-USD',
+
+		'LRC-AED', 'LRC-SAR', 'LRC-USD',
+
+		'MANA-AED', 'MANA-SAR', 'MANA-USD',
+
+		'MATIC-AED', 'MATIC-SAR', 'MATIC-USD',
+		'MATIC-USDT',
+
+		'STORJ-AED', 'STORJ-SAR', 'STORJ-USD',
+
+		'SUSHI-AED', 'SUSHI-SAR', 'SUSHI-USD',
+		'SUSHI-USDT',
+
+		'USDC-AED', 'USDC-SAR', 'USDC-USD',
+
+		'WAVES-AED', 'WAVES-SAR', 'WAVES-USD',
+		'WAVES-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR'];

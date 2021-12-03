@@ -228,21 +228,26 @@ class ConsoleUtils {
 		'linkaed' => [
 			self::DESCRIPTION => 'LINK-AED',
 			self::PAIR => 'LINK-AED',
-			self::SYMBOL => 'tLINKUSD',
+			self::SYMBOL => 'tLINK:USD',
 		],
-		'linkbtc' => [
-			self::DESCRIPTION => 'LINK-BTC',
-			self::PAIR => 'LINK-BTC',
-			self::SYMBOL => 'tLINKBTC',
-		],
-		'linketh' => [
-			self::DESCRIPTION => 'LINK-ETH',
-			self::PAIR => 'LINK-ETH',
-			self::SYMBOL => 'tLINKETH',
-		],
+//		'linkbtc' => [
+//			self::DESCRIPTION => 'LINK-BTC',
+//			self::PAIR => 'LINK-BTC',
+//			self::SYMBOL => 'tLINK:BTC',
+//		],
+//		'linketh' => [
+//			self::DESCRIPTION => 'LINK-ETH',
+//			self::PAIR => 'LINK-ETH',
+//			self::SYMBOL => 'tLINK:ETH',
+//		],
 		'daiaed' => [
 			self::DESCRIPTION => 'DAI-AED',
 			self::PAIR => 'DAI-AED',
+			self::SYMBOL => 'tDAIUSD',
+		],
+		'daisar' => [
+			self::DESCRIPTION => 'DAI-SAR',
+			self::PAIR => 'DAI-SAR',
 			self::SYMBOL => 'tDAIUSD',
 		],
 		'daibtc' => [
@@ -285,6 +290,16 @@ class ConsoleUtils {
 			self::PAIR => 'UNI-AED',
 			self::SYMBOL => 'tUNIUSD',
 		],
+		'unisar' => [
+			self::DESCRIPTION => 'UNI-SAR',
+			self::PAIR => 'UNI-SAR',
+			self::SYMBOL => 'tUNIUSD',
+		],
+		'uniusdt' => [
+			self::DESCRIPTION => 'UNI-USDT',
+			self::PAIR => 'UNI-USDT',
+			self::SYMBOL => 'tUNIUST',
+		],
 		'yfiaed' => [
 			self::DESCRIPTION => 'YFI-AED',
 			self::PAIR => 'YFI-AED',
@@ -308,7 +323,137 @@ class ConsoleUtils {
 		'dogeaed' => [
 			self::DESCRIPTION => 'DOGE-AED',
 			self::PAIR => 'DOGE-AED',
-			self::SYMBOL => 'tDOGEUSD',
+			self::SYMBOL => 'tDOGE:USD',
+		],
+		'dogesar' => [
+			self::DESCRIPTION => 'DOGE-SAR',
+			self::PAIR => 'DOGE-SAR',
+			self::SYMBOL => 'tDOGE:USD',
+		],
+		'dogeusdt' => [
+			self::DESCRIPTION => 'DOGE-USDT',
+			self::PAIR => 'DOGE-USDT',
+			self::SYMBOL => 'tDOGE:UST',
+		],
+		'aaveaed' => [
+			self::DESCRIPTION => 'AAVE-AED',
+			self::PAIR => 'AAVE-AED',
+			self::SYMBOL => 'tAAVE:USD',
+		],
+		'aavesar' => [
+			self::DESCRIPTION => 'AAVE-SAR',
+			self::PAIR => 'AAVE-SAR',
+			self::SYMBOL => 'tAAVE:USD',
+		],
+		'aaveusdt' => [
+			self::DESCRIPTION => 'AAVE-USDT',
+			self::PAIR => 'AAVE-USDT',
+			self::SYMBOL => 'tAAVE:UST',
+		],
+		'bntaed' => [
+			self::DESCRIPTION => 'BNT-AED',
+			self::PAIR => 'BNT-AED',
+			self::SYMBOL => 'tBNTUSD',
+		],
+		'bntsar' => [
+			self::DESCRIPTION => 'BNT-SAR',
+			self::PAIR => 'BNT-SAR',
+			self::SYMBOL => 'tBNTUSD',
+		],
+		'enjaed' => [
+			self::DESCRIPTION => 'ENJ-AED',
+			self::PAIR => 'ENJ-AED',
+			self::SYMBOL => 'tENJUSD',
+		],
+		'enjsar' => [
+			self::DESCRIPTION => 'ENJ-SAR',
+			self::PAIR => 'ENJ-SAR',
+			self::SYMBOL => 'tENJUSD',
+		],
+		'lrcaed' => [
+			self::DESCRIPTION => 'LRC-AED',
+			self::PAIR => 'LRC-AED',
+			self::SYMBOL => 'tLRCUSD',
+		],
+		'lrcsar' => [
+			self::DESCRIPTION => 'LRC-SAR',
+			self::PAIR => 'LRC-SAR',
+			self::SYMBOL => 'tLRCUSD',
+		],
+		'manaaed' => [
+			self::DESCRIPTION => 'MANA-AED',
+			self::PAIR => 'MANA-AED',
+			self::SYMBOL => 'tMNAUSD',
+		],
+		'manasar' => [
+			self::DESCRIPTION => 'MANA-SAR',
+			self::PAIR => 'MANA-SAR',
+			self::SYMBOL => 'tMNAUSD',
+		],
+		'maticaed' => [
+			self::DESCRIPTION => 'MATIC-AED',
+			self::PAIR => 'MATIC-AED',
+			self::SYMBOL => 'tMATIC:USD',
+		],
+		'maticsar' => [
+			self::DESCRIPTION => 'MATIC-SAR',
+			self::PAIR => 'MATIC-SAR',
+			self::SYMBOL => 'tMATIC:USD',
+		],
+		'maticusdt' => [
+			self::DESCRIPTION => 'MATIC-USDT',
+			self::PAIR => 'MATIC-USDT',
+			self::SYMBOL => 'tMATIC:UST',
+		],
+		'storjaed' => [
+			self::DESCRIPTION => 'STORJ-AED',
+			self::PAIR => 'STORJ-AED',
+			self::SYMBOL => 'tSTJUSD',
+		],
+		'storjsar' => [
+			self::DESCRIPTION => 'STORJ-SAR',
+			self::PAIR => 'STORJ-SAR',
+			self::SYMBOL => 'tSTJUSD',
+		],
+		'sushiaed' => [
+			self::DESCRIPTION => 'SUSHI-AED',
+			self::PAIR => 'SUSHI-AED',
+			self::SYMBOL => 'tSUSHI:USD',
+		],
+		'sushisar' => [
+			self::DESCRIPTION => 'SUSHI-SAR',
+			self::PAIR => 'SUSHI-SAR',
+			self::SYMBOL => 'tSUSHI:USD',
+		],
+		'sushiusdt' => [
+			self::DESCRIPTION => 'SUSHI-USDT',
+			self::PAIR => 'SUSHI-USDT',
+			self::SYMBOL => 'tSUSHI:UST',
+		],
+		'usdcaed' => [
+			self::DESCRIPTION => 'USDC-AED',
+			self::PAIR => 'USDC-AED',
+			self::SYMBOL => 'tUDCUSD',
+		],
+		'usdcsar' => [
+			self::DESCRIPTION => 'USDC-SAR',
+			self::PAIR => 'USDC-SAR',
+			self::SYMBOL => 'tUDCUSD',
+		],
+		'wavesaed' => [
+			self::DESCRIPTION => 'WAVES-AED',
+			self::PAIR => 'WAVES-AED',
+			self::SYMBOL => 'tWAVES:USD',
+		],
+		'wavessar' => [
+			self::DESCRIPTION => 'WAVES-SAR',
+			self::PAIR => 'WAVES-SAR',
+			self::SYMBOL => 'tWAVES:USD',
+		],
+		'wavesusdt' => [
+			self::DESCRIPTION => 'WAVES-USDT',
+			self::PAIR => 'WAVES-USDT',
+			self::SYMBOL => 'tWAVES:UST',
 		],
 	];
 
