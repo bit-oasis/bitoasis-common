@@ -255,7 +255,7 @@ class CurrencyCodePair implements Pair {
 		'WAVES-AED', 'WAVES-SAR', 'WAVES-USD',
 		'WAVES-USDT',
 	];
-	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR'];
+	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR'];
 
 	/** @var string */
