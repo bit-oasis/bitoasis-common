@@ -25,6 +25,11 @@ class ConsoleUtils {
 			self::PAIR => 'BTC-SAR',
 			self::SYMBOL => 'tBTCUSD',
 		],
+		'btctry' => [
+			self::DESCRIPTION => 'BTC',
+			self::PAIR => 'BTC-TRY',
+			self::SYMBOL => 'tBTCUSD',
+		],
 		'ethaed' => [
 			self::DESCRIPTION => 'ETH',
 			self::PAIR => 'ETH-AED',
@@ -33,6 +38,11 @@ class ConsoleUtils {
 		'ethsar' => [
 			self::DESCRIPTION => 'ETH',
 			self::PAIR => 'ETH-SAR',
+			self::SYMBOL => 'tETHUSD',
+		],
+		'ethtry' => [
+			self::DESCRIPTION => 'ETH',
+			self::PAIR => 'ETH-TRY',
 			self::SYMBOL => 'tETHUSD',
 		],
 		'etcaed' => [
@@ -113,6 +123,11 @@ class ConsoleUtils {
 		'xrpsar' => [
 			self::DESCRIPTION => 'XRP',
 			self::PAIR => 'XRP-SAR',
+			self::SYMBOL => 'tXRPUSD',
+		],
+		'xrptry' => [
+			self::DESCRIPTION => 'XRP',
+			self::PAIR => 'XRP-TRY',
 			self::SYMBOL => 'tXRPUSD',
 		],
 		'ltcaed' => [

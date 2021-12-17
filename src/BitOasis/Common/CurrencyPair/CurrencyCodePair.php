@@ -15,9 +15,11 @@ class CurrencyCodePair implements Pair {
 	const PAIRS = [
 		'BTC-AED' => 'BTC-AED',
 		'BTC-SAR' => 'BTC-SAR',
+		'BTC-TRY' => 'BTC-TRY',
 
 		'ETH-AED' => 'ETH-AED',
 		'ETH-SAR' => 'ETH-SAR',
+		'ETH-TRY' => 'ETH-TRY',
 		'ETH-BTC' => 'ETH-BTC',
 
 		'BCH-AED' => 'BCH-AED',
@@ -26,6 +28,7 @@ class CurrencyCodePair implements Pair {
 
 		'XRP-AED' => 'XRP-AED',
 		'XRP-SAR' => 'XRP-SAR',
+		'XRP-TRY' => 'XRP-TRY',
 		'XRP-BTC' => 'XRP-BTC',
 
 		'ETC-AED' => 'ETC-AED',
@@ -143,16 +146,16 @@ class CurrencyCodePair implements Pair {
 		'WAVES-USDT' => 'WAVES-USDT',
 	];
 	const VALID_PAIRS = [
-		'BTC-AED', 'BTC-USD', 'BTC-KWD', 'BTC-SAR',
+		'BTC-AED', 'BTC-USD', 'BTC-KWD', 'BTC-SAR', 'BTC-TRY',
 
-		'ETH-AED', 'ETH-USD', 'ETH-SAR',
+		'ETH-AED', 'ETH-USD', 'ETH-SAR', 'ETH-TRY',
 		'ETH-BTC',
 
 		'BCH-AED', 'BCH-USD',
 		'BCH-BTC',
 		'BCH-ETH',
 
-		'XRP-AED', 'XRP-USD', 'XRP-SAR',
+		'XRP-AED', 'XRP-USD', 'XRP-SAR', 'XRP-TRY',
 		'XRP-BTC',
 
 		'ETC-AED', 'ETC-USD',
