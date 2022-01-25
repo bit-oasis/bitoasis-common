@@ -470,6 +470,151 @@ class ConsoleUtils {
 			self::PAIR => 'WAVES-USDT',
 			self::SYMBOL => 'tWAVES:UST',
 		],
+		'solaed' => [
+			self::DESCRIPTION => 'SOL-AED',
+			self::PAIR => 'SOL-AED',
+			self::SYMBOL => 'tSOLUSD',
+		],
+		'solsar' => [
+			self::DESCRIPTION => 'SOL-SAR',
+			self::PAIR => 'SOL-SAR',
+			self::SYMBOL => 'tSOLUSD',
+		],
+		'solusdt' => [
+			self::DESCRIPTION => 'SOL-USDT',
+			self::PAIR => 'SOL-USDT',
+			self::SYMBOL => 'tSOLUST',
+		],
+		'adaaed' => [
+			self::DESCRIPTION => 'ADA-AED',
+			self::PAIR => 'ADA-AED',
+			self::SYMBOL => 'tADAUSD',
+		],
+		'adasar' => [
+			self::DESCRIPTION => 'ADA-SAR',
+			self::PAIR => 'ADA-SAR',
+			self::SYMBOL => 'tADAUSD',
+		],
+		'adausdt' => [
+			self::DESCRIPTION => 'ADA-USDT',
+			self::PAIR => 'ADA-USDT',
+			self::SYMBOL => 'tADAUST',
+		],
+		'dotaed' => [
+			self::DESCRIPTION => 'DOT-AED',
+			self::PAIR => 'DOT-AED',
+			self::SYMBOL => 'tDOTUSD',
+		],
+		'dotsar' => [
+			self::DESCRIPTION => 'DOT-SAR',
+			self::PAIR => 'DOT-SAR',
+			self::SYMBOL => 'tDOTUSD',
+		],
+		'dotusdt' => [
+			self::DESCRIPTION => 'DOT-USDT',
+			self::PAIR => 'DOT-USDT',
+			self::SYMBOL => 'tDOTUST',
+		],
+		'shibaed' => [
+			self::DESCRIPTION => 'SHIB-AED',
+			self::PAIR => 'SHIB-AED',
+			self::SYMBOL => 'tSHIB:USD',
+		],
+		'shibsar' => [
+			self::DESCRIPTION => 'SHIB-SAR',
+			self::PAIR => 'SHIB-SAR',
+			self::SYMBOL => 'tSHIB:USD',
+		],
+		'shibusdt' => [
+			self::DESCRIPTION => 'SHIB-USDT',
+			self::PAIR => 'SHIB-USDT',
+			self::SYMBOL => 'tSHIB:UST',
+		],
+		'avaxaed' => [
+			self::DESCRIPTION => 'AVAX-AED',
+			self::PAIR => 'AVAX-AED',
+			self::SYMBOL => 'tAVAX:USD',
+		],
+		'avaxsar' => [
+			self::DESCRIPTION => 'AVAX-SAR',
+			self::PAIR => 'AVAX-SAR',
+			self::SYMBOL => 'tAVAX:USD',
+		],
+		'avaxusdt' => [
+			self::DESCRIPTION => 'AVAX-USDT',
+			self::PAIR => 'AVAX-USDT',
+			self::SYMBOL => 'tAVAX:UST',
+		],
+		'lunaaed' => [
+			self::DESCRIPTION => 'LUNA-AED',
+			self::PAIR => 'LUNA-AED',
+			self::SYMBOL => 'tLUNA:USD',
+		],
+		'lunasar' => [
+			self::DESCRIPTION => 'LUNA-SAR',
+			self::PAIR => 'LUNA-SAR',
+			self::SYMBOL => 'tLUNA:USD',
+		],
+		'lunausdt' => [
+			self::DESCRIPTION => 'LUNA-USDT',
+			self::PAIR => 'LUNA-USDT',
+			self::SYMBOL => 'tLUNA:UST',
+		],
+		'nearaed' => [
+			self::DESCRIPTION => 'NEAR-AED',
+			self::PAIR => 'NEAR-AED',
+			self::SYMBOL => 'tNEAR:USD',
+		],
+		'nearsar' => [
+			self::DESCRIPTION => 'NEAR-SAR',
+			self::PAIR => 'NEAR-SAR',
+			self::SYMBOL => 'tNEAR:USD',
+		],
+		'nearusdt' => [
+			self::DESCRIPTION => 'NEAR-USDT',
+			self::PAIR => 'NEAR-USDT',
+			self::SYMBOL => 'tNEAR:UST',
+		],
+		'ftmaed' => [
+			self::DESCRIPTION => 'FTM-AED',
+			self::PAIR => 'FTM-AED',
+			self::SYMBOL => 'tFTMUSD',
+		],
+		'ftmsar' => [
+			self::DESCRIPTION => 'FTM-SAR',
+			self::PAIR => 'FTM-SAR',
+			self::SYMBOL => 'tFTMUSD',
+		],
+		'ftmusdt' => [
+			self::DESCRIPTION => 'FTM-USDT',
+			self::PAIR => 'FTM-USDT',
+			self::SYMBOL => 'tFTMUST',
+		],
+		'wbtcaed' => [
+			self::DESCRIPTION => 'WBTC-AED',
+			self::PAIR => 'WBTC-AED',
+			self::SYMBOL => 'tWBTUSD',
+		],
+		'wbtcsar' => [
+			self::DESCRIPTION => 'WBTC-SAR',
+			self::PAIR => 'WBTC-SAR',
+			self::SYMBOL => 'tWBTUSD',
+		],
+		'atomaed' => [
+			self::DESCRIPTION => 'ATOM-AED',
+			self::PAIR => 'ATOM-AED',
+			self::SYMBOL => 'tATOUSD',
+		],
+		'atomsar' => [
+			self::DESCRIPTION => 'ATOM-SAR',
+			self::PAIR => 'ATOM-SAR',
+			self::SYMBOL => 'tATOUSD',
+		],
+		'atomusdt' => [
+			self::DESCRIPTION => 'ATOM-USDT',
+			self::PAIR => 'ATOM-USDT',
+			self::SYMBOL => 'tATOUST',
+		],
 	];
 
 	private function __construct() {
