@@ -141,6 +141,10 @@ class CurrencyCodePair implements Pair {
 		'USDC-AED' => 'USDC-AED',
 		'USDC-SAR' => 'USDC-SAR',
 
+		'WAVES-AED' => 'WAVES-AED',
+		'WAVES-SAR' => 'WAVES-SAR',
+		'WAVES-USDT' => 'WAVES-USDT',
+
 		'SOL-AED' => 'SOL-AED',
 		'SOL-SAR' => 'SOL-SAR',
 		'SOL-USDT' => 'SOL-USDT',
