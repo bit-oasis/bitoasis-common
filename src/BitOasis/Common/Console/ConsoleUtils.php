@@ -280,14 +280,14 @@ class ConsoleUtils {
 			self::PAIR => 'MKR-BTC',
 			self::SYMBOL => 'tMKRBTC',
 		],
-		'repaed' => [
-			self::DESCRIPTION => 'REP-AED',
-			self::PAIR => 'REP-AED',
+		'repv2aed' => [
+			self::DESCRIPTION => 'REPV2-AED',
+			self::PAIR => 'REPV2-AED',
 			self::SYMBOL => 'tREPUSD',
 		],
-		'repbtc' => [
-			self::DESCRIPTION => 'REP-BTC',
-			self::PAIR => 'REP-BTC',
+		'repv2btc' => [
+			self::DESCRIPTION => 'REPV2-BTC',
+			self::PAIR => 'REPV2-BTC',
 			self::SYMBOL => 'tREPBTC',
 		],
 		'kncaed' => [

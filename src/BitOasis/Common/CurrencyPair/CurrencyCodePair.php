@@ -88,8 +88,8 @@ class CurrencyCodePair implements Pair {
 		'MKR-AED' => 'MKR-AED',
 		'MKR-BTC' => 'MKR-BTC',
 
-		'REP-AED' => 'REP-AED',
-		'REP-BTC' => 'REP-BTC',
+		'REPV2-AED' => 'REPV2-AED',
+		'REPV2-BTC' => 'REPV2-BTC',
 
 		'KNC-AED' => 'KNC-AED',
 		'KNC-BTC' => 'KNC-BTC',
@@ -250,8 +250,8 @@ class CurrencyCodePair implements Pair {
 		'MKR-AED', 'MKR-USD',
 		'MKR-BTC',
 
-		'REP-AED', 'REP-USD',
-		'REP-BTC',
+		'REPV2-AED', 'REPV2-USD',
+		'REPV2-BTC',
 
 		'KNC-AED', 'KNC-USD',
 		'KNC-BTC',
