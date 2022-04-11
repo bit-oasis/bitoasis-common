@@ -144,6 +144,45 @@ class CurrencyCodePair implements Pair {
 		'WAVES-AED' => 'WAVES-AED',
 		'WAVES-SAR' => 'WAVES-SAR',
 		'WAVES-USDT' => 'WAVES-USDT',
+
+		'SOL-AED' => 'SOL-AED',
+		'SOL-SAR' => 'SOL-SAR',
+		'SOL-USDT' => 'SOL-USDT',
+
+		'ADA-AED' => 'ADA-AED',
+		'ADA-SAR' => 'ADA-SAR',
+		'ADA-USDT' => 'ADA-USDT',
+
+		'DOT-AED' => 'DOT-AED',
+		'DOT-SAR' => 'DOT-SAR',
+		'DOT-USDT' => 'DOT-USDT',
+
+		'SHIB-AED' => 'SHIB-AED',
+		'SHIB-SAR' => 'SHIB-SAR',
+		'SHIB-USDT' => 'SHIB-USDT',
+
+		'AVAX-AED' => 'AVAX-AED',
+		'AVAX-SAR' => 'AVAX-SAR',
+		'AVAX-USDT' => 'AVAX-USDT',
+
+		'LUNA-AED' => 'LUNA-AED',
+		'LUNA-SAR' => 'LUNA-SAR',
+		'LUNA-USDT' => 'LUNA-USDT',
+
+		'NEAR-AED' => 'NEAR-AED',
+		'NEAR-SAR' => 'NEAR-SAR',
+		'NEAR-USDT' => 'NEAR-USDT',
+
+		'FTM-AED' => 'FTM-AED',
+		'FTM-SAR' => 'FTM-SAR',
+		'FTM-USDT' => 'FTM-USDT',
+
+		'WBTC-AED' => 'WBTC-AED',
+		'WBTC-SAR' => 'WBTC-SAR',
+
+		'ATOM-AED' => 'ATOM-AED',
+		'ATOM-SAR' => 'ATOM-SAR',
+		'ATOM-USDT' => 'ATOM-USDT',
 	];
 	const VALID_PAIRS = [
 		'BTC-AED', 'BTC-USD', 'BTC-KWD', 'BTC-SAR', 'BTC-TRY',
@@ -254,6 +293,35 @@ class CurrencyCodePair implements Pair {
 
 		'WAVES-AED', 'WAVES-SAR', 'WAVES-USD',
 		'WAVES-USDT',
+
+		'SOL-AED', 'SOL-SAR', 'SOL-USD',
+		'SOL-USDT',
+
+		'ADA-AED', 'ADA-SAR', 'ADA-USD',
+		'ADA-USDT',
+
+		'DOT-AED', 'DOT-SAR', 'DOT-USD',
+		'DOT-USDT',
+
+		'SHIB-AED', 'SHIB-SAR', 'SHIB-USD',
+		'SHIB-USDT',
+
+		'AVAX-AED', 'AVAX-SAR', 'AVAX-USD',
+		'AVAX-USDT',
+
+		'LUNA-AED', 'LUNA-SAR', 'LUNA-USD',
+		'LUNA-USDT',
+
+		'NEAR-AED', 'NEAR-SAR', 'NEAR-USD',
+		'NEAR-USDT',
+
+		'FTM-AED', 'FTM-SAR', 'FTM-USD',
+		'FTM-USDT',
+
+		'WBTC-AED', 'WBTC-SAR', 'WBTC-USD',
+
+		'ATOM-AED', 'ATOM-SAR', 'ATOM-USD',
+		'ATOM-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR'];
