@@ -1304,37 +1304,6 @@ class ConsoleUtils {
 			self::PAIR => '1INCH-USDT',
 			self::SYMBOL => 't1INCH:UST',
 		],
-		// --------------------------------------------- AMPL pairs
-		'amplaed' => [
-			self::DESCRIPTION => 'AMPL-AED',
-			self::PAIR => 'AMPL-AED',
-			self::SYMBOL => 'tAMPUSD',
-		],
-		'amplsar' => [
-			self::DESCRIPTION => 'AMPL-SAR',
-			self::PAIR => 'AMPL-SAR',
-			self::SYMBOL => 'tAMPUSD',
-		],
-		'ampltry' => [
-			self::DESCRIPTION => 'AMPL-TRY',
-			self::PAIR => 'AMPL-TRY',
-			self::SYMBOL => 'tAMPUSD',
-		],
-		'amplusd' => [
-			self::DESCRIPTION => 'AMPL-USD',
-			self::PAIR => 'AMPL-USD',
-			self::SYMBOL => 'tAMPUSD',
-		],
-		'amplusdt' => [
-			self::DESCRIPTION => 'AMPL-USDT',
-			self::PAIR => 'AMPL-USDT',
-			self::SYMBOL => 'tAMPUST',
-		],
-		'amplbtc' => [
-			self::DESCRIPTION => 'AMPL-BTC',
-			self::PAIR => 'AMPL-BTC',
-			self::SYMBOL => 'tAMPBTC',
-		],
 		// --------------------------------------------- ANT pairs
 		'antaed' => [
 			self::DESCRIPTION => 'ANT-AED',

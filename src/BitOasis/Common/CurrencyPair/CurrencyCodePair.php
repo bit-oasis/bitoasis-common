@@ -311,13 +311,6 @@ class CurrencyCodePair implements Pair {
 		'1INCH-USD' => '1INCH-USD',
 		'1INCH-USDT' => '1INCH-USDT',
 
-		'AMPL-AED' => 'AMPL-AED',
-		'AMPL-SAR' => 'AMPL-SAR',
-		'AMPL-TRY' => 'AMPL-TRY',
-		'AMPL-USD' => 'AMPL-USD',
-		'AMPL-USDT' => 'AMPL-USDT',
-		'AMPL-BTC' => 'AMPL-BTC',
-
 		'ANT-AED' => 'ANT-AED',
 		'ANT-SAR' => 'ANT-SAR',
 		'ANT-TRY' => 'ANT-TRY',
@@ -615,9 +608,6 @@ class CurrencyCodePair implements Pair {
 
 		'1INCH-AED', '1INCH-SAR', '1INCH-TRY', '1INCH-USD',
 		'1INCH-USDT',
-
-		'AMPL-AED', 'AMPL-SAR', 'AMPL-TRY', 'AMPL-USD',
-		'AMPL-USDT', 'AMPL-BTC',
 
 		'ANT-AED', 'ANT-SAR', 'ANT-TRY', 'ANT-USD',
 		'ANT-BTC', 'ANT-ETH',
