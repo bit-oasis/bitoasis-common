@@ -683,6 +683,7 @@ class CurrencyCodePair implements Pair {
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR'];
+	const STABLE_CRYPTOCURRENCY_CODES = ['USDC', 'USDT', 'DAI', 'UST', 'TUSD'];
 
 	/** @var string */
 	protected $baseCryptocurrencyCode;
@@ -759,6 +760,10 @@ class CurrencyCodePair implements Pair {
 
 	public static function isFiatCryptocurrency(string $code): bool {
 		return in_array($code, self::FIAT_CRYPTOCURRENCY_CODES, true);
+	}
+
+	protected static function isStableCoin(string $code): bool {
+		return in_array($code, self::STABLE_CRYPTOCURRENCY_CODES, true);
 	}
 
 	public static function getBaseCryptocurrencyCodeForDb(string $code): string {
