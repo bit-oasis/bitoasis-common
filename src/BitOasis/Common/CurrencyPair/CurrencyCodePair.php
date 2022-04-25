@@ -762,7 +762,7 @@ class CurrencyCodePair implements Pair {
 		return in_array($code, self::FIAT_CRYPTOCURRENCY_CODES, true);
 	}
 
-	protected static function isStableCoin(string $code): bool {
+	public static function isStableCoin(string $code): bool {
 		return in_array($code, self::STABLE_CRYPTOCURRENCY_CODES, true);
 	}
 
