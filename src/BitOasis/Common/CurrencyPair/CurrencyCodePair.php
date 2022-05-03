@@ -682,7 +682,7 @@ class CurrencyCodePair implements Pair {
 		'XVG-AED', 'XVG-SAR', 'XVG-TRY', 'XVG-USD',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY'];
-	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR'];
+	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY']; // This is ment to be quote cryptocurrency codes
 	const STABLE_CRYPTOCURRENCY_CODES = ['USDC', 'USDT', 'DAI', 'UST', 'TUSD'];
 
 	/** @var string */
