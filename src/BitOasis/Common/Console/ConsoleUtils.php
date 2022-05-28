@@ -1979,6 +1979,32 @@ class ConsoleUtils {
 			self::PAIR => 'XVG-USD',
 			self::SYMBOL => 'tXVGUSD',
 		],
+		// --------------------------------------------- LUNA2 pairs
+		'luna2aed' => [
+			self::DESCRIPTION => 'LUNA2-AED',
+			self::PAIR => 'LUNA2-AED',
+			self::SYMBOL => 'tLUNA:USD',
+		],
+		'luna2sar' => [
+			self::DESCRIPTION => 'LUNA2-SAR',
+			self::PAIR => 'LUNA2-SAR',
+			self::SYMBOL => 'tLUNA:USD',
+		],
+		'luna2try' => [
+			self::DESCRIPTION => 'LUNA2-TRY',
+			self::PAIR => 'LUNA2-TRY',
+			self::SYMBOL => 'tLUNA:USD',
+		],
+		'luna2usd' => [
+			self::DESCRIPTION => 'LUNA2-USD',
+			self::PAIR => 'LUNA2-USD',
+			self::SYMBOL => 'tLUNA:USD',
+		],
+		'luna2usdt' => [
+			self::DESCRIPTION => 'LUNA2-USDT',
+			self::PAIR => 'LUNA2-USDT',
+			self::SYMBOL => 'tLUNA:UST',
+		],
 	];
 
 	private function __construct() {
