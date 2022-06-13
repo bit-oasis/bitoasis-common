@@ -224,11 +224,6 @@ class ConsoleUtils {
 			self::PAIR => 'XLM-BTC',
 			self::SYMBOL => 'tXLMBTC',
 		],
-		'xlmeth' => [
-			self::DESCRIPTION => 'XLM-ETH',
-			self::PAIR => 'XLM-ETH',
-			self::SYMBOL => 'tXLMETH',
-		],
 		// --------------------------------------------- BSV pairs / Deprecated
 		'bsvaed' => [
 			self::DESCRIPTION => 'BSV',
@@ -451,11 +446,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'NEO-BTC',
 			self::PAIR => 'NEO-BTC',
 			self::SYMBOL => 'tNEOBTC',
-		],
-		'neoeth' => [
-			self::DESCRIPTION => 'NEO-ETH',
-			self::PAIR => 'NEO-ETH',
-			self::SYMBOL => 'tNEOETH',
 		],
 		// --------------------------------------------- XTZ pairs
 		'xtzaed' => [

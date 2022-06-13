@@ -62,7 +62,6 @@ class CurrencyCodePair implements Pair {
 		'XLM-USD' => 'XLM-USD',
 		'XLM-USDT' => 'XLM-USDT',
 		'XLM-BTC' => 'XLM-BTC',
-		'XLM-ETH' => 'XLM-ETH',
 
 		'EOS-AED' => 'EOS-AED',
 		'EOS-SAR' => 'EOS-SAR',
@@ -114,7 +113,6 @@ class CurrencyCodePair implements Pair {
 		'NEO-USD' => 'NEO-USD',
 		'NEO-USDT' => 'NEO-USDT',
 		'NEO-BTC' => 'NEO-BTC',
-		'NEO-ETH' => 'NEO-ETH',
 
 		'XTZ-AED' => 'XTZ-AED',
 		'XTZ-SAR' => 'XTZ-SAR',
@@ -499,7 +497,7 @@ class CurrencyCodePair implements Pair {
 		'XMR-BTC',
 
 		'XLM-AED', 'XLM-SAR', 'XLM-TRY', 'XLM-USD',
-		'XLM-USDT', 'XLM-BTC', 'XLM-ETH',
+		'XLM-USDT', 'XLM-BTC',
 
 		'EOS-AED', 'EOS-SAR', 'EOS-TRY', 'EOS-USD',
 		'EOS-USDT', 'EOS-BTC', 'EOS-ETH',
@@ -522,7 +520,7 @@ class CurrencyCodePair implements Pair {
 		'USDT-AED', 'USDT-SAR', 'USDT-TRY', 'USDT-USD',
 
 		'NEO-AED', 'NEO-SAR', 'NEO-TRY', 'NEO-USD',
-		'NEO-USDT', 'NEO-BTC', 'NEO-ETH',
+		'NEO-USDT', 'NEO-BTC',
 
 		'XTZ-AED', 'XTZ-SAR', 'XTZ-TRY', 'XTZ-USD',
 		'XTZ-USDT', 'XTZ-BTC',
