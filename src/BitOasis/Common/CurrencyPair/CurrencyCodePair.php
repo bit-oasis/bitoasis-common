@@ -41,7 +41,11 @@ class CurrencyCodePair implements Pair {
 		'XRP-BTC' => 'XRP-BTC',
 
 		'ETC-AED' => 'ETC-AED',
+		'ETC-SAR' => 'ETC-SAR',
+		'ETC-TRY' => 'ETC-TRY',
+		'ETC-USD' => 'ETC-USD',
 		'ETC-BTC' => 'ETC-BTC',
+		'ETC-USDT' => 'ETC-USDT',
 
 		'LTC-AED' => 'LTC-AED',
 		'LTC-SAR' => 'LTC-SAR',
@@ -484,8 +488,8 @@ class CurrencyCodePair implements Pair {
 		'XRP-AED', 'XRP-SAR', 'XRP-TRY', 'XRP-USD',
 		'XRP-USDT', 'XRP-BTC',
 
-		'ETC-AED', 'ETC-USD',
-		'ETC-BTC',
+		'ETC-AED', 'ETC-SAR', 'ETC-TRY', 'ETC-USD',
+		'ETC-BTC', 'ETC-USDT',
 
 		'LTC-AED', 'LTC-SAR', 'LTC-TRY', 'LTC-USD',
 		'LTC-USDT', 'LTC-BTC',
