@@ -72,7 +72,7 @@ class ConsoleUtils {
 			self::PAIR => 'ETH-USDT',
 			self::SYMBOL => 'tETHUST',
 		],
-		// --------------------------------------------- ETH pairs
+		// --------------------------------------------- ETHW pairs
 		'ethwaed' => [
 			self::DESCRIPTION => 'ETHW-AED',
 			self::PAIR => 'ETHW-AED',
