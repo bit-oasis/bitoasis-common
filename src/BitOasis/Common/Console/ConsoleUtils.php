@@ -72,7 +72,33 @@ class ConsoleUtils {
 			self::PAIR => 'ETH-USDT',
 			self::SYMBOL => 'tETHUST',
 		],
-		// --------------------------------------------- ETC pairs / Deprecated
+		// --------------------------------------------- ETHW pairs
+		'ethwaed' => [
+			self::DESCRIPTION => 'ETHW-AED',
+			self::PAIR => 'ETHW-AED',
+			self::SYMBOL => 'tETHW:USD',
+		],
+		'ethwsar' => [
+			self::DESCRIPTION => 'ETHW-SAR',
+			self::PAIR => 'ETHW-SAR',
+			self::SYMBOL => 'tETHW:USD',
+		],
+		'ethwtry' => [
+			self::DESCRIPTION => 'ETHW-TRY',
+			self::PAIR => 'ETHW-TRY',
+			self::SYMBOL => 'tETHW:USD',
+		],
+		'ethwusd' => [
+			self::DESCRIPTION => 'ETHW-USD',
+			self::PAIR => 'ETHW-USD',
+			self::SYMBOL => 'tETHW:USD',
+		],
+		'ethwusdt' => [
+			self::DESCRIPTION => 'ETHW-USDT',
+			self::PAIR => 'ETHW-USDT',
+			self::SYMBOL => 'tETHW:UST',
+		],
+		// --------------------------------------------- ETC pairs
 		'etcaed' => [
 			self::DESCRIPTION => 'ETC',
 			self::PAIR => 'ETC-AED',
