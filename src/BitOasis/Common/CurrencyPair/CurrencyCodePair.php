@@ -26,6 +26,12 @@ class CurrencyCodePair implements Pair {
 		'ETH-USDT' => 'ETH-USDT',
 		'ETH-BTC' => 'ETH-BTC',
 
+		'ETHW-AED' => 'ETHW-AED',
+		'ETHW-SAR' => 'ETHW-SAR',
+		'ETHW-TRY' => 'ETHW-TRY',
+		'ETHW-USD' => 'ETHW-USD',
+		'ETHW-USDT' => 'ETHW-USDT',
+
 		'BCH-AED' => 'BCH-AED',
 		'BCH-SAR' => 'BCH-SAR',
 		'BCH-TRY' => 'BCH-TRY',
@@ -481,6 +487,9 @@ class CurrencyCodePair implements Pair {
 
 		'ETH-AED', 'ETH-SAR', 'ETH-TRY', 'ETH-USD',
 		'ETH-USDT', 'ETH-BTC',
+
+		'ETHW-AED', 'ETHW-SAR', 'ETHW-TRY', 'ETHW-USD',
+		'ETHW-USDT',
 
 		'BCH-AED', 'BCH-SAR', 'BCH-TRY', 'BCH-USD',
 		'BCH-BTC', 'BCH-ETH',
