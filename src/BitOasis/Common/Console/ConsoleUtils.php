@@ -74,14 +74,34 @@ class ConsoleUtils {
 		],
 		// --------------------------------------------- ETC pairs / Deprecated
 		'etcaed' => [
-			self::DESCRIPTION => 'ETC',
+			self::DESCRIPTION => 'ETC-AED',
 			self::PAIR => 'ETC-AED',
+			self::SYMBOL => 'tETCUSD',
+		],
+		'etcsar' => [
+			self::DESCRIPTION => 'ETC-SAR',
+			self::PAIR => 'ETC-SAR',
+			self::SYMBOL => 'tETCUSD',
+		],
+		'etctry' => [
+			self::DESCRIPTION => 'ETC-TRY',
+			self::PAIR => 'ETC-TRY',
+			self::SYMBOL => 'tETCUSD',
+		],
+		'etcusd' => [
+			self::DESCRIPTION => 'ETC-USD',
+			self::PAIR => 'ETC-USD',
 			self::SYMBOL => 'tETCUSD',
 		],
 		'etcbtc' => [
 			self::DESCRIPTION => 'ETC-BTC',
 			self::PAIR => 'ETC-BTC',
 			self::SYMBOL => 'tETCBTC',
+		],
+		'etcusdt' => [
+			self::DESCRIPTION => 'ETC-USDT',
+			self::PAIR => 'ETC-USDT',
+			self::SYMBOL => 'tETCUST',
 		],
 		// --------------------------------------------- BCH pairs
 		'bchaed' => [
