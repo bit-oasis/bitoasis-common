@@ -511,6 +511,7 @@ class CurrencyCodePair implements Pair {
 
 		'XLM-AED', 'XLM-SAR', 'XLM-TRY', 'XLM-USD',
 		'XLM-USDT', 'XLM-BTC',
+		'XLM-ETH' => 'XLM-ETH', // De-listed (keeping for historical support)
 
 		'EOS-AED', 'EOS-SAR', 'EOS-TRY', 'EOS-USD',
 		'EOS-USDT', 'EOS-BTC', 'EOS-ETH',
@@ -534,6 +535,7 @@ class CurrencyCodePair implements Pair {
 
 		'NEO-AED', 'NEO-SAR', 'NEO-TRY', 'NEO-USD',
 		'NEO-USDT', 'NEO-BTC',
+		'NEO-ETH' => 'NEO-ETH', // De-listed (keeping for historical support)
 
 		'XTZ-AED', 'XTZ-SAR', 'XTZ-TRY', 'XTZ-USD',
 		'XTZ-USDT', 'XTZ-BTC',
