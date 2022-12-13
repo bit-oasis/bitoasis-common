@@ -153,7 +153,6 @@ class CurrencyCodePair implements Pair {
 		'MKR-BTC' => 'MKR-BTC',
 
 		'REP-AED' => 'REP-AED',
-		'REP-BTC' => 'REP-BTC',
 
 		'KNC-AED' => 'KNC-AED',
 		'KNC-SAR' => 'KNC-SAR',
