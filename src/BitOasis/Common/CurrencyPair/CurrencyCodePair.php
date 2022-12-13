@@ -37,7 +37,6 @@ class CurrencyCodePair implements Pair {
 		'BCH-TRY' => 'BCH-TRY',
 		'BCH-USD' => 'BCH-USD',
 		'BCH-BTC' => 'BCH-BTC',
-//		'BCH-ETH' => 'BCH-ETH', No longer supported
 
 		'XRP-AED' => 'XRP-AED',
 		'XRP-SAR' => 'XRP-SAR',
@@ -280,14 +279,6 @@ class CurrencyCodePair implements Pair {
 		'AVAX-SAR' => 'AVAX-SAR',
 		'AVAX-USDT' => 'AVAX-USDT',
 
-		'LUNA-AED' => 'LUNA-AED',
-		'LUNA-SAR' => 'LUNA-SAR',
-		'LUNA-TRY' => 'LUNA-TRY',
-		'LUNA-USD' => 'LUNA-USD',
-		'LUNA-USDT' => 'LUNA-USDT',
-		'LUNA-BTC' => 'LUNA-BTC',
-		'LUNA-ETH' => 'LUNA-ETH',
-
 		'NEAR-AED' => 'NEAR-AED',
 		'NEAR-SAR' => 'NEAR-SAR',
 		'NEAR-TRY' => 'NEAR-TRY',
@@ -367,12 +358,6 @@ class CurrencyCodePair implements Pair {
 		'FIL-USD' => 'FIL-USD',
 		'FIL-USDT' => 'FIL-USDT',
 
-		'FTT-AED' => 'FTT-AED',
-		'FTT-SAR' => 'FTT-SAR',
-		'FTT-TRY' => 'FTT-TRY',
-		'FTT-USD' => 'FTT-USD',
-		'FTT-USDT' => 'FTT-USDT',
-
 		'GALA-AED' => 'GALA-AED',
 		'GALA-SAR' => 'GALA-SAR',
 		'GALA-TRY' => 'GALA-TRY',
@@ -411,13 +396,6 @@ class CurrencyCodePair implements Pair {
 		'LEO-BTC' => 'LEO-BTC',
 		'LEO-ETH' => 'LEO-ETH',
 
-		'NEXO-AED' => 'NEXO-AED',
-		'NEXO-SAR' => 'NEXO-SAR',
-		'NEXO-TRY' => 'NEXO-TRY',
-		'NEXO-USD' => 'NEXO-USD',
-		'NEXO-USDT' => 'NEXO-USDT',
-		'NEXO-BTC' => 'NEXO-BTC',
-
 		'OCEAN-AED' => 'OCEAN-AED',
 		'OCEAN-SAR' => 'OCEAN-SAR',
 		'OCEAN-TRY' => 'OCEAN-TRY',
@@ -449,18 +427,6 @@ class CurrencyCodePair implements Pair {
 		'TRX-USDT' => 'TRX-USDT',
 		'TRX-BTC' => 'TRX-BTC',
 		'TRX-ETH' => 'TRX-ETH',
-
-		'TUSD-AED' => 'TUSD-AED',
-		'TUSD-SAR' => 'TUSD-SAR',
-		'TUSD-TRY' => 'TUSD-TRY',
-		'TUSD-USD' => 'TUSD-USD',
-		'TUSD-USDT' => 'TUSD-USDT',
-
-		'UST-AED' => 'UST-AED',
-		'UST-SAR' => 'UST-SAR',
-		'UST-TRY' => 'UST-TRY',
-		'UST-USD' => 'UST-USD',
-		'UST-USDT' => 'UST-USDT',
 
 		'VET-AED' => 'VET-AED',
 		'VET-SAR' => 'VET-SAR',
@@ -611,6 +577,7 @@ class CurrencyCodePair implements Pair {
 		'AVAX-AED', 'AVAX-SAR', 'AVAX-TRY', 'AVAX-USD',
 		'AVAX-USDT',
 
+		// LUNA is De-listed (keeping for historical support)
 		'LUNA-AED', 'LUNA-SAR', 'LUNA-TRY', 'LUNA-USD',
 		'LUNA-USDT', 'LUNA-BTC', 'LUNA-ETH',
 
@@ -651,6 +618,7 @@ class CurrencyCodePair implements Pair {
 		'FIL-AED', 'FIL-SAR', 'FIL-TRY', 'FIL-USD',
 		'FIL-USDT',
 
+		// FTT is De-listed (keeping for historical support)
 		'FTT-AED', 'FTT-SAR', 'FTT-TRY', 'FTT-USD',
 		'FTT-USDT',
 
@@ -671,6 +639,7 @@ class CurrencyCodePair implements Pair {
 		'LEO-AED', 'LEO-SAR', 'LEO-TRY', 'LEO-USD',
 		'LEO-USDT', 'LEO-BTC', 'LEO-ETH',
 
+		// NEXO is De-listed (keeping for historical support)
 		'NEXO-AED', 'NEXO-SAR', 'NEXO-TRY', 'NEXO-USD',
 		'NEXO-USDT', 'NEXO-BTC',
 
@@ -689,9 +658,11 @@ class CurrencyCodePair implements Pair {
 		'TRX-AED', 'TRX-SAR', 'TRX-TRY', 'TRX-USD',
 		'TRX-USDT', 'TRX-BTC', 'TRX-ETH',
 
+		// TUSD is De-listed (keeping for historical support)
 		'TUSD-AED', 'TUSD-SAR', 'TUSD-TRY', 'TUSD-USD',
 		'TUSD-USDT',
 
+		// UST is De-listed (keeping for historical support)
 		'UST-AED', 'UST-SAR', 'UST-TRY', 'UST-USD',
 		'UST-USDT',
 
