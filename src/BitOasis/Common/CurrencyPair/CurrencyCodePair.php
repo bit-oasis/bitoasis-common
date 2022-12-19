@@ -276,6 +276,8 @@ class CurrencyCodePair implements Pair {
 
 		'AVAX-AED' => 'AVAX-AED',
 		'AVAX-SAR' => 'AVAX-SAR',
+		'AVAX-TRY' => 'AVAX-TRY',
+		'AVAX-USD' => 'AVAX-USD',
 		'AVAX-USDT' => 'AVAX-USDT',
 
 		'NEAR-AED' => 'NEAR-AED',
