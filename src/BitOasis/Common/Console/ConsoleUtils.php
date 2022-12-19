@@ -1164,6 +1164,16 @@ class ConsoleUtils {
 			self::PAIR => 'AVAX-SAR',
 			self::SYMBOL => 'tAVAX:USD',
 		],
+		'avaxtry' => [
+			self::DESCRIPTION => 'AVAX-TRY',
+			self::PAIR => 'AVAX-TRY',
+			self::SYMBOL => 'tAVAX:USD',
+		],
+		'avaxusd' => [
+			self::DESCRIPTION => 'AVAX-USD',
+			self::PAIR => 'AVAX-USD',
+			self::SYMBOL => 'tAVAX:USD',
+		],
 		'avaxusdt' => [
 			self::DESCRIPTION => 'AVAX-USDT',
 			self::PAIR => 'AVAX-USDT',
