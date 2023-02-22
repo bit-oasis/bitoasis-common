@@ -446,6 +446,11 @@ class CurrencyCodePair implements Pair {
 		'LUNA2-TRY' => 'LUNA2-TRY',
 		'LUNA2-USD' => 'LUNA2-USD',
 		'LUNA2-USDT' => 'LUNA2-USDT',
+
+		'XAUT-AED' => 'XAUT-AED',
+		'XAUT-SAR' => 'XAUT-SAR',
+		'XAUT-USD' => 'XAUT-USD',
+		'XAUT-USDT' => 'XAUT-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -674,6 +679,8 @@ class CurrencyCodePair implements Pair {
 
 		'LUNA2-AED', 'LUNA2-SAR', 'LUNA2-TRY', 'LUNA2-USD',
 		'LUNA2-USDT',
+
+		'XAUT-AED', 'XAUT-SAR', 'XAUT-USD', 'XAUT-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY']; // This is ment to be quote cryptocurrency codes
