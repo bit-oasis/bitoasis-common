@@ -94,8 +94,6 @@ class CurrencyCodePair implements Pair {
 		'ZRX-SAR' => 'ZRX-SAR',
 		'ZRX-TRY' => 'ZRX-TRY',
 		'ZRX-USD' => 'ZRX-USD',
-		'ZRX-BTC' => 'ZRX-BTC',
-		'ZRX-ETH' => 'ZRX-ETH',
 
 		'BAT-AED' => 'BAT-AED',
 		'BAT-SAR' => 'BAT-SAR',
@@ -143,7 +141,6 @@ class CurrencyCodePair implements Pair {
 		'DAI-TRY' => 'DAI-TRY',
 		'DAI-USD' => 'DAI-USD',
 		'DAI-BTC' => 'DAI-BTC',
-		'DAI-ETH' => 'DAI-ETH',
 
 		'MKR-AED' => 'MKR-AED',
 		'MKR-SAR' => 'MKR-SAR',
@@ -381,7 +378,6 @@ class CurrencyCodePair implements Pair {
 		'IOTA-TRY' => 'IOTA-TRY',
 		'IOTA-USD' => 'IOTA-USD',
 		'IOTA-BTC' => 'IOTA-BTC',
-		'IOTA-ETH' => 'IOTA-ETH',
 
 		'KSM-AED' => 'KSM-AED',
 		'KSM-SAR' => 'KSM-SAR',
@@ -490,6 +486,8 @@ class CurrencyCodePair implements Pair {
 		'OMG-BTC', 'OMG-ETH',
 
 		'ZRX-AED', 'ZRX-SAR', 'ZRX-TRY', 'ZRX-USD',
+
+		// De-listed tokens
 		'ZRX-BTC', 'ZRX-ETH',
 
 		'BAT-AED', 'BAT-SAR', 'BAT-TRY', 'BAT-USD',
@@ -511,7 +509,10 @@ class CurrencyCodePair implements Pair {
 		'LINK-USDT', 'LINK-BTC', 'LINK-ETH',
 
 		'DAI-AED', 'DAI-SAR', 'DAI-TRY', 'DAI-USD',
-		'DAI-BTC', 'DAI-ETH',
+		'DAI-BTC',
+
+		// De-listed
+		'DAI-ETH',
 
 		'MKR-AED', 'MKR-SAR', 'MKR-TRY', 'MKR-USD',
 		'MKR-USDT', 'MKR-BTC',
@@ -632,7 +633,10 @@ class CurrencyCodePair implements Pair {
 		'GRT-USDT',
 
 		'IOTA-AED', 'IOTA-SAR', 'IOTA-TRY', 'IOTA-USD',
-		'IOTA-BTC', 'IOTA-ETH',
+		'IOTA-BTC',
+
+		// De-listed
+		'IOTA-ETH',
 
 		'KSM-AED', 'KSM-SAR', 'KSM-TRY', 'KSM-USD',
 		'KSM-USDT',

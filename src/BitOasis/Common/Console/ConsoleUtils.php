@@ -369,16 +369,6 @@ class ConsoleUtils {
 			self::PAIR => 'ZRX-USD',
 			self::SYMBOL => 'tZRXUSD',
 		],
-		'zrxbtc' => [
-			self::DESCRIPTION => 'ZRX-BTC',
-			self::PAIR => 'ZRX-BTC',
-			self::SYMBOL => 'tZRXBTC',
-		],
-		'zrxeth' => [
-			self::DESCRIPTION => 'ZRX-ETH',
-			self::PAIR => 'ZRX-ETH',
-			self::SYMBOL => 'tZRXETH',
-		],
 		// --------------------------------------------- BAT pairs
 		'bataed' => [
 			self::DESCRIPTION => 'BAT-AED',
@@ -585,11 +575,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'DAI-BTC',
 			self::PAIR => 'DAI-BTC',
 			self::SYMBOL => 'tDAIBTC',
-		],
-		'daieth' => [
-			self::DESCRIPTION => 'DAI-ETH',
-			self::PAIR => 'DAI-ETH',
-			self::SYMBOL => 'tDAIETH',
 		],
 		// --------------------------------------------- MKR pairs
 		'mkraed' => [
@@ -1682,11 +1667,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'IOTA-BTC',
 			self::PAIR => 'IOTA-BTC',
 			self::SYMBOL => 'tIOTBTC',
-		],
-		'iotaeth' => [
-			self::DESCRIPTION => 'IOTA-ETH',
-			self::PAIR => 'IOTA-ETH',
-			self::SYMBOL => 'tIOTETH',
 		],
 		// --------------------------------------------- KSM pairs
 		'ksmaed' => [
