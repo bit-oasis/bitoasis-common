@@ -628,11 +628,6 @@ class ConsoleUtils {
 			self::PAIR => 'REP-AED',
 			self::SYMBOL => 'tREPUSD',
 		],
-		'repbtc' => [
-			self::DESCRIPTION => 'REP-BTC',
-			self::PAIR => 'REP-BTC',
-			self::SYMBOL => 'tREPBTC',
-		],
 		// --------------------------------------------- KNC pairs
 		'kncaed' => [
 			self::DESCRIPTION => 'KNC-AED',
