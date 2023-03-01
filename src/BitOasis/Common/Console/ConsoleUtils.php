@@ -1174,42 +1174,6 @@ class ConsoleUtils {
 			self::PAIR => 'AVAX-USDT',
 			self::SYMBOL => 'tAVAX:UST',
 		],
-		// --------------------------------------------- LUNA pairs
-		'lunaaed' => [
-			self::DESCRIPTION => 'LUNA-AED',
-			self::PAIR => 'LUNA-AED',
-			self::SYMBOL => 'tLUNA:USD',
-		],
-		'lunasar' => [
-			self::DESCRIPTION => 'LUNA-SAR',
-			self::PAIR => 'LUNA-SAR',
-			self::SYMBOL => 'tLUNA:USD',
-		],
-		'lunatry' => [
-			self::DESCRIPTION => 'LUNA-TRY',
-			self::PAIR => 'LUNA-TRY',
-			self::SYMBOL => 'tLUNA:USD',
-		],
-		'lunausd' => [
-			self::DESCRIPTION => 'LUNA-USD',
-			self::PAIR => 'LUNA-USD',
-			self::SYMBOL => 'tLUNA:USD',
-		],
-		'lunausdt' => [
-			self::DESCRIPTION => 'LUNA-USDT',
-			self::PAIR => 'LUNA-USDT',
-			self::SYMBOL => 'tLUNA:UST',
-		],
-		'lunabtc' => [
-			self::DESCRIPTION => 'LUNA-BTC',
-			self::PAIR => 'LUNA-BTC',
-			self::SYMBOL => 'tLUNA:BTC',
-		],
-		'lunaeth' => [
-			self::DESCRIPTION => 'LUNA-ETH',
-			self::PAIR => 'LUNA-ETH',
-			self::SYMBOL => 'tLUNA:ETH',
-		],
 		// --------------------------------------------- NEAR pairs
 		'nearaed' => [
 			self::DESCRIPTION => 'NEAR-AED',
@@ -1553,32 +1517,6 @@ class ConsoleUtils {
 			self::PAIR => 'FIL-USDT',
 			self::SYMBOL => 'tFILUST',
 		],
-		// --------------------------------------------- FTT pairs
-		'fttaed' => [
-			self::DESCRIPTION => 'FTT-AED',
-			self::PAIR => 'FTT-AED',
-			self::SYMBOL => 'tFTTUSD',
-		],
-		'fttsar' => [
-			self::DESCRIPTION => 'FTT-SAR',
-			self::PAIR => 'FTT-SAR',
-			self::SYMBOL => 'tFTTUSD',
-		],
-		'ftttry' => [
-			self::DESCRIPTION => 'FTT-TRY',
-			self::PAIR => 'FTT-TRY',
-			self::SYMBOL => 'tFTTUSD',
-		],
-		'fttusd' => [
-			self::DESCRIPTION => 'FTT-USD',
-			self::PAIR => 'FTT-USD',
-			self::SYMBOL => 'tFTTUSD',
-		],
-		'fttusdt' => [
-			self::DESCRIPTION => 'FTT-USDT',
-			self::PAIR => 'FTT-USDT',
-			self::SYMBOL => 'tFTTUST',
-		],
 		// --------------------------------------------- GALA pairs
 		'galaaed' => [
 			self::DESCRIPTION => 'GALA-AED',
@@ -1745,37 +1683,6 @@ class ConsoleUtils {
 			self::PAIR => 'LEO-ETH',
 			self::SYMBOL => 'tLEOETH',
 		],
-		// --------------------------------------------- NEXO pairs
-		'nexoaed' => [
-			self::DESCRIPTION => 'NEXO-AED',
-			self::PAIR => 'NEXO-AED',
-			self::SYMBOL => 'tNEXO:USD',
-		],
-		'nexosar' => [
-			self::DESCRIPTION => 'NEXO-SAR',
-			self::PAIR => 'NEXO-SAR',
-			self::SYMBOL => 'tNEXO:USD',
-		],
-		'nexotry' => [
-			self::DESCRIPTION => 'NEXO-TRY',
-			self::PAIR => 'NEXO-TRY',
-			self::SYMBOL => 'tNEXO:USD',
-		],
-		'nexousd' => [
-			self::DESCRIPTION => 'NEXO-USD',
-			self::PAIR => 'NEXO-USD',
-			self::SYMBOL => 'tNEXO:USD',
-		],
-		'nexousdt' => [
-			self::DESCRIPTION => 'NEXO-USDT',
-			self::PAIR => 'NEXO-USDT',
-			self::SYMBOL => 'tNEXO:UST',
-		],
-		'nexobtc' => [
-			self::DESCRIPTION => 'NEXO-BTC',
-			self::PAIR => 'NEXO-BTC',
-			self::SYMBOL => 'tNEXO:BTC',
-		],
 		// --------------------------------------------- OCEAN pairs
 		'oceanaed' => [
 			self::DESCRIPTION => 'OCEAN-AED',
@@ -1915,58 +1822,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'TRX-ETH',
 			self::PAIR => 'TRX-ETH',
 			self::SYMBOL => 'tTRXETH',
-		],
-		// --------------------------------------------- TUSD pairs
-		'tusdaed' => [
-			self::DESCRIPTION => 'TUSD-AED',
-			self::PAIR => 'TUSD-AED',
-			self::SYMBOL => 'tTSDUSD',
-		],
-		'tusdsar' => [
-			self::DESCRIPTION => 'TUSD-SAR',
-			self::PAIR => 'TUSD-SAR',
-			self::SYMBOL => 'tTSDUSD',
-		],
-		'tusdtry' => [
-			self::DESCRIPTION => 'TUSD-TRY',
-			self::PAIR => 'TUSD-TRY',
-			self::SYMBOL => 'tTSDUSD',
-		],
-		'tusdusd' => [
-			self::DESCRIPTION => 'TUSD-USD',
-			self::PAIR => 'TUSD-USD',
-			self::SYMBOL => 'tTSDUSD',
-		],
-		'tusdusdt' => [
-			self::DESCRIPTION => 'TUSD-USDT',
-			self::PAIR => 'TUSD-USDT',
-			self::SYMBOL => 'tTSDUST',
-		],
-		// --------------------------------------------- UST pairs
-		'ustaed' => [
-			self::DESCRIPTION => 'UST-AED',
-			self::PAIR => 'UST-AED',
-			self::SYMBOL => 'tTERRAUST:USD',
-		],
-		'ustsar' => [
-			self::DESCRIPTION => 'UST-SAR',
-			self::PAIR => 'UST-SAR',
-			self::SYMBOL => 'tTERRAUST:USD',
-		],
-		'usttry' => [
-			self::DESCRIPTION => 'UST-TRY',
-			self::PAIR => 'UST-TRY',
-			self::SYMBOL => 'tTERRAUST:USD',
-		],
-		'ustusd' => [
-			self::DESCRIPTION => 'UST-USD',
-			self::PAIR => 'UST-USD',
-			self::SYMBOL => 'tTERRAUST:USD',
-		],
-		'ustusdt' => [
-			self::DESCRIPTION => 'UST-USDT',
-			self::PAIR => 'UST-USDT',
-			self::SYMBOL => 'tTERRAUST:UST',
 		],
 		// --------------------------------------------- VET pairs
 		'vetaed' => [
