@@ -1881,6 +1881,32 @@ class ConsoleUtils {
 			self::PAIR => 'LUNA2-USDT',
 			self::SYMBOL => 'tLUNA2:UST',
 		],
+		// --------------------------------------------- XAUT pairs
+		'xautaed' => [
+			self::DESCRIPTION => 'XAUT-AED',
+			self::PAIR => 'XAUT-AED',
+			self::SYMBOL => 'tXAUT:USD',
+		],
+		'xautsar' => [
+			self::DESCRIPTION => 'XAUT-SAR',
+			self::PAIR => 'XAUT-SAR',
+			self::SYMBOL => 'tXAUT:USD',
+		],
+		'xautusd' => [
+			self::DESCRIPTION => 'XAUT-USD',
+			self::PAIR => 'XAUT-USD',
+			self::SYMBOL => 'tXAUT:USD',
+		],
+		'xautusdt' => [
+			self::DESCRIPTION => 'XAUT-USDT',
+			self::PAIR => 'XAUT-USDT',
+			self::SYMBOL => 'tXAUT:UST',
+		],
+		'xautbtc' => [
+			self::DESCRIPTION => 'XAUT-BTC',
+			self::PAIR => 'XAUT-BTC',
+			self::SYMBOL => 'tXAUT:BTC',
+		],
 	];
 
 	private function __construct() {
