@@ -448,6 +448,11 @@ class CurrencyCodePair implements Pair {
 		'XAUT-USD' => 'XAUT-USD',
 		'XAUT-USDT' => 'XAUT-USDT',
 		'XAUT-BTC' => 'XAUT-BTC',
+
+		'ARB-AED' => 'ARB-AED',
+		'ARB-SAR' => 'ARB-SAR',
+		'ARB-USD' => 'ARB-USD',
+		'ARB-USDT' => 'ARB-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -687,6 +692,9 @@ class CurrencyCodePair implements Pair {
 
 		'XAUT-AED', 'XAUT-SAR', 'XAUT-USD', 'XAUT-USDT',
 		'XAUT-BTC',
+
+		'ARB-AED', 'ARB-SAR', 'ARB-USD',
+		'ARB-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY']; // This is ment to be quote cryptocurrency codes

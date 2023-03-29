@@ -1907,6 +1907,27 @@ class ConsoleUtils {
 			self::PAIR => 'XAUT-BTC',
 			self::SYMBOL => 'tXAUT:BTC',
 		],
+		// --------------------------------------------- ARB pairs
+		'arbaed' => [
+			self::DESCRIPTION => 'ARB-AED',
+			self::PAIR => 'ARB-AED',
+			self::SYMBOL => 'tARBUSD',
+		],
+		'arbsar' => [
+			self::DESCRIPTION => 'ARB-SAR',
+			self::PAIR => 'ARB-SAR',
+			self::SYMBOL => 'tARBUSD',
+		],
+		'arbusd' => [
+			self::DESCRIPTION => 'ARB-USD',
+			self::PAIR => 'ARB-USD',
+			self::SYMBOL => 'tARBUSD',
+		],
+		'arbusdt' => [
+			self::DESCRIPTION => 'ARB-USDT',
+			self::PAIR => 'ARB-USDT',
+			self::SYMBOL => 'tARBUST',
+		],
 	];
 
 	private function __construct() {
