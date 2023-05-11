@@ -41,6 +41,26 @@ class ConsoleUtils {
 			self::PAIR => 'BTC-USDT',
 			self::SYMBOL => 'tBTCUST',
 		],
+		'btckwd' => [
+			self::DESCRIPTION => 'BTC-KWD',
+			self::PAIR => 'BTC-KWD',
+			self::SYMBOL => 'tBTCUSD',
+		],
+		'btcomr' => [
+			self::DESCRIPTION => 'BTC-OMR',
+			self::PAIR => 'BTC-OMR',
+			self::SYMBOL => 'tBTCUSD',
+		],
+		'btcbhd' => [
+			self::DESCRIPTION => 'BTC-BHD',
+			self::PAIR => 'BTC-BHD',
+			self::SYMBOL => 'tBTCUSD',
+		],
+		'btcqar' => [
+			self::DESCRIPTION => 'BTC-QAR',
+			self::PAIR => 'BTC-QAR',
+			self::SYMBOL => 'tBTCUSD',
+		],
 		// --------------------------------------------- ETH pairs
 		'ethaed' => [
 			self::DESCRIPTION => 'ETH-AED',
@@ -60,6 +80,26 @@ class ConsoleUtils {
 		'ethusd' => [
 			self::DESCRIPTION => 'ETH-USD',
 			self::PAIR => 'ETH-USD',
+			self::SYMBOL => 'tETHUSD',
+		],
+		'ethkwd' => [
+			self::DESCRIPTION => 'ETH-KWD',
+			self::PAIR => 'ETH-KWD',
+			self::SYMBOL => 'tETHUSD',
+		],
+		'ethomr' => [
+			self::DESCRIPTION => 'ETH-OMR',
+			self::PAIR => 'ETH-OMR',
+			self::SYMBOL => 'tETHUSD',
+		],
+		'ethbhd' => [
+			self::DESCRIPTION => 'ETH-BHD',
+			self::PAIR => 'ETH-BHD',
+			self::SYMBOL => 'tETHUSD',
+		],
+		'ethqar' => [
+			self::DESCRIPTION => 'ETH-QAR',
+			self::PAIR => 'ETH-QAR',
 			self::SYMBOL => 'tETHUSD',
 		],
 		'ethbtc' => [
@@ -93,6 +133,26 @@ class ConsoleUtils {
 			self::PAIR => 'ETHW-USD',
 			self::SYMBOL => 'tETHW:USD',
 		],
+		'ethwkwd' => [
+			self::DESCRIPTION => 'ETHW-KWD',
+			self::PAIR => 'ETHW-KWD',
+			self::SYMBOL => 'tETHW:USD',
+		],
+		'ethwomr' => [
+			self::DESCRIPTION => 'ETHW-OMR',
+			self::PAIR => 'ETHW-OMR',
+			self::SYMBOL => 'tETHW:USD',
+		],
+		'ethwbhd' => [
+			self::DESCRIPTION => 'ETHW-BHD',
+			self::PAIR => 'ETHW-BHD',
+			self::SYMBOL => 'tETHW:USD',
+		],
+		'ethwqar' => [
+			self::DESCRIPTION => 'ETHW-QAR',
+			self::PAIR => 'ETHW-QAR',
+			self::SYMBOL => 'tETHW:USD',
+		],
 		'ethwusdt' => [
 			self::DESCRIPTION => 'ETHW-USDT',
 			self::PAIR => 'ETHW-USDT',
@@ -117,6 +177,26 @@ class ConsoleUtils {
 		'etcusd' => [
 			self::DESCRIPTION => 'ETC-USD',
 			self::PAIR => 'ETC-USD',
+			self::SYMBOL => 'tETCUSD',
+		],
+		'etckwd' => [
+			self::DESCRIPTION => 'ETC-KWD',
+			self::PAIR => 'ETC-KWD',
+			self::SYMBOL => 'tETCUSD',
+		],
+		'etcomr' => [
+			self::DESCRIPTION => 'ETC-OMR',
+			self::PAIR => 'ETC-OMR',
+			self::SYMBOL => 'tETCUSD',
+		],
+		'etcbhd' => [
+			self::DESCRIPTION => 'ETC-BHD',
+			self::PAIR => 'ETC-BHD',
+			self::SYMBOL => 'tETCUSD',
+		],
+		'etcqar' => [
+			self::DESCRIPTION => 'ETC-QAR',
+			self::PAIR => 'ETC-QAR',
 			self::SYMBOL => 'tETCUSD',
 		],
 		'etcbtc' => [
@@ -150,6 +230,26 @@ class ConsoleUtils {
 			self::PAIR => 'BCH-USD',
 			self::SYMBOL => 'tBCHN:USD',
 		],
+		'bchkwd' => [
+			self::DESCRIPTION => 'BCH-KWD',
+			self::PAIR => 'BCH-KWD',
+			self::SYMBOL => 'tBCHN:USD',
+		],
+		'bchomr' => [
+			self::DESCRIPTION => 'BCH-OMR',
+			self::PAIR => 'BCH-OMR',
+			self::SYMBOL => 'tBCHN:USD',
+		],
+		'bchbhd' => [
+			self::DESCRIPTION => 'BCH-BHD',
+			self::PAIR => 'BCH-BHD',
+			self::SYMBOL => 'tBCHN:USD',
+		],
+		'bchqar' => [
+			self::DESCRIPTION => 'BCH-QAR',
+			self::PAIR => 'BCH-QAR',
+			self::SYMBOL => 'tBCHN:USD',
+		],
 //		'bchbtc' => [
 //			self::DESCRIPTION => 'BCH-BTC',
 //			self::PAIR => 'BCH-BTC',
@@ -174,6 +274,26 @@ class ConsoleUtils {
 		'xrpusd' => [
 			self::DESCRIPTION => 'XRP-USD',
 			self::PAIR => 'XRP-USD',
+			self::SYMBOL => 'tXRPUSD',
+		],
+		'xrpkwd' => [
+			self::DESCRIPTION => 'XRP-KWD',
+			self::PAIR => 'XRP-KWD',
+			self::SYMBOL => 'tXRPUSD',
+		],
+		'xrpomr' => [
+			self::DESCRIPTION => 'XRP-OMR',
+			self::PAIR => 'XRP-OMR',
+			self::SYMBOL => 'tXRPUSD',
+		],
+		'xrpbhd' => [
+			self::DESCRIPTION => 'XRP-BHD',
+			self::PAIR => 'XRP-BHD',
+			self::SYMBOL => 'tXRPUSD',
+		],
+		'xrpqar' => [
+			self::DESCRIPTION => 'XRP-QAR',
+			self::PAIR => 'XRP-QAR',
 			self::SYMBOL => 'tXRPUSD',
 		],
 		'xrpusdt' => [
@@ -205,6 +325,26 @@ class ConsoleUtils {
 		'ltcusd' => [
 			self::DESCRIPTION => 'LTC-USD',
 			self::PAIR => 'LTC-USD',
+			self::SYMBOL => 'tLTCUSD',
+		],
+		'ltckwd' => [
+			self::DESCRIPTION => 'LTC-KWD',
+			self::PAIR => 'LTC-KWD',
+			self::SYMBOL => 'tLTCUSD',
+		],
+		'ltcomr' => [
+			self::DESCRIPTION => 'LTC-OMR',
+			self::PAIR => 'LTC-OMR',
+			self::SYMBOL => 'tLTCUSD',
+		],
+		'ltcbhd' => [
+			self::DESCRIPTION => 'LTC-BHD',
+			self::PAIR => 'LTC-BHD',
+			self::SYMBOL => 'tLTCUSD',
+		],
+		'ltcqar' => [
+			self::DESCRIPTION => 'LTC-QAR',
+			self::PAIR => 'LTC-QAR',
 			self::SYMBOL => 'tLTCUSD',
 		],
 		'ltcusdt' => [
@@ -260,6 +400,26 @@ class ConsoleUtils {
 			self::PAIR => 'XLM-USD',
 			self::SYMBOL => 'tXLMUSD',
 		],
+		'xlmkwd' => [
+			self::DESCRIPTION => 'XLM-KWD',
+			self::PAIR => 'XLM-KWD',
+			self::SYMBOL => 'tXLMUSD',
+		],
+		'xlmomr' => [
+			self::DESCRIPTION => 'XLM-OMR',
+			self::PAIR => 'XLM-OMR',
+			self::SYMBOL => 'tXLMUSD',
+		],
+		'xlmbhd' => [
+			self::DESCRIPTION => 'XLM-BHD',
+			self::PAIR => 'XLM-BHD',
+			self::SYMBOL => 'tXLMUSD',
+		],
+		'xlmqar' => [
+			self::DESCRIPTION => 'XLM-QAR',
+			self::PAIR => 'XLM-QAR',
+			self::SYMBOL => 'tXLMUSD',
+		],
 		'xlmusdt' => [
 			self::DESCRIPTION => 'XLM-USDT',
 			self::PAIR => 'XLM-USDT',
@@ -302,6 +462,26 @@ class ConsoleUtils {
 			self::PAIR => 'EOS-USD',
 			self::SYMBOL => 'tEOSUSD',
 		],
+		'eoskwd' => [
+			self::DESCRIPTION => 'EOS-KWD',
+			self::PAIR => 'EOS-KWD',
+			self::SYMBOL => 'tEOSUSD',
+		],
+		'eosomr' => [
+			self::DESCRIPTION => 'EOS-OMR',
+			self::PAIR => 'EOS-OMR',
+			self::SYMBOL => 'tEOSUSD',
+		],
+		'eosbhd' => [
+			self::DESCRIPTION => 'EOS-BHD',
+			self::PAIR => 'EOS-BHD',
+			self::SYMBOL => 'tEOSUSD',
+		],
+		'eosqar' => [
+			self::DESCRIPTION => 'EOS-QAR',
+			self::PAIR => 'EOS-QAR',
+			self::SYMBOL => 'tEOSUSD',
+		],
 		'eosusdt' => [
 			self::DESCRIPTION => 'EOS-USDT',
 			self::PAIR => 'EOS-USDT',
@@ -338,6 +518,26 @@ class ConsoleUtils {
 			self::PAIR => 'OMG-USD',
 			self::SYMBOL => 'tOMGUSD',
 		],
+		'omgkwd' => [
+			self::DESCRIPTION => 'OMG-KWD',
+			self::PAIR => 'OMG-KWD',
+			self::SYMBOL => 'tOMGUSD',
+		],
+		'omgomr' => [
+			self::DESCRIPTION => 'OMG-OMR',
+			self::PAIR => 'OMG-OMR',
+			self::SYMBOL => 'tOMGUSD',
+		],
+		'omgbhd' => [
+			self::DESCRIPTION => 'OMG-BHD',
+			self::PAIR => 'OMG-BHD',
+			self::SYMBOL => 'tOMGUSD',
+		],
+		'omgqar' => [
+			self::DESCRIPTION => 'OMG-QAR',
+			self::PAIR => 'OMG-QAR',
+			self::SYMBOL => 'tOMGUSD',
+		],
 		'omgbtc' => [
 			self::DESCRIPTION => 'OMG-BTC',
 			self::PAIR => 'OMG-BTC',
@@ -369,6 +569,26 @@ class ConsoleUtils {
 			self::PAIR => 'ZRX-USD',
 			self::SYMBOL => 'tZRXUSD',
 		],
+		'zrxkwd' => [
+			self::DESCRIPTION => 'ZRX-KWD',
+			self::PAIR => 'ZRX-KWD',
+			self::SYMBOL => 'tZRXUSD',
+		],
+		'zrxomr' => [
+			self::DESCRIPTION => 'ZRX-OMR',
+			self::PAIR => 'ZRX-OMR',
+			self::SYMBOL => 'tZRXUSD',
+		],
+		'zrxbhd' => [
+			self::DESCRIPTION => 'ZRX-BHD',
+			self::PAIR => 'ZRX-BHD',
+			self::SYMBOL => 'tZRXUSD',
+		],
+		'zrxqar' => [
+			self::DESCRIPTION => 'ZRX-QAR',
+			self::PAIR => 'ZRX-QAR',
+			self::SYMBOL => 'tZRXUSD',
+		],
 		// --------------------------------------------- BAT pairs
 		'bataed' => [
 			self::DESCRIPTION => 'BAT-AED',
@@ -388,6 +608,26 @@ class ConsoleUtils {
 		'batusd' => [
 			self::DESCRIPTION => 'BAT-USD',
 			self::PAIR => 'BAT-USD',
+			self::SYMBOL => 'tBATUSD',
+		],
+		'batkwd' => [
+			self::DESCRIPTION => 'BAT-KWD',
+			self::PAIR => 'BAT-KWD',
+			self::SYMBOL => 'tBATUSD',
+		],
+		'batomr' => [
+			self::DESCRIPTION => 'BAT-OMR',
+			self::PAIR => 'BAT-OMR',
+			self::SYMBOL => 'tBATUSD',
+		],
+		'batbhd' => [
+			self::DESCRIPTION => 'BAT-BHD',
+			self::PAIR => 'BAT-BHD',
+			self::SYMBOL => 'tBATUSD',
+		],
+		'batqar' => [
+			self::DESCRIPTION => 'BAT-QAR',
+			self::PAIR => 'BAT-QAR',
 			self::SYMBOL => 'tBATUSD',
 		],
 		'batusdt' => [
@@ -421,6 +661,26 @@ class ConsoleUtils {
 			self::PAIR => 'ALGO-USD',
 			self::SYMBOL => 'tALGUSD',
 		],
+		'algokwd' => [
+			self::DESCRIPTION => 'ALGO-KWD',
+			self::PAIR => 'ALGO-KWD',
+			self::SYMBOL => 'tALGUSD',
+		],
+		'algoomr' => [
+			self::DESCRIPTION => 'ALGO-OMR',
+			self::PAIR => 'ALGO-OMR',
+			self::SYMBOL => 'tALGUSD',
+		],
+		'algobhd' => [
+			self::DESCRIPTION => 'ALGO-BHD',
+			self::PAIR => 'ALGO-BHD',
+			self::SYMBOL => 'tALGUSD',
+		],
+		'algoqar' => [
+			self::DESCRIPTION => 'ALGO-QAR',
+			self::PAIR => 'ALGO-QAR',
+			self::SYMBOL => 'tALGUSD',
+		],
 		'algousdt' => [
 			self::DESCRIPTION => 'ALGO-USDT',
 			self::PAIR => 'ALGO-USDT',
@@ -452,6 +712,26 @@ class ConsoleUtils {
 			self::PAIR => 'USDT-USD',
 			self::SYMBOL => 'tUSTUSD',
 		],
+		'usdtkwd' => [
+			self::DESCRIPTION => 'USDT-KWD',
+			self::PAIR => 'USDT-KWD',
+			self::SYMBOL => 'tUSTUSD',
+		],
+		'usdtomr' => [
+			self::DESCRIPTION => 'USDT-OMR',
+			self::PAIR => 'USDT-OMR',
+			self::SYMBOL => 'tUSTUSD',
+		],
+		'usdtbhd' => [
+			self::DESCRIPTION => 'USDT-BHD',
+			self::PAIR => 'USDT-BHD',
+			self::SYMBOL => 'tUSTUSD',
+		],
+		'usdtqar' => [
+			self::DESCRIPTION => 'USDT-QAR',
+			self::PAIR => 'USDT-QAR',
+			self::SYMBOL => 'tUSTUSD',
+		],
 		// --------------------------------------------- NEO pairs
 		'neoaed' => [
 			self::DESCRIPTION => 'NEO-AED',
@@ -471,6 +751,26 @@ class ConsoleUtils {
 		'neousd' => [
 			self::DESCRIPTION => 'NEO-USD',
 			self::PAIR => 'NEO-USD',
+			self::SYMBOL => 'tNEOUSD',
+		],
+		'neokwd' => [
+			self::DESCRIPTION => 'NEO-KWD',
+			self::PAIR => 'NEO-KWD',
+			self::SYMBOL => 'tNEOUSD',
+		],
+		'neoomr' => [
+			self::DESCRIPTION => 'NEO-OMR',
+			self::PAIR => 'NEO-OMR',
+			self::SYMBOL => 'tNEOUSD',
+		],
+		'neobhd' => [
+			self::DESCRIPTION => 'NEO-BHD',
+			self::PAIR => 'NEO-BHD',
+			self::SYMBOL => 'tNEOUSD',
+		],
+		'neoqar' => [
+			self::DESCRIPTION => 'NEO-QAR',
+			self::PAIR => 'NEO-QAR',
 			self::SYMBOL => 'tNEOUSD',
 		],
 		'neousdt' => [
@@ -504,6 +804,26 @@ class ConsoleUtils {
 			self::PAIR => 'XTZ-USD',
 			self::SYMBOL => 'tXTZUSD',
 		],
+		'xtzkwd' => [
+			self::DESCRIPTION => 'XTZ-KWD',
+			self::PAIR => 'XTZ-KWD',
+			self::SYMBOL => 'tXTZUSD',
+		],
+		'xtzomr' => [
+			self::DESCRIPTION => 'XTZ-OMR',
+			self::PAIR => 'XTZ-OMR',
+			self::SYMBOL => 'tXTZUSD',
+		],
+		'xtzbhd' => [
+			self::DESCRIPTION => 'XTZ-BHD',
+			self::PAIR => 'XTZ-BHD',
+			self::SYMBOL => 'tXTZUSD',
+		],
+		'xtzqar' => [
+			self::DESCRIPTION => 'XTZ-QAR',
+			self::PAIR => 'XTZ-QAR',
+			self::SYMBOL => 'tXTZUSD',
+		],
 		'xtzusdt' => [
 			self::DESCRIPTION => 'XTZ-USDT',
 			self::PAIR => 'XTZ-USDT',
@@ -533,6 +853,26 @@ class ConsoleUtils {
 		'linkusd' => [
 			self::DESCRIPTION => 'LINK-USD',
 			self::PAIR => 'LINK-USD',
+			self::SYMBOL => 'tLINK:USD',
+		],
+		'linkkwd' => [
+			self::DESCRIPTION => 'LINK-KWD',
+			self::PAIR => 'LINK-KWD',
+			self::SYMBOL => 'tLINK:USD',
+		],
+		'linkomr' => [
+			self::DESCRIPTION => 'LINK-OMR',
+			self::PAIR => 'LINK-OMR',
+			self::SYMBOL => 'tLINK:USD',
+		],
+		'linkbhd' => [
+			self::DESCRIPTION => 'LINK-BHD',
+			self::PAIR => 'LINK-BHD',
+			self::SYMBOL => 'tLINK:USD',
+		],
+		'linkqar' => [
+			self::DESCRIPTION => 'LINK-QAR',
+			self::PAIR => 'LINK-QAR',
 			self::SYMBOL => 'tLINK:USD',
 		],
 		'linkusdt' => [
@@ -571,6 +911,26 @@ class ConsoleUtils {
 			self::PAIR => 'DAI-USD',
 			self::SYMBOL => 'tDAIUSD',
 		],
+		'daikwd' => [
+			self::DESCRIPTION => 'DAI-KWD',
+			self::PAIR => 'DAI-KWD',
+			self::SYMBOL => 'tDAIUSD',
+		],
+		'daiomr' => [
+			self::DESCRIPTION => 'DAI-OMR',
+			self::PAIR => 'DAI-OMR',
+			self::SYMBOL => 'tDAIUSD',
+		],
+		'daibhd' => [
+			self::DESCRIPTION => 'DAI-BHD',
+			self::PAIR => 'DAI-BHD',
+			self::SYMBOL => 'tDAIUSD',
+		],
+		'daiqar' => [
+			self::DESCRIPTION => 'DAI-QAR',
+			self::PAIR => 'DAI-QAR',
+			self::SYMBOL => 'tDAIUSD',
+		],
 		'daibtc' => [
 			self::DESCRIPTION => 'DAI-BTC',
 			self::PAIR => 'DAI-BTC',
@@ -595,6 +955,26 @@ class ConsoleUtils {
 		'mkrusd' => [
 			self::DESCRIPTION => 'MKR-USD',
 			self::PAIR => 'MKR-USD',
+			self::SYMBOL => 'tMKRUSD',
+		],
+		'mkrkwd' => [
+			self::DESCRIPTION => 'MKR-KWD',
+			self::PAIR => 'MKR-KWD',
+			self::SYMBOL => 'tMKRUSD',
+		],
+		'mkromr' => [
+			self::DESCRIPTION => 'MKR-OMR',
+			self::PAIR => 'MKR-OMR',
+			self::SYMBOL => 'tMKRUSD',
+		],
+		'mkrbhd' => [
+			self::DESCRIPTION => 'MKR-BHD',
+			self::PAIR => 'MKR-BHD',
+			self::SYMBOL => 'tMKRUSD',
+		],
+		'mkrqar' => [
+			self::DESCRIPTION => 'MKR-QAR',
+			self::PAIR => 'MKR-QAR',
 			self::SYMBOL => 'tMKRUSD',
 		],
 		'mkrusdt' => [
@@ -634,6 +1014,26 @@ class ConsoleUtils {
 			self::PAIR => 'KNC-USD',
 			self::SYMBOL => 'tKNCUSD',
 		],
+		'knckwd' => [
+			self::DESCRIPTION => 'KNC-KWD',
+			self::PAIR => 'KNC-KWD',
+			self::SYMBOL => 'tKNCUSD',
+		],
+		'kncomr' => [
+			self::DESCRIPTION => 'KNC-OMR',
+			self::PAIR => 'KNC-OMR',
+			self::SYMBOL => 'tKNCUSD',
+		],
+		'kncbhd' => [
+			self::DESCRIPTION => 'KNC-BHD',
+			self::PAIR => 'KNC-BHD',
+			self::SYMBOL => 'tKNCUSD',
+		],
+		'kncqar' => [
+			self::DESCRIPTION => 'KNC-QAR',
+			self::PAIR => 'KNC-QAR',
+			self::SYMBOL => 'tKNCUSD',
+		],
 		'kncbtc' => [
 			self::DESCRIPTION => 'KNC-BTC',
 			self::PAIR => 'KNC-BTC',
@@ -658,6 +1058,26 @@ class ConsoleUtils {
 		'uniusd' => [
 			self::DESCRIPTION => 'UNI-USD',
 			self::PAIR => 'UNI-USD',
+			self::SYMBOL => 'tUNIUSD',
+		],
+		'unikwd' => [
+			self::DESCRIPTION => 'UNI-KWD',
+			self::PAIR => 'UNI-KWD',
+			self::SYMBOL => 'tUNIUSD',
+		],
+		'uniomr' => [
+			self::DESCRIPTION => 'UNI-OMR',
+			self::PAIR => 'UNI-OMR',
+			self::SYMBOL => 'tUNIUSD',
+		],
+		'unibhd' => [
+			self::DESCRIPTION => 'UNI-BHD',
+			self::PAIR => 'UNI-BHD',
+			self::SYMBOL => 'tUNIUSD',
+		],
+		'uniqar' => [
+			self::DESCRIPTION => 'UNI-QAR',
+			self::PAIR => 'UNI-QAR',
 			self::SYMBOL => 'tUNIUSD',
 		],
 		'uniusdt' => [
@@ -686,6 +1106,26 @@ class ConsoleUtils {
 			self::PAIR => 'YFI-USD',
 			self::SYMBOL => 'tYFIUSD',
 		],
+		'yfikwd' => [
+			self::DESCRIPTION => 'YFI-KWD',
+			self::PAIR => 'YFI-KWD',
+			self::SYMBOL => 'tYFIUSD',
+		],
+		'yfiomr' => [
+			self::DESCRIPTION => 'YFI-OMR',
+			self::PAIR => 'YFI-OMR',
+			self::SYMBOL => 'tYFIUSD',
+		],
+		'yfibhd' => [
+			self::DESCRIPTION => 'YFI-BHD',
+			self::PAIR => 'YFI-BHD',
+			self::SYMBOL => 'tYFIUSD',
+		],
+		'yfiqar' => [
+			self::DESCRIPTION => 'YFI-QAR',
+			self::PAIR => 'YFI-QAR',
+			self::SYMBOL => 'tYFIUSD',
+		],
 		'yfiusdt' => [
 			self::DESCRIPTION => 'YFI-USDT',
 			self::PAIR => 'YFI-USDT',
@@ -710,6 +1150,26 @@ class ConsoleUtils {
 		'balusd' => [
 			self::DESCRIPTION => 'BAL-USD',
 			self::PAIR => 'BAL-USD',
+			self::SYMBOL => 'tBALUSD',
+		],
+		'balkwd' => [
+			self::DESCRIPTION => 'BAL-KWD',
+			self::PAIR => 'BAL-KWD',
+			self::SYMBOL => 'tBALUSD',
+		],
+		'balomr' => [
+			self::DESCRIPTION => 'BAL-OMR',
+			self::PAIR => 'BAL-OMR',
+			self::SYMBOL => 'tBALUSD',
+		],
+		'balbhd' => [
+			self::DESCRIPTION => 'BAL-BHD',
+			self::PAIR => 'BAL-BHD',
+			self::SYMBOL => 'tBALUSD',
+		],
+		'balqar' => [
+			self::DESCRIPTION => 'BAL-QAR',
+			self::PAIR => 'BAL-QAR',
 			self::SYMBOL => 'tBALUSD',
 		],
 		'balusdt' => [
@@ -738,6 +1198,26 @@ class ConsoleUtils {
 			self::PAIR => 'COMP-USD',
 			self::SYMBOL => 'tCOMP:USD',
 		],
+		'compkwd' => [
+			self::DESCRIPTION => 'COMP-KWD',
+			self::PAIR => 'COMP-KWD',
+			self::SYMBOL => 'tCOMP:USD',
+		],
+		'compomr' => [
+			self::DESCRIPTION => 'COMP-OMR',
+			self::PAIR => 'COMP-OMR',
+			self::SYMBOL => 'tCOMP:USD',
+		],
+		'compbhd' => [
+			self::DESCRIPTION => 'COMP-BHD',
+			self::PAIR => 'COMP-BHD',
+			self::SYMBOL => 'tCOMP:USD',
+		],
+		'compqar' => [
+			self::DESCRIPTION => 'COMP-QAR',
+			self::PAIR => 'COMP-QAR',
+			self::SYMBOL => 'tCOMP:USD',
+		],
 		'compusdt' => [
 			self::DESCRIPTION => 'COMP-USDT',
 			self::PAIR => 'COMP-USDT',
@@ -762,6 +1242,26 @@ class ConsoleUtils {
 		'dogeusd' => [
 			self::DESCRIPTION => 'DOGE-USD',
 			self::PAIR => 'DOGE-USD',
+			self::SYMBOL => 'tDOGE:USD',
+		],
+		'dogekwd' => [
+			self::DESCRIPTION => 'DOGE-KWD',
+			self::PAIR => 'DOGE-KWD',
+			self::SYMBOL => 'tDOGE:USD',
+		],
+		'dogeomr' => [
+			self::DESCRIPTION => 'DOGE-OMR',
+			self::PAIR => 'DOGE-OMR',
+			self::SYMBOL => 'tDOGE:USD',
+		],
+		'dogebhd' => [
+			self::DESCRIPTION => 'DOGE-BHD',
+			self::PAIR => 'DOGE-BHD',
+			self::SYMBOL => 'tDOGE:USD',
+		],
+		'dogeqar' => [
+			self::DESCRIPTION => 'DOGE-QAR',
+			self::PAIR => 'DOGE-QAR',
 			self::SYMBOL => 'tDOGE:USD',
 		],
 		'dogeusdt' => [
@@ -795,6 +1295,26 @@ class ConsoleUtils {
 			self::PAIR => 'AAVE-USD',
 			self::SYMBOL => 'tAAVE:USD',
 		],
+		'aavekwd' => [
+			self::DESCRIPTION => 'AAVE-KWD',
+			self::PAIR => 'AAVE-KWD',
+			self::SYMBOL => 'tAAVE:USD',
+		],
+		'aaveomr' => [
+			self::DESCRIPTION => 'AAVE-OMR',
+			self::PAIR => 'AAVE-OMR',
+			self::SYMBOL => 'tAAVE:USD',
+		],
+		'aavebhd' => [
+			self::DESCRIPTION => 'AAVE-BHD',
+			self::PAIR => 'AAVE-BHD',
+			self::SYMBOL => 'tAAVE:USD',
+		],
+		'aaveqar' => [
+			self::DESCRIPTION => 'AAVE-QAR',
+			self::PAIR => 'AAVE-QAR',
+			self::SYMBOL => 'tAAVE:USD',
+		],
 		'aaveusdt' => [
 			self::DESCRIPTION => 'AAVE-USDT',
 			self::PAIR => 'AAVE-USDT',
@@ -821,6 +1341,26 @@ class ConsoleUtils {
 			self::PAIR => 'BNT-USD',
 			self::SYMBOL => 'tBNTUSD',
 		],
+		'bntkwd' => [
+			self::DESCRIPTION => 'BNT-KWD',
+			self::PAIR => 'BNT-KWD',
+			self::SYMBOL => 'tBNTUSD',
+		],
+		'bntomr' => [
+			self::DESCRIPTION => 'BNT-OMR',
+			self::PAIR => 'BNT-OMR',
+			self::SYMBOL => 'tBNTUSD',
+		],
+		'bntbhd' => [
+			self::DESCRIPTION => 'BNT-BHD',
+			self::PAIR => 'BNT-BHD',
+			self::SYMBOL => 'tBNTUSD',
+		],
+		'bntqar' => [
+			self::DESCRIPTION => 'BNT-QAR',
+			self::PAIR => 'BNT-QAR',
+			self::SYMBOL => 'tBNTUSD',
+		],
 		// --------------------------------------------- ENJ pairs
 		'enjaed' => [
 			self::DESCRIPTION => 'ENJ-AED',
@@ -840,6 +1380,26 @@ class ConsoleUtils {
 		'enjusd' => [
 			self::DESCRIPTION => 'ENJ-USD',
 			self::PAIR => 'ENJ-USD',
+			self::SYMBOL => 'tENJUSD',
+		],
+		'enjkwd' => [
+			self::DESCRIPTION => 'ENJ-KWD',
+			self::PAIR => 'ENJ-KWD',
+			self::SYMBOL => 'tENJUSD',
+		],
+		'enjomr' => [
+			self::DESCRIPTION => 'ENJ-OMR',
+			self::PAIR => 'ENJ-OMR',
+			self::SYMBOL => 'tENJUSD',
+		],
+		'enjbhd' => [
+			self::DESCRIPTION => 'ENJ-BHD',
+			self::PAIR => 'ENJ-BHD',
+			self::SYMBOL => 'tENJUSD',
+		],
+		'enjqar' => [
+			self::DESCRIPTION => 'ENJ-QAR',
+			self::PAIR => 'ENJ-QAR',
 			self::SYMBOL => 'tENJUSD',
 		],
 		// --------------------------------------------- LRC pairs
@@ -863,6 +1423,26 @@ class ConsoleUtils {
 			self::PAIR => 'LRC-USD',
 			self::SYMBOL => 'tLRCUSD',
 		],
+		'lrckwd' => [
+			self::DESCRIPTION => 'LRC-KWD',
+			self::PAIR => 'LRC-KWD',
+			self::SYMBOL => 'tLRCUSD',
+		],
+		'lrcomr' => [
+			self::DESCRIPTION => 'LRC-OMR',
+			self::PAIR => 'LRC-OMR',
+			self::SYMBOL => 'tLRCUSD',
+		],
+		'lrcbhd' => [
+			self::DESCRIPTION => 'LRC-BHD',
+			self::PAIR => 'LRC-BHD',
+			self::SYMBOL => 'tLRCUSD',
+		],
+		'lrcqar' => [
+			self::DESCRIPTION => 'LRC-QAR',
+			self::PAIR => 'LRC-QAR',
+			self::SYMBOL => 'tLRCUSD',
+		],
 		// --------------------------------------------- MANA pairs
 		'manaaed' => [
 			self::DESCRIPTION => 'MANA-AED',
@@ -882,6 +1462,26 @@ class ConsoleUtils {
 		'manausd' => [
 			self::DESCRIPTION => 'MANA-USD',
 			self::PAIR => 'MANA-USD',
+			self::SYMBOL => 'tMNAUSD',
+		],
+		'manakwd' => [
+			self::DESCRIPTION => 'MANA-KWD',
+			self::PAIR => 'MANA-KWD',
+			self::SYMBOL => 'tMNAUSD',
+		],
+		'manaomr' => [
+			self::DESCRIPTION => 'MANA-OMR',
+			self::PAIR => 'MANA-OMR',
+			self::SYMBOL => 'tMNAUSD',
+		],
+		'manabhd' => [
+			self::DESCRIPTION => 'MANA-BHD',
+			self::PAIR => 'MANA-BHD',
+			self::SYMBOL => 'tMNAUSD',
+		],
+		'manaqar' => [
+			self::DESCRIPTION => 'MANA-QAR',
+			self::PAIR => 'MANA-QAR',
 			self::SYMBOL => 'tMNAUSD',
 		],
 		'manabtc' => [
@@ -908,6 +1508,26 @@ class ConsoleUtils {
 		'maticusd' => [
 			self::DESCRIPTION => 'MATIC-USD',
 			self::PAIR => 'MATIC-USD',
+			self::SYMBOL => 'tMATIC:USD',
+		],
+		'matickwd' => [
+			self::DESCRIPTION => 'MATIC-KWD',
+			self::PAIR => 'MATIC-KWD',
+			self::SYMBOL => 'tMATIC:USD',
+		],
+		'maticomr' => [
+			self::DESCRIPTION => 'MATIC-OMR',
+			self::PAIR => 'MATIC-OMR',
+			self::SYMBOL => 'tMATIC:USD',
+		],
+		'maticbhd' => [
+			self::DESCRIPTION => 'MATIC-BHD',
+			self::PAIR => 'MATIC-BHD',
+			self::SYMBOL => 'tMATIC:USD',
+		],
+		'maticqar' => [
+			self::DESCRIPTION => 'MATIC-QAR',
+			self::PAIR => 'MATIC-QAR',
 			self::SYMBOL => 'tMATIC:USD',
 		],
 		'maticusdt' => [
@@ -941,6 +1561,26 @@ class ConsoleUtils {
 			self::PAIR => 'STORJ-USD',
 			self::SYMBOL => 'tSTJUSD',
 		],
+		'storjkwd' => [
+			self::DESCRIPTION => 'STORJ-KWD',
+			self::PAIR => 'STORJ-KWD',
+			self::SYMBOL => 'tSTJUSD',
+		],
+		'storjomr' => [
+			self::DESCRIPTION => 'STORJ-OMR',
+			self::PAIR => 'STORJ-OMR',
+			self::SYMBOL => 'tSTJUSD',
+		],
+		'storjbhd' => [
+			self::DESCRIPTION => 'STORJ-BHD',
+			self::PAIR => 'STORJ-BHD',
+			self::SYMBOL => 'tSTJUSD',
+		],
+		'storjqar' => [
+			self::DESCRIPTION => 'STORJ-QAR',
+			self::PAIR => 'STORJ-QAR',
+			self::SYMBOL => 'tSTJUSD',
+		],
 		// --------------------------------------------- SUSHI pairs
 		'sushiaed' => [
 			self::DESCRIPTION => 'SUSHI-AED',
@@ -960,6 +1600,26 @@ class ConsoleUtils {
 		'sushiusd' => [
 			self::DESCRIPTION => 'SUSHI-USD',
 			self::PAIR => 'SUSHI-USD',
+			self::SYMBOL => 'tSUSHI:USD',
+		],
+		'sushikwd' => [
+			self::DESCRIPTION => 'SUSHI-KWD',
+			self::PAIR => 'SUSHI-KWD',
+			self::SYMBOL => 'tSUSHI:USD',
+		],
+		'sushiomr' => [
+			self::DESCRIPTION => 'SUSHI-OMR',
+			self::PAIR => 'SUSHI-OMR',
+			self::SYMBOL => 'tSUSHI:USD',
+		],
+		'sushibhd' => [
+			self::DESCRIPTION => 'SUSHI-BHD',
+			self::PAIR => 'SUSHI-BHD',
+			self::SYMBOL => 'tSUSHI:USD',
+		],
+		'sushiqar' => [
+			self::DESCRIPTION => 'SUSHI-QAR',
+			self::PAIR => 'SUSHI-QAR',
 			self::SYMBOL => 'tSUSHI:USD',
 		],
 		'sushiusdt' => [
@@ -988,6 +1648,26 @@ class ConsoleUtils {
 			self::PAIR => 'USDC-USD',
 			self::SYMBOL => 'tUDCUSD',
 		],
+		'usdckwd' => [
+			self::DESCRIPTION => 'USDC-KWD',
+			self::PAIR => 'USDC-KWD',
+			self::SYMBOL => 'tUDCUSD',
+		],
+		'usdcomr' => [
+			self::DESCRIPTION => 'USDC-OMR',
+			self::PAIR => 'USDC-OMR',
+			self::SYMBOL => 'tUDCUSD',
+		],
+		'usdcbhd' => [
+			self::DESCRIPTION => 'USDC-BHD',
+			self::PAIR => 'USDC-BHD',
+			self::SYMBOL => 'tUDCUSD',
+		],
+		'usdcqar' => [
+			self::DESCRIPTION => 'USDC-QAR',
+			self::PAIR => 'USDC-QAR',
+			self::SYMBOL => 'tUDCUSD',
+		],
 		'usdcusdt' => [
 			self::DESCRIPTION => 'USDC-USDT',
 			self::PAIR => 'USDC-USDT',
@@ -1014,6 +1694,26 @@ class ConsoleUtils {
 			self::PAIR => 'WAVES-USD',
 			self::SYMBOL => 'tWAVES:USD',
 		],
+		'waveskwd' => [
+			self::DESCRIPTION => 'WAVES-KWD',
+			self::PAIR => 'WAVES-KWD',
+			self::SYMBOL => 'tWAVES:USD',
+		],
+		'wavesomr' => [
+			self::DESCRIPTION => 'WAVES-OMR',
+			self::PAIR => 'WAVES-OMR',
+			self::SYMBOL => 'tWAVES:USD',
+		],
+		'wavesbhd' => [
+			self::DESCRIPTION => 'WAVES-BHD',
+			self::PAIR => 'WAVES-BHD',
+			self::SYMBOL => 'tWAVES:USD',
+		],
+		'wavesqar' => [
+			self::DESCRIPTION => 'WAVES-QAR',
+			self::PAIR => 'WAVES-QAR',
+			self::SYMBOL => 'tWAVES:USD',
+		],
 		'wavesusdt' => [
 			self::DESCRIPTION => 'WAVES-USDT',
 			self::PAIR => 'WAVES-USDT',
@@ -1038,6 +1738,26 @@ class ConsoleUtils {
 		'solusd' => [
 			self::DESCRIPTION => 'SOL-USD',
 			self::PAIR => 'SOL-USD',
+			self::SYMBOL => 'tSOLUSD',
+		],
+		'solkwd' => [
+			self::DESCRIPTION => 'SOL-KWD',
+			self::PAIR => 'SOL-KWD',
+			self::SYMBOL => 'tSOLUSD',
+		],
+		'solomr' => [
+			self::DESCRIPTION => 'SOL-OMR',
+			self::PAIR => 'SOL-OMR',
+			self::SYMBOL => 'tSOLUSD',
+		],
+		'solbhd' => [
+			self::DESCRIPTION => 'SOL-BHD',
+			self::PAIR => 'SOL-BHD',
+			self::SYMBOL => 'tSOLUSD',
+		],
+		'solqar' => [
+			self::DESCRIPTION => 'SOL-QAR',
+			self::PAIR => 'SOL-QAR',
 			self::SYMBOL => 'tSOLUSD',
 		],
 		'solusdt' => [
@@ -1071,6 +1791,26 @@ class ConsoleUtils {
 			self::PAIR => 'ADA-USD',
 			self::SYMBOL => 'tADAUSD',
 		],
+		'adakwd' => [
+			self::DESCRIPTION => 'ADA-KWD',
+			self::PAIR => 'ADA-KWD',
+			self::SYMBOL => 'tADAUSD',
+		],
+		'adaomr' => [
+			self::DESCRIPTION => 'ADA-OMR',
+			self::PAIR => 'ADA-OMR',
+			self::SYMBOL => 'tADAUSD',
+		],
+		'adabhd' => [
+			self::DESCRIPTION => 'ADA-BHD',
+			self::PAIR => 'ADA-BHD',
+			self::SYMBOL => 'tADAUSD',
+		],
+		'adaqar' => [
+			self::DESCRIPTION => 'ADA-QAR',
+			self::PAIR => 'ADA-QAR',
+			self::SYMBOL => 'tADAUSD',
+		],
 		'adausdt' => [
 			self::DESCRIPTION => 'ADA-USDT',
 			self::PAIR => 'ADA-USDT',
@@ -1095,6 +1835,26 @@ class ConsoleUtils {
 		'dotusd' => [
 			self::DESCRIPTION => 'DOT-USD',
 			self::PAIR => 'DOT-USD',
+			self::SYMBOL => 'tDOTUSD',
+		],
+		'dotkwd' => [
+			self::DESCRIPTION => 'DOT-KWD',
+			self::PAIR => 'DOT-KWD',
+			self::SYMBOL => 'tDOTUSD',
+		],
+		'dotomr' => [
+			self::DESCRIPTION => 'DOT-OMR',
+			self::PAIR => 'DOT-OMR',
+			self::SYMBOL => 'tDOTUSD',
+		],
+		'dotbhd' => [
+			self::DESCRIPTION => 'DOT-BHD',
+			self::PAIR => 'DOT-BHD',
+			self::SYMBOL => 'tDOTUSD',
+		],
+		'dotqar' => [
+			self::DESCRIPTION => 'DOT-QAR',
+			self::PAIR => 'DOT-QAR',
 			self::SYMBOL => 'tDOTUSD',
 		],
 		'dotusdt' => [
@@ -1128,6 +1888,26 @@ class ConsoleUtils {
 			self::PAIR => 'SHIB-USD',
 			self::SYMBOL => 'tSHIB:USD',
 		],
+		'shibkwd' => [
+			self::DESCRIPTION => 'SHIB-KWD',
+			self::PAIR => 'SHIB-KWD',
+			self::SYMBOL => 'tSHIB:USD',
+		],
+		'shibomr' => [
+			self::DESCRIPTION => 'SHIB-OMR',
+			self::PAIR => 'SHIB-OMR',
+			self::SYMBOL => 'tSHIB:USD',
+		],
+		'shibbhd' => [
+			self::DESCRIPTION => 'SHIB-BHD',
+			self::PAIR => 'SHIB-BHD',
+			self::SYMBOL => 'tSHIB:USD',
+		],
+		'shibqar' => [
+			self::DESCRIPTION => 'SHIB-QAR',
+			self::PAIR => 'SHIB-QAR',
+			self::SYMBOL => 'tSHIB:USD',
+		],
 		'shibusdt' => [
 			self::DESCRIPTION => 'SHIB-USDT',
 			self::PAIR => 'SHIB-USDT',
@@ -1152,6 +1932,26 @@ class ConsoleUtils {
 		'avaxusd' => [
 			self::DESCRIPTION => 'AVAX-USD',
 			self::PAIR => 'AVAX-USD',
+			self::SYMBOL => 'tAVAX:USD',
+		],
+		'avaxkwd' => [
+			self::DESCRIPTION => 'AVAX-KWD',
+			self::PAIR => 'AVAX-KWD',
+			self::SYMBOL => 'tAVAX:USD',
+		],
+		'avaxomr' => [
+			self::DESCRIPTION => 'AVAX-OMR',
+			self::PAIR => 'AVAX-OMR',
+			self::SYMBOL => 'tAVAX:USD',
+		],
+		'avaxbhd' => [
+			self::DESCRIPTION => 'AVAX-BHD',
+			self::PAIR => 'AVAX-BHD',
+			self::SYMBOL => 'tAVAX:USD',
+		],
+		'avaxqar' => [
+			self::DESCRIPTION => 'AVAX-QAR',
+			self::PAIR => 'AVAX-QAR',
 			self::SYMBOL => 'tAVAX:USD',
 		],
 		'avaxusdt' => [
@@ -1180,6 +1980,26 @@ class ConsoleUtils {
 			self::PAIR => 'NEAR-USD',
 			self::SYMBOL => 'tNEAR:USD',
 		],
+		'nearkwd' => [
+			self::DESCRIPTION => 'NEAR-KWD',
+			self::PAIR => 'NEAR-KWD',
+			self::SYMBOL => 'tNEAR:USD',
+		],
+		'nearomr' => [
+			self::DESCRIPTION => 'NEAR-OMR',
+			self::PAIR => 'NEAR-OMR',
+			self::SYMBOL => 'tNEAR:USD',
+		],
+		'nearbhd' => [
+			self::DESCRIPTION => 'NEAR-BHD',
+			self::PAIR => 'NEAR-BHD',
+			self::SYMBOL => 'tNEAR:USD',
+		],
+		'nearqar' => [
+			self::DESCRIPTION => 'NEAR-QAR',
+			self::PAIR => 'NEAR-QAR',
+			self::SYMBOL => 'tNEAR:USD',
+		],
 		'nearusdt' => [
 			self::DESCRIPTION => 'NEAR-USDT',
 			self::PAIR => 'NEAR-USDT',
@@ -1204,6 +2024,26 @@ class ConsoleUtils {
 		'ftmusd' => [
 			self::DESCRIPTION => 'FTM-USD',
 			self::PAIR => 'FTM-USD',
+			self::SYMBOL => 'tFTMUSD',
+		],
+		'ftmkwd' => [
+			self::DESCRIPTION => 'FTM-KWD',
+			self::PAIR => 'FTM-KWD',
+			self::SYMBOL => 'tFTMUSD',
+		],
+		'ftmomr' => [
+			self::DESCRIPTION => 'FTM-OMR',
+			self::PAIR => 'FTM-OMR',
+			self::SYMBOL => 'tFTMUSD',
+		],
+		'ftmbhd' => [
+			self::DESCRIPTION => 'FTM-BHD',
+			self::PAIR => 'FTM-BHD',
+			self::SYMBOL => 'tFTMUSD',
+		],
+		'ftmqar' => [
+			self::DESCRIPTION => 'FTM-QAR',
+			self::PAIR => 'FTM-QAR',
 			self::SYMBOL => 'tFTMUSD',
 		],
 		'ftmusdt' => [
@@ -1232,6 +2072,26 @@ class ConsoleUtils {
 			self::PAIR => 'WBTC-USD',
 			self::SYMBOL => 'tWBTUSD',
 		],
+		'wbtckwd' => [
+			self::DESCRIPTION => 'WBTC-KWD',
+			self::PAIR => 'WBTC-KWD',
+			self::SYMBOL => 'tWBTUSD',
+		],
+		'wbtcomr' => [
+			self::DESCRIPTION => 'WBTC-OMR',
+			self::PAIR => 'WBTC-OMR',
+			self::SYMBOL => 'tWBTUSD',
+		],
+		'wbtcbhd' => [
+			self::DESCRIPTION => 'WBTC-BHD',
+			self::PAIR => 'WBTC-BHD',
+			self::SYMBOL => 'tWBTUSD',
+		],
+		'wbtcqar' => [
+			self::DESCRIPTION => 'WBTC-QAR',
+			self::PAIR => 'WBTC-QAR',
+			self::SYMBOL => 'tWBTUSD',
+		],
 		// --------------------------------------------- ATOM pairs
 		'atomaed' => [
 			self::DESCRIPTION => 'ATOM-AED',
@@ -1251,6 +2111,26 @@ class ConsoleUtils {
 		'atomusd' => [
 			self::DESCRIPTION => 'ATOM-USD',
 			self::PAIR => 'ATOM-USD',
+			self::SYMBOL => 'tATOUSD',
+		],
+		'atomkwd' => [
+			self::DESCRIPTION => 'ATOM-KWD',
+			self::PAIR => 'ATOM-KWD',
+			self::SYMBOL => 'tATOUSD',
+		],
+		'atomomr' => [
+			self::DESCRIPTION => 'ATOM-OMR',
+			self::PAIR => 'ATOM-OMR',
+			self::SYMBOL => 'tATOUSD',
+		],
+		'atombhd' => [
+			self::DESCRIPTION => 'ATOM-BHD',
+			self::PAIR => 'ATOM-BHD',
+			self::SYMBOL => 'tATOUSD',
+		],
+		'atomqar' => [
+			self::DESCRIPTION => 'ATOM-QAR',
+			self::PAIR => 'ATOM-QAR',
 			self::SYMBOL => 'tATOUSD',
 		],
 		'atomusdt' => [
@@ -1289,6 +2169,26 @@ class ConsoleUtils {
 			self::PAIR => '1INCH-USD',
 			self::SYMBOL => 't1INCH:USD',
 		],
+		'1inchkwd' => [
+			self::DESCRIPTION => '1INCH-KWD',
+			self::PAIR => '1INCH-KWD',
+			self::SYMBOL => 't1INCH:USD',
+		],
+		'1inchomr' => [
+			self::DESCRIPTION => '1INCH-OMR',
+			self::PAIR => '1INCH-OMR',
+			self::SYMBOL => 't1INCH:USD',
+		],
+		'1inchbhd' => [
+			self::DESCRIPTION => '1INCH-BHD',
+			self::PAIR => '1INCH-BHD',
+			self::SYMBOL => 't1INCH:USD',
+		],
+		'1inchqar' => [
+			self::DESCRIPTION => '1INCH-QAR',
+			self::PAIR => '1INCH-QAR',
+			self::SYMBOL => 't1INCH:USD',
+		],
 		'1inchusdt' => [
 			self::DESCRIPTION => '1INCH-USDT',
 			self::PAIR => '1INCH-USDT',
@@ -1313,6 +2213,26 @@ class ConsoleUtils {
 		'antusd' => [
 			self::DESCRIPTION => 'ANT-USD',
 			self::PAIR => 'ANT-USD',
+			self::SYMBOL => 'tANTUSD',
+		],
+		'antkwd' => [
+			self::DESCRIPTION => 'ANT-KWD',
+			self::PAIR => 'ANT-KWD',
+			self::SYMBOL => 'tANTUSD',
+		],
+		'antomr' => [
+			self::DESCRIPTION => 'ANT-OMR',
+			self::PAIR => 'ANT-OMR',
+			self::SYMBOL => 'tANTUSD',
+		],
+		'antbhd' => [
+			self::DESCRIPTION => 'ANT-BHD',
+			self::PAIR => 'ANT-BHD',
+			self::SYMBOL => 'tANTUSD',
+		],
+		'antqar' => [
+			self::DESCRIPTION => 'ANT-QAR',
+			self::PAIR => 'ANT-QAR',
 			self::SYMBOL => 'tANTUSD',
 		],
 		'antbtc' => [
@@ -1346,6 +2266,26 @@ class ConsoleUtils {
 			self::PAIR => 'AXS-USD',
 			self::SYMBOL => 'tAXSUSD',
 		],
+		'axskwd' => [
+			self::DESCRIPTION => 'AXS-KWD',
+			self::PAIR => 'AXS-KWD',
+			self::SYMBOL => 'tAXSUSD',
+		],
+		'axsomr' => [
+			self::DESCRIPTION => 'AXS-OMR',
+			self::PAIR => 'AXS-OMR',
+			self::SYMBOL => 'tAXSUSD',
+		],
+		'axsbhd' => [
+			self::DESCRIPTION => 'AXS-BHD',
+			self::PAIR => 'AXS-BHD',
+			self::SYMBOL => 'tAXSUSD',
+		],
+		'axsqar' => [
+			self::DESCRIPTION => 'AXS-QAR',
+			self::PAIR => 'AXS-QAR',
+			self::SYMBOL => 'tAXSUSD',
+		],
 		'axsusdt' => [
 			self::DESCRIPTION => 'AXS-USDT',
 			self::PAIR => 'AXS-USDT',
@@ -1370,6 +2310,26 @@ class ConsoleUtils {
 		'bandusd' => [
 			self::DESCRIPTION => 'BAND-USD',
 			self::PAIR => 'BAND-USD',
+			self::SYMBOL => 'tBAND:USD',
+		],
+		'bandkwd' => [
+			self::DESCRIPTION => 'BAND-KWD',
+			self::PAIR => 'BAND-KWD',
+			self::SYMBOL => 'tBAND:USD',
+		],
+		'bandomr' => [
+			self::DESCRIPTION => 'BAND-OMR',
+			self::PAIR => 'BAND-OMR',
+			self::SYMBOL => 'tBAND:USD',
+		],
+		'bandbhd' => [
+			self::DESCRIPTION => 'BAND-BHD',
+			self::PAIR => 'BAND-BHD',
+			self::SYMBOL => 'tBAND:USD',
+		],
+		'bandqar' => [
+			self::DESCRIPTION => 'BAND-QAR',
+			self::PAIR => 'BAND-QAR',
 			self::SYMBOL => 'tBAND:USD',
 		],
 		'bandusdt' => [
@@ -1398,6 +2358,26 @@ class ConsoleUtils {
 			self::PAIR => 'CHZ-USD',
 			self::SYMBOL => 'tCHZUSD',
 		],
+		'chzkwd' => [
+			self::DESCRIPTION => 'CHZ-KWD',
+			self::PAIR => 'CHZ-KWD',
+			self::SYMBOL => 'tCHZUSD',
+		],
+		'chzomr' => [
+			self::DESCRIPTION => 'CHZ-OMR',
+			self::PAIR => 'CHZ-OMR',
+			self::SYMBOL => 'tCHZUSD',
+		],
+		'chzbhd' => [
+			self::DESCRIPTION => 'CHZ-BHD',
+			self::PAIR => 'CHZ-BHD',
+			self::SYMBOL => 'tCHZUSD',
+		],
+		'chzqar' => [
+			self::DESCRIPTION => 'CHZ-QAR',
+			self::PAIR => 'CHZ-QAR',
+			self::SYMBOL => 'tCHZUSD',
+		],
 		'chzusdt' => [
 			self::DESCRIPTION => 'CHZ-USDT',
 			self::PAIR => 'CHZ-USDT',
@@ -1422,6 +2402,26 @@ class ConsoleUtils {
 		'crvusd' => [
 			self::DESCRIPTION => 'CRV-USD',
 			self::PAIR => 'CRV-USD',
+			self::SYMBOL => 'tCRVUSD',
+		],
+		'crvkwd' => [
+			self::DESCRIPTION => 'CRV-KWD',
+			self::PAIR => 'CRV-KWD',
+			self::SYMBOL => 'tCRVUSD',
+		],
+		'crvomr' => [
+			self::DESCRIPTION => 'CRV-OMR',
+			self::PAIR => 'CRV-OMR',
+			self::SYMBOL => 'tCRVUSD',
+		],
+		'crvbhd' => [
+			self::DESCRIPTION => 'CRV-BHD',
+			self::PAIR => 'CRV-BHD',
+			self::SYMBOL => 'tCRVUSD',
+		],
+		'crvqar' => [
+			self::DESCRIPTION => 'CRV-QAR',
+			self::PAIR => 'CRV-QAR',
 			self::SYMBOL => 'tCRVUSD',
 		],
 		'crvusdt' => [
@@ -1450,6 +2450,26 @@ class ConsoleUtils {
 			self::PAIR => 'DGB-USD',
 			self::SYMBOL => 'tDGBUSD',
 		],
+		'dgbkwd' => [
+			self::DESCRIPTION => 'DGB-KWD',
+			self::PAIR => 'DGB-KWD',
+			self::SYMBOL => 'tDGBUSD',
+		],
+		'dgbomr' => [
+			self::DESCRIPTION => 'DGB-OMR',
+			self::PAIR => 'DGB-OMR',
+			self::SYMBOL => 'tDGBUSD',
+		],
+		'dgbbhd' => [
+			self::DESCRIPTION => 'DGB-BHD',
+			self::PAIR => 'DGB-BHD',
+			self::SYMBOL => 'tDGBUSD',
+		],
+		'dgbqar' => [
+			self::DESCRIPTION => 'DGB-QAR',
+			self::PAIR => 'DGB-QAR',
+			self::SYMBOL => 'tDGBUSD',
+		],
 		// --------------------------------------------- EGLD pairs
 		'egldaed' => [
 			self::DESCRIPTION => 'EGLD-AED',
@@ -1469,6 +2489,26 @@ class ConsoleUtils {
 		'egldusd' => [
 			self::DESCRIPTION => 'EGLD-USD',
 			self::PAIR => 'EGLD-USD',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'egldkwd' => [
+			self::DESCRIPTION => 'EGLD-KWD',
+			self::PAIR => 'EGLD-KWD',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'egldomr' => [
+			self::DESCRIPTION => 'EGLD-OMR',
+			self::PAIR => 'EGLD-OMR',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'egldbhd' => [
+			self::DESCRIPTION => 'EGLD-BHD',
+			self::PAIR => 'EGLD-BHD',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'egldqar' => [
+			self::DESCRIPTION => 'EGLD-QAR',
+			self::PAIR => 'EGLD-QAR',
 			self::SYMBOL => 'tEGLD:USD',
 		],
 		'egldusdt' => [
@@ -1497,6 +2537,26 @@ class ConsoleUtils {
 			self::PAIR => 'FIL-USD',
 			self::SYMBOL => 'tFILUSD',
 		],
+		'filkwd' => [
+			self::DESCRIPTION => 'FIL-KWD',
+			self::PAIR => 'FIL-KWD',
+			self::SYMBOL => 'tFILUSD',
+		],
+		'filomr' => [
+			self::DESCRIPTION => 'FIL-OMR',
+			self::PAIR => 'FIL-OMR',
+			self::SYMBOL => 'tFILUSD',
+		],
+		'filbhd' => [
+			self::DESCRIPTION => 'FIL-BHD',
+			self::PAIR => 'FIL-BHD',
+			self::SYMBOL => 'tFILUSD',
+		],
+		'filqar' => [
+			self::DESCRIPTION => 'FIL-QAR',
+			self::PAIR => 'FIL-QAR',
+			self::SYMBOL => 'tFILUSD',
+		],
 		'filusdt' => [
 			self::DESCRIPTION => 'FIL-USDT',
 			self::PAIR => 'FIL-USDT',
@@ -1521,6 +2581,26 @@ class ConsoleUtils {
 		'galausd' => [
 			self::DESCRIPTION => 'GALA-USD',
 			self::PAIR => 'GALA-USD',
+			self::SYMBOL => 'tGALA:USD',
+		],
+		'galakwd' => [
+			self::DESCRIPTION => 'GALA-KWD',
+			self::PAIR => 'GALA-KWD',
+			self::SYMBOL => 'tGALA:USD',
+		],
+		'galaomr' => [
+			self::DESCRIPTION => 'GALA-OMR',
+			self::PAIR => 'GALA-OMR',
+			self::SYMBOL => 'tGALA:USD',
+		],
+		'galabhd' => [
+			self::DESCRIPTION => 'GALA-BHD',
+			self::PAIR => 'GALA-BHD',
+			self::SYMBOL => 'tGALA:USD',
+		],
+		'galaqar' => [
+			self::DESCRIPTION => 'GALA-QAR',
+			self::PAIR => 'GALA-QAR',
 			self::SYMBOL => 'tGALA:USD',
 		],
 		'galausdt' => [
@@ -1549,6 +2629,26 @@ class ConsoleUtils {
 			self::PAIR => 'GNO-USD',
 			self::SYMBOL => 'tGNOUSD',
 		],
+		'gnokwd' => [
+			self::DESCRIPTION => 'GNO-KWD',
+			self::PAIR => 'GNO-KWD',
+			self::SYMBOL => 'tGNOUSD',
+		],
+		'gnoomr' => [
+			self::DESCRIPTION => 'GNO-OMR',
+			self::PAIR => 'GNO-OMR',
+			self::SYMBOL => 'tGNOUSD',
+		],
+		'gnobhd' => [
+			self::DESCRIPTION => 'GNO-BHD',
+			self::PAIR => 'GNO-BHD',
+			self::SYMBOL => 'tGNOUSD',
+		],
+		'gnoqar' => [
+			self::DESCRIPTION => 'GNO-QAR',
+			self::PAIR => 'GNO-QAR',
+			self::SYMBOL => 'tGNOUSD',
+		],
 		// --------------------------------------------- GRT pairs
 		'grtaed' => [
 			self::DESCRIPTION => 'GRT-AED',
@@ -1568,6 +2668,26 @@ class ConsoleUtils {
 		'grtusd' => [
 			self::DESCRIPTION => 'GRT-USD',
 			self::PAIR => 'GRT-USD',
+			self::SYMBOL => 'tGRTUSD',
+		],
+		'grtkwd' => [
+			self::DESCRIPTION => 'GRT-KWD',
+			self::PAIR => 'GRT-KWD',
+			self::SYMBOL => 'tGRTUSD',
+		],
+		'grtomr' => [
+			self::DESCRIPTION => 'GRT-OMR',
+			self::PAIR => 'GRT-OMR',
+			self::SYMBOL => 'tGRTUSD',
+		],
+		'grtbhd' => [
+			self::DESCRIPTION => 'GRT-BHD',
+			self::PAIR => 'GRT-BHD',
+			self::SYMBOL => 'tGRTUSD',
+		],
+		'grtqar' => [
+			self::DESCRIPTION => 'GRT-QAR',
+			self::PAIR => 'GRT-QAR',
 			self::SYMBOL => 'tGRTUSD',
 		],
 		'grtusdt' => [
@@ -1596,6 +2716,26 @@ class ConsoleUtils {
 			self::PAIR => 'IOTA-USD',
 			self::SYMBOL => 'tIOTUSD',
 		],
+		'iotakwd' => [
+			self::DESCRIPTION => 'IOTA-KWD',
+			self::PAIR => 'IOTA-KWD',
+			self::SYMBOL => 'tIOTUSD',
+		],
+		'iotaomr' => [
+			self::DESCRIPTION => 'IOTA-OMR',
+			self::PAIR => 'IOTA-OMR',
+			self::SYMBOL => 'tIOTUSD',
+		],
+		'iotabhd' => [
+			self::DESCRIPTION => 'IOTA-BHD',
+			self::PAIR => 'IOTA-BHD',
+			self::SYMBOL => 'tIOTUSD',
+		],
+		'iotaqar' => [
+			self::DESCRIPTION => 'IOTA-QAR',
+			self::PAIR => 'IOTA-QAR',
+			self::SYMBOL => 'tIOTUSD',
+		],
 		'iotabtc' => [
 			self::DESCRIPTION => 'IOTA-BTC',
 			self::PAIR => 'IOTA-BTC',
@@ -1622,6 +2762,26 @@ class ConsoleUtils {
 			self::PAIR => 'KSM-USD',
 			self::SYMBOL => 'tKSMUSD',
 		],
+		'ksmkwd' => [
+			self::DESCRIPTION => 'KSM-KWD',
+			self::PAIR => 'KSM-KWD',
+			self::SYMBOL => 'tKSMUSD',
+		],
+		'ksmomr' => [
+			self::DESCRIPTION => 'KSM-OMR',
+			self::PAIR => 'KSM-OMR',
+			self::SYMBOL => 'tKSMUSD',
+		],
+		'ksmbhd' => [
+			self::DESCRIPTION => 'KSM-BHD',
+			self::PAIR => 'KSM-BHD',
+			self::SYMBOL => 'tKSMUSD',
+		],
+		'ksmqar' => [
+			self::DESCRIPTION => 'KSM-QAR',
+			self::PAIR => 'KSM-QAR',
+			self::SYMBOL => 'tKSMUSD',
+		],
 		'ksmusdt' => [
 			self::DESCRIPTION => 'KSM-USDT',
 			self::PAIR => 'KSM-USDT',
@@ -1646,6 +2806,26 @@ class ConsoleUtils {
 		'leousd' => [
 			self::DESCRIPTION => 'LEO-USD',
 			self::PAIR => 'LEO-USD',
+			self::SYMBOL => 'tLEOUSD',
+		],
+		'leokwd' => [
+			self::DESCRIPTION => 'LEO-KWD',
+			self::PAIR => 'LEO-KWD',
+			self::SYMBOL => 'tLEOUSD',
+		],
+		'leoomr' => [
+			self::DESCRIPTION => 'LEO-OMR',
+			self::PAIR => 'LEO-OMR',
+			self::SYMBOL => 'tLEOUSD',
+		],
+		'leobhd' => [
+			self::DESCRIPTION => 'LEO-BHD',
+			self::PAIR => 'LEO-BHD',
+			self::SYMBOL => 'tLEOUSD',
+		],
+		'leoqar' => [
+			self::DESCRIPTION => 'LEO-QAR',
+			self::PAIR => 'LEO-QAR',
 			self::SYMBOL => 'tLEOUSD',
 		],
 		'leousdt' => [
@@ -1684,6 +2864,26 @@ class ConsoleUtils {
 			self::PAIR => 'OCEAN-USD',
 			self::SYMBOL => 'tOCEAN:USD',
 		],
+		'oceankwd' => [
+			self::DESCRIPTION => 'OCEAN-KWD',
+			self::PAIR => 'OCEAN-KWD',
+			self::SYMBOL => 'tOCEAN:USD',
+		],
+		'oceanomr' => [
+			self::DESCRIPTION => 'OCEAN-OMR',
+			self::PAIR => 'OCEAN-OMR',
+			self::SYMBOL => 'tOCEAN:USD',
+		],
+		'oceanbhd' => [
+			self::DESCRIPTION => 'OCEAN-BHD',
+			self::PAIR => 'OCEAN-BHD',
+			self::SYMBOL => 'tOCEAN:USD',
+		],
+		'oceanqar' => [
+			self::DESCRIPTION => 'OCEAN-QAR',
+			self::PAIR => 'OCEAN-QAR',
+			self::SYMBOL => 'tOCEAN:USD',
+		],
 		'oceanusdt' => [
 			self::DESCRIPTION => 'OCEAN-USDT',
 			self::PAIR => 'OCEAN-USDT',
@@ -1708,6 +2908,26 @@ class ConsoleUtils {
 		'qtumusd' => [
 			self::DESCRIPTION => 'QTUM-USD',
 			self::PAIR => 'QTUM-USD',
+			self::SYMBOL => 'tQTMUSD',
+		],
+		'qtumkwd' => [
+			self::DESCRIPTION => 'QTUM-KWD',
+			self::PAIR => 'QTUM-KWD',
+			self::SYMBOL => 'tQTMUSD',
+		],
+		'qtumomr' => [
+			self::DESCRIPTION => 'QTUM-OMR',
+			self::PAIR => 'QTUM-OMR',
+			self::SYMBOL => 'tQTMUSD',
+		],
+		'qtumbhd' => [
+			self::DESCRIPTION => 'QTUM-BHD',
+			self::PAIR => 'QTUM-BHD',
+			self::SYMBOL => 'tQTMUSD',
+		],
+		'qtumqar' => [
+			self::DESCRIPTION => 'QTUM-QAR',
+			self::PAIR => 'QTUM-QAR',
 			self::SYMBOL => 'tQTMUSD',
 		],
 		'qtumbtc' => [
@@ -1736,6 +2956,26 @@ class ConsoleUtils {
 			self::PAIR => 'SNX-USD',
 			self::SYMBOL => 'tSNXUSD',
 		],
+		'snxkwd' => [
+			self::DESCRIPTION => 'SNX-KWD',
+			self::PAIR => 'SNX-KWD',
+			self::SYMBOL => 'tSNXUSD',
+		],
+		'snxomr' => [
+			self::DESCRIPTION => 'SNX-OMR',
+			self::PAIR => 'SNX-OMR',
+			self::SYMBOL => 'tSNXUSD',
+		],
+		'snxbhd' => [
+			self::DESCRIPTION => 'SNX-BHD',
+			self::PAIR => 'SNX-BHD',
+			self::SYMBOL => 'tSNXUSD',
+		],
+		'snxqar' => [
+			self::DESCRIPTION => 'SNX-QAR',
+			self::PAIR => 'SNX-QAR',
+			self::SYMBOL => 'tSNXUSD',
+		],
 		'snxusdt' => [
 			self::DESCRIPTION => 'SNX-USDT',
 			self::PAIR => 'SNX-USDT',
@@ -1762,6 +3002,26 @@ class ConsoleUtils {
 			self::PAIR => 'THETA-USD',
 			self::SYMBOL => 'tTHETA:USD',
 		],
+		'thetakwd' => [
+			self::DESCRIPTION => 'THETA-KWD',
+			self::PAIR => 'THETA-KWD',
+			self::SYMBOL => 'tTHETA:USD',
+		],
+		'thetaomr' => [
+			self::DESCRIPTION => 'THETA-OMR',
+			self::PAIR => 'THETA-OMR',
+			self::SYMBOL => 'tTHETA:USD',
+		],
+		'thetabhd' => [
+			self::DESCRIPTION => 'THETA-BHD',
+			self::PAIR => 'THETA-BHD',
+			self::SYMBOL => 'tTHETA:USD',
+		],
+		'thetaqar' => [
+			self::DESCRIPTION => 'THETA-QAR',
+			self::PAIR => 'THETA-QAR',
+			self::SYMBOL => 'tTHETA:USD',
+		],
 		'thetausdt' => [
 			self::DESCRIPTION => 'THETA-USDT',
 			self::PAIR => 'THETA-USDT',
@@ -1786,6 +3046,26 @@ class ConsoleUtils {
 		'trxusd' => [
 			self::DESCRIPTION => 'TRX-USD',
 			self::PAIR => 'TRX-USD',
+			self::SYMBOL => 'tTRXUSD',
+		],
+		'trxkwd' => [
+			self::DESCRIPTION => 'TRX-KWD',
+			self::PAIR => 'TRX-KWD',
+			self::SYMBOL => 'tTRXUSD',
+		],
+		'trxomr' => [
+			self::DESCRIPTION => 'TRX-OMR',
+			self::PAIR => 'TRX-OMR',
+			self::SYMBOL => 'tTRXUSD',
+		],
+		'trxbhd' => [
+			self::DESCRIPTION => 'TRX-BHD',
+			self::PAIR => 'TRX-BHD',
+			self::SYMBOL => 'tTRXUSD',
+		],
+		'trxqar' => [
+			self::DESCRIPTION => 'TRX-QAR',
+			self::PAIR => 'TRX-QAR',
 			self::SYMBOL => 'tTRXUSD',
 		],
 		'trxusdt' => [
@@ -1824,6 +3104,26 @@ class ConsoleUtils {
 			self::PAIR => 'VET-USD',
 			self::SYMBOL => 'tVETUSD',
 		],
+		'vetkwd' => [
+			self::DESCRIPTION => 'VET-KWD',
+			self::PAIR => 'VET-KWD',
+			self::SYMBOL => 'tVETUSD',
+		],
+		'vetomr' => [
+			self::DESCRIPTION => 'VET-OMR',
+			self::PAIR => 'VET-OMR',
+			self::SYMBOL => 'tVETUSD',
+		],
+		'vetbhd' => [
+			self::DESCRIPTION => 'VET-BHD',
+			self::PAIR => 'VET-BHD',
+			self::SYMBOL => 'tVETUSD',
+		],
+		'vetqar' => [
+			self::DESCRIPTION => 'VET-QAR',
+			self::PAIR => 'VET-QAR',
+			self::SYMBOL => 'tVETUSD',
+		],
 		'vetusdt' => [
 			self::DESCRIPTION => 'VET-USDT',
 			self::PAIR => 'VET-USDT',
@@ -1855,6 +3155,26 @@ class ConsoleUtils {
 			self::PAIR => 'XVG-USD',
 			self::SYMBOL => 'tXVGUSD',
 		],
+		'xvgkwd' => [
+			self::DESCRIPTION => 'XVG-KWD',
+			self::PAIR => 'XVG-KWD',
+			self::SYMBOL => 'tXVGUSD',
+		],
+		'xvgomr' => [
+			self::DESCRIPTION => 'XVG-OMR',
+			self::PAIR => 'XVG-OMR',
+			self::SYMBOL => 'tXVGUSD',
+		],
+		'xvgbhd' => [
+			self::DESCRIPTION => 'XVG-BHD',
+			self::PAIR => 'XVG-BHD',
+			self::SYMBOL => 'tXVGUSD',
+		],
+		'xvgqar' => [
+			self::DESCRIPTION => 'XVG-QAR',
+			self::PAIR => 'XVG-QAR',
+			self::SYMBOL => 'tXVGUSD',
+		],
 		// --------------------------------------------- LUNA2 pairs
 		'luna2aed' => [
 			self::DESCRIPTION => 'LUNA2-AED',
@@ -1876,6 +3196,26 @@ class ConsoleUtils {
 			self::PAIR => 'LUNA2-USD',
 			self::SYMBOL => 'tLUNA2:USD',
 		],
+		'luna2kwd' => [
+			self::DESCRIPTION => 'LUNA2-KWD',
+			self::PAIR => 'LUNA2-KWD',
+			self::SYMBOL => 'tLUNA2:USD',
+		],
+		'luna2omr' => [
+			self::DESCRIPTION => 'LUNA2-OMR',
+			self::PAIR => 'LUNA2-OMR',
+			self::SYMBOL => 'tLUNA2:USD',
+		],
+		'luna2bhd' => [
+			self::DESCRIPTION => 'LUNA2-BHD',
+			self::PAIR => 'LUNA2-BHD',
+			self::SYMBOL => 'tLUNA2:USD',
+		],
+		'luna2qar' => [
+			self::DESCRIPTION => 'LUNA2-QAR',
+			self::PAIR => 'LUNA2-QAR',
+			self::SYMBOL => 'tLUNA2:USD',
+		],
 		'luna2usdt' => [
 			self::DESCRIPTION => 'LUNA2-USDT',
 			self::PAIR => 'LUNA2-USDT',
@@ -1895,6 +3235,26 @@ class ConsoleUtils {
 		'xautusd' => [
 			self::DESCRIPTION => 'XAUT-USD',
 			self::PAIR => 'XAUT-USD',
+			self::SYMBOL => 'tXAUT:USD',
+		],
+		'xautkwd' => [
+			self::DESCRIPTION => 'XAUT-KWD',
+			self::PAIR => 'XAUT-KWD',
+			self::SYMBOL => 'tXAUT:USD',
+		],
+		'xautomr' => [
+			self::DESCRIPTION => 'XAUT-OMR',
+			self::PAIR => 'XAUT-OMR',
+			self::SYMBOL => 'tXAUT:USD',
+		],
+		'xautbhd' => [
+			self::DESCRIPTION => 'XAUT-BHD',
+			self::PAIR => 'XAUT-BHD',
+			self::SYMBOL => 'tXAUT:USD',
+		],
+		'xautqar' => [
+			self::DESCRIPTION => 'XAUT-QAR',
+			self::PAIR => 'XAUT-QAR',
 			self::SYMBOL => 'tXAUT:USD',
 		],
 		'xautusdt' => [
@@ -1921,6 +3281,26 @@ class ConsoleUtils {
 		'arbusd' => [
 			self::DESCRIPTION => 'ARB-USD',
 			self::PAIR => 'ARB-USD',
+			self::SYMBOL => 'tARBUSD',
+		],
+		'arbkwd' => [
+			self::DESCRIPTION => 'ARB-KWD',
+			self::PAIR => 'ARB-KWD',
+			self::SYMBOL => 'tARBUSD',
+		],
+		'arbomr' => [
+			self::DESCRIPTION => 'ARB-OMR',
+			self::PAIR => 'ARB-OMR',
+			self::SYMBOL => 'tARBUSD',
+		],
+		'arbbhd' => [
+			self::DESCRIPTION => 'ARB-BHD',
+			self::PAIR => 'ARB-BHD',
+			self::SYMBOL => 'tARBUSD',
+		],
+		'arbqar' => [
+			self::DESCRIPTION => 'ARB-QAR',
+			self::PAIR => 'ARB-QAR',
 			self::SYMBOL => 'tARBUSD',
 		],
 		'arbusdt' => [
