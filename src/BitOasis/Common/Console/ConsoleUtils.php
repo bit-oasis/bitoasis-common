@@ -3308,6 +3308,442 @@ class ConsoleUtils {
 			self::PAIR => 'ARB-USDT',
 			self::SYMBOL => 'tARBUST',
 		],
+		// --------------------------------------------- APE pairs
+		'apeaed' => [
+			self::DESCRIPTION => 'APE-AED',
+			self::PAIR => 'APE-AED',
+			self::SYMBOL => 'tAPEUSD',
+		],
+		'apesar' => [
+			self::DESCRIPTION => 'APE-SAR',
+			self::PAIR => 'APE-SAR',
+			self::SYMBOL => 'tAPEUSD',
+		],
+		'apeusd' => [
+			self::DESCRIPTION => 'APE-USD',
+			self::PAIR => 'APE-USD',
+			self::SYMBOL => 'tAPEUSD',
+		],
+		'apekwd' => [
+			self::DESCRIPTION => 'APE-KWD',
+			self::PAIR => 'APE-KWD',
+			self::SYMBOL => 'tAPEUSD',
+		],
+		'apeomr' => [
+			self::DESCRIPTION => 'APE-OMR',
+			self::PAIR => 'APE-OMR',
+			self::SYMBOL => 'tAPEUSD',
+		],
+		'apebhd' => [
+			self::DESCRIPTION => 'APE-BHD',
+			self::PAIR => 'APE-BHD',
+			self::SYMBOL => 'tAPEUSD',
+		],
+		'apeqar' => [
+			self::DESCRIPTION => 'APE-QAR',
+			self::PAIR => 'APE-QAR',
+			self::SYMBOL => 'tAPEUSD',
+		],
+		'apeusdt' => [
+			self::DESCRIPTION => 'APE-USDT',
+			self::PAIR => 'APE-USDT',
+			self::SYMBOL => 'tAPEUST',
+		],
+		// --------------------------------------------- SAND pairs
+		'sandaed' => [
+			self::DESCRIPTION => 'SAND-AED',
+			self::PAIR => 'SAND-AED',
+			self::SYMBOL => 'tSAND:USD',
+		],
+		'sandsar' => [
+			self::DESCRIPTION => 'SAND-SAR',
+			self::PAIR => 'SAND-SAR',
+			self::SYMBOL => 'tSAND:USD',
+		],
+		'sandusd' => [
+			self::DESCRIPTION => 'SAND-USD',
+			self::PAIR => 'SAND-USD',
+			self::SYMBOL => 'tSAND:USD',
+		],
+		'sandkwd' => [
+			self::DESCRIPTION => 'SAND-KWD',
+			self::PAIR => 'SAND-KWD',
+			self::SYMBOL => 'tSAND:USD',
+		],
+		'sandomr' => [
+			self::DESCRIPTION => 'SAND-OMR',
+			self::PAIR => 'SAND-OMR',
+			self::SYMBOL => 'tSAND:USD',
+		],
+		'sandbhd' => [
+			self::DESCRIPTION => 'SAND-BHD',
+			self::PAIR => 'SAND-BHD',
+			self::SYMBOL => 'tSAND:USD',
+		],
+		'sandqar' => [
+			self::DESCRIPTION => 'SAND-QAR',
+			self::PAIR => 'SAND-QAR',
+			self::SYMBOL => 'tSAND:USD',
+		],
+		'sandusdt' => [
+			self::DESCRIPTION => 'SAND-USDT',
+			self::PAIR => 'SAND-USDT',
+			self::SYMBOL => 'tSAND:UST',
+		],
+		// --------------------------------------------- LDO pairs
+		'ldoaed' => [
+			self::DESCRIPTION => 'LDO-AED',
+			self::PAIR => 'LDO-AED',
+			self::SYMBOL => 'tLDOUSD',
+		],
+		'ldosar' => [
+			self::DESCRIPTION => 'LDO-SAR',
+			self::PAIR => 'LDO-SAR',
+			self::SYMBOL => 'tLDOUSD',
+		],
+		'ldousd' => [
+			self::DESCRIPTION => 'LDO-USD',
+			self::PAIR => 'LDO-USD',
+			self::SYMBOL => 'tLDOUSD',
+		],
+		'ldokwd' => [
+			self::DESCRIPTION => 'LDO-KWD',
+			self::PAIR => 'LDO-KWD',
+			self::SYMBOL => 'tLDOUSD',
+		],
+		'ldoomr' => [
+			self::DESCRIPTION => 'LDO-OMR',
+			self::PAIR => 'LDO-OMR',
+			self::SYMBOL => 'tLDOUSD',
+		],
+		'ldobhd' => [
+			self::DESCRIPTION => 'LDO-BHD',
+			self::PAIR => 'LDO-BHD',
+			self::SYMBOL => 'tLDOUSD',
+		],
+		'ldoqar' => [
+			self::DESCRIPTION => 'LDO-QAR',
+			self::PAIR => 'LDO-QAR',
+			self::SYMBOL => 'tLDOUSD',
+		],
+		'ldousdt' => [
+			self::DESCRIPTION => 'LDO-USDT',
+			self::PAIR => 'LDO-USDT',
+			self::SYMBOL => 'tLDOUST',
+		],
+		// --------------------------------------------- FET pairs
+		'fetaed' => [
+			self::DESCRIPTION => 'FET-AED',
+			self::PAIR => 'FET-AED',
+			self::SYMBOL => 'tFETUSD',
+		],
+		'fetsar' => [
+			self::DESCRIPTION => 'FET-SAR',
+			self::PAIR => 'FET-SAR',
+			self::SYMBOL => 'tFETUSD',
+		],
+		'fetusd' => [
+			self::DESCRIPTION => 'FET-USD',
+			self::PAIR => 'FET-USD',
+			self::SYMBOL => 'tFETUSD',
+		],
+		'fetkwd' => [
+			self::DESCRIPTION => 'FET-KWD',
+			self::PAIR => 'FET-KWD',
+			self::SYMBOL => 'tFETUSD',
+		],
+		'fetomr' => [
+			self::DESCRIPTION => 'FET-OMR',
+			self::PAIR => 'FET-OMR',
+			self::SYMBOL => 'tFETUSD',
+		],
+		'fetbhd' => [
+			self::DESCRIPTION => 'FET-BHD',
+			self::PAIR => 'FET-BHD',
+			self::SYMBOL => 'tFETUSD',
+		],
+		'fetqar' => [
+			self::DESCRIPTION => 'FET-QAR',
+			self::PAIR => 'FET-QAR',
+			self::SYMBOL => 'tFETUSD',
+		],
+		'fetusdt' => [
+			self::DESCRIPTION => 'FET-USDT',
+			self::PAIR => 'FET-USDT',
+			self::SYMBOL => 'tFETUST',
+		],
+		// --------------------------------------------- XDC pairs
+		'xdcaed' => [
+			self::DESCRIPTION => 'XDC-AED',
+			self::PAIR => 'XDC-AED',
+			self::SYMBOL => 'tXDCUSD',
+		],
+		'xdcsar' => [
+			self::DESCRIPTION => 'XDC-SAR',
+			self::PAIR => 'XDC-SAR',
+			self::SYMBOL => 'tXDCUSD',
+		],
+		'xdcusd' => [
+			self::DESCRIPTION => 'XDC-USD',
+			self::PAIR => 'XDC-USD',
+			self::SYMBOL => 'tXDCUSD',
+		],
+		'xdckwd' => [
+			self::DESCRIPTION => 'XDC-KWD',
+			self::PAIR => 'XDC-KWD',
+			self::SYMBOL => 'tXDCUSD',
+		],
+		'xdcomr' => [
+			self::DESCRIPTION => 'XDC-OMR',
+			self::PAIR => 'XDC-OMR',
+			self::SYMBOL => 'tXDCUSD',
+		],
+		'xdcbhd' => [
+			self::DESCRIPTION => 'XDC-BHD',
+			self::PAIR => 'XDC-BHD',
+			self::SYMBOL => 'tXDCUSD',
+		],
+		'xdcqar' => [
+			self::DESCRIPTION => 'XDC-QAR',
+			self::PAIR => 'XDC-QAR',
+			self::SYMBOL => 'tXDCUSD',
+		],
+		'xdcusdt' => [
+			self::DESCRIPTION => 'XDC-USDT',
+			self::PAIR => 'XDC-USDT',
+			self::SYMBOL => 'tXDCUST',
+		],
+		// --------------------------------------------- BTG pairs
+		'btgaed' => [
+			self::DESCRIPTION => 'BTG-AED',
+			self::PAIR => 'BTG-AED',
+			self::SYMBOL => 'tBTGUSD',
+		],
+		'btgsar' => [
+			self::DESCRIPTION => 'BTG-SAR',
+			self::PAIR => 'BTG-SAR',
+			self::SYMBOL => 'tBTGUSD',
+		],
+		'btgusd' => [
+			self::DESCRIPTION => 'BTG-USD',
+			self::PAIR => 'BTG-USD',
+			self::SYMBOL => 'tBTGUSD',
+		],
+		'btgkwd' => [
+			self::DESCRIPTION => 'BTG-KWD',
+			self::PAIR => 'BTG-KWD',
+			self::SYMBOL => 'tBTGUSD',
+		],
+		'btgomr' => [
+			self::DESCRIPTION => 'BTG-OMR',
+			self::PAIR => 'BTG-OMR',
+			self::SYMBOL => 'tBTGUSD',
+		],
+		'btgbhd' => [
+			self::DESCRIPTION => 'BTG-BHD',
+			self::PAIR => 'BTG-BHD',
+			self::SYMBOL => 'tBTGUSD',
+		],
+		'btgqar' => [
+			self::DESCRIPTION => 'BTG-QAR',
+			self::PAIR => 'BTG-QAR',
+			self::SYMBOL => 'tBTGUSD',
+		],
+		// --------------------------------------------- RLY pairs
+		'rlyaed' => [
+			self::DESCRIPTION => 'RLY-AED',
+			self::PAIR => 'RLY-AED',
+			self::SYMBOL => 'tRLYUSD',
+		],
+		'rlysar' => [
+			self::DESCRIPTION => 'RLY-SAR',
+			self::PAIR => 'RLY-SAR',
+			self::SYMBOL => 'tRLYUSD',
+		],
+		'rlyusd' => [
+			self::DESCRIPTION => 'RLY-USD',
+			self::PAIR => 'RLY-USD',
+			self::SYMBOL => 'tRLYUSD',
+		],
+		'rlykwd' => [
+			self::DESCRIPTION => 'RLY-KWD',
+			self::PAIR => 'RLY-KWD',
+			self::SYMBOL => 'tRLYUSD',
+		],
+		'rlyomr' => [
+			self::DESCRIPTION => 'RLY-OMR',
+			self::PAIR => 'RLY-OMR',
+			self::SYMBOL => 'tRLYUSD',
+		],
+		'rlybhd' => [
+			self::DESCRIPTION => 'RLY-BHD',
+			self::PAIR => 'RLY-BHD',
+			self::SYMBOL => 'tRLYUSD',
+		],
+		'rlyqar' => [
+			self::DESCRIPTION => 'RLY-QAR',
+			self::PAIR => 'RLY-QAR',
+			self::SYMBOL => 'tRLYUSD',
+		],
+		'rlyusdt' => [
+			self::DESCRIPTION => 'RLY-USDT',
+			self::PAIR => 'RLY-USDT',
+			self::SYMBOL => 'tRLYUST',
+		],
+		// --------------------------------------------- RBTC pairs
+		'rbtcaed' => [
+			self::DESCRIPTION => 'RBTC-AED',
+			self::PAIR => 'RBTC-AED',
+			self::SYMBOL => 'tRBTUSD',
+		],
+		'rbtcsar' => [
+			self::DESCRIPTION => 'RBTC-SAR',
+			self::PAIR => 'RBTC-SAR',
+			self::SYMBOL => 'tRBTUSD',
+		],
+		'rbtcusd' => [
+			self::DESCRIPTION => 'RBTC-USD',
+			self::PAIR => 'RBTC-USD',
+			self::SYMBOL => 'tRBTUSD',
+		],
+		'rbtckwd' => [
+			self::DESCRIPTION => 'RBTC-KWD',
+			self::PAIR => 'RBTC-KWD',
+			self::SYMBOL => 'tRBTUSD',
+		],
+		'rbtcomr' => [
+			self::DESCRIPTION => 'RBTC-OMR',
+			self::PAIR => 'RBTC-OMR',
+			self::SYMBOL => 'tRBTUSD',
+		],
+		'rbtcbhd' => [
+			self::DESCRIPTION => 'RBTC-BHD',
+			self::PAIR => 'RBTC-BHD',
+			self::SYMBOL => 'tRBTUSD',
+		],
+		'rbtcqar' => [
+			self::DESCRIPTION => 'RBTC-QAR',
+			self::PAIR => 'RBTC-QAR',
+			self::SYMBOL => 'tRBTUSD',
+		],
+		// --------------------------------------------- VRA pairs
+		'vraaed' => [
+			self::DESCRIPTION => 'VRA-AED',
+			self::PAIR => 'VRA-AED',
+			self::SYMBOL => 'tVRAUSD',
+		],
+		'vrasar' => [
+			self::DESCRIPTION => 'VRA-SAR',
+			self::PAIR => 'VRA-SAR',
+			self::SYMBOL => 'tVRAUSD',
+		],
+		'vrausd' => [
+			self::DESCRIPTION => 'VRA-USD',
+			self::PAIR => 'VRA-USD',
+			self::SYMBOL => 'tVRAUSD',
+		],
+		'vrakwd' => [
+			self::DESCRIPTION => 'VRA-KWD',
+			self::PAIR => 'VRA-KWD',
+			self::SYMBOL => 'tVRAUSD',
+		],
+		'vraomr' => [
+			self::DESCRIPTION => 'VRA-OMR',
+			self::PAIR => 'VRA-OMR',
+			self::SYMBOL => 'tVRAUSD',
+		],
+		'vrabhd' => [
+			self::DESCRIPTION => 'VRA-BHD',
+			self::PAIR => 'VRA-BHD',
+			self::SYMBOL => 'tVRAUSD',
+		],
+		'vraqar' => [
+			self::DESCRIPTION => 'VRA-QAR',
+			self::PAIR => 'VRA-QAR',
+			self::SYMBOL => 'tVRAUSD',
+		],
+		'vrausdt' => [
+			self::DESCRIPTION => 'VRA-USDT',
+			self::PAIR => 'VRA-USDT',
+			self::SYMBOL => 'tVRAUST',
+		],
+		// --------------------------------------------- UTK pairs
+		'utkaed' => [
+			self::DESCRIPTION => 'UTK-AED',
+			self::PAIR => 'UTK-AED',
+			self::SYMBOL => 'tUTKUSD',
+		],
+		'utksar' => [
+			self::DESCRIPTION => 'UTK-SAR',
+			self::PAIR => 'UTK-SAR',
+			self::SYMBOL => 'tUTKUSD',
+		],
+		'utkusd' => [
+			self::DESCRIPTION => 'UTK-USD',
+			self::PAIR => 'UTK-USD',
+			self::SYMBOL => 'tUTKUSD',
+		],
+		'utkkwd' => [
+			self::DESCRIPTION => 'UTK-KWD',
+			self::PAIR => 'UTK-KWD',
+			self::SYMBOL => 'tUTKUSD',
+		],
+		'utkomr' => [
+			self::DESCRIPTION => 'UTK-OMR',
+			self::PAIR => 'UTK-OMR',
+			self::SYMBOL => 'tUTKUSD',
+		],
+		'utkbhd' => [
+			self::DESCRIPTION => 'UTK-BHD',
+			self::PAIR => 'UTK-BHD',
+			self::SYMBOL => 'tUTKUSD',
+		],
+		'utkqar' => [
+			self::DESCRIPTION => 'UTK-QAR',
+			self::PAIR => 'UTK-QAR',
+			self::SYMBOL => 'tUTKUSD',
+		],
+		// --------------------------------------------- SGB pairs
+		'sgbaed' => [
+			self::DESCRIPTION => 'SGB-AED',
+			self::PAIR => 'SGB-AED',
+			self::SYMBOL => 'tSGBUSD',
+		],
+		'sgbsar' => [
+			self::DESCRIPTION => 'SGB-SAR',
+			self::PAIR => 'SGB-SAR',
+			self::SYMBOL => 'tSGBUSD',
+		],
+		'sgbusd' => [
+			self::DESCRIPTION => 'SGB-USD',
+			self::PAIR => 'SGB-USD',
+			self::SYMBOL => 'tSGBUSD',
+		],
+		'sgbkwd' => [
+			self::DESCRIPTION => 'SGB-KWD',
+			self::PAIR => 'SGB-KWD',
+			self::SYMBOL => 'tSGBUSD',
+		],
+		'sgbomr' => [
+			self::DESCRIPTION => 'SGB-OMR',
+			self::PAIR => 'SGB-OMR',
+			self::SYMBOL => 'tSGBUSD',
+		],
+		'sgbbhd' => [
+			self::DESCRIPTION => 'SGB-BHD',
+			self::PAIR => 'SGB-BHD',
+			self::SYMBOL => 'tSGBUSD',
+		],
+		'sgbqar' => [
+			self::DESCRIPTION => 'SGB-QAR',
+			self::PAIR => 'SGB-QAR',
+			self::SYMBOL => 'tSGBUSD',
+		],
+		'sgbusdt' => [
+			self::DESCRIPTION => 'SGB-USDT',
+			self::PAIR => 'SGB-USDT',
+			self::SYMBOL => 'tSGBUST',
+		],
 	];
 
 	private function __construct() {

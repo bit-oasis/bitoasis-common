@@ -729,6 +729,102 @@ class CurrencyCodePair implements Pair {
 		'ARB-BHD' => 'ARB-BHD',
 		'ARB-QAR' => 'ARB-QAR',
 		'ARB-USDT' => 'ARB-USDT',
+
+		'APE-AED' => 'APE-AED',
+		'APE-SAR' => 'APE-SAR',
+		'APE-USD' => 'APE-USD',
+		'APE-KWD' => 'APE-KWD',
+		'APE-OMR' => 'APE-OMR',
+		'APE-BHD' => 'APE-BHD',
+		'APE-QAR' => 'APE-QAR',
+		'APE-USDT' => 'APE-USDT',
+
+		'SAND-AED' => 'SAND-AED',
+		'SAND-SAR' => 'SAND-SAR',
+		'SAND-USD' => 'SAND-USD',
+		'SAND-KWD' => 'SAND-KWD',
+		'SAND-OMR' => 'SAND-OMR',
+		'SAND-BHD' => 'SAND-BHD',
+		'SAND-QAR' => 'SAND-QAR',
+		'SAND-USDT' => 'SAND-USDT',
+
+		'LDO-AED' => 'LDO-AED',
+		'LDO-SAR' => 'LDO-SAR',
+		'LDO-USD' => 'LDO-USD',
+		'LDO-KWD' => 'LDO-KWD',
+		'LDO-OMR' => 'LDO-OMR',
+		'LDO-BHD' => 'LDO-BHD',
+		'LDO-QAR' => 'LDO-QAR',
+		'LDO-USDT' => 'LDO-USDT',
+
+		'FET-AED' => 'FET-AED',
+		'FET-SAR' => 'FET-SAR',
+		'FET-USD' => 'FET-USD',
+		'FET-KWD' => 'FET-KWD',
+		'FET-OMR' => 'FET-OMR',
+		'FET-BHD' => 'FET-BHD',
+		'FET-QAR' => 'FET-QAR',
+		'FET-USDT' => 'FET-USDT',
+
+		'XDC-AED' => 'XDC-AED',
+		'XDC-SAR' => 'XDC-SAR',
+		'XDC-USD' => 'XDC-USD',
+		'XDC-KWD' => 'XDC-KWD',
+		'XDC-OMR' => 'XDC-OMR',
+		'XDC-BHD' => 'XDC-BHD',
+		'XDC-QAR' => 'XDC-QAR',
+		'XDC-USDT' => 'XDC-USDT',
+
+		'BTG-AED' => 'BTG-AED',
+		'BTG-SAR' => 'BTG-SAR',
+		'BTG-USD' => 'BTG-USD',
+		'BTG-KWD' => 'BTG-KWD',
+		'BTG-OMR' => 'BTG-OMR',
+		'BTG-BHD' => 'BTG-BHD',
+		'BTG-QAR' => 'BTG-QAR',
+
+		'RLY-AED' => 'RLY-AED',
+		'RLY-SAR' => 'RLY-SAR',
+		'RLY-USD' => 'RLY-USD',
+		'RLY-KWD' => 'RLY-KWD',
+		'RLY-OMR' => 'RLY-OMR',
+		'RLY-BHD' => 'RLY-BHD',
+		'RLY-QAR' => 'RLY-QAR',
+		'RLY-USDT' => 'RLY-USDT',
+
+		'RBTC-AED' => 'RBTC-AED',
+		'RBTC-SAR' => 'RBTC-SAR',
+		'RBTC-USD' => 'RBTC-USD',
+		'RBTC-KWD' => 'RBTC-KWD',
+		'RBTC-OMR' => 'RBTC-OMR',
+		'RBTC-BHD' => 'RBTC-BHD',
+		'RBTC-QAR' => 'RBTC-QAR',
+
+		'VRA-AED' => 'VRA-AED',
+		'VRA-SAR' => 'VRA-SAR',
+		'VRA-USD' => 'VRA-USD',
+		'VRA-KWD' => 'VRA-KWD',
+		'VRA-OMR' => 'VRA-OMR',
+		'VRA-BHD' => 'VRA-BHD',
+		'VRA-QAR' => 'VRA-QAR',
+		'VRA-USDT' => 'VRA-USDT',
+
+		'UTK-AED' => 'UTK-AED',
+		'UTK-SAR' => 'UTK-SAR',
+		'UTK-USD' => 'UTK-USD',
+		'UTK-KWD' => 'UTK-KWD',
+		'UTK-OMR' => 'UTK-OMR',
+		'UTK-BHD' => 'UTK-BHD',
+		'UTK-QAR' => 'UTK-QAR',
+
+		'SGB-AED' => 'SGB-AED',
+		'SGB-SAR' => 'SGB-SAR',
+		'SGB-USD' => 'SGB-USD',
+		'SGB-KWD' => 'SGB-KWD',
+		'SGB-OMR' => 'SGB-OMR',
+		'SGB-BHD' => 'SGB-BHD',
+		'SGB-QAR' => 'SGB-QAR',
+		'SGB-USDT' => 'SGB-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -965,6 +1061,36 @@ class CurrencyCodePair implements Pair {
 
 		'ARB-AED', 'ARB-SAR', 'ARB-USD', 'ARB-KWD', 'ARB-OMR', 'ARB-BHD', 'ARB-QAR',
 		'ARB-USDT',
+
+		'APE-AED', 'APE-SAR', 'APE-USD', 'APE-KWD', 'APE-OMR', 'APE-BHD', 'APE-QAR',
+		'APE-USDT',
+
+		'SAND-AED', 'SAND-SAR', 'SAND-USD', 'SAND-KWD', 'SAND-OMR', 'SAND-BHD', 'SAND-QAR',
+		'SAND-USDT',
+
+		'LDO-AED', 'LDO-SAR', 'LDO-USD', 'LDO-KWD', 'LDO-OMR', 'LDO-BHD', 'LDO-QAR',
+		'LDO-USDT',
+
+		'FET-AED', 'FET-SAR', 'FET-USD', 'FET-KWD', 'FET-OMR', 'FET-BHD', 'FET-QAR',
+		'FET-USDT',
+
+		'XDC-AED', 'XDC-SAR', 'XDC-USD', 'XDC-KWD', 'XDC-OMR', 'XDC-BHD', 'XDC-QAR',
+		'XDC-USDT',
+
+		'BTG-AED', 'BTG-SAR', 'BTG-USD', 'BTG-KWD', 'BTG-OMR', 'BTG-BHD', 'BTG-QAR',
+
+		'RLY-AED', 'RLY-SAR', 'RLY-USD', 'RLY-KWD', 'RLY-OMR', 'RLY-BHD', 'RLY-QAR',
+		'RLY-USDT',
+
+		'RBTC-AED', 'RBTC-SAR', 'RBTC-USD', 'RBTC-KWD', 'RBTC-OMR', 'RBTC-BHD', 'RBTC-QAR',
+
+		'VRA-AED', 'VRA-SAR', 'VRA-USD', 'VRA-KWD', 'VRA-OMR', 'VRA-BHD', 'VRA-QAR',
+		'VRA-USDT',
+
+		'UTK-AED', 'UTK-SAR', 'UTK-USD', 'UTK-KWD', 'UTK-OMR', 'UTK-BHD', 'UTK-QAR',
+
+		'SGB-AED', 'SGB-SAR', 'SGB-USD', 'SGB-KWD', 'SGB-OMR', 'SGB-BHD', 'SGB-QAR',
+		'SGB-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
