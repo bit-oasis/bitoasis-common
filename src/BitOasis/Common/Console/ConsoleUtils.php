@@ -250,11 +250,6 @@ class ConsoleUtils {
 			self::PAIR => 'BCH-QAR',
 			self::SYMBOL => 'tBCHN:USD',
 		],
-//		'bchbtc' => [
-//			self::DESCRIPTION => 'BCH-BTC',
-//			self::PAIR => 'BCH-BTC',
-//			self::SYMBOL => 'tBCHN:BTC',
-//		],
 		// --------------------------------------------- XRP pairs
 		'xrpaed' => [
 			self::DESCRIPTION => 'XRP-AED',
@@ -357,28 +352,6 @@ class ConsoleUtils {
 			self::PAIR => 'LTC-BTC',
 			self::SYMBOL => 'tLTCBTC',
 		],
-		// --------------------------------------------- ZEC pairs / Deprecated
-		'zecaed' => [
-			self::DESCRIPTION => 'ZEC',
-			self::PAIR => 'ZEC-AED',
-			self::SYMBOL => 'tZECUSD',
-		],
-		'zecbtc' => [
-			self::DESCRIPTION => 'ZEC-BTC',
-			self::PAIR => 'ZEC-BTC',
-			self::SYMBOL => 'tZECBTC',
-		],
-		// --------------------------------------------- XMR pairs / Deprecated
-		'xmraed' => [
-			self::DESCRIPTION => 'XMR',
-			self::PAIR => 'XMR-AED',
-			self::SYMBOL => 'tXMRUSD',
-		],
-		'xmrbtc' => [
-			self::DESCRIPTION => 'XMR',
-			self::PAIR => 'XMR-BTC',
-			self::SYMBOL => 'tXMRBTC',
-		],
 		// --------------------------------------------- XML pairs
 		'xlmaed' => [
 			self::DESCRIPTION => 'XLM-AED',
@@ -429,17 +402,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'XLM-BTC',
 			self::PAIR => 'XLM-BTC',
 			self::SYMBOL => 'tXLMBTC',
-		],
-		// --------------------------------------------- BSV pairs / Deprecated
-		'bsvaed' => [
-			self::DESCRIPTION => 'BSV',
-			self::PAIR => 'BSV-AED',
-			self::SYMBOL => 'tBSVUSD',
-		],
-		'bsvbtc' => [
-			self::DESCRIPTION => 'BSV-BTC',
-			self::PAIR => 'BSV-BTC',
-			self::SYMBOL => 'tBSVBTC',
 		],
 		// --------------------------------------------- EOS pairs
 		'eosaed' => [
@@ -629,16 +591,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'BAT-QAR',
 			self::PAIR => 'BAT-QAR',
 			self::SYMBOL => 'tBATUSD',
-		],
-		'batusdt' => [
-			self::DESCRIPTION => 'BAT-USDT',
-			self::PAIR => 'BAT-USDT',
-			self::SYMBOL => 'tBATUST',
-		],
-		'batbtc' => [
-			self::DESCRIPTION => 'BAT-BTC',
-			self::PAIR => 'BAT-BTC',
-			self::SYMBOL => 'tBATBTC',
 		],
 		// --------------------------------------------- ALGO pairs
 		'algoaed' => [
@@ -880,16 +832,6 @@ class ConsoleUtils {
 			self::PAIR => 'LINK-USDT',
 			self::SYMBOL => 'tLINK:UST',
 		],
-//		'linkbtc' => [
-//			self::DESCRIPTION => 'LINK-BTC',
-//			self::PAIR => 'LINK-BTC',
-//			self::SYMBOL => 'tLINK:BTC',
-//		],
-//		'linketh' => [
-//			self::DESCRIPTION => 'LINK-ETH',
-//			self::PAIR => 'LINK-ETH',
-//			self::SYMBOL => 'tLINK:ETH',
-//		],
 		// --------------------------------------------- DAI pairs
 		'daiaed' => [
 			self::DESCRIPTION => 'DAI-AED',
@@ -982,17 +924,6 @@ class ConsoleUtils {
 			self::PAIR => 'MKR-USDT',
 			self::SYMBOL => 'tMKRUST',
 		],
-		'mkrbtc' => [
-			self::DESCRIPTION => 'MKR-BTC',
-			self::PAIR => 'MKR-BTC',
-			self::SYMBOL => 'tMKRBTC',
-		],
-		// --------------------------------------------- REP pairs
-		'repaed' => [
-			self::DESCRIPTION => 'REP-AED',
-			self::PAIR => 'REP-AED',
-			self::SYMBOL => 'tREPUSD',
-		],
 		// --------------------------------------------- KNC pairs
 		'kncaed' => [
 			self::DESCRIPTION => 'KNC-AED',
@@ -1033,11 +964,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'KNC-QAR',
 			self::PAIR => 'KNC-QAR',
 			self::SYMBOL => 'tKNCUSD',
-		],
-		'kncbtc' => [
-			self::DESCRIPTION => 'KNC-BTC',
-			self::PAIR => 'KNC-BTC',
-			self::SYMBOL => 'tKNCBTC',
 		],
 		// --------------------------------------------- UNI pairs
 		'uniaed' => [
@@ -1361,47 +1287,6 @@ class ConsoleUtils {
 			self::PAIR => 'BNT-QAR',
 			self::SYMBOL => 'tBNTUSD',
 		],
-		// --------------------------------------------- ENJ pairs
-		'enjaed' => [
-			self::DESCRIPTION => 'ENJ-AED',
-			self::PAIR => 'ENJ-AED',
-			self::SYMBOL => 'tENJUSD',
-		],
-		'enjsar' => [
-			self::DESCRIPTION => 'ENJ-SAR',
-			self::PAIR => 'ENJ-SAR',
-			self::SYMBOL => 'tENJUSD',
-		],
-		'enjtry' => [
-			self::DESCRIPTION => 'ENJ-TRY',
-			self::PAIR => 'ENJ-TRY',
-			self::SYMBOL => 'tENJUSD',
-		],
-		'enjusd' => [
-			self::DESCRIPTION => 'ENJ-USD',
-			self::PAIR => 'ENJ-USD',
-			self::SYMBOL => 'tENJUSD',
-		],
-		'enjkwd' => [
-			self::DESCRIPTION => 'ENJ-KWD',
-			self::PAIR => 'ENJ-KWD',
-			self::SYMBOL => 'tENJUSD',
-		],
-		'enjomr' => [
-			self::DESCRIPTION => 'ENJ-OMR',
-			self::PAIR => 'ENJ-OMR',
-			self::SYMBOL => 'tENJUSD',
-		],
-		'enjbhd' => [
-			self::DESCRIPTION => 'ENJ-BHD',
-			self::PAIR => 'ENJ-BHD',
-			self::SYMBOL => 'tENJUSD',
-		],
-		'enjqar' => [
-			self::DESCRIPTION => 'ENJ-QAR',
-			self::PAIR => 'ENJ-QAR',
-			self::SYMBOL => 'tENJUSD',
-		],
 		// --------------------------------------------- LRC pairs
 		'lrcaed' => [
 			self::DESCRIPTION => 'LRC-AED',
@@ -1539,47 +1424,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'MATIC-BTC',
 			self::PAIR => 'MATIC-BTC',
 			self::SYMBOL => 'tMATIC:BTC',
-		],
-		// --------------------------------------------- STORJ pairs
-		'storjaed' => [
-			self::DESCRIPTION => 'STORJ-AED',
-			self::PAIR => 'STORJ-AED',
-			self::SYMBOL => 'tSTJUSD',
-		],
-		'storjsar' => [
-			self::DESCRIPTION => 'STORJ-SAR',
-			self::PAIR => 'STORJ-SAR',
-			self::SYMBOL => 'tSTJUSD',
-		],
-		'storjtry' => [
-			self::DESCRIPTION => 'STORJ-TRY',
-			self::PAIR => 'STORJ-TRY',
-			self::SYMBOL => 'tSTJUSD',
-		],
-		'storjusd' => [
-			self::DESCRIPTION => 'STORJ-USD',
-			self::PAIR => 'STORJ-USD',
-			self::SYMBOL => 'tSTJUSD',
-		],
-		'storjkwd' => [
-			self::DESCRIPTION => 'STORJ-KWD',
-			self::PAIR => 'STORJ-KWD',
-			self::SYMBOL => 'tSTJUSD',
-		],
-		'storjomr' => [
-			self::DESCRIPTION => 'STORJ-OMR',
-			self::PAIR => 'STORJ-OMR',
-			self::SYMBOL => 'tSTJUSD',
-		],
-		'storjbhd' => [
-			self::DESCRIPTION => 'STORJ-BHD',
-			self::PAIR => 'STORJ-BHD',
-			self::SYMBOL => 'tSTJUSD',
-		],
-		'storjqar' => [
-			self::DESCRIPTION => 'STORJ-QAR',
-			self::PAIR => 'STORJ-QAR',
-			self::SYMBOL => 'tSTJUSD',
 		],
 		// --------------------------------------------- SUSHI pairs
 		'sushiaed' => [
@@ -2143,11 +1987,6 @@ class ConsoleUtils {
 			self::PAIR => 'ATOM-BTC',
 			self::SYMBOL => 'tATOBTC',
 		],
-		'atometh' => [
-			self::DESCRIPTION => 'ATOM-ETH',
-			self::PAIR => 'ATOM-ETH',
-			self::SYMBOL => 'tATOETH',
-		],
 		// --------------------------------------------- 1INCH pairs
 		'1inchaed' => [
 			self::DESCRIPTION => '1INCH-AED',
@@ -2239,11 +2078,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'ANT-BTC',
 			self::PAIR => 'ANT-BTC',
 			self::SYMBOL => 'tANTBTC',
-		],
-		'anteth' => [
-			self::DESCRIPTION => 'ANT-ETH',
-			self::PAIR => 'ANT-ETH',
-			self::SYMBOL => 'tANTETH',
 		],
 		// --------------------------------------------- AXS pairs
 		'axsaed' => [
@@ -2930,11 +2764,6 @@ class ConsoleUtils {
 			self::PAIR => 'QTUM-QAR',
 			self::SYMBOL => 'tQTMUSD',
 		],
-		'qtumbtc' => [
-			self::DESCRIPTION => 'QTUM-BTC',
-			self::PAIR => 'QTUM-BTC',
-			self::SYMBOL => 'tQTMBTC',
-		],
 		// --------------------------------------------- SNX pairs
 		'snxaed' => [
 			self::DESCRIPTION => 'SNX-AED',
@@ -3512,42 +3341,6 @@ class ConsoleUtils {
 			self::DESCRIPTION => 'XDC-USDT',
 			self::PAIR => 'XDC-USDT',
 			self::SYMBOL => 'tXDCUST',
-		],
-		// --------------------------------------------- BTG pairs
-		'btgaed' => [
-			self::DESCRIPTION => 'BTG-AED',
-			self::PAIR => 'BTG-AED',
-			self::SYMBOL => 'tBTGUSD',
-		],
-		'btgsar' => [
-			self::DESCRIPTION => 'BTG-SAR',
-			self::PAIR => 'BTG-SAR',
-			self::SYMBOL => 'tBTGUSD',
-		],
-		'btgusd' => [
-			self::DESCRIPTION => 'BTG-USD',
-			self::PAIR => 'BTG-USD',
-			self::SYMBOL => 'tBTGUSD',
-		],
-		'btgkwd' => [
-			self::DESCRIPTION => 'BTG-KWD',
-			self::PAIR => 'BTG-KWD',
-			self::SYMBOL => 'tBTGUSD',
-		],
-		'btgomr' => [
-			self::DESCRIPTION => 'BTG-OMR',
-			self::PAIR => 'BTG-OMR',
-			self::SYMBOL => 'tBTGUSD',
-		],
-		'btgbhd' => [
-			self::DESCRIPTION => 'BTG-BHD',
-			self::PAIR => 'BTG-BHD',
-			self::SYMBOL => 'tBTGUSD',
-		],
-		'btgqar' => [
-			self::DESCRIPTION => 'BTG-QAR',
-			self::PAIR => 'BTG-QAR',
-			self::SYMBOL => 'tBTGUSD',
 		],
 		// --------------------------------------------- RLY pairs
 		'rlyaed' => [
