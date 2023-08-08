@@ -52,7 +52,6 @@ class CurrencyCodePair implements Pair {
 		'BCH-OMR' => 'BCH-OMR',
 		'BCH-BHD' => 'BCH-BHD',
 		'BCH-QAR' => 'BCH-QAR',
-		'BCH-BTC' => 'BCH-BTC',
 
 		'XRP-AED' => 'XRP-AED',
 		'XRP-SAR' => 'XRP-SAR',
@@ -87,12 +86,6 @@ class CurrencyCodePair implements Pair {
 		'LTC-USDT' => 'LTC-USDT',
 		'LTC-BTC' => 'LTC-BTC',
 
-		'ZEC-AED' => 'ZEC-AED',
-		'ZEC-BTC' => 'ZEC-BTC',
-
-		'XMR-AED' => 'XMR-AED',
-		'XMR-BTC' => 'XMR-BTC',
-
 		'XLM-AED' => 'XLM-AED',
 		'XLM-SAR' => 'XLM-SAR',
 		'XLM-TRY' => 'XLM-TRY',
@@ -115,9 +108,6 @@ class CurrencyCodePair implements Pair {
 		'EOS-USDT' => 'EOS-USDT',
 		'EOS-BTC' => 'EOS-BTC',
 		'EOS-ETH' => 'EOS-ETH',
-
-		'BSV-AED' => 'BSV-AED',
-		'BSV-BTC' => 'BSV-BTC',
 
 		'OMG-AED' => 'OMG-AED',
 		'OMG-SAR' => 'OMG-SAR',
@@ -147,8 +137,6 @@ class CurrencyCodePair implements Pair {
 		'BAT-OMR' => 'BAT-OMR',
 		'BAT-BHD' => 'BAT-BHD',
 		'BAT-QAR' => 'BAT-QAR',
-		'BAT-USDT' => 'BAT-USDT',
-		'BAT-BTC' => 'BAT-BTC',
 
 		'ALGO-AED' => 'ALGO-AED',
 		'ALGO-SAR' => 'ALGO-SAR',
@@ -201,8 +189,6 @@ class CurrencyCodePair implements Pair {
 		'LINK-BHD' => 'LINK-BHD',
 		'LINK-QAR' => 'LINK-QAR',
 		'LINK-USDT' => 'LINK-USDT',
-		'LINK-BTC' => 'LINK-BTC',
-		'LINK-ETH' => 'LINK-ETH',
 
 		'DAI-AED' => 'DAI-AED',
 		'DAI-SAR' => 'DAI-SAR',
@@ -223,9 +209,6 @@ class CurrencyCodePair implements Pair {
 		'MKR-BHD' => 'MKR-BHD',
 		'MKR-QAR' => 'MKR-QAR',
 		'MKR-USDT' => 'MKR-USDT',
-		'MKR-BTC' => 'MKR-BTC',
-
-		'REP-AED' => 'REP-AED',
 
 		'KNC-AED' => 'KNC-AED',
 		'KNC-SAR' => 'KNC-SAR',
@@ -235,7 +218,6 @@ class CurrencyCodePair implements Pair {
 		'KNC-OMR' => 'KNC-OMR',
 		'KNC-BHD' => 'KNC-BHD',
 		'KNC-QAR' => 'KNC-QAR',
-		'KNC-BTC' => 'KNC-BTC',
 
 		'UNI-AED' => 'UNI-AED',
 		'UNI-SAR' => 'UNI-SAR',
@@ -307,15 +289,6 @@ class CurrencyCodePair implements Pair {
 		'BNT-BHD' => 'BNT-BHD',
 		'BNT-QAR' => 'BNT-QAR',
 
-		'ENJ-AED' => 'ENJ-AED',
-		'ENJ-SAR' => 'ENJ-SAR',
-		'ENJ-TRY' => 'ENJ-TRY',
-		'ENJ-USD' => 'ENJ-USD',
-		'ENJ-KWD' => 'ENJ-KWD',
-		'ENJ-OMR' => 'ENJ-OMR',
-		'ENJ-BHD' => 'ENJ-BHD',
-		'ENJ-QAR' => 'ENJ-QAR',
-
 		'LRC-AED' => 'LRC-AED',
 		'LRC-SAR' => 'LRC-SAR',
 		'LRC-TRY' => 'LRC-TRY',
@@ -345,15 +318,6 @@ class CurrencyCodePair implements Pair {
 		'MATIC-QAR' => 'MATIC-QAR',
 		'MATIC-USDT' => 'MATIC-USDT',
 		'MATIC-BTC' => 'MATIC-BTC',
-
-		'STORJ-AED' => 'STORJ-AED',
-		'STORJ-SAR' => 'STORJ-SAR',
-		'STORJ-TRY' => 'STORJ-TRY',
-		'STORJ-USD' => 'STORJ-USD',
-		'STORJ-KWD' => 'STORJ-KWD',
-		'STORJ-OMR' => 'STORJ-OMR',
-		'STORJ-BHD' => 'STORJ-BHD',
-		'STORJ-QAR' => 'STORJ-QAR',
 
 		'SUSHI-AED' => 'SUSHI-AED',
 		'SUSHI-SAR' => 'SUSHI-SAR',
@@ -476,7 +440,6 @@ class CurrencyCodePair implements Pair {
 		'ATOM-QAR' => 'ATOM-QAR',
 		'ATOM-USDT' => 'ATOM-USDT',
 		'ATOM-BTC' => 'ATOM-BTC',
-		'ATOM-ETH' => 'ATOM-ETH',
 
 		'1INCH-AED' => '1INCH-AED',
 		'1INCH-SAR' => '1INCH-SAR',
@@ -497,7 +460,6 @@ class CurrencyCodePair implements Pair {
 		'ANT-BHD' => 'ANT-BHD',
 		'ANT-QAR' => 'ANT-QAR',
 		'ANT-BTC' => 'ANT-BTC',
-		'ANT-ETH' => 'ANT-ETH',
 
 		'AXS-AED' => 'AXS-AED',
 		'AXS-SAR' => 'AXS-SAR',
@@ -647,7 +609,6 @@ class CurrencyCodePair implements Pair {
 		'QTUM-OMR' => 'QTUM-OMR',
 		'QTUM-BHD' => 'QTUM-BHD',
 		'QTUM-QAR' => 'QTUM-QAR',
-		'QTUM-BTC' => 'QTUM-BTC',
 
 		'SNX-AED' => 'SNX-AED',
 		'SNX-SAR' => 'SNX-SAR',
@@ -774,14 +735,6 @@ class CurrencyCodePair implements Pair {
 		'XDC-BHD' => 'XDC-BHD',
 		'XDC-QAR' => 'XDC-QAR',
 		'XDC-USDT' => 'XDC-USDT',
-
-		'BTG-AED' => 'BTG-AED',
-		'BTG-SAR' => 'BTG-SAR',
-		'BTG-USD' => 'BTG-USD',
-		'BTG-KWD' => 'BTG-KWD',
-		'BTG-OMR' => 'BTG-OMR',
-		'BTG-BHD' => 'BTG-BHD',
-		'BTG-QAR' => 'BTG-QAR',
 
 		'RLY-AED' => 'RLY-AED',
 		'RLY-SAR' => 'RLY-SAR',
