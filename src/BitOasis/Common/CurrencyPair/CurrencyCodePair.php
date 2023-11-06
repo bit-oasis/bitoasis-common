@@ -170,17 +170,6 @@ class CurrencyCodePair implements Pair {
 		'USDT-BHD' => 'USDT-BHD',
 		'USDT-QAR' => 'USDT-QAR',
 
-		'NEO-AED' => 'NEO-AED',
-		'NEO-SAR' => 'NEO-SAR',
-		'NEO-TRY' => 'NEO-TRY',
-		'NEO-USD' => 'NEO-USD',
-		'NEO-KWD' => 'NEO-KWD',
-		'NEO-OMR' => 'NEO-OMR',
-		'NEO-BHD' => 'NEO-BHD',
-		'NEO-QAR' => 'NEO-QAR',
-		'NEO-USDT' => 'NEO-USDT',
-		'NEO-BTC' => 'NEO-BTC',
-
 		'XTZ-AED' => 'XTZ-AED',
 		'XTZ-SAR' => 'XTZ-SAR',
 		'XTZ-TRY' => 'XTZ-TRY',
@@ -375,16 +364,6 @@ class CurrencyCodePair implements Pair {
 		'USDC-QAR' => 'USDC-QAR',
 		'USDC-USDT' => 'USDC-USDT',
 
-		'WAVES-AED' => 'WAVES-AED',
-		'WAVES-SAR' => 'WAVES-SAR',
-		'WAVES-TRY' => 'WAVES-TRY',
-		'WAVES-USD' => 'WAVES-USD',
-		'WAVES-KWD' => 'WAVES-KWD',
-		'WAVES-OMR' => 'WAVES-OMR',
-		'WAVES-BHD' => 'WAVES-BHD',
-		'WAVES-QAR' => 'WAVES-QAR',
-		'WAVES-USDT' => 'WAVES-USDT',
-
 		'SOL-AED' => 'SOL-AED',
 		'SOL-SAR' => 'SOL-SAR',
 		'SOL-TRY' => 'SOL-TRY',
@@ -426,16 +405,6 @@ class CurrencyCodePair implements Pair {
 		'SHIB-BHD' => 'SHIB-BHD',
 		'SHIB-QAR' => 'SHIB-QAR',
 		'SHIB-USDT' => 'SHIB-USDT',
-
-		'AVAX-AED' => 'AVAX-AED',
-		'AVAX-SAR' => 'AVAX-SAR',
-		'AVAX-TRY' => 'AVAX-TRY',
-		'AVAX-USD' => 'AVAX-USD',
-		'AVAX-KWD' => 'AVAX-KWD',
-		'AVAX-OMR' => 'AVAX-OMR',
-		'AVAX-BHD' => 'AVAX-BHD',
-		'AVAX-QAR' => 'AVAX-QAR',
-		'AVAX-USDT' => 'AVAX-USDT',
 
 		'NEAR-AED' => 'NEAR-AED',
 		'NEAR-SAR' => 'NEAR-SAR',
@@ -539,35 +508,6 @@ class CurrencyCodePair implements Pair {
 		'CRV-QAR' => 'CRV-QAR',
 		'CRV-USDT' => 'CRV-USDT',
 
-		'DGB-AED' => 'DGB-AED',
-		'DGB-SAR' => 'DGB-SAR',
-		'DGB-TRY' => 'DGB-TRY',
-		'DGB-USD' => 'DGB-USD',
-		'DGB-KWD' => 'DGB-KWD',
-		'DGB-OMR' => 'DGB-OMR',
-		'DGB-BHD' => 'DGB-BHD',
-		'DGB-QAR' => 'DGB-QAR',
-
-		'EGLD-AED' => 'EGLD-AED',
-		'EGLD-SAR' => 'EGLD-SAR',
-		'EGLD-TRY' => 'EGLD-TRY',
-		'EGLD-USD' => 'EGLD-USD',
-		'EGLD-KWD' => 'EGLD-KWD',
-		'EGLD-OMR' => 'EGLD-OMR',
-		'EGLD-BHD' => 'EGLD-BHD',
-		'EGLD-QAR' => 'EGLD-QAR',
-		'EGLD-USDT' => 'EGLD-USDT',
-
-		'FIL-AED' => 'FIL-AED',
-		'FIL-SAR' => 'FIL-SAR',
-		'FIL-TRY' => 'FIL-TRY',
-		'FIL-USD' => 'FIL-USD',
-		'FIL-KWD' => 'FIL-KWD',
-		'FIL-OMR' => 'FIL-OMR',
-		'FIL-BHD' => 'FIL-BHD',
-		'FIL-QAR' => 'FIL-QAR',
-		'FIL-USDT' => 'FIL-USDT',
-
 		'GALA-AED' => 'GALA-AED',
 		'GALA-SAR' => 'GALA-SAR',
 		'GALA-TRY' => 'GALA-TRY',
@@ -596,16 +536,6 @@ class CurrencyCodePair implements Pair {
 		'GRT-BHD' => 'GRT-BHD',
 		'GRT-QAR' => 'GRT-QAR',
 		'GRT-USDT' => 'GRT-USDT',
-
-		'IOTA-AED' => 'IOTA-AED',
-		'IOTA-SAR' => 'IOTA-SAR',
-		'IOTA-TRY' => 'IOTA-TRY',
-		'IOTA-USD' => 'IOTA-USD',
-		'IOTA-KWD' => 'IOTA-KWD',
-		'IOTA-OMR' => 'IOTA-OMR',
-		'IOTA-BHD' => 'IOTA-BHD',
-		'IOTA-QAR' => 'IOTA-QAR',
-		'IOTA-BTC' => 'IOTA-BTC',
 
 		'KSM-AED' => 'KSM-AED',
 		'KSM-SAR' => 'KSM-SAR',
@@ -639,16 +569,6 @@ class CurrencyCodePair implements Pair {
 		'OCEAN-QAR' => 'OCEAN-QAR',
 		'OCEAN-USDT' => 'OCEAN-USDT',
 
-		'QTUM-AED' => 'QTUM-AED',
-		'QTUM-SAR' => 'QTUM-SAR',
-		'QTUM-TRY' => 'QTUM-TRY',
-		'QTUM-USD' => 'QTUM-USD',
-		'QTUM-KWD' => 'QTUM-KWD',
-		'QTUM-OMR' => 'QTUM-OMR',
-		'QTUM-BHD' => 'QTUM-BHD',
-		'QTUM-QAR' => 'QTUM-QAR',
-		'QTUM-BTC' => 'QTUM-BTC',
-
 		'SNX-AED' => 'SNX-AED',
 		'SNX-SAR' => 'SNX-SAR',
 		'SNX-TRY' => 'SNX-TRY',
@@ -658,16 +578,6 @@ class CurrencyCodePair implements Pair {
 		'SNX-BHD' => 'SNX-BHD',
 		'SNX-QAR' => 'SNX-QAR',
 		'SNX-USDT' => 'SNX-USDT',
-
-		'THETA-AED' => 'THETA-AED',
-		'THETA-SAR' => 'THETA-SAR',
-		'THETA-TRY' => 'THETA-TRY',
-		'THETA-USD' => 'THETA-USD',
-		'THETA-KWD' => 'THETA-KWD',
-		'THETA-OMR' => 'THETA-OMR',
-		'THETA-BHD' => 'THETA-BHD',
-		'THETA-QAR' => 'THETA-QAR',
-		'THETA-USDT' => 'THETA-USDT',
 
 		'TRX-AED' => 'TRX-AED',
 		'TRX-SAR' => 'TRX-SAR',
@@ -680,26 +590,6 @@ class CurrencyCodePair implements Pair {
 		'TRX-USDT' => 'TRX-USDT',
 		'TRX-BTC' => 'TRX-BTC',
 		'TRX-ETH' => 'TRX-ETH',
-
-		'VET-AED' => 'VET-AED',
-		'VET-SAR' => 'VET-SAR',
-		'VET-TRY' => 'VET-TRY',
-		'VET-USD' => 'VET-USD',
-		'VET-KWD' => 'VET-KWD',
-		'VET-OMR' => 'VET-OMR',
-		'VET-BHD' => 'VET-BHD',
-		'VET-QAR' => 'VET-QAR',
-		'VET-USDT' => 'VET-USDT',
-		'VET-BTC' => 'VET-BTC',
-
-		'XVG-AED' => 'XVG-AED',
-		'XVG-SAR' => 'XVG-SAR',
-		'XVG-TRY' => 'XVG-TRY',
-		'XVG-USD' => 'XVG-USD',
-		'XVG-KWD' => 'XVG-KWD',
-		'XVG-OMR' => 'XVG-OMR',
-		'XVG-BHD' => 'XVG-BHD',
-		'XVG-QAR' => 'XVG-QAR',
 
 		'LUNA2-AED' => 'LUNA2-AED',
 		'LUNA2-SAR' => 'LUNA2-SAR',
@@ -879,9 +769,10 @@ class CurrencyCodePair implements Pair {
 
 		'USDT-AED', 'USDT-SAR', 'USDT-TRY', 'USDT-USD', 'USDT-KWD', 'USDT-OMR', 'USDT-BHD', 'USDT-QAR',
 
+		// De-listed (keeping for historical support)
 		'NEO-AED', 'NEO-SAR', 'NEO-TRY', 'NEO-USD', 'NEO-KWD', 'NEO-OMR', 'NEO-BHD', 'NEO-QAR',
 		'NEO-USDT', 'NEO-BTC',
-		'NEO-ETH', // De-listed (keeping for historical support)
+		'NEO-ETH',
 
 		'XTZ-AED', 'XTZ-SAR', 'XTZ-TRY', 'XTZ-USD', 'XTZ-KWD', 'XTZ-OMR', 'XTZ-BHD', 'XTZ-QAR',
 		'XTZ-USDT', 'XTZ-BTC',
@@ -940,6 +831,7 @@ class CurrencyCodePair implements Pair {
 		'USDC-AED', 'USDC-SAR', 'USDC-TRY', 'USDC-USD', 'USDC-KWD', 'USDC-OMR', 'USDC-BHD', 'USDC-QAR',
 		'USDC-USDT',
 
+		// De-listed (keeping for historical support)
 		'WAVES-AED', 'WAVES-SAR', 'WAVES-TRY', 'WAVES-USD', 'WAVES-KWD', 'WAVES-OMR', 'WAVES-BHD', 'WAVES-QAR',
 		'WAVES-USDT',
 
@@ -955,6 +847,7 @@ class CurrencyCodePair implements Pair {
 		'SHIB-AED', 'SHIB-SAR', 'SHIB-TRY', 'SHIB-USD', 'SHIB-KWD', 'SHIB-OMR', 'SHIB-BHD', 'SHIB-QAR',
 		'SHIB-USDT',
 
+		// De-listed (keeping for historical support)
 		'AVAX-AED', 'AVAX-SAR', 'AVAX-TRY', 'AVAX-USD', 'AVAX-KWD', 'AVAX-OMR', 'AVAX-BHD', 'AVAX-QAR',
 		'AVAX-USDT',
 
@@ -991,11 +884,14 @@ class CurrencyCodePair implements Pair {
 		'CRV-AED', 'CRV-SAR', 'CRV-TRY', 'CRV-USD', 'CRV-KWD', 'CRV-OMR', 'CRV-BHD', 'CRV-QAR',
 		'CRV-USDT',
 
+		// De-listed (keeping for historical support)
 		'DGB-AED', 'DGB-SAR', 'DGB-TRY', 'DGB-USD', 'DGB-KWD', 'DGB-OMR', 'DGB-BHD', 'DGB-QAR',
 
+		// De-listed (keeping for historical support)
 		'EGLD-AED', 'EGLD-SAR', 'EGLD-TRY', 'EGLD-USD', 'EGLD-KWD', 'EGLD-OMR', 'EGLD-BHD', 'EGLD-QAR',
 		'EGLD-USDT',
 
+		// De-listed (keeping for historical support)
 		'FIL-AED', 'FIL-SAR', 'FIL-TRY', 'FIL-USD', 'FIL-KWD', 'FIL-OMR', 'FIL-BHD', 'FIL-QAR',
 		'FIL-USDT',
 
@@ -1011,9 +907,10 @@ class CurrencyCodePair implements Pair {
 		'GRT-AED', 'GRT-SAR', 'GRT-TRY', 'GRT-USD', 'GRT-KWD', 'GRT-OMR', 'GRT-BHD', 'GRT-QAR',
 		'GRT-USDT',
 
+		// De-listed (keeping for historical support)
 		'IOTA-AED', 'IOTA-SAR', 'IOTA-TRY', 'IOTA-USD', 'IOTA-KWD', 'IOTA-OMR', 'IOTA-BHD', 'IOTA-QAR',
 		'IOTA-BTC',
-		'IOTA-ETH', // De-listed
+		'IOTA-ETH',
 
 		'KSM-AED', 'KSM-SAR', 'KSM-TRY', 'KSM-USD', 'KSM-KWD', 'KSM-OMR', 'KSM-BHD', 'KSM-QAR',
 		'KSM-USDT',
@@ -1028,12 +925,14 @@ class CurrencyCodePair implements Pair {
 		'OCEAN-AED', 'OCEAN-SAR', 'OCEAN-TRY', 'OCEAN-USD', 'OCEAN-KWD', 'OCEAN-OMR', 'OCEAN-BHD', 'OCEAN-QAR',
 		'OCEAN-USDT',
 
+		// De-listed (keeping for historical support)
 		'QTUM-AED', 'QTUM-SAR', 'QTUM-TRY', 'QTUM-USD', 'QTUM-KWD', 'QTUM-OMR', 'QTUM-BHD', 'QTUM-QAR',
 		'QTUM-BTC',
 
 		'SNX-AED', 'SNX-SAR', 'SNX-TRY', 'SNX-USD', 'SNX-KWD', 'SNX-OMR', 'SNX-BHD', 'SNX-QAR',
 		'SNX-USDT',
 
+		// De-listed (keeping for historical support)
 		'THETA-AED', 'THETA-SAR', 'THETA-TRY', 'THETA-USD', 'THETA-KWD', 'THETA-OMR', 'THETA-BHD', 'THETA-QAR',
 		'THETA-USDT',
 
@@ -1048,9 +947,11 @@ class CurrencyCodePair implements Pair {
 		'UST-AED', 'UST-SAR', 'UST-TRY', 'UST-USD',
 		'UST-USDT',
 
+		// De-listed (keeping for historical support)
 		'VET-AED', 'VET-SAR', 'VET-TRY', 'VET-USD', 'VET-KWD', 'VET-OMR', 'VET-BHD', 'VET-QAR',
 		'VET-USDT', 'VET-BTC',
 
+		// De-listed (keeping for historical support)
 		'XVG-AED', 'XVG-SAR', 'XVG-TRY', 'XVG-USD', 'XVG-KWD', 'XVG-OMR', 'XVG-BHD', 'XVG-QAR',
 
 		'LUNA2-AED', 'LUNA2-SAR', 'LUNA2-TRY', 'LUNA2-USD', 'LUNA2-KWD', 'LUNA2-OMR', 'LUNA2-BHD', 'LUNA2-QAR',
