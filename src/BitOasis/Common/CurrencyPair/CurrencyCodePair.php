@@ -271,15 +271,6 @@ class CurrencyCodePair implements Pair {
 		'AAVE-QAR' => 'AAVE-QAR',
 		'AAVE-USDT' => 'AAVE-USDT',
 
-		'BNT-AED' => 'BNT-AED',
-		'BNT-SAR' => 'BNT-SAR',
-		'BNT-TRY' => 'BNT-TRY',
-		'BNT-USD' => 'BNT-USD',
-		'BNT-KWD' => 'BNT-KWD',
-		'BNT-OMR' => 'BNT-OMR',
-		'BNT-BHD' => 'BNT-BHD',
-		'BNT-QAR' => 'BNT-QAR',
-
 		'LRC-AED' => 'LRC-AED',
 		'LRC-SAR' => 'LRC-SAR',
 		'LRC-TRY' => 'LRC-TRY',
@@ -645,14 +636,6 @@ class CurrencyCodePair implements Pair {
 		'VRA-QAR' => 'VRA-QAR',
 		'VRA-USDT' => 'VRA-USDT',
 
-		'UTK-AED' => 'UTK-AED',
-		'UTK-SAR' => 'UTK-SAR',
-		'UTK-USD' => 'UTK-USD',
-		'UTK-KWD' => 'UTK-KWD',
-		'UTK-OMR' => 'UTK-OMR',
-		'UTK-BHD' => 'UTK-BHD',
-		'UTK-QAR' => 'UTK-QAR',
-
 		'SGB-AED' => 'SGB-AED',
 		'SGB-SAR' => 'SGB-SAR',
 		'SGB-USD' => 'SGB-USD',
@@ -762,6 +745,7 @@ class CurrencyCodePair implements Pair {
 		'AAVE-AED', 'AAVE-SAR', 'AAVE-TRY', 'AAVE-USD', 'AAVE-KWD', 'AAVE-OMR', 'AAVE-BHD', 'AAVE-QAR',
 		'AAVE-USDT',
 
+		// De-listed (keeping for historical support)
 		'BNT-AED', 'BNT-SAR', 'BNT-TRY', 'BNT-USD', 'BNT-KWD', 'BNT-OMR', 'BNT-BHD', 'BNT-QAR',
 
 		// De-listed (keeping for historical support)
@@ -945,6 +929,7 @@ class CurrencyCodePair implements Pair {
 		'VRA-AED', 'VRA-SAR', 'VRA-USD', 'VRA-KWD', 'VRA-OMR', 'VRA-BHD', 'VRA-QAR',
 		'VRA-USDT',
 
+		// De-listed (keeping for historical support)
 		'UTK-AED', 'UTK-SAR', 'UTK-USD', 'UTK-KWD', 'UTK-OMR', 'UTK-BHD', 'UTK-QAR',
 
 		'SGB-AED', 'SGB-SAR', 'SGB-USD', 'SGB-KWD', 'SGB-OMR', 'SGB-BHD', 'SGB-QAR',
