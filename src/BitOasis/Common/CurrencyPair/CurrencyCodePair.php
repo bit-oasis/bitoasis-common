@@ -644,6 +644,96 @@ class CurrencyCodePair implements Pair {
 		'SGB-BHD' => 'SGB-BHD',
 		'SGB-QAR' => 'SGB-QAR',
 		'SGB-USDT' => 'SGB-USDT',
+
+		'BLUR-AED' => 'BLUR-AED',
+		'BLUR-SAR' => 'BLUR-SAR',
+		'BLUR-USD' => 'BLUR-USD',
+		'BLUR-KWD' => 'BLUR-KWD',
+		'BLUR-OMR' => 'BLUR-OMR',
+		'BLUR-BHD' => 'BLUR-BHD',
+		'BLUR-QAR' => 'BLUR-QAR',
+		'BLUR-USDT' => 'BLUR-USDT',
+
+		'OP-AED' => 'OP-AED',
+		'OP-SAR' => 'OP-SAR',
+		'OP-USD' => 'OP-USD',
+		'OP-KWD' => 'OP-KWD',
+		'OP-OMR' => 'OP-OMR',
+		'OP-BHD' => 'OP-BHD',
+		'OP-QAR' => 'OP-QAR',
+		'OP-USDT' => 'OP-USDT',
+
+		'QRDO-AED' => 'QRDO-AED',
+		'QRDO-SAR' => 'QRDO-SAR',
+		'QRDO-USD' => 'QRDO-USD',
+		'QRDO-KWD' => 'QRDO-KWD',
+		'QRDO-OMR' => 'QRDO-OMR',
+		'QRDO-BHD' => 'QRDO-BHD',
+		'QRDO-QAR' => 'QRDO-QAR',
+		'QRDO-USDT' => 'QRDO-USDT',
+
+		'BOSON-AED' => 'BOSON-AED',
+		'BOSON-SAR' => 'BOSON-SAR',
+		'BOSON-USD' => 'BOSON-USD',
+		'BOSON-KWD' => 'BOSON-KWD',
+		'BOSON-OMR' => 'BOSON-OMR',
+		'BOSON-BHD' => 'BOSON-BHD',
+		'BOSON-QAR' => 'BOSON-QAR',
+		'BOSON-USDT' => 'BOSON-USDT',
+
+		'FLOKI-AED' => 'FLOKI-AED',
+		'FLOKI-SAR' => 'FLOKI-SAR',
+		'FLOKI-USD' => 'FLOKI-USD',
+		'FLOKI-KWD' => 'FLOKI-KWD',
+		'FLOKI-OMR' => 'FLOKI-OMR',
+		'FLOKI-BHD' => 'FLOKI-BHD',
+		'FLOKI-QAR' => 'FLOKI-QAR',
+		'FLOKI-USDT' => 'FLOKI-USDT',
+
+		'TUSD-AED' => 'TUSD-AED',
+		'TUSD-SAR' => 'TUSD-SAR',
+		'TUSD-USD' => 'TUSD-USD',
+		'TUSD-KWD' => 'TUSD-KWD',
+		'TUSD-OMR' => 'TUSD-OMR',
+		'TUSD-BHD' => 'TUSD-BHD',
+		'TUSD-QAR' => 'TUSD-QAR',
+		'TUSD-USDT' => 'TUSD-USDT',
+
+		'WILD-AED' => 'WILD-AED',
+		'WILD-SAR' => 'WILD-SAR',
+		'WILD-USD' => 'WILD-USD',
+		'WILD-KWD' => 'WILD-KWD',
+		'WILD-OMR' => 'WILD-OMR',
+		'WILD-BHD' => 'WILD-BHD',
+		'WILD-QAR' => 'WILD-QAR',
+		'WILD-USDT' => 'WILD-USDT',
+
+		'SUI-AED' => 'SUI-AED',
+		'SUI-SAR' => 'SUI-SAR',
+		'SUI-USD' => 'SUI-USD',
+		'SUI-KWD' => 'SUI-KWD',
+		'SUI-OMR' => 'SUI-OMR',
+		'SUI-BHD' => 'SUI-BHD',
+		'SUI-QAR' => 'SUI-QAR',
+		'SUI-USDT' => 'SUI-USDT',
+
+		'SEI-AED' => 'SEI-AED',
+		'SEI-SAR' => 'SEI-SAR',
+		'SEI-USD' => 'SEI-USD',
+		'SEI-KWD' => 'SEI-KWD',
+		'SEI-OMR' => 'SEI-OMR',
+		'SEI-BHD' => 'SEI-BHD',
+		'SEI-QAR' => 'SEI-QAR',
+		'SEI-USDT' => 'SEI-USDT',
+
+		'TON-AED' => 'TON-AED',
+		'TON-SAR' => 'TON-SAR',
+		'TON-USD' => 'TON-USD',
+		'TON-KWD' => 'TON-KWD',
+		'TON-OMR' => 'TON-OMR',
+		'TON-BHD' => 'TON-BHD',
+		'TON-QAR' => 'TON-QAR',
+		'TON-USDT' => 'TON-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -880,8 +970,7 @@ class CurrencyCodePair implements Pair {
 		'TRX-USDT', 'TRX-BTC', 'TRX-ETH',
 
 		// TUSD is De-listed (keeping for historical support)
-		'TUSD-AED', 'TUSD-SAR', 'TUSD-TRY', 'TUSD-USD',
-		'TUSD-USDT',
+		'TUSD-TRY',
 
 		// UST is De-listed (keeping for historical support)
 		'UST-AED', 'UST-SAR', 'UST-TRY', 'UST-USD',
@@ -934,6 +1023,37 @@ class CurrencyCodePair implements Pair {
 
 		'SGB-AED', 'SGB-SAR', 'SGB-USD', 'SGB-KWD', 'SGB-OMR', 'SGB-BHD', 'SGB-QAR',
 		'SGB-USDT',
+
+		'BLUR-AED', 'BLUR-SAR', 'BLUR-USD', 'BLUR-KWD', 'BLUR-OMR', 'BLUR-BHD', 'BLUR-QAR',
+		'BLUR-USDT',
+
+		'OP-AED', 'OP-SAR', 'OP-USD', 'OP-KWD', 'OP-OMR', 'OP-BHD', 'OP-QAR',
+		'OP-USDT',
+
+		'QRDO-AED', 'QRDO-SAR', 'QRDO-USD', 'QRDO-KWD', 'QRDO-OMR', 'QRDO-BHD', 'QRDO-QAR',
+		'QRDO-USDT',
+
+		'BOSON-AED', 'BOSON-SAR', 'BOSON-USD', 'BOSON-KWD', 'BOSON-OMR', 'BOSON-BHD', 'BOSON-QAR',
+		'BOSON-USDT',
+
+		'FLOKI-AED', 'FLOKI-SAR', 'FLOKI-USD', 'FLOKI-KWD', 'FLOKI-OMR', 'FLOKI-BHD', 'FLOKI-QAR',
+		'FLOKI-USDT',
+
+		'TUSD-AED', 'TUSD-SAR', 'TUSD-USD', 'TUSD-KWD', 'TUSD-OMR', 'TUSD-BHD', 'TUSD-QAR',
+		'TUSD-USDT',
+
+		'WILD-AED', 'WILD-SAR', 'WILD-USD', 'WILD-KWD', 'WILD-OMR', 'WILD-BHD', 'WILD-QAR',
+		'WILD-USDT',
+
+		'SUI-AED', 'SUI-SAR', 'SUI-USD', 'SUI-KWD', 'SUI-OMR', 'SUI-BHD', 'SUI-QAR',
+		'SUI-USDT',
+
+		'SEI-AED', 'SEI-SAR', 'SEI-USD', 'SEI-KWD', 'SEI-OMR', 'SEI-BHD', 'SEI-QAR',
+		'SEI-USDT',
+
+		'TON-AED', 'TON-SAR', 'TON-USD', 'TON-KWD', 'TON-OMR', 'TON-BHD', 'TON-QAR',
+		'TON-USDT',
+
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
