@@ -3783,7 +3783,7 @@ class ConsoleUtils {
 		'blurusdt' => [
 			self::DESCRIPTION => 'BLUR-USDT',
 			self::PAIR => 'BLUR-USDT',
-			self::SYMBOL => 'tBLUR:USD',
+			self::SYMBOL => 'tBLUR:UST',
 		],
 		// --------------------------------------------- OP pairs
 		'opaed' => [
@@ -3824,7 +3824,7 @@ class ConsoleUtils {
 		'opusdt' => [
 			self::DESCRIPTION => 'OP-USDT',
 			self::PAIR => 'OP-USDT',
-			self::SYMBOL => 'tOPXUSD',
+			self::SYMBOL => 'tOPXUST',
 		],
 		// --------------------------------------------- QRDO pairs
 		'qrdoaed' => [
@@ -3865,7 +3865,7 @@ class ConsoleUtils {
 		'qrdousdt' => [
 			self::DESCRIPTION => 'QRDO-USDT',
 			self::PAIR => 'QRDO-USDT',
-			self::SYMBOL => 'tQRDO:USD',
+			self::SYMBOL => 'tQRDO:UST',
 		],
 		// --------------------------------------------- BOSON pairs
 		'bosonaed' => [
@@ -3906,7 +3906,7 @@ class ConsoleUtils {
 		'bosonusdt' => [
 			self::DESCRIPTION => 'BOSON-USDT',
 			self::PAIR => 'BOSON-USDT',
-			self::SYMBOL => 'tBOSON:USD',
+			self::SYMBOL => 'tBOSON:UST',
 		],
 		// --------------------------------------------- FLOKI pairs
 		'flokiaed' => [
@@ -3947,7 +3947,7 @@ class ConsoleUtils {
 		'flokiusdt' => [
 			self::DESCRIPTION => 'FLOKI-USDT',
 			self::PAIR => 'FLOKI-USDT',
-			self::SYMBOL => 'tFLOKI:USD',
+			self::SYMBOL => 'tFLOKI:UST',
 		],
 		// --------------------------------------------- TUSD pairs
 		'tusdaed' => [
@@ -3988,7 +3988,7 @@ class ConsoleUtils {
 		'tusdusdt' => [
 			self::DESCRIPTION => 'TUSD-USDT',
 			self::PAIR => 'TUSD-USDT',
-			self::SYMBOL => 'tTSDUSD',
+			self::SYMBOL => 'tTSDUST',
 		],
 		// --------------------------------------------- WILD pairs
 		'wildaed' => [
@@ -4029,7 +4029,7 @@ class ConsoleUtils {
 		'wildusdt' => [
 			self::DESCRIPTION => 'WILD-USDT',
 			self::PAIR => 'WILD-USDT',
-			self::SYMBOL => 'tWILD:USD',
+			self::SYMBOL => 'tWILD:UST',
 		],
 		// --------------------------------------------- SUI pairs
 		'suiaed' => [
@@ -4070,7 +4070,7 @@ class ConsoleUtils {
 		'suiusdt' => [
 			self::DESCRIPTION => 'SUI-USDT',
 			self::PAIR => 'SUI-USDT',
-			self::SYMBOL => 'tSUIUSD',
+			self::SYMBOL => 'tSUIUST',
 		],
 		// --------------------------------------------- SEI pairs
 		'seiaed' => [
@@ -4111,7 +4111,7 @@ class ConsoleUtils {
 		'seiusdt' => [
 			self::DESCRIPTION => 'SEI-USDT',
 			self::PAIR => 'SEI-USDT',
-			self::SYMBOL => 'tSEIUSD',
+			self::SYMBOL => 'tSEIUST',
 		],
 		// --------------------------------------------- TON pairs
 		'tonaed' => [
@@ -4152,7 +4152,7 @@ class ConsoleUtils {
 		'tonusdt' => [
 			self::DESCRIPTION => 'TON-USDT',
 			self::PAIR => 'TON-USDT',
-			self::SYMBOL => 'tTONUSD',
+			self::SYMBOL => 'tTONUST',
 		],
 	];
 
