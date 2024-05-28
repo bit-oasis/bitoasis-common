@@ -3826,45 +3826,45 @@ class ConsoleUtils {
 			self::PAIR => 'OP-USDT',
 			self::SYMBOL => 'tOPXUST',
 		],
-		// --------------------------------------------- QRDO pairs
-		'qrdoaed' => [
-			self::DESCRIPTION => 'QRDO-AED',
-			self::PAIR => 'QRDO-AED',
+		// --------------------------------------------- OPEN pairs
+		'openaed' => [
+			self::DESCRIPTION => 'OPEN-AED',
+			self::PAIR => 'OPEN-AED',
 			self::SYMBOL => 'tQRDO:USD',
 		],
-		'qrdosar' => [
-			self::DESCRIPTION => 'QRDO-SAR',
-			self::PAIR => 'QRDO-SAR',
+		'opensar' => [
+			self::DESCRIPTION => 'OPEN-SAR',
+			self::PAIR => 'OPEN-SAR',
 			self::SYMBOL => 'tQRDO:USD',
 		],
-		'qrdousd' => [
-			self::DESCRIPTION => 'QRDO-USD',
-			self::PAIR => 'QRDO-USD',
+		'openusd' => [
+			self::DESCRIPTION => 'OPEN-USD',
+			self::PAIR => 'OPEN-USD',
 			self::SYMBOL => 'tQRDO:USD',
 		],
-		'qrdokwd' => [
-			self::DESCRIPTION => 'QRDO-KWD',
-			self::PAIR => 'QRDO-KWD',
+		'openkwd' => [
+			self::DESCRIPTION => 'OPEN-KWD',
+			self::PAIR => 'OPEN-KWD',
 			self::SYMBOL => 'tQRDO:USD',
 		],
-		'qrdoomr' => [
-			self::DESCRIPTION => 'QRDO-OMR',
-			self::PAIR => 'QRDO-OMR',
+		'openoomr' => [
+			self::DESCRIPTION => 'OPEN-OMR',
+			self::PAIR => 'OPEN-OMR',
 			self::SYMBOL => 'tQRDO:USD',
 		],
-		'qrdobhd' => [
-			self::DESCRIPTION => 'QRDO-BHD',
-			self::PAIR => 'QRDO-BHD',
+		'openbhd' => [
+			self::DESCRIPTION => 'OPEN-BHD',
+			self::PAIR => 'OPEN-BHD',
 			self::SYMBOL => 'tQRDO:USD',
 		],
-		'qrdoqar' => [
-			self::DESCRIPTION => 'QRDO-QAR',
-			self::PAIR => 'QRDO-QAR',
+		'openqar' => [
+			self::DESCRIPTION => 'OPEN-QAR',
+			self::PAIR => 'OPEN-QAR',
 			self::SYMBOL => 'tQRDO:USD',
 		],
-		'qrdousdt' => [
-			self::DESCRIPTION => 'QRDO-USDT',
-			self::PAIR => 'QRDO-USDT',
+		'openusdt' => [
+			self::DESCRIPTION => 'OPEN-USDT',
+			self::PAIR => 'OPEN-USDT',
 			self::SYMBOL => 'tQRDO:UST',
 		],
 		// --------------------------------------------- BOSON pairs

@@ -663,14 +663,14 @@ class CurrencyCodePair implements Pair {
 		'OP-QAR' => 'OP-QAR',
 		'OP-USDT' => 'OP-USDT',
 
-		'QRDO-AED' => 'QRDO-AED',
-		'QRDO-SAR' => 'QRDO-SAR',
-		'QRDO-USD' => 'QRDO-USD',
-		'QRDO-KWD' => 'QRDO-KWD',
-		'QRDO-OMR' => 'QRDO-OMR',
-		'QRDO-BHD' => 'QRDO-BHD',
-		'QRDO-QAR' => 'QRDO-QAR',
-		'QRDO-USDT' => 'QRDO-USDT',
+		'OPEN-AED' => 'OPEN-AED',
+		'OPEN-SAR' => 'OPEN-SAR',
+		'OPEN-USD' => 'OPEN-USD',
+		'OPEN-KWD' => 'OPEN-KWD',
+		'OPEN-OMR' => 'OPEN-OMR',
+		'OPEN-BHD' => 'OPEN-BHD',
+		'OPEN-QAR' => 'OPEN-QAR',
+		'OPEN-USDT' => 'OPEN-USDT',
 
 		'BOSON-AED' => 'BOSON-AED',
 		'BOSON-SAR' => 'BOSON-SAR',
@@ -1030,8 +1030,8 @@ class CurrencyCodePair implements Pair {
 		'OP-AED', 'OP-SAR', 'OP-USD', 'OP-KWD', 'OP-OMR', 'OP-BHD', 'OP-QAR',
 		'OP-USDT',
 
-		'QRDO-AED', 'QRDO-SAR', 'QRDO-USD', 'QRDO-KWD', 'QRDO-OMR', 'QRDO-BHD', 'QRDO-QAR',
-		'QRDO-USDT',
+		'OPEN-AED', 'OPEN-SAR', 'OPEN-USD', 'OPEN-KWD', 'OPEN-OMR', 'OPEN-BHD', 'OPEN-QAR',
+		'OPEN-USDT',
 
 		'BOSON-AED', 'BOSON-SAR', 'BOSON-USD', 'BOSON-KWD', 'BOSON-OMR', 'BOSON-BHD', 'BOSON-QAR',
 		'BOSON-USDT',
