@@ -735,15 +735,15 @@ class CurrencyCodePair implements Pair {
 		'TON-QAR' => 'TON-QAR',
 		'TON-USDT' => 'TON-USDT',
 
-		'AMP-AED' => 'AMP-AED',
-		'AMP-SAR' => 'AMP-SAR',
-		'AMP-USD' => 'AMP-USD',
-		'AMP-KWD' => 'AMP-KWD',
-		'AMP-OMR' => 'AMP-OMR',
-		'AMP-BHD' => 'AMP-BHD',
-		'AMP-QAR' => 'AMP-QAR',
-		'AMP-USDT' => 'AMP-USDT',
-		'AMP-BTC' => 'AMP-BTC',
+		'AMPL-AED' => 'AMPL-AED',
+		'AMPL-SAR' => 'AMPL-SAR',
+		'AMPL-USD' => 'AMPL-USD',
+		'AMPL-KWD' => 'AMPL-KWD',
+		'AMPL-OMR' => 'AMPL-OMR',
+		'AMPL-BHD' => 'AMPL-BHD',
+		'AMPL-QAR' => 'AMPL-QAR',
+		'AMPL-USDT' => 'AMPL-USDT',
+		'AMPL-BTC' => 'AMPL-BTC',
 
 		'BEST-AED' => 'BEST-AED',
 		'BEST-SAR' => 'BEST-SAR',
@@ -980,14 +980,14 @@ class CurrencyCodePair implements Pair {
 		'WOO-QAR' => 'WOO-QAR',
 		'WOO-USDT' => 'WOO-USDT',
 
-		'TAP-AED' => 'TAP-AED',
-		'TAP-SAR' => 'TAP-SAR',
-		'TAP-USD' => 'TAP-USD',
-		'TAP-KWD' => 'TAP-KWD',
-		'TAP-OMR' => 'TAP-OMR',
-		'TAP-BHD' => 'TAP-BHD',
-		'TAP-QAR' => 'TAP-QAR',
-		'TAP-USDT' => 'TAP-USDT',
+		'XTP-AED' => 'XTP-AED',
+		'XTP-SAR' => 'XTP-SAR',
+		'XTP-USD' => 'XTP-USD',
+		'XTP-KWD' => 'XTP-KWD',
+		'XTP-OMR' => 'XTP-OMR',
+		'XTP-BHD' => 'XTP-BHD',
+		'XTP-QAR' => 'XTP-QAR',
+		'XTP-USDT' => 'XTP-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -1308,8 +1308,8 @@ class CurrencyCodePair implements Pair {
 		'TON-AED', 'TON-SAR', 'TON-USD', 'TON-KWD', 'TON-OMR', 'TON-BHD', 'TON-QAR',
 		'TON-USDT',
 
-		'AMP-AED', 'AMP-SAR', 'AMP-USD', 'AMP-KWD', 'AMP-OMR', 'AMP-BHD', 'AMP-QAR',
-		'AMP-USDT', 'AMP-BTC',
+		'AMPL-AED', 'AMPL-SAR', 'AMPL-USD', 'AMPL-KWD', 'AMPL-OMR', 'AMPL-BHD', 'AMPL-QAR',
+		'AMPL-USDT', 'AMPL-BTC',
 
 		'BEST-AED', 'BEST-SAR', 'BEST-USD', 'BEST-KWD', 'BEST-OMR', 'BEST-BHD', 'BEST-QAR',
 
@@ -1383,8 +1383,8 @@ class CurrencyCodePair implements Pair {
 		'WOO-AED', 'WOO-SAR', 'WOO-USD', 'WOO-KWD', 'WOO-OMR', 'WOO-BHD', 'WOO-QAR',
 		'WOO-USDT',
 
-		'TAP-AED', 'TAP-SAR', 'TAP-USD', 'TAP-KWD', 'TAP-OMR', 'TAP-BHD', 'TAP-QAR',
-		'TAP-USDT',
+		'XTP-AED', 'XTP-SAR', 'XTP-USD', 'XTP-KWD', 'XTP-OMR', 'XTP-BHD', 'XTP-QAR',
+		'XTP-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes

@@ -4154,48 +4154,48 @@ class ConsoleUtils {
 			self::PAIR => 'TON-USDT',
 			self::SYMBOL => 'tTONUST',
 		],
-		// --------------------------------------------- AMP pairs
-		'ampaed' => [
+		// --------------------------------------------- AMPL pairs
+		'amplaed' => [
 			self::DESCRIPTION => 'AMP-AED',
 			self::PAIR => 'AMP-AED',
 			self::SYMBOL => 'tAMPUSD',
 		],
-		'ampsar' => [
+		'amplsar' => [
 			self::DESCRIPTION => 'AMP-SAR',
 			self::PAIR => 'AMP-SAR',
 			self::SYMBOL => 'tAMPUSD',
 		],
-		'ampusd' => [
+		'amplusd' => [
 			self::DESCRIPTION => 'AMP-USD',
 			self::PAIR => 'AMP-USD',
 			self::SYMBOL => 'tAMPUSD',
 		],
-		'ampkwd' => [
+		'amplkwd' => [
 			self::DESCRIPTION => 'AMP-KWD',
 			self::PAIR => 'AMP-KWD',
 			self::SYMBOL => 'tAMPUSD',
 		],
-		'ampomr' => [
+		'amplomr' => [
 			self::DESCRIPTION => 'AMP-OMR',
 			self::PAIR => 'AMP-OMR',
 			self::SYMBOL => 'tAMPUSD',
 		],
-		'ampbhd' => [
+		'amplbhd' => [
 			self::DESCRIPTION => 'AMP-BHD',
 			self::PAIR => 'AMP-BHD',
 			self::SYMBOL => 'tAMPUSD',
 		],
-		'ampqar' => [
+		'amplqar' => [
 			self::DESCRIPTION => 'AMP-QAR',
 			self::PAIR => 'AMP-QAR',
 			self::SYMBOL => 'tAMPUSD',
 		],
-		'ampusdt' => [
+		'amplusdt' => [
 			self::DESCRIPTION => 'AMP-USDT',
 			self::PAIR => 'AMP-USDT',
 			self::SYMBOL => 'tAMPUST',
 		],
-		'ampbtc' => [
+		'amplbtc' => [
 			self::DESCRIPTION => 'AMP-BTC',
 			self::PAIR => 'AMP-BTC',
 			self::SYMBOL => 'tAMPBTC',
