@@ -5308,6 +5308,47 @@ class ConsoleUtils {
 			self::PAIR => 'XTP-USDT',
 			self::SYMBOL => 'tXTPUST',
 		],
+		// --------------------------------------------- POL pairs
+		'polaed' => [
+			self::DESCRIPTION => 'POL-AED',
+			self::PAIR => 'POL-AED',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polsar' => [
+			self::DESCRIPTION => 'POL-SAR',
+			self::PAIR => 'POL-SAR',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polusd' => [
+			self::DESCRIPTION => 'POL-USD',
+			self::PAIR => 'POL-USD',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polkwd' => [
+			self::DESCRIPTION => 'POL-KWD',
+			self::PAIR => 'POL-KWD',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polomr' => [
+			self::DESCRIPTION => 'POL-OMR',
+			self::PAIR => 'POL-OMR',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polbhd' => [
+			self::DESCRIPTION => 'POL-BHD',
+			self::PAIR => 'POL-BHD',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polqar' => [
+			self::DESCRIPTION => 'POL-QAR',
+			self::PAIR => 'POL-QAR',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polusdt' => [
+			self::DESCRIPTION => 'POL-USDT',
+			self::PAIR => 'POL-USDT',
+			self::SYMBOL => 'tPOLUST',
+		],
 	];
 
 	private function __construct() {

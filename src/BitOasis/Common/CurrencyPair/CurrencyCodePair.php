@@ -988,6 +988,15 @@ class CurrencyCodePair implements Pair {
 		'XTP-BHD' => 'XTP-BHD',
 		'XTP-QAR' => 'XTP-QAR',
 		'XTP-USDT' => 'XTP-USDT',
+
+		'POL-AED' => 'POL-AED',
+		'POL-SAR' => 'POL-SAR',
+		'POL-USD' => 'POL-USD',
+		'POL-KWD' => 'POL-KWD',
+		'POL-OMR' => 'POL-OMR',
+		'POL-BHD' => 'POL-BHD',
+		'POL-QAR' => 'POL-QAR',
+		'POL-USDT' => 'POL-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -1385,6 +1394,9 @@ class CurrencyCodePair implements Pair {
 
 		'XTP-AED', 'XTP-SAR', 'XTP-USD', 'XTP-KWD', 'XTP-OMR', 'XTP-BHD', 'XTP-QAR',
 		'XTP-USDT',
+
+		'POL-AED', 'POL-SAR', 'POL-USD', 'POL-KWD', 'POL-OMR', 'POL-BHD', 'POL-QAR',
+		'POL-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
