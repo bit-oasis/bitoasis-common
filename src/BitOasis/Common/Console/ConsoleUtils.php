@@ -5349,6 +5349,334 @@ class ConsoleUtils {
 			self::PAIR => 'POL-USDT',
 			self::SYMBOL => 'tPOLUST',
 		],
+		// --------------------------------------------- PEPE pairs
+		'pepeaed' => [
+			self::DESCRIPTION => 'PEPE-AED',
+			self::PAIR => 'PEPE-AED',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepesar' => [
+			self::DESCRIPTION => 'PEPE-SAR',
+			self::PAIR => 'PEPE-SAR',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeusd' => [
+			self::DESCRIPTION => 'PEPE-USD',
+			self::PAIR => 'PEPE-USD',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepekwd' => [
+			self::DESCRIPTION => 'PEPE-KWD',
+			self::PAIR => 'PEPE-KWD',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeomr' => [
+			self::DESCRIPTION => 'PEPE-OMR',
+			self::PAIR => 'PEPE-OMR',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepebhd' => [
+			self::DESCRIPTION => 'PEPE-BHD',
+			self::PAIR => 'PEPE-BHD',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeqar' => [
+			self::DESCRIPTION => 'PEPE-QAR',
+			self::PAIR => 'PEPE-QAR',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeusdt' => [
+			self::DESCRIPTION => 'PEPE-USDT',
+			self::PAIR => 'PEPE-USDT',
+			self::SYMBOL => 'tPEPE:UST',
+		],
+		// --------------------------------------------- BONK pairs
+		'bonkaed' => [
+			self::DESCRIPTION => 'BONK-AED',
+			self::PAIR => 'BONK-AED',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonksar' => [
+			self::DESCRIPTION => 'BONK-SAR',
+			self::PAIR => 'BONK-SAR',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkusd' => [
+			self::DESCRIPTION => 'BONK-USD',
+			self::PAIR => 'BONK-USD',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkkwd' => [
+			self::DESCRIPTION => 'BONK-KWD',
+			self::PAIR => 'BONK-KWD',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkomr' => [
+			self::DESCRIPTION => 'BONK-OMR',
+			self::PAIR => 'BONK-OMR',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkbhd' => [
+			self::DESCRIPTION => 'BONK-BHD',
+			self::PAIR => 'BONK-BHD',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkqar' => [
+			self::DESCRIPTION => 'BONK-QAR',
+			self::PAIR => 'BONK-QAR',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkusdt' => [
+			self::DESCRIPTION => 'BONK-USDT',
+			self::PAIR => 'BONK-USDT',
+			self::SYMBOL => 'tBONK:UST',
+		],
+		// --------------------------------------------- TOMI pairs
+		'tomiaed' => [
+			self::DESCRIPTION => 'TOMI-AED',
+			self::PAIR => 'TOMI-AED',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomisar' => [
+			self::DESCRIPTION => 'TOMI-SAR',
+			self::PAIR => 'TOMI-SAR',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiusd' => [
+			self::DESCRIPTION => 'TOMI-USD',
+			self::PAIR => 'TOMI-USD',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomikwd' => [
+			self::DESCRIPTION => 'TOMI-KWD',
+			self::PAIR => 'TOMI-KWD',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiomr' => [
+			self::DESCRIPTION => 'TOMI-OMR',
+			self::PAIR => 'TOMI-OMR',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomibhd' => [
+			self::DESCRIPTION => 'TOMI-BHD',
+			self::PAIR => 'TOMI-BHD',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiqar' => [
+			self::DESCRIPTION => 'TOMI-QAR',
+			self::PAIR => 'TOMI-QAR',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiusdt' => [
+			self::DESCRIPTION => 'TOMI-USDT',
+			self::PAIR => 'TOMI-USDT',
+			self::SYMBOL => 'tTOMI:UST',
+		],
+		// --------------------------------------------- TURBO pairs
+		'turboaed' => [
+			self::DESCRIPTION => 'TURBO-AED',
+			self::PAIR => 'TURBO-AED',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbosar' => [
+			self::DESCRIPTION => 'TURBO-SAR',
+			self::PAIR => 'TURBO-SAR',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbousd' => [
+			self::DESCRIPTION => 'TURBO-USD',
+			self::PAIR => 'TURBO-USD',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbokwd' => [
+			self::DESCRIPTION => 'TURBO-KWD',
+			self::PAIR => 'TURBO-KWD',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turboomr' => [
+			self::DESCRIPTION => 'TURBO-OMR',
+			self::PAIR => 'TURBO-OMR',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbobhd' => [
+			self::DESCRIPTION => 'TURBO-BHD',
+			self::PAIR => 'TURBO-BHD',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turboqar' => [
+			self::DESCRIPTION => 'TURBO-QAR',
+			self::PAIR => 'TURBO-QAR',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbousdt' => [
+			self::DESCRIPTION => 'TURBO-USDT',
+			self::PAIR => 'TURBO-USDT',
+			self::SYMBOL => 'tTURBO:UST',
+		],
+		// --------------------------------------------- WBT pairs
+		'wbtaed' => [
+			self::DESCRIPTION => 'WBT-AED',
+			self::PAIR => 'WBT-AED',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtsar' => [
+			self::DESCRIPTION => 'WBT-SAR',
+			self::PAIR => 'WBT-SAR',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtusd' => [
+			self::DESCRIPTION => 'WBT-USD',
+			self::PAIR => 'WBT-USD',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtkwd' => [
+			self::DESCRIPTION => 'WBT-KWD',
+			self::PAIR => 'WBT-KWD',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtomr' => [
+			self::DESCRIPTION => 'WBT-OMR',
+			self::PAIR => 'WBT-OMR',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtbhd' => [
+			self::DESCRIPTION => 'WBT-BHD',
+			self::PAIR => 'WBT-BHD',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtqar' => [
+			self::DESCRIPTION => 'WBT-QAR',
+			self::PAIR => 'WBT-QAR',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtusdt' => [
+			self::DESCRIPTION => 'WBT-USDT',
+			self::PAIR => 'WBT-USDT',
+			self::SYMBOL => 'tWHBT:UST',
+		],
+		// --------------------------------------------- ENA pairs
+		'enaaed' => [
+			self::DESCRIPTION => 'ENA-AED',
+			self::PAIR => 'ENA-AED',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enasar' => [
+			self::DESCRIPTION => 'ENA-SAR',
+			self::PAIR => 'ENA-SAR',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enausd' => [
+			self::DESCRIPTION => 'ENA-USD',
+			self::PAIR => 'ENA-USD',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enakwd' => [
+			self::DESCRIPTION => 'ENA-KWD',
+			self::PAIR => 'ENA-KWD',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enaomr' => [
+			self::DESCRIPTION => 'ENA-OMR',
+			self::PAIR => 'ENA-OMR',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enabhd' => [
+			self::DESCRIPTION => 'ENA-BHD',
+			self::PAIR => 'ENA-BHD',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enaqar' => [
+			self::DESCRIPTION => 'ENA-QAR',
+			self::PAIR => 'ENA-QAR',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enausdt' => [
+			self::DESCRIPTION => 'ENA-USDT',
+			self::PAIR => 'ENA-USDT',
+			self::SYMBOL => 'tENAUST',
+		],
+		// --------------------------------------------- MEW pairs
+		'mewaed' => [
+			self::DESCRIPTION => 'MEW-AED',
+			self::PAIR => 'MEW-AED',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewsar' => [
+			self::DESCRIPTION => 'MEW-SAR',
+			self::PAIR => 'MEW-SAR',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewusd' => [
+			self::DESCRIPTION => 'MEW-USD',
+			self::PAIR => 'MEW-USD',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewkwd' => [
+			self::DESCRIPTION => 'MEW-KWD',
+			self::PAIR => 'MEW-KWD',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewomr' => [
+			self::DESCRIPTION => 'MEW-OMR',
+			self::PAIR => 'MEW-OMR',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewbhd' => [
+			self::DESCRIPTION => 'MEW-BHD',
+			self::PAIR => 'MEW-BHD',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewqar' => [
+			self::DESCRIPTION => 'MEW-QAR',
+			self::PAIR => 'MEW-QAR',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewusdt' => [
+			self::DESCRIPTION => 'MEW-USDT',
+			self::PAIR => 'MEW-USDT',
+			self::SYMBOL => 'tMEWUST',
+		],
+		// --------------------------------------------- TIA pairs
+		'tiaaed' => [
+			self::DESCRIPTION => 'TIA-AED',
+			self::PAIR => 'TIA-AED',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiasar' => [
+			self::DESCRIPTION => 'TIA-SAR',
+			self::PAIR => 'TIA-SAR',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiausd' => [
+			self::DESCRIPTION => 'TIA-USD',
+			self::PAIR => 'TIA-USD',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiakwd' => [
+			self::DESCRIPTION => 'TIA-KWD',
+			self::PAIR => 'TIA-KWD',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiaomr' => [
+			self::DESCRIPTION => 'TIA-OMR',
+			self::PAIR => 'TIA-OMR',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiabhd' => [
+			self::DESCRIPTION => 'TIA-BHD',
+			self::PAIR => 'TIA-BHD',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiaqar' => [
+			self::DESCRIPTION => 'TIA-QAR',
+			self::PAIR => 'TIA-QAR',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiausdt' => [
+			self::DESCRIPTION => 'TIA-USDT',
+			self::PAIR => 'TIA-USDT',
+			self::SYMBOL => 'tTIAUST',
+		],
 	];
 
 	private function __construct() {
