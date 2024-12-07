@@ -997,6 +997,78 @@ class CurrencyCodePair implements Pair {
 		'POL-BHD' => 'POL-BHD',
 		'POL-QAR' => 'POL-QAR',
 		'POL-USDT' => 'POL-USDT',
+
+		'PEPE-AED' => 'PEPE-AED',
+		'PEPE-SAR' => 'PEPE-SAR',
+		'PEPE-USD' => 'PEPE-USD',
+		'PEPE-KWD' => 'PEPE-KWD',
+		'PEPE-OMR' => 'PEPE-OMR',
+		'PEPE-BHD' => 'PEPE-BHD',
+		'PEPE-QAR' => 'PEPE-QAR',
+		'PEPE-USDT' => 'PEPE-USDT',
+
+		'BONK-AED' => 'BONK-AED',
+		'BONK-SAR' => 'BONK-SAR',
+		'BONK-USD' => 'BONK-USD',
+		'BONK-KWD' => 'BONK-KWD',
+		'BONK-OMR' => 'BONK-OMR',
+		'BONK-BHD' => 'BONK-BHD',
+		'BONK-QAR' => 'BONK-QAR',
+		'BONK-USDT' => 'BONK-USDT',
+
+		'TOMI-AED' => 'TOMI-AED',
+		'TOMI-SAR' => 'TOMI-SAR',
+		'TOMI-USD' => 'TOMI-USD',
+		'TOMI-KWD' => 'TOMI-KWD',
+		'TOMI-OMR' => 'TOMI-OMR',
+		'TOMI-BHD' => 'TOMI-BHD',
+		'TOMI-QAR' => 'TOMI-QAR',
+		'TOMI-USDT' => 'TOMI-USDT',
+
+		'TURBO-AED' => 'TURBO-AED',
+		'TURBO-SAR' => 'TURBO-SAR',
+		'TURBO-USD' => 'TURBO-USD',
+		'TURBO-KWD' => 'TURBO-KWD',
+		'TURBO-OMR' => 'TURBO-OMR',
+		'TURBO-BHD' => 'TURBO-BHD',
+		'TURBO-QAR' => 'TURBO-QAR',
+		'TURBO-USDT' => 'TURBO-USDT',
+
+		'WBT-AED' => 'WBT-AED',
+		'WBT-SAR' => 'WBT-SAR',
+		'WBT-USD' => 'WBT-USD',
+		'WBT-KWD' => 'WBT-KWD',
+		'WBT-OMR' => 'WBT-OMR',
+		'WBT-BHD' => 'WBT-BHD',
+		'WBT-QAR' => 'WBT-QAR',
+		'WBT-USDT' => 'WBT-USDT',
+
+		'ENA-AED' => 'ENA-AED',
+		'ENA-SAR' => 'ENA-SAR',
+		'ENA-USD' => 'ENA-USD',
+		'ENA-KWD' => 'ENA-KWD',
+		'ENA-OMR' => 'ENA-OMR',
+		'ENA-BHD' => 'ENA-BHD',
+		'ENA-QAR' => 'ENA-QAR',
+		'ENA-USDT' => 'ENA-USDT',
+
+		'MEW-AED' => 'MEW-AED',
+		'MEW-SAR' => 'MEW-SAR',
+		'MEW-USD' => 'MEW-USD',
+		'MEW-KWD' => 'MEW-KWD',
+		'MEW-OMR' => 'MEW-OMR',
+		'MEW-BHD' => 'MEW-BHD',
+		'MEW-QAR' => 'MEW-QAR',
+		'MEW-USDT' => 'MEW-USDT',
+
+		'TIA-AED' => 'TIA-AED',
+		'TIA-SAR' => 'TIA-SAR',
+		'TIA-USD' => 'TIA-USD',
+		'TIA-KWD' => 'TIA-KWD',
+		'TIA-OMR' => 'TIA-OMR',
+		'TIA-BHD' => 'TIA-BHD',
+		'TIA-QAR' => 'TIA-QAR',
+		'TIA-USDT' => 'TIA-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -1397,6 +1469,30 @@ class CurrencyCodePair implements Pair {
 
 		'POL-AED', 'POL-SAR', 'POL-USD', 'POL-KWD', 'POL-OMR', 'POL-BHD', 'POL-QAR',
 		'POL-USDT',
+
+		'PEPE-AED', 'PEPE-SAR', 'PEPE-USD', 'PEPE-KWD', 'PEPE-OMR', 'PEPE-BHD', 'PEPE-QAR',
+		'PEPE-USDT',
+
+		'BONK-AED', 'BONK-SAR', 'BONK-USD', 'BONK-KWD', 'BONK-OMR', 'BONK-BHD', 'BONK-QAR',
+		'BONK-USDT',
+
+		'TOMI-AED', 'TOMI-SAR', 'TOMI-USD', 'TOMI-KWD', 'TOMI-OMR', 'TOMI-BHD', 'TOMI-QAR',
+		'TOMI-USDT',
+
+		'TURBO-AED', 'TURBO-SAR', 'TURBO-USD', 'TURBO-KWD', 'TURBO-OMR', 'TURBO-BHD', 'TURBO-QAR',
+		'TURBO-USDT',
+
+		'WBT-AED', 'WBT-SAR', 'WBT-USD', 'WBT-KWD', 'WBT-OMR', 'WBT-BHD', 'WBT-QAR',
+		'WBT-USDT',
+
+		'ENA-AED', 'ENA-SAR', 'ENA-USD', 'ENA-KWD', 'ENA-OMR', 'ENA-BHD', 'ENA-QAR',
+		'ENA-USDT',
+
+		'MEW-AED', 'MEW-SAR', 'MEW-USD', 'MEW-KWD', 'MEW-OMR', 'MEW-BHD', 'MEW-QAR',
+		'MEW-USDT',
+
+		'TIA-AED', 'TIA-SAR', 'TIA-USD', 'TIA-KWD', 'TIA-OMR', 'TIA-BHD', 'TIA-QAR',
+		'TIA-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
