@@ -5677,6 +5677,334 @@ class ConsoleUtils {
 			self::PAIR => 'TIA-USDT',
 			self::SYMBOL => 'tTIAUST',
 		],
+		// --------------------------------------------- TOKEN pairs
+		'tokenaed' => [
+			self::DESCRIPTION => 'TOKEN-AED',
+			self::PAIR => 'TOKEN-AED',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokensar' => [
+			self::DESCRIPTION => 'TOKEN-SAR',
+			self::PAIR => 'TOKEN-SAR',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenusd' => [
+			self::DESCRIPTION => 'TOKEN-USD',
+			self::PAIR => 'TOKEN-USD',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenkwd' => [
+			self::DESCRIPTION => 'TOKEN-KWD',
+			self::PAIR => 'TOKEN-KWD',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenomr' => [
+			self::DESCRIPTION => 'TOKEN-OMR',
+			self::PAIR => 'TOKEN-OMR',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenbhd' => [
+			self::DESCRIPTION => 'TOKEN-BHD',
+			self::PAIR => 'TOKEN-BHD',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenqar' => [
+			self::DESCRIPTION => 'TOKEN-QAR',
+			self::PAIR => 'TOKEN-QAR',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenusdt' => [
+			self::DESCRIPTION => 'TOKEN-USDT',
+			self::PAIR => 'TOKEN-USDT',
+			self::SYMBOL => 'tTOKEN:UST',
+		],
+		// --------------------------------------------- EIGEN pairs
+		'eigenaed' => [
+			self::DESCRIPTION => 'EIGEN-AED',
+			self::PAIR => 'EIGEN-AED',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigensar' => [
+			self::DESCRIPTION => 'EIGEN-SAR',
+			self::PAIR => 'EIGEN-SAR',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenusd' => [
+			self::DESCRIPTION => 'EIGEN-USD',
+			self::PAIR => 'EIGEN-USD',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenkwd' => [
+			self::DESCRIPTION => 'EIGEN-KWD',
+			self::PAIR => 'EIGEN-KWD',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenomr' => [
+			self::DESCRIPTION => 'EIGEN-OMR',
+			self::PAIR => 'EIGEN-OMR',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenbhd' => [
+			self::DESCRIPTION => 'EIGEN-BHD',
+			self::PAIR => 'EIGEN-BHD',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenqar' => [
+			self::DESCRIPTION => 'EIGEN-QAR',
+			self::PAIR => 'EIGEN-QAR',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenusdt' => [
+			self::DESCRIPTION => 'EIGEN-USDT',
+			self::PAIR => 'EIGEN-USDT',
+			self::SYMBOL => 'tEIGEN:UST',
+		],
+		// --------------------------------------------- JASMY pairs
+		'jasmyaed' => [
+			self::DESCRIPTION => 'JASMY-AED',
+			self::PAIR => 'JASMY-AED',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmysar' => [
+			self::DESCRIPTION => 'JASMY-SAR',
+			self::PAIR => 'JASMY-SAR',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyusd' => [
+			self::DESCRIPTION => 'JASMY-USD',
+			self::PAIR => 'JASMY-USD',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmykwd' => [
+			self::DESCRIPTION => 'JASMY-KWD',
+			self::PAIR => 'JASMY-KWD',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyomr' => [
+			self::DESCRIPTION => 'JASMY-OMR',
+			self::PAIR => 'JASMY-OMR',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmybhd' => [
+			self::DESCRIPTION => 'JASMY-BHD',
+			self::PAIR => 'JASMY-BHD',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyqar' => [
+			self::DESCRIPTION => 'JASMY-QAR',
+			self::PAIR => 'JASMY-QAR',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyusdt' => [
+			self::DESCRIPTION => 'JASMY-USDT',
+			self::PAIR => 'JASMY-USDT',
+			self::SYMBOL => 'tJASMY:UST',
+		],
+		// --------------------------------------------- STRK pairs
+		'strkaed' => [
+			self::DESCRIPTION => 'STRK-AED',
+			self::PAIR => 'STRK-AED',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strksar' => [
+			self::DESCRIPTION => 'STRK-SAR',
+			self::PAIR => 'STRK-SAR',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkusd' => [
+			self::DESCRIPTION => 'STRK-USD',
+			self::PAIR => 'STRK-USD',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkkwd' => [
+			self::DESCRIPTION => 'STRK-KWD',
+			self::PAIR => 'STRK-KWD',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkomr' => [
+			self::DESCRIPTION => 'STRK-OMR',
+			self::PAIR => 'STRK-OMR',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkbhd' => [
+			self::DESCRIPTION => 'STRK-BHD',
+			self::PAIR => 'STRK-BHD',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkqar' => [
+			self::DESCRIPTION => 'STRK-QAR',
+			self::PAIR => 'STRK-QAR',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkusdt' => [
+			self::DESCRIPTION => 'STRK-USDT',
+			self::PAIR => 'STRK-USDT',
+			self::SYMBOL => 'tSTRK:UST',
+		],
+		// --------------------------------------------- ATH pairs
+		'athaed' => [
+			self::DESCRIPTION => 'ATH-AED',
+			self::PAIR => 'ATH-AED',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athsar' => [
+			self::DESCRIPTION => 'ATH-SAR',
+			self::PAIR => 'ATH-SAR',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athusd' => [
+			self::DESCRIPTION => 'ATH-USD',
+			self::PAIR => 'ATH-USD',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athkwd' => [
+			self::DESCRIPTION => 'ATH-KWD',
+			self::PAIR => 'ATH-KWD',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athomr' => [
+			self::DESCRIPTION => 'ATH-OMR',
+			self::PAIR => 'ATH-OMR',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athbhd' => [
+			self::DESCRIPTION => 'ATH-BHD',
+			self::PAIR => 'ATH-BHD',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athqar' => [
+			self::DESCRIPTION => 'ATH-QAR',
+			self::PAIR => 'ATH-QAR',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athusdt' => [
+			self::DESCRIPTION => 'ATH-USDT',
+			self::PAIR => 'ATH-USDT',
+			self::SYMBOL => 'tATHUST',
+		],
+		// --------------------------------------------- BGB pairs
+		'bgbaed' => [
+			self::DESCRIPTION => 'BGB-AED',
+			self::PAIR => 'BGB-AED',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbsar' => [
+			self::DESCRIPTION => 'BGB-SAR',
+			self::PAIR => 'BGB-SAR',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbusd' => [
+			self::DESCRIPTION => 'BGB-USD',
+			self::PAIR => 'BGB-USD',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbkwd' => [
+			self::DESCRIPTION => 'BGB-KWD',
+			self::PAIR => 'BGB-KWD',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbomr' => [
+			self::DESCRIPTION => 'BGB-OMR',
+			self::PAIR => 'BGB-OMR',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbbhd' => [
+			self::DESCRIPTION => 'BGB-BHD',
+			self::PAIR => 'BGB-BHD',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbqar' => [
+			self::DESCRIPTION => 'BGB-QAR',
+			self::PAIR => 'BGB-QAR',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbusdt' => [
+			self::DESCRIPTION => 'BGB-USDT',
+			self::PAIR => 'BGB-USDT',
+			self::SYMBOL => 'tBGBUST',
+		],
+		// --------------------------------------------- XEGLD pairs
+		'xegldaed' => [
+			self::DESCRIPTION => 'XEGLD-AED',
+			self::PAIR => 'XEGLD-AED',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'xegldsar' => [
+			self::DESCRIPTION => 'XEGLD-SAR',
+			self::PAIR => 'XEGLD-SAR',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'xegldusd' => [
+			self::DESCRIPTION => 'XEGLD-USD',
+			self::PAIR => 'XEGLD-USD',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'xegldkwd' => [
+			self::DESCRIPTION => 'XEGLD-KWD',
+			self::PAIR => 'XEGLD-KWD',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'xegldomr' => [
+			self::DESCRIPTION => 'XEGLD-OMR',
+			self::PAIR => 'XEGLD-OMR',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'xegldbhd' => [
+			self::DESCRIPTION => 'XEGLD-BHD',
+			self::PAIR => 'XEGLD-BHD',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'xegldqar' => [
+			self::DESCRIPTION => 'XEGLD-QAR',
+			self::PAIR => 'XEGLD-QAR',
+			self::SYMBOL => 'tEGLD:USD',
+		],
+		'xegldusdt' => [
+			self::DESCRIPTION => 'XEGLD-USDT',
+			self::PAIR => 'XEGLD-USDT',
+			self::SYMBOL => 'tEGLD:UST',
+		],
+		// --------------------------------------------- KARATE pairs
+		'karateaed' => [
+			self::DESCRIPTION => 'KARATE-AED',
+			self::PAIR => 'KARATE-AED',
+			self::SYMBOL => 'tKARATE:USD',
+		],
+		'karatesar' => [
+			self::DESCRIPTION => 'KARATE-SAR',
+			self::PAIR => 'KARATE-SAR',
+			self::SYMBOL => 'tKARATE:USD',
+		],
+		'karateusd' => [
+			self::DESCRIPTION => 'KARATE-USD',
+			self::PAIR => 'KARATE-USD',
+			self::SYMBOL => 'tKARATE:USD',
+		],
+		'karatekwd' => [
+			self::DESCRIPTION => 'KARATE-KWD',
+			self::PAIR => 'KARATE-KWD',
+			self::SYMBOL => 'tKARATE:USD',
+		],
+		'karateomr' => [
+			self::DESCRIPTION => 'KARATE-OMR',
+			self::PAIR => 'KARATE-OMR',
+			self::SYMBOL => 'tKARATE:USD',
+		],
+		'karatebhd' => [
+			self::DESCRIPTION => 'KARATE-BHD',
+			self::PAIR => 'KARATE-BHD',
+			self::SYMBOL => 'tKARATE:USD',
+		],
+		'karateqar' => [
+			self::DESCRIPTION => 'KARATE-QAR',
+			self::PAIR => 'KARATE-QAR',
+			self::SYMBOL => 'tKARATE:USD',
+		],
+		'karateusdt' => [
+			self::DESCRIPTION => 'KARATE-USDT',
+			self::PAIR => 'KARATE-USDT',
+			self::SYMBOL => 'tKARATE:UST',
+		],
 	];
 
 	private function __construct() {
