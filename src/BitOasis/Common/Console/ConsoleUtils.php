@@ -5716,7 +5716,7 @@ class ConsoleUtils {
 		'sweatusdt' => [
 			self::DESCRIPTION => 'SWEAT-USDT',
 			self::PAIR => 'SWEAT-USDT',
-			self::SYMBOL => 'tSWEAT:USDT',
+			self::SYMBOL => 'tSWEAT:UST',
 		],
 		// --------------------------------------------- DOP pairs
 		'dopaed' => [
@@ -5757,7 +5757,7 @@ class ConsoleUtils {
 		'dopusdt' => [
 			self::DESCRIPTION => 'DOP-USDT',
 			self::PAIR => 'DOP-USDT',
-			self::SYMBOL => 'tDOPUSDT',
+			self::SYMBOL => 'tDOPUST',
 		],
 		// --------------------------------------------- SPEC pairs
 		'specaed' => [
@@ -5798,7 +5798,7 @@ class ConsoleUtils {
 		'specusdt' => [
 			self::DESCRIPTION => 'SPEC-USDT',
 			self::PAIR => 'SPEC-USDT',
-			self::SYMBOL => 'tSPEC:USDT',
+			self::SYMBOL => 'tSPEC:UST',
 		],
 		// --------------------------------------------- AIOZ pairs
 		'aiozaed' => [
@@ -5839,7 +5839,7 @@ class ConsoleUtils {
 		'aiozusdt' => [
 			self::DESCRIPTION => 'AIOZ-USDT',
 			self::PAIR => 'AIOZ-USDT',
-			self::SYMBOL => 'tAIOZ:USDT',
+			self::SYMBOL => 'tAIOZ:UST',
 		],
 		// --------------------------------------------- GOMINING pairs
 		'gominingaed' => [
@@ -5880,7 +5880,7 @@ class ConsoleUtils {
 		'gominingusdt' => [
 			self::DESCRIPTION => 'GOMINING-USDT',
 			self::PAIR => 'GOMINING-USDT',
-			self::SYMBOL => 'tGOMINING:USDT',
+			self::SYMBOL => 'tGOMINING:UST',
 		],
 		// --------------------------------------------- VELAR pairs
 		'velaraed' => [
@@ -5921,7 +5921,7 @@ class ConsoleUtils {
 		'velarusdt' => [
 			self::DESCRIPTION => 'VELAR-USDT',
 			self::PAIR => 'VELAR-USDT',
-			self::SYMBOL => 'tVELAR:USDT',
+			self::SYMBOL => 'tVELAR:UST',
 		],
 		// --------------------------------------------- JUSTICE pairs
 		'justiceaed' => [
@@ -5962,7 +5962,7 @@ class ConsoleUtils {
 		'justiceusdt' => [
 			self::DESCRIPTION => 'JUSTICE-USDT',
 			self::PAIR => 'JUSTICE-USDT',
-			self::SYMBOL => 'tJUSTICE:USDT',
+			self::SYMBOL => 'tJUSTICE:UST',
 		],
 		// --------------------------------------------- KAN pairs
 		'kanaed' => [
@@ -6003,7 +6003,7 @@ class ConsoleUtils {
 		'kanusdt' => [
 			self::DESCRIPTION => 'KAN-USDT',
 			self::PAIR => 'KAN-USDT',
-			self::SYMBOL => 'tKANUSDT',
+			self::SYMBOL => 'tKANUST',
 		],
 	];
 
