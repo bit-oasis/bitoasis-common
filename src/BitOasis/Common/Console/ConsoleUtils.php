@@ -5836,11 +5836,6 @@ class ConsoleUtils {
 			self::PAIR => 'AIOZ-QAR',
 			self::SYMBOL => 'tAIOZ:USD',
 		],
-		'aiozusdt' => [
-			self::DESCRIPTION => 'AIOZ-USDT',
-			self::PAIR => 'AIOZ-USDT',
-			self::SYMBOL => 'tAIOZ:UST',
-		],
 		// --------------------------------------------- GOMINING pairs
 		'gominingaed' => [
 			self::DESCRIPTION => 'GOMINING-AED',

@@ -1104,7 +1104,6 @@ class CurrencyCodePair implements Pair {
 		'AIOZ-OMR' => 'AIOZ-OMR',
 		'AIOZ-BHD' => 'AIOZ-BHD',
 		'AIOZ-QAR' => 'AIOZ-QAR',
-		'AIOZ-USDT' => 'AIOZ-USDT',
 
 		'GOMINING-AED' => 'GOMINING-AED',
 		'GOMINING-SAR' => 'GOMINING-SAR',
@@ -1576,7 +1575,6 @@ class CurrencyCodePair implements Pair {
 		'SPEC-USDT',
 
 		'AIOZ-AED', 'AIOZ-SAR', 'AIOZ-USD', 'AIOZ-KWD', 'AIOZ-OMR', 'AIOZ-BHD', 'AIOZ-QAR',
-		'AIOZ-USDT',
 
 		'GOMINING-AED', 'GOMINING-SAR', 'GOMINING-USD', 'GOMINING-KWD', 'GOMINING-OMR', 'GOMINING-BHD', 'GOMINING-QAR',
 		'GOMINING-USDT',
