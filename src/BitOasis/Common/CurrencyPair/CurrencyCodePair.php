@@ -1141,14 +1141,14 @@ class CurrencyCodePair implements Pair {
 		'KAN-QAR' => 'KAN-QAR',
 		'KAN-USDT' => 'KAN-USDT',
 
-		'SONIC-AED' => 'SONIC-AED',
-		'SONIC-SAR' => 'SONIC-SAR',
-		'SONIC-USD' => 'SONIC-USD',
-		'SONIC-KWD' => 'SONIC-KWD',
-		'SONIC-OMR' => 'SONIC-OMR',
-		'SONIC-BHD' => 'SONIC-BHD',
-		'SONIC-QAR' => 'SONIC-QAR',
-		'SONIC-USDT' => 'SONIC-USDT',
+		'S-AED' => 'S-AED',
+		'S-SAR' => 'S-SAR',
+		'S-USD' => 'S-USD',
+		'S-KWD' => 'S-KWD',
+		'S-OMR' => 'S-OMR',
+		'S-BHD' => 'S-BHD',
+		'S-QAR' => 'S-QAR',
+		'S-USDT' => 'S-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -1597,8 +1597,8 @@ class CurrencyCodePair implements Pair {
 		'KAN-AED', 'KAN-SAR', 'KAN-USD', 'KAN-KWD', 'KAN-OMR', 'KAN-BHD', 'KAN-QAR',
 		'KAN-USDT',
 
-		'SONIC-AED', 'SONIC-SAR', 'SONIC-USD', 'SONIC-KWD', 'SONIC-OMR', 'SONIC-BHD', 'SONIC-QAR',
-		'SONIC-USDT',
+		'S-AED', 'S-SAR', 'S-USD', 'S-KWD', 'S-OMR', 'S-BHD', 'S-QAR',
+		'S-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes

@@ -6000,45 +6000,45 @@ class ConsoleUtils {
 			self::PAIR => 'KAN-USDT',
 			self::SYMBOL => 'tKANUST',
 		],
-		// --------------------------------------------- SONIC pairs
-		'sonicaed' => [
-			self::DESCRIPTION => 'SONIC-AED',
-			self::PAIR => 'SONIC-AED',
+		// --------------------------------------------- S pairs
+		'saed' => [
+			self::DESCRIPTION => 'S-AED',
+			self::PAIR => 'S-AED',
 			self::SYMBOL => 'tSONIC:USD',
 		],
-		'sonicsar' => [
-			self::DESCRIPTION => 'SONIC-SAR',
-			self::PAIR => 'SONIC-SAR',
+		'ssar' => [
+			self::DESCRIPTION => 'S-SAR',
+			self::PAIR => 'S-SAR',
 			self::SYMBOL => 'tSONIC:USD',
 		],
-		'sonicusd' => [
-			self::DESCRIPTION => 'SONIC-USD',
-			self::PAIR => 'SONIC-USD',
+		'susd' => [
+			self::DESCRIPTION => 'S-USD',
+			self::PAIR => 'S-USD',
 			self::SYMBOL => 'tSONIC:USD',
 		],
-		'sonickwd' => [
-			self::DESCRIPTION => 'SONIC-KWD',
-			self::PAIR => 'SONIC-KWD',
+		'skwd' => [
+			self::DESCRIPTION => 'S-KWD',
+			self::PAIR => 'S-KWD',
 			self::SYMBOL => 'tSONIC:USD',
 		],
-		'sonicomr' => [
-			self::DESCRIPTION => 'SONIC-OMR',
-			self::PAIR => 'SONIC-OMR',
+		'somr' => [
+			self::DESCRIPTION => 'S-OMR',
+			self::PAIR => 'S-OMR',
 			self::SYMBOL => 'tSONIC:USD',
 		],
-		'sonicbhd' => [
-			self::DESCRIPTION => 'SONIC-BHD',
-			self::PAIR => 'SONIC-BHD',
+		'sbhd' => [
+			self::DESCRIPTION => 'S-BHD',
+			self::PAIR => 'S-BHD',
 			self::SYMBOL => 'tSONIC:USD',
 		],
-		'sonicqar' => [
-			self::DESCRIPTION => 'SONIC-QAR',
-			self::PAIR => 'SONIC-QAR',
+		'sqar' => [
+			self::DESCRIPTION => 'S-QAR',
+			self::PAIR => 'S-QAR',
 			self::SYMBOL => 'tSONIC:USD',
 		],
-		'sonicusdt' => [
-			self::DESCRIPTION => 'SONIC-USDT',
-			self::PAIR => 'SONIC-USDT',
+		'susdt' => [
+			self::DESCRIPTION => 'S-USDT',
+			self::PAIR => 'S-USDT',
 			self::SYMBOL => 'tSONIC:UST',
 		],
 	];
