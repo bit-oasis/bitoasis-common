@@ -6000,6 +6000,47 @@ class ConsoleUtils {
 			self::PAIR => 'KAN-USDT',
 			self::SYMBOL => 'tKANUST',
 		],
+		// --------------------------------------------- S pairs
+		'saed' => [
+			self::DESCRIPTION => 'S-AED',
+			self::PAIR => 'S-AED',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'ssar' => [
+			self::DESCRIPTION => 'S-SAR',
+			self::PAIR => 'S-SAR',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'susd' => [
+			self::DESCRIPTION => 'S-USD',
+			self::PAIR => 'S-USD',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'skwd' => [
+			self::DESCRIPTION => 'S-KWD',
+			self::PAIR => 'S-KWD',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'somr' => [
+			self::DESCRIPTION => 'S-OMR',
+			self::PAIR => 'S-OMR',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'sbhd' => [
+			self::DESCRIPTION => 'S-BHD',
+			self::PAIR => 'S-BHD',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'sqar' => [
+			self::DESCRIPTION => 'S-QAR',
+			self::PAIR => 'S-QAR',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'susdt' => [
+			self::DESCRIPTION => 'S-USDT',
+			self::PAIR => 'S-USDT',
+			self::SYMBOL => 'tSONIC:UST',
+		],
 	];
 
 	private function __construct() {
