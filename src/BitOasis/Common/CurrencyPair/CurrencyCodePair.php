@@ -1149,6 +1149,69 @@ class CurrencyCodePair implements Pair {
 		'S-BHD' => 'S-BHD',
 		'S-QAR' => 'S-QAR',
 		'S-USDT' => 'S-USDT',
+
+		'TOKEN-AED' => 'TOKEN-AED',
+		'TOKEN-SAR' => 'TOKEN-SAR',
+		'TOKEN-USD' => 'TOKEN-USD',
+		'TOKEN-KWD' => 'TOKEN-KWD',
+		'TOKEN-OMR' => 'TOKEN-OMR',
+		'TOKEN-BHD' => 'TOKEN-BHD',
+		'TOKEN-QAR' => 'TOKEN-QAR',
+		'TOKEN-USDT' => 'TOKEN-USDT',
+
+		'EIGEN-AED' => 'EIGEN-AED',
+		'EIGEN-SAR' => 'EIGEN-SAR',
+		'EIGEN-USD' => 'EIGEN-USD',
+		'EIGEN-KWD' => 'EIGEN-KWD',
+		'EIGEN-OMR' => 'EIGEN-OMR',
+		'EIGEN-BHD' => 'EIGEN-BHD',
+		'EIGEN-QAR' => 'EIGEN-QAR',
+		'EIGEN-USDT' => 'EIGEN-USDT',
+
+		'JASMY-AED' => 'JASMY-AED',
+		'JASMY-SAR' => 'JASMY-SAR',
+		'JASMY-USD' => 'JASMY-USD',
+		'JASMY-KWD' => 'JASMY-KWD',
+		'JASMY-OMR' => 'JASMY-OMR',
+		'JASMY-BHD' => 'JASMY-BHD',
+		'JASMY-QAR' => 'JASMY-QAR',
+		'JASMY-USDT' => 'JASMY-USDT',
+
+		'STRK-AED' => 'STRK-AED',
+		'STRK-SAR' => 'STRK-SAR',
+		'STRK-USD' => 'STRK-USD',
+		'STRK-KWD' => 'STRK-KWD',
+		'STRK-OMR' => 'STRK-OMR',
+		'STRK-BHD' => 'STRK-BHD',
+		'STRK-QAR' => 'STRK-QAR',
+		'STRK-USDT' => 'STRK-USDT',
+
+		'ATH-AED' => 'ATH-AED',
+		'ATH-SAR' => 'ATH-SAR',
+		'ATH-USD' => 'ATH-USD',
+		'ATH-KWD' => 'ATH-KWD',
+		'ATH-OMR' => 'ATH-OMR',
+		'ATH-BHD' => 'ATH-BHD',
+		'ATH-QAR' => 'ATH-QAR',
+		'ATH-USDT' => 'ATH-USDT',
+
+		'BGB-AED' => 'BGB-AED',
+		'BGB-SAR' => 'BGB-SAR',
+		'BGB-USD' => 'BGB-USD',
+		'BGB-KWD' => 'BGB-KWD',
+		'BGB-OMR' => 'BGB-OMR',
+		'BGB-BHD' => 'BGB-BHD',
+		'BGB-QAR' => 'BGB-QAR',
+		'BGB-USDT' => 'BGB-USDT',
+
+		'KARATE-AED' => 'KARATE-AED',
+		'KARATE-SAR' => 'KARATE-SAR',
+		'KARATE-USD' => 'KARATE-USD',
+		'KARATE-KWD' => 'KARATE-KWD',
+		'KARATE-OMR' => 'KARATE-OMR',
+		'KARATE-BHD' => 'KARATE-BHD',
+		'KARATE-QAR' => 'KARATE-QAR',
+		'KARATE-USDT' => 'KARATE-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -1599,6 +1662,27 @@ class CurrencyCodePair implements Pair {
 
 		'S-AED', 'S-SAR', 'S-USD', 'S-KWD', 'S-OMR', 'S-BHD', 'S-QAR',
 		'S-USDT',
+
+		'TOKEN-AED', 'TOKEN-SAR', 'TOKEN-USD', 'TOKEN-KWD', 'TOKEN-OMR', 'TOKEN-BHD', 'TOKEN-QAR',
+		'TOKEN-USDT',
+
+		'EIGEN-AED', 'EIGEN-SAR', 'EIGEN-USD', 'EIGEN-KWD', 'EIGEN-OMR', 'EIGEN-BHD', 'EIGEN-QAR',
+		'EIGEN-USDT',
+
+		'JASMY-AED', 'JASMY-SAR', 'JASMY-USD', 'JASMY-KWD', 'JASMY-OMR', 'JASMY-BHD', 'JASMY-QAR',
+		'JASMY-USDT',
+
+		'STRK-AED', 'STRK-SAR', 'STRK-USD', 'STRK-KWD', 'STRK-OMR', 'STRK-BHD', 'STRK-QAR',
+		'STRK-USDT',
+
+		'ATH-AED', 'ATH-SAR', 'ATH-USD', 'ATH-KWD', 'ATH-OMR', 'ATH-BHD', 'ATH-QAR',
+		'ATH-USDT',
+
+		'BGB-AED', 'BGB-SAR', 'BGB-USD', 'BGB-KWD', 'BGB-OMR', 'BGB-BHD', 'BGB-QAR',
+		'BGB-USDT',
+
+		'KARATE-AED', 'KARATE-SAR', 'KARATE-USD', 'KARATE-KWD', 'KARATE-OMR', 'KARATE-BHD', 'KARATE-QAR',
+		'KARATE-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
