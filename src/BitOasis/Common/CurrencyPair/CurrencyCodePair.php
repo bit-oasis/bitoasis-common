@@ -1204,15 +1204,6 @@ class CurrencyCodePair implements Pair {
 		'BGB-QAR' => 'BGB-QAR',
 		'BGB-USDT' => 'BGB-USDT',
 
-		'XEGLD-AED' => 'XEGLD-AED',
-		'XEGLD-SAR' => 'XEGLD-SAR',
-		'XEGLD-USD' => 'XEGLD-USD',
-		'XEGLD-KWD' => 'XEGLD-KWD',
-		'XEGLD-OMR' => 'XEGLD-OMR',
-		'XEGLD-BHD' => 'XEGLD-BHD',
-		'XEGLD-QAR' => 'XEGLD-QAR',
-		'XEGLD-USDT' => 'XEGLD-USDT',
-
 		'KARATE-AED' => 'KARATE-AED',
 		'KARATE-SAR' => 'KARATE-SAR',
 		'KARATE-USD' => 'KARATE-USD',
@@ -1689,9 +1680,6 @@ class CurrencyCodePair implements Pair {
 
 		'BGB-AED', 'BGB-SAR', 'BGB-USD', 'BGB-KWD', 'BGB-OMR', 'BGB-BHD', 'BGB-QAR',
 		'BGB-USDT',
-
-		'XEGLD-AED', 'XEGLD-SAR', 'XEGLD-USD', 'XEGLD-KWD', 'XEGLD-OMR', 'XEGLD-BHD', 'XEGLD-QAR',
-		'XEGLD-USDT',
 
 		'KARATE-AED', 'KARATE-SAR', 'KARATE-USD', 'KARATE-KWD', 'KARATE-OMR', 'KARATE-BHD', 'KARATE-QAR',
 		'KARATE-USDT',

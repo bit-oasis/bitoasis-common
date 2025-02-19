@@ -6287,47 +6287,6 @@ class ConsoleUtils {
 			self::PAIR => 'BGB-USDT',
 			self::SYMBOL => 'tBGBUST',
 		],
-		// --------------------------------------------- XEGLD pairs
-		'xegldaed' => [
-			self::DESCRIPTION => 'XEGLD-AED',
-			self::PAIR => 'XEGLD-AED',
-			self::SYMBOL => 'tEGLD:USD',
-		],
-		'xegldsar' => [
-			self::DESCRIPTION => 'XEGLD-SAR',
-			self::PAIR => 'XEGLD-SAR',
-			self::SYMBOL => 'tEGLD:USD',
-		],
-		'xegldusd' => [
-			self::DESCRIPTION => 'XEGLD-USD',
-			self::PAIR => 'XEGLD-USD',
-			self::SYMBOL => 'tEGLD:USD',
-		],
-		'xegldkwd' => [
-			self::DESCRIPTION => 'XEGLD-KWD',
-			self::PAIR => 'XEGLD-KWD',
-			self::SYMBOL => 'tEGLD:USD',
-		],
-		'xegldomr' => [
-			self::DESCRIPTION => 'XEGLD-OMR',
-			self::PAIR => 'XEGLD-OMR',
-			self::SYMBOL => 'tEGLD:USD',
-		],
-		'xegldbhd' => [
-			self::DESCRIPTION => 'XEGLD-BHD',
-			self::PAIR => 'XEGLD-BHD',
-			self::SYMBOL => 'tEGLD:USD',
-		],
-		'xegldqar' => [
-			self::DESCRIPTION => 'XEGLD-QAR',
-			self::PAIR => 'XEGLD-QAR',
-			self::SYMBOL => 'tEGLD:USD',
-		],
-		'xegldusdt' => [
-			self::DESCRIPTION => 'XEGLD-USDT',
-			self::PAIR => 'XEGLD-USDT',
-			self::SYMBOL => 'tEGLD:UST',
-		],
 		// --------------------------------------------- KARATE pairs
 		'karateaed' => [
 			self::DESCRIPTION => 'KARATE-AED',
