@@ -1159,14 +1159,6 @@ class CurrencyCodePair implements Pair {
 		'BGB-QAR' => 'BGB-QAR',
 		'BGB-USDT' => 'BGB-USDT',
 
-		'KARATE-AED' => 'KARATE-AED',
-		'KARATE-SAR' => 'KARATE-SAR',
-		'KARATE-USD' => 'KARATE-USD',
-		'KARATE-KWD' => 'KARATE-KWD',
-		'KARATE-OMR' => 'KARATE-OMR',
-		'KARATE-BHD' => 'KARATE-BHD',
-		'KARATE-QAR' => 'KARATE-QAR',
-		'KARATE-USDT' => 'KARATE-USDT',
 	];
 
 	const VALID_PAIRS = [
@@ -1640,9 +1632,6 @@ class CurrencyCodePair implements Pair {
 
 		'BGB-AED', 'BGB-SAR', 'BGB-USD', 'BGB-KWD', 'BGB-OMR', 'BGB-BHD', 'BGB-QAR',
 		'BGB-USDT',
-
-		'KARATE-AED', 'KARATE-SAR', 'KARATE-USD', 'KARATE-KWD', 'KARATE-OMR', 'KARATE-BHD', 'KARATE-QAR',
-		'KARATE-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
