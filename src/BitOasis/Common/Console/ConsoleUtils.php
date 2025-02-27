@@ -6287,47 +6287,6 @@ class ConsoleUtils {
 			self::PAIR => 'BGB-USDT',
 			self::SYMBOL => 'tBGBUST',
 		],
-		// --------------------------------------------- KARATE pairs
-		'karateaed' => [
-			self::DESCRIPTION => 'KARATE-AED',
-			self::PAIR => 'KARATE-AED',
-			self::SYMBOL => 'tKARATE:USD',
-		],
-		'karatesar' => [
-			self::DESCRIPTION => 'KARATE-SAR',
-			self::PAIR => 'KARATE-SAR',
-			self::SYMBOL => 'tKARATE:USD',
-		],
-		'karateusd' => [
-			self::DESCRIPTION => 'KARATE-USD',
-			self::PAIR => 'KARATE-USD',
-			self::SYMBOL => 'tKARATE:USD',
-		],
-		'karatekwd' => [
-			self::DESCRIPTION => 'KARATE-KWD',
-			self::PAIR => 'KARATE-KWD',
-			self::SYMBOL => 'tKARATE:USD',
-		],
-		'karateomr' => [
-			self::DESCRIPTION => 'KARATE-OMR',
-			self::PAIR => 'KARATE-OMR',
-			self::SYMBOL => 'tKARATE:USD',
-		],
-		'karatebhd' => [
-			self::DESCRIPTION => 'KARATE-BHD',
-			self::PAIR => 'KARATE-BHD',
-			self::SYMBOL => 'tKARATE:USD',
-		],
-		'karateqar' => [
-			self::DESCRIPTION => 'KARATE-QAR',
-			self::PAIR => 'KARATE-QAR',
-			self::SYMBOL => 'tKARATE:USD',
-		],
-		'karateusdt' => [
-			self::DESCRIPTION => 'KARATE-USDT',
-			self::PAIR => 'KARATE-USDT',
-			self::SYMBOL => 'tKARATE:UST',
-		],
 	];
 
 	private function __construct() {
