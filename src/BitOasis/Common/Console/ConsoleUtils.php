@@ -3537,6 +3537,2549 @@ class ConsoleUtils {
 			self::PAIR => 'SGB-USDT',
 			self::SYMBOL => 'tSGBUST',
 		],
+		// --------------------------------------------- BLUR pairs
+		'bluraed' => [
+			self::DESCRIPTION => 'BLUR-AED',
+			self::PAIR => 'BLUR-AED',
+			self::SYMBOL => 'tBLUR:USD',
+		],
+		'blursar' => [
+			self::DESCRIPTION => 'BLUR-SAR',
+			self::PAIR => 'BLUR-SAR',
+			self::SYMBOL => 'tBLUR:USD',
+		],
+		'blurusd' => [
+			self::DESCRIPTION => 'BLUR-USD',
+			self::PAIR => 'BLUR-USD',
+			self::SYMBOL => 'tBLUR:USD',
+		],
+		'blurkwd' => [
+			self::DESCRIPTION => 'BLUR-KWD',
+			self::PAIR => 'BLUR-KWD',
+			self::SYMBOL => 'tBLUR:USD',
+		],
+		'bluromr' => [
+			self::DESCRIPTION => 'BLUR-OMR',
+			self::PAIR => 'BLUR-OMR',
+			self::SYMBOL => 'tBLUR:USD',
+		],
+		'blurbhd' => [
+			self::DESCRIPTION => 'BLUR-BHD',
+			self::PAIR => 'BLUR-BHD',
+			self::SYMBOL => 'tBLUR:USD',
+		],
+		'blurqar' => [
+			self::DESCRIPTION => 'BLUR-QAR',
+			self::PAIR => 'BLUR-QAR',
+			self::SYMBOL => 'tBLUR:USD',
+		],
+		'blurusdt' => [
+			self::DESCRIPTION => 'BLUR-USDT',
+			self::PAIR => 'BLUR-USDT',
+			self::SYMBOL => 'tBLUR:UST',
+		],
+		// --------------------------------------------- OP pairs
+		'opaed' => [
+			self::DESCRIPTION => 'OP-AED',
+			self::PAIR => 'OP-AED',
+			self::SYMBOL => 'tOPXUSD',
+		],
+		'opsar' => [
+			self::DESCRIPTION => 'OP-SAR',
+			self::PAIR => 'OP-SAR',
+			self::SYMBOL => 'tOPXUSD',
+		],
+		'opusd' => [
+			self::DESCRIPTION => 'OP-USD',
+			self::PAIR => 'OP-USD',
+			self::SYMBOL => 'tOPXUSD',
+		],
+		'opkwd' => [
+			self::DESCRIPTION => 'OP-KWD',
+			self::PAIR => 'OP-KWD',
+			self::SYMBOL => 'tOPXUSD',
+		],
+		'opomr' => [
+			self::DESCRIPTION => 'OP-OMR',
+			self::PAIR => 'OP-OMR',
+			self::SYMBOL => 'tOPXUSD',
+		],
+		'opbhd' => [
+			self::DESCRIPTION => 'OP-BHD',
+			self::PAIR => 'OP-BHD',
+			self::SYMBOL => 'tOPXUSD',
+		],
+		'opqar' => [
+			self::DESCRIPTION => 'OP-QAR',
+			self::PAIR => 'OP-QAR',
+			self::SYMBOL => 'tOPXUSD',
+		],
+		'opusdt' => [
+			self::DESCRIPTION => 'OP-USDT',
+			self::PAIR => 'OP-USDT',
+			self::SYMBOL => 'tOPXUST',
+		],
+		// --------------------------------------------- OPEN pairs
+		'openaed' => [
+			self::DESCRIPTION => 'OPEN-AED',
+			self::PAIR => 'OPEN-AED',
+			self::SYMBOL => 'tQRDO:USD',
+		],
+		'opensar' => [
+			self::DESCRIPTION => 'OPEN-SAR',
+			self::PAIR => 'OPEN-SAR',
+			self::SYMBOL => 'tQRDO:USD',
+		],
+		'openusd' => [
+			self::DESCRIPTION => 'OPEN-USD',
+			self::PAIR => 'OPEN-USD',
+			self::SYMBOL => 'tQRDO:USD',
+		],
+		'openkwd' => [
+			self::DESCRIPTION => 'OPEN-KWD',
+			self::PAIR => 'OPEN-KWD',
+			self::SYMBOL => 'tQRDO:USD',
+		],
+		'openoomr' => [
+			self::DESCRIPTION => 'OPEN-OMR',
+			self::PAIR => 'OPEN-OMR',
+			self::SYMBOL => 'tQRDO:USD',
+		],
+		'openbhd' => [
+			self::DESCRIPTION => 'OPEN-BHD',
+			self::PAIR => 'OPEN-BHD',
+			self::SYMBOL => 'tQRDO:USD',
+		],
+		'openqar' => [
+			self::DESCRIPTION => 'OPEN-QAR',
+			self::PAIR => 'OPEN-QAR',
+			self::SYMBOL => 'tQRDO:USD',
+		],
+		'openusdt' => [
+			self::DESCRIPTION => 'OPEN-USDT',
+			self::PAIR => 'OPEN-USDT',
+			self::SYMBOL => 'tQRDO:UST',
+		],
+		// --------------------------------------------- BOSON pairs
+		'bosonaed' => [
+			self::DESCRIPTION => 'BOSON-AED',
+			self::PAIR => 'BOSON-AED',
+			self::SYMBOL => 'tBOSON:USD',
+		],
+		'bosonsar' => [
+			self::DESCRIPTION => 'BOSON-SAR',
+			self::PAIR => 'BOSON-SAR',
+			self::SYMBOL => 'tBOSON:USD',
+		],
+		'bosonusd' => [
+			self::DESCRIPTION => 'BOSON-USD',
+			self::PAIR => 'BOSON-USD',
+			self::SYMBOL => 'tBOSON:USD',
+		],
+		'bosonkwd' => [
+			self::DESCRIPTION => 'BOSON-KWD',
+			self::PAIR => 'BOSON-KWD',
+			self::SYMBOL => 'tBOSON:USD',
+		],
+		'bosonomr' => [
+			self::DESCRIPTION => 'BOSON-OMR',
+			self::PAIR => 'BOSON-OMR',
+			self::SYMBOL => 'tBOSON:USD',
+		],
+		'bosonbhd' => [
+			self::DESCRIPTION => 'BOSON-BHD',
+			self::PAIR => 'BOSON-BHD',
+			self::SYMBOL => 'tBOSON:USD',
+		],
+		'bosonqar' => [
+			self::DESCRIPTION => 'BOSON-QAR',
+			self::PAIR => 'BOSON-QAR',
+			self::SYMBOL => 'tBOSON:USD',
+		],
+		'bosonusdt' => [
+			self::DESCRIPTION => 'BOSON-USDT',
+			self::PAIR => 'BOSON-USDT',
+			self::SYMBOL => 'tBOSON:UST',
+		],
+		// --------------------------------------------- FLOKI pairs
+		'flokiaed' => [
+			self::DESCRIPTION => 'FLOKI-AED',
+			self::PAIR => 'FLOKI-AED',
+			self::SYMBOL => 'tFLOKI:USD',
+		],
+		'flokisar' => [
+			self::DESCRIPTION => 'FLOKI-SAR',
+			self::PAIR => 'FLOKI-SAR',
+			self::SYMBOL => 'tFLOKI:USD',
+		],
+		'flokiusd' => [
+			self::DESCRIPTION => 'FLOKI-USD',
+			self::PAIR => 'FLOKI-USD',
+			self::SYMBOL => 'tFLOKI:USD',
+		],
+		'flokikwd' => [
+			self::DESCRIPTION => 'FLOKI-KWD',
+			self::PAIR => 'FLOKI-KWD',
+			self::SYMBOL => 'tFLOKI:USD',
+		],
+		'flokiomr' => [
+			self::DESCRIPTION => 'FLOKI-OMR',
+			self::PAIR => 'FLOKI-OMR',
+			self::SYMBOL => 'tFLOKI:USD',
+		],
+		'flokibhd' => [
+			self::DESCRIPTION => 'FLOKI-BHD',
+			self::PAIR => 'FLOKI-BHD',
+			self::SYMBOL => 'tFLOKI:USD',
+		],
+		'flokiqar' => [
+			self::DESCRIPTION => 'FLOKI-QAR',
+			self::PAIR => 'FLOKI-QAR',
+			self::SYMBOL => 'tFLOKI:USD',
+		],
+		'flokiusdt' => [
+			self::DESCRIPTION => 'FLOKI-USDT',
+			self::PAIR => 'FLOKI-USDT',
+			self::SYMBOL => 'tFLOKI:UST',
+		],
+		// --------------------------------------------- TUSD pairs
+		'tusdaed' => [
+			self::DESCRIPTION => 'TUSD-AED',
+			self::PAIR => 'TUSD-AED',
+			self::SYMBOL => 'tTSDUSD',
+		],
+		'tusdsar' => [
+			self::DESCRIPTION => 'TUSD-SAR',
+			self::PAIR => 'TUSD-SAR',
+			self::SYMBOL => 'tTSDUSD',
+		],
+		'tusdusd' => [
+			self::DESCRIPTION => 'TUSD-USD',
+			self::PAIR => 'TUSD-USD',
+			self::SYMBOL => 'tTSDUSD',
+		],
+		'tusdkwd' => [
+			self::DESCRIPTION => 'TUSD-KWD',
+			self::PAIR => 'TUSD-KWD',
+			self::SYMBOL => 'tTSDUSD',
+		],
+		'tusdomr' => [
+			self::DESCRIPTION => 'TUSD-OMR',
+			self::PAIR => 'TUSD-OMR',
+			self::SYMBOL => 'tTSDUSD',
+		],
+		'tusdbhd' => [
+			self::DESCRIPTION => 'TUSD-BHD',
+			self::PAIR => 'TUSD-BHD',
+			self::SYMBOL => 'tTSDUSD',
+		],
+		'tusdqar' => [
+			self::DESCRIPTION => 'TUSD-QAR',
+			self::PAIR => 'TUSD-QAR',
+			self::SYMBOL => 'tTSDUSD',
+		],
+		'tusdusdt' => [
+			self::DESCRIPTION => 'TUSD-USDT',
+			self::PAIR => 'TUSD-USDT',
+			self::SYMBOL => 'tTSDUST',
+		],
+		// --------------------------------------------- WILD pairs
+		'wildaed' => [
+			self::DESCRIPTION => 'WILD-AED',
+			self::PAIR => 'WILD-AED',
+			self::SYMBOL => 'tWILD:USD',
+		],
+		'wildsar' => [
+			self::DESCRIPTION => 'WILD-SAR',
+			self::PAIR => 'WILD-SAR',
+			self::SYMBOL => 'tWILD:USD',
+		],
+		'wildusd' => [
+			self::DESCRIPTION => 'WILD-USD',
+			self::PAIR => 'WILD-USD',
+			self::SYMBOL => 'tWILD:USD',
+		],
+		'wildkwd' => [
+			self::DESCRIPTION => 'WILD-KWD',
+			self::PAIR => 'WILD-KWD',
+			self::SYMBOL => 'tWILD:USD',
+		],
+		'wildomr' => [
+			self::DESCRIPTION => 'WILD-OMR',
+			self::PAIR => 'WILD-OMR',
+			self::SYMBOL => 'tWILD:USD',
+		],
+		'wildbhd' => [
+			self::DESCRIPTION => 'WILD-BHD',
+			self::PAIR => 'WILD-BHD',
+			self::SYMBOL => 'tWILD:USD',
+		],
+		'wildqar' => [
+			self::DESCRIPTION => 'WILD-QAR',
+			self::PAIR => 'WILD-QAR',
+			self::SYMBOL => 'tWILD:USD',
+		],
+		'wildusdt' => [
+			self::DESCRIPTION => 'WILD-USDT',
+			self::PAIR => 'WILD-USDT',
+			self::SYMBOL => 'tWILD:UST',
+		],
+		// --------------------------------------------- SUI pairs
+		'suiaed' => [
+			self::DESCRIPTION => 'SUI-AED',
+			self::PAIR => 'SUI-AED',
+			self::SYMBOL => 'tSUIUSD',
+		],
+		'suisar' => [
+			self::DESCRIPTION => 'SUI-SAR',
+			self::PAIR => 'SUI-SAR',
+			self::SYMBOL => 'tSUIUSD',
+		],
+		'suiusd' => [
+			self::DESCRIPTION => 'SUI-USD',
+			self::PAIR => 'SUI-USD',
+			self::SYMBOL => 'tSUIUSD',
+		],
+		'suikwd' => [
+			self::DESCRIPTION => 'SUI-KWD',
+			self::PAIR => 'SUI-KWD',
+			self::SYMBOL => 'tSUIUSD',
+		],
+		'suiomr' => [
+			self::DESCRIPTION => 'SUI-OMR',
+			self::PAIR => 'SUI-OMR',
+			self::SYMBOL => 'tSUIUSD',
+		],
+		'suibhd' => [
+			self::DESCRIPTION => 'SUI-BHD',
+			self::PAIR => 'SUI-BHD',
+			self::SYMBOL => 'tSUIUSD',
+		],
+		'suiqar' => [
+			self::DESCRIPTION => 'SUI-QAR',
+			self::PAIR => 'SUI-QAR',
+			self::SYMBOL => 'tSUIUSD',
+		],
+		'suiusdt' => [
+			self::DESCRIPTION => 'SUI-USDT',
+			self::PAIR => 'SUI-USDT',
+			self::SYMBOL => 'tSUIUST',
+		],
+		// --------------------------------------------- SEI pairs
+		'seiaed' => [
+			self::DESCRIPTION => 'SEI-AED',
+			self::PAIR => 'SEI-AED',
+			self::SYMBOL => 'tSEIUSD',
+		],
+		'seisar' => [
+			self::DESCRIPTION => 'SEI-SAR',
+			self::PAIR => 'SEI-SAR',
+			self::SYMBOL => 'tSEIUSD',
+		],
+		'seiusd' => [
+			self::DESCRIPTION => 'SEI-USD',
+			self::PAIR => 'SEI-USD',
+			self::SYMBOL => 'tSEIUSD',
+		],
+		'seikwd' => [
+			self::DESCRIPTION => 'SEI-KWD',
+			self::PAIR => 'SEI-KWD',
+			self::SYMBOL => 'tSEIUSD',
+		],
+		'seiomr' => [
+			self::DESCRIPTION => 'SEI-OMR',
+			self::PAIR => 'SEI-OMR',
+			self::SYMBOL => 'tSEIUSD',
+		],
+		'seibhd' => [
+			self::DESCRIPTION => 'SEI-BHD',
+			self::PAIR => 'SEI-BHD',
+			self::SYMBOL => 'tSEIUSD',
+		],
+		'seiqar' => [
+			self::DESCRIPTION => 'SEI-QAR',
+			self::PAIR => 'SEI-QAR',
+			self::SYMBOL => 'tSEIUSD',
+		],
+		'seiusdt' => [
+			self::DESCRIPTION => 'SEI-USDT',
+			self::PAIR => 'SEI-USDT',
+			self::SYMBOL => 'tSEIUST',
+		],
+		// --------------------------------------------- TON pairs
+		'tonaed' => [
+			self::DESCRIPTION => 'TON-AED',
+			self::PAIR => 'TON-AED',
+			self::SYMBOL => 'tTONUSD',
+		],
+		'tonsar' => [
+			self::DESCRIPTION => 'TON-SAR',
+			self::PAIR => 'TON-SAR',
+			self::SYMBOL => 'tTONUSD',
+		],
+		'tonusd' => [
+			self::DESCRIPTION => 'TON-USD',
+			self::PAIR => 'TON-USD',
+			self::SYMBOL => 'tTONUSD',
+		],
+		'tonkwd' => [
+			self::DESCRIPTION => 'TON-KWD',
+			self::PAIR => 'TON-KWD',
+			self::SYMBOL => 'tTONUSD',
+		],
+		'tonomr' => [
+			self::DESCRIPTION => 'TON-OMR',
+			self::PAIR => 'TON-OMR',
+			self::SYMBOL => 'tTONUSD',
+		],
+		'tonbhd' => [
+			self::DESCRIPTION => 'TON-BHD',
+			self::PAIR => 'TON-BHD',
+			self::SYMBOL => 'tTONUSD',
+		],
+		'tonqar' => [
+			self::DESCRIPTION => 'TON-QAR',
+			self::PAIR => 'TON-QAR',
+			self::SYMBOL => 'tTONUSD',
+		],
+		'tonusdt' => [
+			self::DESCRIPTION => 'TON-USDT',
+			self::PAIR => 'TON-USDT',
+			self::SYMBOL => 'tTONUST',
+		],
+		// --------------------------------------------- AMPL pairs
+		'amplaed' => [
+			self::DESCRIPTION => 'AMPL-AED',
+			self::PAIR => 'AMPL-AED',
+			self::SYMBOL => 'tAMPUSD',
+		],
+		'amplsar' => [
+			self::DESCRIPTION => 'AMPL-SAR',
+			self::PAIR => 'AMPL-SAR',
+			self::SYMBOL => 'tAMPUSD',
+		],
+		'amplusd' => [
+			self::DESCRIPTION => 'AMPL-USD',
+			self::PAIR => 'AMPL-USD',
+			self::SYMBOL => 'tAMPUSD',
+		],
+		'amplkwd' => [
+			self::DESCRIPTION => 'AMPL-KWD',
+			self::PAIR => 'AMPL-KWD',
+			self::SYMBOL => 'tAMPUSD',
+		],
+		'amplomr' => [
+			self::DESCRIPTION => 'AMPL-OMR',
+			self::PAIR => 'AMPL-OMR',
+			self::SYMBOL => 'tAMPUSD',
+		],
+		'amplbhd' => [
+			self::DESCRIPTION => 'AMPL-BHD',
+			self::PAIR => 'AMPL-BHD',
+			self::SYMBOL => 'tAMPUSD',
+		],
+		'amplqar' => [
+			self::DESCRIPTION => 'AMPL-QAR',
+			self::PAIR => 'AMPL-QAR',
+			self::SYMBOL => 'tAMPUSD',
+		],
+		'amplusdt' => [
+			self::DESCRIPTION => 'AMPL-USDT',
+			self::PAIR => 'AMPL-USDT',
+			self::SYMBOL => 'tAMPUST',
+		],
+		'amplbtc' => [
+			self::DESCRIPTION => 'AMPL-BTC',
+			self::PAIR => 'AMPL-BTC',
+			self::SYMBOL => 'tAMPBTC',
+		],
+		// --------------------------------------------- BEST pairs
+		'bestaed' => [
+			self::DESCRIPTION => 'BEST-AED',
+			self::PAIR => 'BEST-AED',
+			self::SYMBOL => 'tBEST:USD',
+		],
+		'bestsar' => [
+			self::DESCRIPTION => 'BEST-SAR',
+			self::PAIR => 'BEST-SAR',
+			self::SYMBOL => 'tBEST:USD',
+		],
+		'bestusd' => [
+			self::DESCRIPTION => 'BEST-USD',
+			self::PAIR => 'BEST-USD',
+			self::SYMBOL => 'tBEST:USD',
+		],
+		'bestkwd' => [
+			self::DESCRIPTION => 'BEST-KWD',
+			self::PAIR => 'BEST-KWD',
+			self::SYMBOL => 'tBEST:USD',
+		],
+		'bestomr' => [
+			self::DESCRIPTION => 'BEST-OMR',
+			self::PAIR => 'BEST-OMR',
+			self::SYMBOL => 'tBEST:USD',
+		],
+		'bestbhd' => [
+			self::DESCRIPTION => 'BEST-BHD',
+			self::PAIR => 'BEST-BHD',
+			self::SYMBOL => 'tBEST:USD',
+		],
+		'bestqar' => [
+			self::DESCRIPTION => 'BEST-QAR',
+			self::PAIR => 'BEST-QAR',
+			self::SYMBOL => 'tBEST:USD',
+		],
+		// --------------------------------------------- CELO pairs
+		'celoaed' => [
+			self::DESCRIPTION => 'CELO-AED',
+			self::PAIR => 'CELO-AED',
+			self::SYMBOL => 'tCELO:USD',
+		],
+		'celosar' => [
+			self::DESCRIPTION => 'CELO-SAR',
+			self::PAIR => 'CELO-SAR',
+			self::SYMBOL => 'tCELO:USD',
+		],
+		'celousd' => [
+			self::DESCRIPTION => 'CELO-USD',
+			self::PAIR => 'CELO-USD',
+			self::SYMBOL => 'tCELO:USD',
+		],
+		'celokwd' => [
+			self::DESCRIPTION => 'CELO-KWD',
+			self::PAIR => 'CELO-KWD',
+			self::SYMBOL => 'tCELO:USD',
+		],
+		'celoomr' => [
+			self::DESCRIPTION => 'CELO-OMR',
+			self::PAIR => 'CELO-OMR',
+			self::SYMBOL => 'tCELO:USD',
+		],
+		'celobhd' => [
+			self::DESCRIPTION => 'CELO-BHD',
+			self::PAIR => 'CELO-BHD',
+			self::SYMBOL => 'tCELO:USD',
+		],
+		'celoqar' => [
+			self::DESCRIPTION => 'CELO-QAR',
+			self::PAIR => 'CELO-QAR',
+			self::SYMBOL => 'tCELO:USD',
+		],
+		'celousdt' => [
+			self::DESCRIPTION => 'CELO-USDT',
+			self::PAIR => 'CELO-USDT',
+			self::SYMBOL => 'tCELO:UST',
+		],
+		// --------------------------------------------- DUSK pairs
+		'duskaed' => [
+			self::DESCRIPTION => 'DUSK-AED',
+			self::PAIR => 'DUSK-AED',
+			self::SYMBOL => 'tDUSK:USD',
+		],
+		'dusksar' => [
+			self::DESCRIPTION => 'DUSK-SAR',
+			self::PAIR => 'DUSK-SAR',
+			self::SYMBOL => 'tDUSK:USD',
+		],
+		'duskusd' => [
+			self::DESCRIPTION => 'DUSK-USD',
+			self::PAIR => 'DUSK-USD',
+			self::SYMBOL => 'tDUSK:USD',
+		],
+		'duskkwd' => [
+			self::DESCRIPTION => 'DUSK-KWD',
+			self::PAIR => 'DUSK-KWD',
+			self::SYMBOL => 'tDUSK:USD',
+		],
+		'duskomr' => [
+			self::DESCRIPTION => 'DUSK-OMR',
+			self::PAIR => 'DUSK-OMR',
+			self::SYMBOL => 'tDUSK:USD',
+		],
+		'duskbhd' => [
+			self::DESCRIPTION => 'DUSK-BHD',
+			self::PAIR => 'DUSK-BHD',
+			self::SYMBOL => 'tDUSK:USD',
+		],
+		'duskqar' => [
+			self::DESCRIPTION => 'DUSK-QAR',
+			self::PAIR => 'DUSK-QAR',
+			self::SYMBOL => 'tDUSK:USD',
+		],
+		// --------------------------------------------- DVF pairs
+		'dvfaed' => [
+			self::DESCRIPTION => 'DVF-AED',
+			self::PAIR => 'DVF-AED',
+			self::SYMBOL => 'tDVFUSD',
+		],
+		'dvfsar' => [
+			self::DESCRIPTION => 'DVF-SAR',
+			self::PAIR => 'DVF-SAR',
+			self::SYMBOL => 'tDVFUSD',
+		],
+		'dvfusd' => [
+			self::DESCRIPTION => 'DVF-USD',
+			self::PAIR => 'DVF-USD',
+			self::SYMBOL => 'tDVFUSD',
+		],
+		'dvfkwd' => [
+			self::DESCRIPTION => 'DVF-KWD',
+			self::PAIR => 'DVF-KWD',
+			self::SYMBOL => 'tDVFUSD',
+		],
+		'dvfomr' => [
+			self::DESCRIPTION => 'DVF-OMR',
+			self::PAIR => 'DVF-OMR',
+			self::SYMBOL => 'tDVFUSD',
+		],
+		'dvfbhd' => [
+			self::DESCRIPTION => 'DVF-BHD',
+			self::PAIR => 'DVF-BHD',
+			self::SYMBOL => 'tDVFUSD',
+		],
+		'dvfqar' => [
+			self::DESCRIPTION => 'DVF-QAR',
+			self::PAIR => 'DVF-QAR',
+			self::SYMBOL => 'tDVFUSD',
+		],
+		// --------------------------------------------- FCL pairs
+		'fclaed' => [
+			self::DESCRIPTION => 'FCL-AED',
+			self::PAIR => 'FCL-AED',
+			self::SYMBOL => 'tFCLUSD',
+		],
+		'fclsar' => [
+			self::DESCRIPTION => 'FCL-SAR',
+			self::PAIR => 'FCL-SAR',
+			self::SYMBOL => 'tFCLUSD',
+		],
+		'fclusd' => [
+			self::DESCRIPTION => 'FCL-USD',
+			self::PAIR => 'FCL-USD',
+			self::SYMBOL => 'tFCLUSD',
+		],
+		'fclkwd' => [
+			self::DESCRIPTION => 'FCL-KWD',
+			self::PAIR => 'FCL-KWD',
+			self::SYMBOL => 'tFCLUSD',
+		],
+		'fclomr' => [
+			self::DESCRIPTION => 'FCL-OMR',
+			self::PAIR => 'FCL-OMR',
+			self::SYMBOL => 'tFCLUSD',
+		],
+		'fclbhd' => [
+			self::DESCRIPTION => 'FCL-BHD',
+			self::PAIR => 'FCL-BHD',
+			self::SYMBOL => 'tFCLUSD',
+		],
+		'fclqar' => [
+			self::DESCRIPTION => 'FCL-QAR',
+			self::PAIR => 'FCL-QAR',
+			self::SYMBOL => 'tFCLUSD',
+		],
+		'fclusdt' => [
+			self::DESCRIPTION => 'FCL-USDT',
+			self::PAIR => 'FCL-USDT',
+			self::SYMBOL => 'tFCLUST',
+		],
+		// --------------------------------------------- FLR pairs
+		'flraed' => [
+			self::DESCRIPTION => 'FLR-AED',
+			self::PAIR => 'FLR-AED',
+			self::SYMBOL => 'tFLRUSD',
+		],
+		'flrsar' => [
+			self::DESCRIPTION => 'FLR-SAR',
+			self::PAIR => 'FLR-SAR',
+			self::SYMBOL => 'tFLRUSD',
+		],
+		'flrusd' => [
+			self::DESCRIPTION => 'FLR-USD',
+			self::PAIR => 'FLR-USD',
+			self::SYMBOL => 'tFLRUSD',
+		],
+		'flrkwd' => [
+			self::DESCRIPTION => 'FLR-KWD',
+			self::PAIR => 'FLR-KWD',
+			self::SYMBOL => 'tFLRUSD',
+		],
+		'flromr' => [
+			self::DESCRIPTION => 'FLR-OMR',
+			self::PAIR => 'FLR-OMR',
+			self::SYMBOL => 'tFLRUSD',
+		],
+		'flrbhd' => [
+			self::DESCRIPTION => 'FLR-BHD',
+			self::PAIR => 'FLR-BHD',
+			self::SYMBOL => 'tFLRUSD',
+		],
+		'flrqar' => [
+			self::DESCRIPTION => 'FLR-QAR',
+			self::PAIR => 'FLR-QAR',
+			self::SYMBOL => 'tFLRUSD',
+		],
+		'flrusdt' => [
+			self::DESCRIPTION => 'FLR-USDT',
+			self::PAIR => 'FLR-USDT',
+			self::SYMBOL => 'tFLRUST',
+		],
+		// --------------------------------------------- FORTH pairs
+		'forthaed' => [
+			self::DESCRIPTION => 'FORTH-AED',
+			self::PAIR => 'FORTH-AED',
+			self::SYMBOL => 'tFORTH:USD',
+		],
+		'forthsar' => [
+			self::DESCRIPTION => 'FORTH-SAR',
+			self::PAIR => 'FORTH-SAR',
+			self::SYMBOL => 'tFORTH:USD',
+		],
+		'forthusd' => [
+			self::DESCRIPTION => 'FORTH-USD',
+			self::PAIR => 'FORTH-USD',
+			self::SYMBOL => 'tFORTH:USD',
+		],
+		'forthkwd' => [
+			self::DESCRIPTION => 'FORTH-KWD',
+			self::PAIR => 'FORTH-KWD',
+			self::SYMBOL => 'tFORTH:USD',
+		],
+		'forthomr' => [
+			self::DESCRIPTION => 'FORTH-OMR',
+			self::PAIR => 'FORTH-OMR',
+			self::SYMBOL => 'tFORTH:USD',
+		],
+		'forthbhd' => [
+			self::DESCRIPTION => 'FORTH-BHD',
+			self::PAIR => 'FORTH-BHD',
+			self::SYMBOL => 'tFORTH:USD',
+		],
+		'forthqar' => [
+			self::DESCRIPTION => 'FORTH-QAR',
+			self::PAIR => 'FORTH-QAR',
+			self::SYMBOL => 'tFORTH:USD',
+		],
+		'forthusdt' => [
+			self::DESCRIPTION => 'FORTH-USDT',
+			self::PAIR => 'FORTH-USDT',
+			self::SYMBOL => 'tFORTH:UST',
+		],
+		// --------------------------------------------- FUN pairs
+		'funaed' => [
+			self::DESCRIPTION => 'FUN-AED',
+			self::PAIR => 'FUN-AED',
+			self::SYMBOL => 'tFUNUSD',
+		],
+		'funsar' => [
+			self::DESCRIPTION => 'FUN-SAR',
+			self::PAIR => 'FUN-SAR',
+			self::SYMBOL => 'tFUNUSD',
+		],
+		'funusd' => [
+			self::DESCRIPTION => 'FUN-USD',
+			self::PAIR => 'FUN-USD',
+			self::SYMBOL => 'tFUNUSD',
+		],
+		'funkwd' => [
+			self::DESCRIPTION => 'FUN-KWD',
+			self::PAIR => 'FUN-KWD',
+			self::SYMBOL => 'tFUNUSD',
+		],
+		'funomr' => [
+			self::DESCRIPTION => 'FUN-OMR',
+			self::PAIR => 'FUN-OMR',
+			self::SYMBOL => 'tFUNUSD',
+		],
+		'funbhd' => [
+			self::DESCRIPTION => 'FUN-BHD',
+			self::PAIR => 'FUN-BHD',
+			self::SYMBOL => 'tFUNUSD',
+		],
+		'funqar' => [
+			self::DESCRIPTION => 'FUN-QAR',
+			self::PAIR => 'FUN-QAR',
+			self::SYMBOL => 'tFUNUSD',
+		],
+		// --------------------------------------------- HMT pairs
+		'hmtaed' => [
+			self::DESCRIPTION => 'HMT-AED',
+			self::PAIR => 'HMT-AED',
+			self::SYMBOL => 'tHMTUSD',
+		],
+		'hmtsar' => [
+			self::DESCRIPTION => 'HMT-SAR',
+			self::PAIR => 'HMT-SAR',
+			self::SYMBOL => 'tHMTUSD',
+		],
+		'hmtusd' => [
+			self::DESCRIPTION => 'HMT-USD',
+			self::PAIR => 'HMT-USD',
+			self::SYMBOL => 'tHMTUSD',
+		],
+		'hmtkwd' => [
+			self::DESCRIPTION => 'HMT-KWD',
+			self::PAIR => 'HMT-KWD',
+			self::SYMBOL => 'tHMTUSD',
+		],
+		'hmtomr' => [
+			self::DESCRIPTION => 'HMT-OMR',
+			self::PAIR => 'HMT-OMR',
+			self::SYMBOL => 'tHMTUSD',
+		],
+		'hmtbhd' => [
+			self::DESCRIPTION => 'HMT-BHD',
+			self::PAIR => 'HMT-BHD',
+			self::SYMBOL => 'tHMTUSD',
+		],
+		'hmtqar' => [
+			self::DESCRIPTION => 'HMT-QAR',
+			self::PAIR => 'HMT-QAR',
+			self::SYMBOL => 'tHMTUSD',
+		],
+		'hmtusdt' => [
+			self::DESCRIPTION => 'HMT-USDT',
+			self::PAIR => 'HMT-USDT',
+			self::SYMBOL => 'tHMTUST',
+		],
+		// --------------------------------------------- INJ pairs
+		'injaed' => [
+			self::DESCRIPTION => 'INJ-AED',
+			self::PAIR => 'INJ-AED',
+			self::SYMBOL => 'tINJUSD',
+		],
+		'injsar' => [
+			self::DESCRIPTION => 'INJ-SAR',
+			self::PAIR => 'INJ-SAR',
+			self::SYMBOL => 'tINJUSD',
+		],
+		'injusd' => [
+			self::DESCRIPTION => 'INJ-USD',
+			self::PAIR => 'INJ-USD',
+			self::SYMBOL => 'tINJUSD',
+		],
+		'injkwd' => [
+			self::DESCRIPTION => 'INJ-KWD',
+			self::PAIR => 'INJ-KWD',
+			self::SYMBOL => 'tINJUSD',
+		],
+		'injomr' => [
+			self::DESCRIPTION => 'INJ-OMR',
+			self::PAIR => 'INJ-OMR',
+			self::SYMBOL => 'tINJUSD',
+		],
+		'injbhd' => [
+			self::DESCRIPTION => 'INJ-BHD',
+			self::PAIR => 'INJ-BHD',
+			self::SYMBOL => 'tINJUSD',
+		],
+		'injqar' => [
+			self::DESCRIPTION => 'INJ-QAR',
+			self::PAIR => 'INJ-QAR',
+			self::SYMBOL => 'tINJUSD',
+		],
+		'injusdt' => [
+			self::DESCRIPTION => 'INJ-USDT',
+			self::PAIR => 'INJ-USDT',
+			self::SYMBOL => 'tINJUST',
+		],
+		// --------------------------------------------- JUP pairs
+		'jupaed' => [
+			self::DESCRIPTION => 'JUP-AED',
+			self::PAIR => 'JUP-AED',
+			self::SYMBOL => 'tJUPUSD',
+		],
+		'jupsar' => [
+			self::DESCRIPTION => 'JUP-SAR',
+			self::PAIR => 'JUP-SAR',
+			self::SYMBOL => 'tJUPUSD',
+		],
+		'jupusd' => [
+			self::DESCRIPTION => 'JUP-USD',
+			self::PAIR => 'JUP-USD',
+			self::SYMBOL => 'tJUPUSD',
+		],
+		'jupkwd' => [
+			self::DESCRIPTION => 'JUP-KWD',
+			self::PAIR => 'JUP-KWD',
+			self::SYMBOL => 'tJUPUSD',
+		],
+		'jupomr' => [
+			self::DESCRIPTION => 'JUP-OMR',
+			self::PAIR => 'JUP-OMR',
+			self::SYMBOL => 'tJUPUSD',
+		],
+		'jupbhd' => [
+			self::DESCRIPTION => 'JUP-BHD',
+			self::PAIR => 'JUP-BHD',
+			self::SYMBOL => 'tJUPUSD',
+		],
+		'jupqar' => [
+			self::DESCRIPTION => 'JUP-QAR',
+			self::PAIR => 'JUP-QAR',
+			self::SYMBOL => 'tJUPUSD',
+		],
+		'jupusdt' => [
+			self::DESCRIPTION => 'JUP-USDT',
+			self::PAIR => 'JUP-USDT',
+			self::SYMBOL => 'tJUPUST',
+		],
+		// --------------------------------------------- KAVA pairs
+		'kavaaed' => [
+			self::DESCRIPTION => 'KAVA-AED',
+			self::PAIR => 'KAVA-AED',
+			self::SYMBOL => 'tKAVA:USD',
+		],
+		'kavasar' => [
+			self::DESCRIPTION => 'KAVA-SAR',
+			self::PAIR => 'KAVA-SAR',
+			self::SYMBOL => 'tKAVA:USD',
+		],
+		'kavausd' => [
+			self::DESCRIPTION => 'KAVA-USD',
+			self::PAIR => 'KAVA-USD',
+			self::SYMBOL => 'tKAVA:USD',
+		],
+		'kavakwd' => [
+			self::DESCRIPTION => 'KAVA-KWD',
+			self::PAIR => 'KAVA-KWD',
+			self::SYMBOL => 'tKAVA:USD',
+		],
+		'kavaomr' => [
+			self::DESCRIPTION => 'KAVA-OMR',
+			self::PAIR => 'KAVA-OMR',
+			self::SYMBOL => 'tKAVA:USD',
+		],
+		'kavabhd' => [
+			self::DESCRIPTION => 'KAVA-BHD',
+			self::PAIR => 'KAVA-BHD',
+			self::SYMBOL => 'tKAVA:USD',
+		],
+		'kavaqar' => [
+			self::DESCRIPTION => 'KAVA-QAR',
+			self::PAIR => 'KAVA-QAR',
+			self::SYMBOL => 'tKAVA:USD',
+		],
+		'kavausdt' => [
+			self::DESCRIPTION => 'KAVA-USDT',
+			self::PAIR => 'KAVA-USDT',
+			self::SYMBOL => 'tKAVA:UST',
+		],
+		// --------------------------------------------- MEME pairs
+		'memeaed' => [
+			self::DESCRIPTION => 'MEME-AED',
+			self::PAIR => 'MEME-AED',
+			self::SYMBOL => 'tMEME:USD',
+		],
+		'memesar' => [
+			self::DESCRIPTION => 'MEME-SAR',
+			self::PAIR => 'MEME-SAR',
+			self::SYMBOL => 'tMEME:USD',
+		],
+		'memeusd' => [
+			self::DESCRIPTION => 'MEME-USD',
+			self::PAIR => 'MEME-USD',
+			self::SYMBOL => 'tMEME:USD',
+		],
+		'memekwd' => [
+			self::DESCRIPTION => 'MEME-KWD',
+			self::PAIR => 'MEME-KWD',
+			self::SYMBOL => 'tMEME:USD',
+		],
+		'memeomr' => [
+			self::DESCRIPTION => 'MEME-OMR',
+			self::PAIR => 'MEME-OMR',
+			self::SYMBOL => 'tMEME:USD',
+		],
+		'memebhd' => [
+			self::DESCRIPTION => 'MEME-BHD',
+			self::PAIR => 'MEME-BHD',
+			self::SYMBOL => 'tMEME:USD',
+		],
+		'memeqar' => [
+			self::DESCRIPTION => 'MEME-QAR',
+			self::PAIR => 'MEME-QAR',
+			self::SYMBOL => 'tMEME:USD',
+		],
+		'memeusdt' => [
+			self::DESCRIPTION => 'MEME-USDT',
+			self::PAIR => 'MEME-USDT',
+			self::SYMBOL => 'tMEME:UST',
+		],
+		// --------------------------------------------- MIM pairs
+		'mimaed' => [
+			self::DESCRIPTION => 'MIM-AED',
+			self::PAIR => 'MIM-AED',
+			self::SYMBOL => 'tMIMUSD',
+		],
+		'mimsar' => [
+			self::DESCRIPTION => 'MIM-SAR',
+			self::PAIR => 'MIM-SAR',
+			self::SYMBOL => 'tMIMUSD',
+		],
+		'mimusd' => [
+			self::DESCRIPTION => 'MIM-USD',
+			self::PAIR => 'MIM-USD',
+			self::SYMBOL => 'tMIMUSD',
+		],
+		'mimkwd' => [
+			self::DESCRIPTION => 'MIM-KWD',
+			self::PAIR => 'MIM-KWD',
+			self::SYMBOL => 'tMIMUSD',
+		],
+		'mimomr' => [
+			self::DESCRIPTION => 'MIM-OMR',
+			self::PAIR => 'MIM-OMR',
+			self::SYMBOL => 'tMIMUSD',
+		],
+		'mimbhd' => [
+			self::DESCRIPTION => 'MIM-BHD',
+			self::PAIR => 'MIM-BHD',
+			self::SYMBOL => 'tMIMUSD',
+		],
+		'mimqar' => [
+			self::DESCRIPTION => 'MIM-QAR',
+			self::PAIR => 'MIM-QAR',
+			self::SYMBOL => 'tMIMUSD',
+		],
+		'mimusdt' => [
+			self::DESCRIPTION => 'MIM-USDT',
+			self::PAIR => 'MIM-USDT',
+			self::SYMBOL => 'tMIMUST',
+		],
+		// --------------------------------------------- MLN pairs
+		'mlnaed' => [
+			self::DESCRIPTION => 'MLN-AED',
+			self::PAIR => 'MLN-AED',
+			self::SYMBOL => 'tMLNUSD',
+		],
+		'mlnsar' => [
+			self::DESCRIPTION => 'MLN-SAR',
+			self::PAIR => 'MLN-SAR',
+			self::SYMBOL => 'tMLNUSD',
+		],
+		'mlnusd' => [
+			self::DESCRIPTION => 'MLN-USD',
+			self::PAIR => 'MLN-USD',
+			self::SYMBOL => 'tMLNUSD',
+		],
+		'mlnkwd' => [
+			self::DESCRIPTION => 'MLN-KWD',
+			self::PAIR => 'MLN-KWD',
+			self::SYMBOL => 'tMLNUSD',
+		],
+		'mlnomr' => [
+			self::DESCRIPTION => 'MLN-OMR',
+			self::PAIR => 'MLN-OMR',
+			self::SYMBOL => 'tMLNUSD',
+		],
+		'mlnbhd' => [
+			self::DESCRIPTION => 'MLN-BHD',
+			self::PAIR => 'MLN-BHD',
+			self::SYMBOL => 'tMLNUSD',
+		],
+		'mlnqar' => [
+			self::DESCRIPTION => 'MLN-QAR',
+			self::PAIR => 'MLN-QAR',
+			self::SYMBOL => 'tMLNUSD',
+		],
+		// --------------------------------------------- NEXO pairs
+		'nexoaed' => [
+			self::DESCRIPTION => 'NEXO-AED',
+			self::PAIR => 'NEXO-AED',
+			self::SYMBOL => 'tNEXO:USD',
+		],
+		'nexosar' => [
+			self::DESCRIPTION => 'NEXO-SAR',
+			self::PAIR => 'NEXO-SAR',
+			self::SYMBOL => 'tNEXO:USD',
+		],
+		'nexousd' => [
+			self::DESCRIPTION => 'NEXO-USD',
+			self::PAIR => 'NEXO-USD',
+			self::SYMBOL => 'tNEXO:USD',
+		],
+		'nexokwd' => [
+			self::DESCRIPTION => 'NEXO-KWD',
+			self::PAIR => 'NEXO-KWD',
+			self::SYMBOL => 'tNEXO:USD',
+		],
+		'nexoomr' => [
+			self::DESCRIPTION => 'NEXO-OMR',
+			self::PAIR => 'NEXO-OMR',
+			self::SYMBOL => 'tNEXO:USD',
+		],
+		'nexobhd' => [
+			self::DESCRIPTION => 'NEXO-BHD',
+			self::PAIR => 'NEXO-BHD',
+			self::SYMBOL => 'tNEXO:USD',
+		],
+		'nexoqar' => [
+			self::DESCRIPTION => 'NEXO-QAR',
+			self::PAIR => 'NEXO-QAR',
+			self::SYMBOL => 'tNEXO:USD',
+		],
+		'nexousdt' => [
+			self::DESCRIPTION => 'NEXO-USDT',
+			self::PAIR => 'NEXO-USDT',
+			self::SYMBOL => 'tNEXO:UST',
+		],
+		'nexobtc' => [
+			self::DESCRIPTION => 'NEXO-BTC',
+			self::PAIR => 'NEXO-BTC',
+			self::SYMBOL => 'tNEXO:BTC',
+		],
+		// --------------------------------------------- OGN pairs
+		'ognaed' => [
+			self::DESCRIPTION => 'OGN-AED',
+			self::PAIR => 'OGN-AED',
+			self::SYMBOL => 'tOGNUSD',
+		],
+		'ognsar' => [
+			self::DESCRIPTION => 'OGN-SAR',
+			self::PAIR => 'OGN-SAR',
+			self::SYMBOL => 'tOGNUSD',
+		],
+		'ognusd' => [
+			self::DESCRIPTION => 'OGN-USD',
+			self::PAIR => 'OGN-USD',
+			self::SYMBOL => 'tOGNUSD',
+		],
+		'ognkwd' => [
+			self::DESCRIPTION => 'OGN-KWD',
+			self::PAIR => 'OGN-KWD',
+			self::SYMBOL => 'tOGNUSD',
+		],
+		'ognomr' => [
+			self::DESCRIPTION => 'OGN-OMR',
+			self::PAIR => 'OGN-OMR',
+			self::SYMBOL => 'tOGNUSD',
+		],
+		'ognbhd' => [
+			self::DESCRIPTION => 'OGN-BHD',
+			self::PAIR => 'OGN-BHD',
+			self::SYMBOL => 'tOGNUSD',
+		],
+		'ognqar' => [
+			self::DESCRIPTION => 'OGN-QAR',
+			self::PAIR => 'OGN-QAR',
+			self::SYMBOL => 'tOGNUSD',
+		],
+		'ognusdt' => [
+			self::DESCRIPTION => 'OGN-USDT',
+			self::PAIR => 'OGN-USDT',
+			self::SYMBOL => 'tOGNUST',
+		],
+		// --------------------------------------------- PAX pairs
+		'paxaed' => [
+			self::DESCRIPTION => 'PAX-AED',
+			self::PAIR => 'PAX-AED',
+			self::SYMBOL => 'tPAXUSD',
+		],
+		'paxsar' => [
+			self::DESCRIPTION => 'PAX-SAR',
+			self::PAIR => 'PAX-SAR',
+			self::SYMBOL => 'tPAXUSD',
+		],
+		'paxusd' => [
+			self::DESCRIPTION => 'PAX-USD',
+			self::PAIR => 'PAX-USD',
+			self::SYMBOL => 'tPAXUSD',
+		],
+		'paxkwd' => [
+			self::DESCRIPTION => 'PAX-KWD',
+			self::PAIR => 'PAX-KWD',
+			self::SYMBOL => 'tPAXUSD',
+		],
+		'paxomr' => [
+			self::DESCRIPTION => 'PAX-OMR',
+			self::PAIR => 'PAX-OMR',
+			self::SYMBOL => 'tPAXUSD',
+		],
+		'paxbhd' => [
+			self::DESCRIPTION => 'PAX-BHD',
+			self::PAIR => 'PAX-BHD',
+			self::SYMBOL => 'tPAXUSD',
+		],
+		'paxqar' => [
+			self::DESCRIPTION => 'PAX-QAR',
+			self::PAIR => 'PAX-QAR',
+			self::SYMBOL => 'tPAXUSD',
+		],
+		'paxusdt' => [
+			self::DESCRIPTION => 'PAX-USDT',
+			self::PAIR => 'PAX-USDT',
+			self::SYMBOL => 'tPAXUST',
+		],
+		// --------------------------------------------- PLU pairs
+		'pluaed' => [
+			self::DESCRIPTION => 'PLU-AED',
+			self::PAIR => 'PLU-AED',
+			self::SYMBOL => 'tPLUUSD',
+		],
+		'plusar' => [
+			self::DESCRIPTION => 'PLU-SAR',
+			self::PAIR => 'PLU-SAR',
+			self::SYMBOL => 'tPLUUSD',
+		],
+		'pluusd' => [
+			self::DESCRIPTION => 'PLU-USD',
+			self::PAIR => 'PLU-USD',
+			self::SYMBOL => 'tPLUUSD',
+		],
+		'plukwd' => [
+			self::DESCRIPTION => 'PLU-KWD',
+			self::PAIR => 'PLU-KWD',
+			self::SYMBOL => 'tPLUUSD',
+		],
+		'pluomr' => [
+			self::DESCRIPTION => 'PLU-OMR',
+			self::PAIR => 'PLU-OMR',
+			self::SYMBOL => 'tPLUUSD',
+		],
+		'plubhd' => [
+			self::DESCRIPTION => 'PLU-BHD',
+			self::PAIR => 'PLU-BHD',
+			self::SYMBOL => 'tPLUUSD',
+		],
+		'pluqar' => [
+			self::DESCRIPTION => 'PLU-QAR',
+			self::PAIR => 'PLU-QAR',
+			self::SYMBOL => 'tPLUUSD',
+		],
+		// --------------------------------------------- PNK pairs
+		'pnkaed' => [
+			self::DESCRIPTION => 'PNK-AED',
+			self::PAIR => 'PNK-AED',
+			self::SYMBOL => 'tPNKUSD',
+		],
+		'pnksar' => [
+			self::DESCRIPTION => 'PNK-SAR',
+			self::PAIR => 'PNK-SAR',
+			self::SYMBOL => 'tPNKUSD',
+		],
+		'pnkusd' => [
+			self::DESCRIPTION => 'PNK-USD',
+			self::PAIR => 'PNK-USD',
+			self::SYMBOL => 'tPNKUSD',
+		],
+		'pnkkwd' => [
+			self::DESCRIPTION => 'PNK-KWD',
+			self::PAIR => 'PNK-KWD',
+			self::SYMBOL => 'tPNKUSD',
+		],
+		'pnkomr' => [
+			self::DESCRIPTION => 'PNK-OMR',
+			self::PAIR => 'PNK-OMR',
+			self::SYMBOL => 'tPNKUSD',
+		],
+		'pnkbhd' => [
+			self::DESCRIPTION => 'PNK-BHD',
+			self::PAIR => 'PNK-BHD',
+			self::SYMBOL => 'tPNKUSD',
+		],
+		'pnkqar' => [
+			self::DESCRIPTION => 'PNK-QAR',
+			self::PAIR => 'PNK-QAR',
+			self::SYMBOL => 'tPNKUSD',
+		],
+		// --------------------------------------------- REQ pairs
+		'reqaed' => [
+			self::DESCRIPTION => 'REQ-AED',
+			self::PAIR => 'REQ-AED',
+			self::SYMBOL => 'tREQUSD',
+		],
+		'reqsar' => [
+			self::DESCRIPTION => 'REQ-SAR',
+			self::PAIR => 'REQ-SAR',
+			self::SYMBOL => 'tREQUSD',
+		],
+		'requsd' => [
+			self::DESCRIPTION => 'REQ-USD',
+			self::PAIR => 'REQ-USD',
+			self::SYMBOL => 'tREQUSD',
+		],
+		'reqkwd' => [
+			self::DESCRIPTION => 'REQ-KWD',
+			self::PAIR => 'REQ-KWD',
+			self::SYMBOL => 'tREQUSD',
+		],
+		'reqomr' => [
+			self::DESCRIPTION => 'REQ-OMR',
+			self::PAIR => 'REQ-OMR',
+			self::SYMBOL => 'tREQUSD',
+		],
+		'reqbhd' => [
+			self::DESCRIPTION => 'REQ-BHD',
+			self::PAIR => 'REQ-BHD',
+			self::SYMBOL => 'tREQUSD',
+		],
+		'reqqar' => [
+			self::DESCRIPTION => 'REQ-QAR',
+			self::PAIR => 'REQ-QAR',
+			self::SYMBOL => 'tREQUSD',
+		],
+		// --------------------------------------------- SIDUS pairs
+		'sidusaed' => [
+			self::DESCRIPTION => 'SIDUS-AED',
+			self::PAIR => 'SIDUS-AED',
+			self::SYMBOL => 'tSIDUS:USD',
+		],
+		'sidussar' => [
+			self::DESCRIPTION => 'SIDUS-SAR',
+			self::PAIR => 'SIDUS-SAR',
+			self::SYMBOL => 'tSIDUS:USD',
+		],
+		'sidususd' => [
+			self::DESCRIPTION => 'SIDUS-USD',
+			self::PAIR => 'SIDUS-USD',
+			self::SYMBOL => 'tSIDUS:USD',
+		],
+		'siduskwd' => [
+			self::DESCRIPTION => 'SIDUS-KWD',
+			self::PAIR => 'SIDUS-KWD',
+			self::SYMBOL => 'tSIDUS:USD',
+		],
+		'sidusomr' => [
+			self::DESCRIPTION => 'SIDUS-OMR',
+			self::PAIR => 'SIDUS-OMR',
+			self::SYMBOL => 'tSIDUS:USD',
+		],
+		'sidusbhd' => [
+			self::DESCRIPTION => 'SIDUS-BHD',
+			self::PAIR => 'SIDUS-BHD',
+			self::SYMBOL => 'tSIDUS:USD',
+		],
+		'sidusqar' => [
+			self::DESCRIPTION => 'SIDUS-QAR',
+			self::PAIR => 'SIDUS-QAR',
+			self::SYMBOL => 'tSIDUS:USD',
+		],
+		// --------------------------------------------- SPELL pairs
+		'spellaed' => [
+			self::DESCRIPTION => 'SPELL-AED',
+			self::PAIR => 'SPELL-AED',
+			self::SYMBOL => 'tSPELL:USD',
+		],
+		'spellsar' => [
+			self::DESCRIPTION => 'SPELL-SAR',
+			self::PAIR => 'SPELL-SAR',
+			self::SYMBOL => 'tSPELL:USD',
+		],
+		'spellusd' => [
+			self::DESCRIPTION => 'SPELL-USD',
+			self::PAIR => 'SPELL-USD',
+			self::SYMBOL => 'tSPELL:USD',
+		],
+		'spellkwd' => [
+			self::DESCRIPTION => 'SPELL-KWD',
+			self::PAIR => 'SPELL-KWD',
+			self::SYMBOL => 'tSPELL:USD',
+		],
+		'spellomr' => [
+			self::DESCRIPTION => 'SPELL-OMR',
+			self::PAIR => 'SPELL-OMR',
+			self::SYMBOL => 'tSPELL:USD',
+		],
+		'spellbhd' => [
+			self::DESCRIPTION => 'SPELL-BHD',
+			self::PAIR => 'SPELL-BHD',
+			self::SYMBOL => 'tSPELL:USD',
+		],
+		'spellqar' => [
+			self::DESCRIPTION => 'SPELL-QAR',
+			self::PAIR => 'SPELL-QAR',
+			self::SYMBOL => 'tSPELL:USD',
+		],
+		'spellusdt' => [
+			self::DESCRIPTION => 'SPELL-USDT',
+			self::PAIR => 'SPELL-USDT',
+			self::SYMBOL => 'tSPELL:UST',
+		],
+		// --------------------------------------------- STG pairs
+		'stgaed' => [
+			self::DESCRIPTION => 'STG-AED',
+			self::PAIR => 'STG-AED',
+			self::SYMBOL => 'tSTGUSD',
+		],
+		'stgsar' => [
+			self::DESCRIPTION => 'STG-SAR',
+			self::PAIR => 'STG-SAR',
+			self::SYMBOL => 'tSTGUSD',
+		],
+		'stgusd' => [
+			self::DESCRIPTION => 'STG-USD',
+			self::PAIR => 'STG-USD',
+			self::SYMBOL => 'tSTGUSD',
+		],
+		'stgkwd' => [
+			self::DESCRIPTION => 'STG-KWD',
+			self::PAIR => 'STG-KWD',
+			self::SYMBOL => 'tSTGUSD',
+		],
+		'stgomr' => [
+			self::DESCRIPTION => 'STG-OMR',
+			self::PAIR => 'STG-OMR',
+			self::SYMBOL => 'tSTGUSD',
+		],
+		'stgbhd' => [
+			self::DESCRIPTION => 'STG-BHD',
+			self::PAIR => 'STG-BHD',
+			self::SYMBOL => 'tSTGUSD',
+		],
+		'stgqar' => [
+			self::DESCRIPTION => 'STG-QAR',
+			self::PAIR => 'STG-QAR',
+			self::SYMBOL => 'tSTGUSD',
+		],
+		'stgusdt' => [
+			self::DESCRIPTION => 'STG-USDT',
+			self::PAIR => 'STG-USDT',
+			self::SYMBOL => 'tSTGUST',
+		],
+		// --------------------------------------------- SUKU pairs
+		'sukuaed' => [
+			self::DESCRIPTION => 'SUKU-AED',
+			self::PAIR => 'SUKU-AED',
+			self::SYMBOL => 'tSUKU:USD',
+		],
+		'sukusar' => [
+			self::DESCRIPTION => 'SUKU-SAR',
+			self::PAIR => 'SUKU-SAR',
+			self::SYMBOL => 'tSUKU:USD',
+		],
+		'sukuusd' => [
+			self::DESCRIPTION => 'SUKU-USD',
+			self::PAIR => 'SUKU-USD',
+			self::SYMBOL => 'tSUKU:USD',
+		],
+		'sukukwd' => [
+			self::DESCRIPTION => 'SUKU-KWD',
+			self::PAIR => 'SUKU-KWD',
+			self::SYMBOL => 'tSUKU:USD',
+		],
+		'sukuomr' => [
+			self::DESCRIPTION => 'SUKU-OMR',
+			self::PAIR => 'SUKU-OMR',
+			self::SYMBOL => 'tSUKU:USD',
+		],
+		'sukubhd' => [
+			self::DESCRIPTION => 'SUKU-BHD',
+			self::PAIR => 'SUKU-BHD',
+			self::SYMBOL => 'tSUKU:USD',
+		],
+		'sukuqar' => [
+			self::DESCRIPTION => 'SUKU-QAR',
+			self::PAIR => 'SUKU-QAR',
+			self::SYMBOL => 'tSUKU:USD',
+		],
+		'sukuusdt' => [
+			self::DESCRIPTION => 'SUKU-USDT',
+			self::PAIR => 'SUKU-USDT',
+			self::SYMBOL => 'tSUKU:UST',
+		],
+		// --------------------------------------------- UOS pairs
+		'uosaed' => [
+			self::DESCRIPTION => 'UOS-AED',
+			self::PAIR => 'UOS-AED',
+			self::SYMBOL => 'tUOSUSD',
+		],
+		'uossar' => [
+			self::DESCRIPTION => 'UOS-SAR',
+			self::PAIR => 'UOS-SAR',
+			self::SYMBOL => 'tUOSUSD',
+		],
+		'uosusd' => [
+			self::DESCRIPTION => 'UOS-USD',
+			self::PAIR => 'UOS-USD',
+			self::SYMBOL => 'tUOSUSD',
+		],
+		'uoskwd' => [
+			self::DESCRIPTION => 'UOS-KWD',
+			self::PAIR => 'UOS-KWD',
+			self::SYMBOL => 'tUOSUSD',
+		],
+		'uosomr' => [
+			self::DESCRIPTION => 'UOS-OMR',
+			self::PAIR => 'UOS-OMR',
+			self::SYMBOL => 'tUOSUSD',
+		],
+		'uosbhd' => [
+			self::DESCRIPTION => 'UOS-BHD',
+			self::PAIR => 'UOS-BHD',
+			self::SYMBOL => 'tUOSUSD',
+		],
+		'uosqar' => [
+			self::DESCRIPTION => 'UOS-QAR',
+			self::PAIR => 'UOS-QAR',
+			self::SYMBOL => 'tUOSUSD',
+		],
+		'uosbtc' => [
+			self::DESCRIPTION => 'UOS-BTC',
+			self::PAIR => 'UOS-BTC',
+			self::SYMBOL => 'tUOSBTC',
+		],
+		// --------------------------------------------- WOO pairs
+		'wooaed' => [
+			self::DESCRIPTION => 'WOO-AED',
+			self::PAIR => 'WOO-AED',
+			self::SYMBOL => 'tWOOUSD',
+		],
+		'woosar' => [
+			self::DESCRIPTION => 'WOO-SAR',
+			self::PAIR => 'WOO-SAR',
+			self::SYMBOL => 'tWOOUSD',
+		],
+		'woousd' => [
+			self::DESCRIPTION => 'WOO-USD',
+			self::PAIR => 'WOO-USD',
+			self::SYMBOL => 'tWOOUSD',
+		],
+		'wookwd' => [
+			self::DESCRIPTION => 'WOO-KWD',
+			self::PAIR => 'WOO-KWD',
+			self::SYMBOL => 'tWOOUSD',
+		],
+		'wooomr' => [
+			self::DESCRIPTION => 'WOO-OMR',
+			self::PAIR => 'WOO-OMR',
+			self::SYMBOL => 'tWOOUSD',
+		],
+		'woobhd' => [
+			self::DESCRIPTION => 'WOO-BHD',
+			self::PAIR => 'WOO-BHD',
+			self::SYMBOL => 'tWOOUSD',
+		],
+		'wooqar' => [
+			self::DESCRIPTION => 'WOO-QAR',
+			self::PAIR => 'WOO-QAR',
+			self::SYMBOL => 'tWOOUSD',
+		],
+		'woousdt' => [
+			self::DESCRIPTION => 'WOO-USDT',
+			self::PAIR => 'WOO-USDT',
+			self::SYMBOL => 'tWOOUST',
+		],
+		// --------------------------------------------- XTP pairs
+		'xtpaed' => [
+			self::DESCRIPTION => 'XTP-AED',
+			self::PAIR => 'XTP-AED',
+			self::SYMBOL => 'tXTPUSD',
+		],
+		'xtpsar' => [
+			self::DESCRIPTION => 'XTP-SAR',
+			self::PAIR => 'XTP-SAR',
+			self::SYMBOL => 'tXTPUSD',
+		],
+		'xtpusd' => [
+			self::DESCRIPTION => 'XTP-USD',
+			self::PAIR => 'XTP-USD',
+			self::SYMBOL => 'tXTPUSD',
+		],
+		'xtpkwd' => [
+			self::DESCRIPTION => 'XTP-KWD',
+			self::PAIR => 'XTP-KWD',
+			self::SYMBOL => 'tXTPUSD',
+		],
+		'xtpomr' => [
+			self::DESCRIPTION => 'XTP-OMR',
+			self::PAIR => 'XTP-OMR',
+			self::SYMBOL => 'tXTPUSD',
+		],
+		'xtpbhd' => [
+			self::DESCRIPTION => 'XTP-BHD',
+			self::PAIR => 'XTP-BHD',
+			self::SYMBOL => 'tXTPUSD',
+		],
+		'xtpqar' => [
+			self::DESCRIPTION => 'XTP-QAR',
+			self::PAIR => 'XTP-QAR',
+			self::SYMBOL => 'tXTPUSD',
+		],
+		'xtpusdt' => [
+			self::DESCRIPTION => 'XTP-USDT',
+			self::PAIR => 'XTP-USDT',
+			self::SYMBOL => 'tXTPUST',
+		],
+		// --------------------------------------------- POL pairs
+		'polaed' => [
+			self::DESCRIPTION => 'POL-AED',
+			self::PAIR => 'POL-AED',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polsar' => [
+			self::DESCRIPTION => 'POL-SAR',
+			self::PAIR => 'POL-SAR',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polusd' => [
+			self::DESCRIPTION => 'POL-USD',
+			self::PAIR => 'POL-USD',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polkwd' => [
+			self::DESCRIPTION => 'POL-KWD',
+			self::PAIR => 'POL-KWD',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polomr' => [
+			self::DESCRIPTION => 'POL-OMR',
+			self::PAIR => 'POL-OMR',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polbhd' => [
+			self::DESCRIPTION => 'POL-BHD',
+			self::PAIR => 'POL-BHD',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polqar' => [
+			self::DESCRIPTION => 'POL-QAR',
+			self::PAIR => 'POL-QAR',
+			self::SYMBOL => 'tPOLUSD',
+		],
+		'polusdt' => [
+			self::DESCRIPTION => 'POL-USDT',
+			self::PAIR => 'POL-USDT',
+			self::SYMBOL => 'tPOLUST',
+		],
+		// --------------------------------------------- PEPE pairs
+		'pepeaed' => [
+			self::DESCRIPTION => 'PEPE-AED',
+			self::PAIR => 'PEPE-AED',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepesar' => [
+			self::DESCRIPTION => 'PEPE-SAR',
+			self::PAIR => 'PEPE-SAR',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeusd' => [
+			self::DESCRIPTION => 'PEPE-USD',
+			self::PAIR => 'PEPE-USD',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepekwd' => [
+			self::DESCRIPTION => 'PEPE-KWD',
+			self::PAIR => 'PEPE-KWD',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeomr' => [
+			self::DESCRIPTION => 'PEPE-OMR',
+			self::PAIR => 'PEPE-OMR',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepebhd' => [
+			self::DESCRIPTION => 'PEPE-BHD',
+			self::PAIR => 'PEPE-BHD',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeqar' => [
+			self::DESCRIPTION => 'PEPE-QAR',
+			self::PAIR => 'PEPE-QAR',
+			self::SYMBOL => 'tPEPE:USD',
+		],
+		'pepeusdt' => [
+			self::DESCRIPTION => 'PEPE-USDT',
+			self::PAIR => 'PEPE-USDT',
+			self::SYMBOL => 'tPEPE:UST',
+		],
+		// --------------------------------------------- BONK pairs
+		'bonkaed' => [
+			self::DESCRIPTION => 'BONK-AED',
+			self::PAIR => 'BONK-AED',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonksar' => [
+			self::DESCRIPTION => 'BONK-SAR',
+			self::PAIR => 'BONK-SAR',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkusd' => [
+			self::DESCRIPTION => 'BONK-USD',
+			self::PAIR => 'BONK-USD',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkkwd' => [
+			self::DESCRIPTION => 'BONK-KWD',
+			self::PAIR => 'BONK-KWD',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkomr' => [
+			self::DESCRIPTION => 'BONK-OMR',
+			self::PAIR => 'BONK-OMR',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkbhd' => [
+			self::DESCRIPTION => 'BONK-BHD',
+			self::PAIR => 'BONK-BHD',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkqar' => [
+			self::DESCRIPTION => 'BONK-QAR',
+			self::PAIR => 'BONK-QAR',
+			self::SYMBOL => 'tBONK:USD',
+		],
+		'bonkusdt' => [
+			self::DESCRIPTION => 'BONK-USDT',
+			self::PAIR => 'BONK-USDT',
+			self::SYMBOL => 'tBONK:UST',
+		],
+		// --------------------------------------------- TOMI pairs
+		'tomiaed' => [
+			self::DESCRIPTION => 'TOMI-AED',
+			self::PAIR => 'TOMI-AED',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomisar' => [
+			self::DESCRIPTION => 'TOMI-SAR',
+			self::PAIR => 'TOMI-SAR',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiusd' => [
+			self::DESCRIPTION => 'TOMI-USD',
+			self::PAIR => 'TOMI-USD',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomikwd' => [
+			self::DESCRIPTION => 'TOMI-KWD',
+			self::PAIR => 'TOMI-KWD',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiomr' => [
+			self::DESCRIPTION => 'TOMI-OMR',
+			self::PAIR => 'TOMI-OMR',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomibhd' => [
+			self::DESCRIPTION => 'TOMI-BHD',
+			self::PAIR => 'TOMI-BHD',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiqar' => [
+			self::DESCRIPTION => 'TOMI-QAR',
+			self::PAIR => 'TOMI-QAR',
+			self::SYMBOL => 'tTOMI:USD',
+		],
+		'tomiusdt' => [
+			self::DESCRIPTION => 'TOMI-USDT',
+			self::PAIR => 'TOMI-USDT',
+			self::SYMBOL => 'tTOMI:UST',
+		],
+		// --------------------------------------------- TURBO pairs
+		'turboaed' => [
+			self::DESCRIPTION => 'TURBO-AED',
+			self::PAIR => 'TURBO-AED',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbosar' => [
+			self::DESCRIPTION => 'TURBO-SAR',
+			self::PAIR => 'TURBO-SAR',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbousd' => [
+			self::DESCRIPTION => 'TURBO-USD',
+			self::PAIR => 'TURBO-USD',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbokwd' => [
+			self::DESCRIPTION => 'TURBO-KWD',
+			self::PAIR => 'TURBO-KWD',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turboomr' => [
+			self::DESCRIPTION => 'TURBO-OMR',
+			self::PAIR => 'TURBO-OMR',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbobhd' => [
+			self::DESCRIPTION => 'TURBO-BHD',
+			self::PAIR => 'TURBO-BHD',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turboqar' => [
+			self::DESCRIPTION => 'TURBO-QAR',
+			self::PAIR => 'TURBO-QAR',
+			self::SYMBOL => 'tTURBO:USD',
+		],
+		'turbousdt' => [
+			self::DESCRIPTION => 'TURBO-USDT',
+			self::PAIR => 'TURBO-USDT',
+			self::SYMBOL => 'tTURBO:UST',
+		],
+		// --------------------------------------------- WBT pairs
+		'wbtaed' => [
+			self::DESCRIPTION => 'WBT-AED',
+			self::PAIR => 'WBT-AED',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtsar' => [
+			self::DESCRIPTION => 'WBT-SAR',
+			self::PAIR => 'WBT-SAR',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtusd' => [
+			self::DESCRIPTION => 'WBT-USD',
+			self::PAIR => 'WBT-USD',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtkwd' => [
+			self::DESCRIPTION => 'WBT-KWD',
+			self::PAIR => 'WBT-KWD',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtomr' => [
+			self::DESCRIPTION => 'WBT-OMR',
+			self::PAIR => 'WBT-OMR',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtbhd' => [
+			self::DESCRIPTION => 'WBT-BHD',
+			self::PAIR => 'WBT-BHD',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtqar' => [
+			self::DESCRIPTION => 'WBT-QAR',
+			self::PAIR => 'WBT-QAR',
+			self::SYMBOL => 'tWHBT:USD',
+		],
+		'wbtusdt' => [
+			self::DESCRIPTION => 'WBT-USDT',
+			self::PAIR => 'WBT-USDT',
+			self::SYMBOL => 'tWHBT:UST',
+		],
+		// --------------------------------------------- ENA pairs
+		'enaaed' => [
+			self::DESCRIPTION => 'ENA-AED',
+			self::PAIR => 'ENA-AED',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enasar' => [
+			self::DESCRIPTION => 'ENA-SAR',
+			self::PAIR => 'ENA-SAR',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enausd' => [
+			self::DESCRIPTION => 'ENA-USD',
+			self::PAIR => 'ENA-USD',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enakwd' => [
+			self::DESCRIPTION => 'ENA-KWD',
+			self::PAIR => 'ENA-KWD',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enaomr' => [
+			self::DESCRIPTION => 'ENA-OMR',
+			self::PAIR => 'ENA-OMR',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enabhd' => [
+			self::DESCRIPTION => 'ENA-BHD',
+			self::PAIR => 'ENA-BHD',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enaqar' => [
+			self::DESCRIPTION => 'ENA-QAR',
+			self::PAIR => 'ENA-QAR',
+			self::SYMBOL => 'tENAUSD',
+		],
+		'enausdt' => [
+			self::DESCRIPTION => 'ENA-USDT',
+			self::PAIR => 'ENA-USDT',
+			self::SYMBOL => 'tENAUST',
+		],
+		// --------------------------------------------- MEW pairs
+		'mewaed' => [
+			self::DESCRIPTION => 'MEW-AED',
+			self::PAIR => 'MEW-AED',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewsar' => [
+			self::DESCRIPTION => 'MEW-SAR',
+			self::PAIR => 'MEW-SAR',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewusd' => [
+			self::DESCRIPTION => 'MEW-USD',
+			self::PAIR => 'MEW-USD',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewkwd' => [
+			self::DESCRIPTION => 'MEW-KWD',
+			self::PAIR => 'MEW-KWD',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewomr' => [
+			self::DESCRIPTION => 'MEW-OMR',
+			self::PAIR => 'MEW-OMR',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewbhd' => [
+			self::DESCRIPTION => 'MEW-BHD',
+			self::PAIR => 'MEW-BHD',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewqar' => [
+			self::DESCRIPTION => 'MEW-QAR',
+			self::PAIR => 'MEW-QAR',
+			self::SYMBOL => 'tMEWUSD',
+		],
+		'mewusdt' => [
+			self::DESCRIPTION => 'MEW-USDT',
+			self::PAIR => 'MEW-USDT',
+			self::SYMBOL => 'tMEWUST',
+		],
+		// --------------------------------------------- TIA pairs
+		'tiaaed' => [
+			self::DESCRIPTION => 'TIA-AED',
+			self::PAIR => 'TIA-AED',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiasar' => [
+			self::DESCRIPTION => 'TIA-SAR',
+			self::PAIR => 'TIA-SAR',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiausd' => [
+			self::DESCRIPTION => 'TIA-USD',
+			self::PAIR => 'TIA-USD',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiakwd' => [
+			self::DESCRIPTION => 'TIA-KWD',
+			self::PAIR => 'TIA-KWD',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiaomr' => [
+			self::DESCRIPTION => 'TIA-OMR',
+			self::PAIR => 'TIA-OMR',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiabhd' => [
+			self::DESCRIPTION => 'TIA-BHD',
+			self::PAIR => 'TIA-BHD',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiaqar' => [
+			self::DESCRIPTION => 'TIA-QAR',
+			self::PAIR => 'TIA-QAR',
+			self::SYMBOL => 'tTIAUSD',
+		],
+		'tiausdt' => [
+			self::DESCRIPTION => 'TIA-USDT',
+			self::PAIR => 'TIA-USDT',
+			self::SYMBOL => 'tTIAUST',
+		],
+		// --------------------------------------------- SWEAT pairs
+		'sweataed' => [
+			self::DESCRIPTION => 'SWEAT-AED',
+			self::PAIR => 'SWEAT-AED',
+			self::SYMBOL => 'tSWEAT:USD',
+		],
+		'sweatsar' => [
+			self::DESCRIPTION => 'SWEAT-SAR',
+			self::PAIR => 'SWEAT-SAR',
+			self::SYMBOL => 'tSWEAT:USD',
+		],
+		'sweatusd' => [
+			self::DESCRIPTION => 'SWEAT-USD',
+			self::PAIR => 'SWEAT-USD',
+			self::SYMBOL => 'tSWEAT:USD',
+		],
+		'sweatkwd' => [
+			self::DESCRIPTION => 'SWEAT-KWD',
+			self::PAIR => 'SWEAT-KWD',
+			self::SYMBOL => 'tSWEAT:USD',
+		],
+		'sweatomr' => [
+			self::DESCRIPTION => 'SWEAT-OMR',
+			self::PAIR => 'SWEAT-OMR',
+			self::SYMBOL => 'tSWEAT:USD',
+		],
+		'sweatbhd' => [
+			self::DESCRIPTION => 'SWEAT-BHD',
+			self::PAIR => 'SWEAT-BHD',
+			self::SYMBOL => 'tSWEAT:USD',
+		],
+		'sweatqar' => [
+			self::DESCRIPTION => 'SWEAT-QAR',
+			self::PAIR => 'SWEAT-QAR',
+			self::SYMBOL => 'tSWEAT:USD',
+		],
+		'sweatusdt' => [
+			self::DESCRIPTION => 'SWEAT-USDT',
+			self::PAIR => 'SWEAT-USDT',
+			self::SYMBOL => 'tSWEAT:UST',
+		],
+		// --------------------------------------------- DOP pairs
+		'dopaed' => [
+			self::DESCRIPTION => 'DOP-AED',
+			self::PAIR => 'DOP-AED',
+			self::SYMBOL => 'tDOPUSD',
+		],
+		'dopsar' => [
+			self::DESCRIPTION => 'DOP-SAR',
+			self::PAIR => 'DOP-SAR',
+			self::SYMBOL => 'tDOPUSD',
+		],
+		'dopusd' => [
+			self::DESCRIPTION => 'DOP-USD',
+			self::PAIR => 'DOP-USD',
+			self::SYMBOL => 'tDOPUSD',
+		],
+		'dopkwd' => [
+			self::DESCRIPTION => 'DOP-KWD',
+			self::PAIR => 'DOP-KWD',
+			self::SYMBOL => 'tDOPUSD',
+		],
+		'dopomr' => [
+			self::DESCRIPTION => 'DOP-OMR',
+			self::PAIR => 'DOP-OMR',
+			self::SYMBOL => 'tDOPUSD',
+		],
+		'dopbhd' => [
+			self::DESCRIPTION => 'DOP-BHD',
+			self::PAIR => 'DOP-BHD',
+			self::SYMBOL => 'tDOPUSD',
+		],
+		'dopqar' => [
+			self::DESCRIPTION => 'DOP-QAR',
+			self::PAIR => 'DOP-QAR',
+			self::SYMBOL => 'tDOPUSD',
+		],
+		'dopusdt' => [
+			self::DESCRIPTION => 'DOP-USDT',
+			self::PAIR => 'DOP-USDT',
+			self::SYMBOL => 'tDOPUST',
+		],
+		// --------------------------------------------- SPEC pairs
+		'specaed' => [
+			self::DESCRIPTION => 'SPEC-AED',
+			self::PAIR => 'SPEC-AED',
+			self::SYMBOL => 'tSPEC:USD',
+		],
+		'specsar' => [
+			self::DESCRIPTION => 'SPEC-SAR',
+			self::PAIR => 'SPEC-SAR',
+			self::SYMBOL => 'tSPEC:USD',
+		],
+		'specusd' => [
+			self::DESCRIPTION => 'SPEC-USD',
+			self::PAIR => 'SPEC-USD',
+			self::SYMBOL => 'tSPEC:USD',
+		],
+		'speckwd' => [
+			self::DESCRIPTION => 'SPEC-KWD',
+			self::PAIR => 'SPEC-KWD',
+			self::SYMBOL => 'tSPEC:USD',
+		],
+		'specomr' => [
+			self::DESCRIPTION => 'SPEC-OMR',
+			self::PAIR => 'SPEC-OMR',
+			self::SYMBOL => 'tSPEC:USD',
+		],
+		'specbhd' => [
+			self::DESCRIPTION => 'SPEC-BHD',
+			self::PAIR => 'SPEC-BHD',
+			self::SYMBOL => 'tSPEC:USD',
+		],
+		'specqar' => [
+			self::DESCRIPTION => 'SPEC-QAR',
+			self::PAIR => 'SPEC-QAR',
+			self::SYMBOL => 'tSPEC:USD',
+		],
+		'specusdt' => [
+			self::DESCRIPTION => 'SPEC-USDT',
+			self::PAIR => 'SPEC-USDT',
+			self::SYMBOL => 'tSPEC:UST',
+		],
+		// --------------------------------------------- AIOZ pairs
+		'aiozaed' => [
+			self::DESCRIPTION => 'AIOZ-AED',
+			self::PAIR => 'AIOZ-AED',
+			self::SYMBOL => 'tAIOZ:USD',
+		],
+		'aiozsar' => [
+			self::DESCRIPTION => 'AIOZ-SAR',
+			self::PAIR => 'AIOZ-SAR',
+			self::SYMBOL => 'tAIOZ:USD',
+		],
+		'aiozusd' => [
+			self::DESCRIPTION => 'AIOZ-USD',
+			self::PAIR => 'AIOZ-USD',
+			self::SYMBOL => 'tAIOZ:USD',
+		],
+		'aiozkwd' => [
+			self::DESCRIPTION => 'AIOZ-KWD',
+			self::PAIR => 'AIOZ-KWD',
+			self::SYMBOL => 'tAIOZ:USD',
+		],
+		'aiozomr' => [
+			self::DESCRIPTION => 'AIOZ-OMR',
+			self::PAIR => 'AIOZ-OMR',
+			self::SYMBOL => 'tAIOZ:USD',
+		],
+		'aiozbhd' => [
+			self::DESCRIPTION => 'AIOZ-BHD',
+			self::PAIR => 'AIOZ-BHD',
+			self::SYMBOL => 'tAIOZ:USD',
+		],
+		'aiozqar' => [
+			self::DESCRIPTION => 'AIOZ-QAR',
+			self::PAIR => 'AIOZ-QAR',
+			self::SYMBOL => 'tAIOZ:USD',
+		],
+		// --------------------------------------------- GOMINING pairs
+		'gominingaed' => [
+			self::DESCRIPTION => 'GOMINING-AED',
+			self::PAIR => 'GOMINING-AED',
+			self::SYMBOL => 'tGOMINING:USD',
+		],
+		'gominingsar' => [
+			self::DESCRIPTION => 'GOMINING-SAR',
+			self::PAIR => 'GOMINING-SAR',
+			self::SYMBOL => 'tGOMINING:USD',
+		],
+		'gominingusd' => [
+			self::DESCRIPTION => 'GOMINING-USD',
+			self::PAIR => 'GOMINING-USD',
+			self::SYMBOL => 'tGOMINING:USD',
+		],
+		'gominingkwd' => [
+			self::DESCRIPTION => 'GOMINING-KWD',
+			self::PAIR => 'GOMINING-KWD',
+			self::SYMBOL => 'tGOMINING:USD',
+		],
+		'gominingomr' => [
+			self::DESCRIPTION => 'GOMINING-OMR',
+			self::PAIR => 'GOMINING-OMR',
+			self::SYMBOL => 'tGOMINING:USD',
+		],
+		'gominingbhd' => [
+			self::DESCRIPTION => 'GOMINING-BHD',
+			self::PAIR => 'GOMINING-BHD',
+			self::SYMBOL => 'tGOMINING:USD',
+		],
+		'gominingqar' => [
+			self::DESCRIPTION => 'GOMINING-QAR',
+			self::PAIR => 'GOMINING-QAR',
+			self::SYMBOL => 'tGOMINING:USD',
+		],
+		'gominingusdt' => [
+			self::DESCRIPTION => 'GOMINING-USDT',
+			self::PAIR => 'GOMINING-USDT',
+			self::SYMBOL => 'tGOMINING:UST',
+		],
+		// --------------------------------------------- VELAR pairs
+		'velaraed' => [
+			self::DESCRIPTION => 'VELAR-AED',
+			self::PAIR => 'VELAR-AED',
+			self::SYMBOL => 'tVELAR:USD',
+		],
+		'velarsar' => [
+			self::DESCRIPTION => 'VELAR-SAR',
+			self::PAIR => 'VELAR-SAR',
+			self::SYMBOL => 'tVELAR:USD',
+		],
+		'velarusd' => [
+			self::DESCRIPTION => 'VELAR-USD',
+			self::PAIR => 'VELAR-USD',
+			self::SYMBOL => 'tVELAR:USD',
+		],
+		'velarkwd' => [
+			self::DESCRIPTION => 'VELAR-KWD',
+			self::PAIR => 'VELAR-KWD',
+			self::SYMBOL => 'tVELAR:USD',
+		],
+		'velaromr' => [
+			self::DESCRIPTION => 'VELAR-OMR',
+			self::PAIR => 'VELAR-OMR',
+			self::SYMBOL => 'tVELAR:USD',
+		],
+		'velarbhd' => [
+			self::DESCRIPTION => 'VELAR-BHD',
+			self::PAIR => 'VELAR-BHD',
+			self::SYMBOL => 'tVELAR:USD',
+		],
+		'velarqar' => [
+			self::DESCRIPTION => 'VELAR-QAR',
+			self::PAIR => 'VELAR-QAR',
+			self::SYMBOL => 'tVELAR:USD',
+		],
+		'velarusdt' => [
+			self::DESCRIPTION => 'VELAR-USDT',
+			self::PAIR => 'VELAR-USDT',
+			self::SYMBOL => 'tVELAR:UST',
+		],
+		// --------------------------------------------- JUSTICE pairs
+		'justiceaed' => [
+			self::DESCRIPTION => 'JUSTICE-AED',
+			self::PAIR => 'JUSTICE-AED',
+			self::SYMBOL => 'tJUSTICE:USD',
+		],
+		'justicesar' => [
+			self::DESCRIPTION => 'JUSTICE-SAR',
+			self::PAIR => 'JUSTICE-SAR',
+			self::SYMBOL => 'tJUSTICE:USD',
+		],
+		'justiceusd' => [
+			self::DESCRIPTION => 'JUSTICE-USD',
+			self::PAIR => 'JUSTICE-USD',
+			self::SYMBOL => 'tJUSTICE:USD',
+		],
+		'justicekwd' => [
+			self::DESCRIPTION => 'JUSTICE-KWD',
+			self::PAIR => 'JUSTICE-KWD',
+			self::SYMBOL => 'tJUSTICE:USD',
+		],
+		'justiceomr' => [
+			self::DESCRIPTION => 'JUSTICE-OMR',
+			self::PAIR => 'JUSTICE-OMR',
+			self::SYMBOL => 'tJUSTICE:USD',
+		],
+		'justicebhd' => [
+			self::DESCRIPTION => 'JUSTICE-BHD',
+			self::PAIR => 'JUSTICE-BHD',
+			self::SYMBOL => 'tJUSTICE:USD',
+		],
+		'justiceqar' => [
+			self::DESCRIPTION => 'JUSTICE-QAR',
+			self::PAIR => 'JUSTICE-QAR',
+			self::SYMBOL => 'tJUSTICE:USD',
+		],
+		'justiceusdt' => [
+			self::DESCRIPTION => 'JUSTICE-USDT',
+			self::PAIR => 'JUSTICE-USDT',
+			self::SYMBOL => 'tJUSTICE:UST',
+		],
+		// --------------------------------------------- KAN pairs
+		'kanaed' => [
+			self::DESCRIPTION => 'KAN-AED',
+			self::PAIR => 'KAN-AED',
+			self::SYMBOL => 'tKANUSD',
+		],
+		'kansar' => [
+			self::DESCRIPTION => 'KAN-SAR',
+			self::PAIR => 'KAN-SAR',
+			self::SYMBOL => 'tKANUSD',
+		],
+		'kanusd' => [
+			self::DESCRIPTION => 'KAN-USD',
+			self::PAIR => 'KAN-USD',
+			self::SYMBOL => 'tKANUSD',
+		],
+		'kankwd' => [
+			self::DESCRIPTION => 'KAN-KWD',
+			self::PAIR => 'KAN-KWD',
+			self::SYMBOL => 'tKANUSD',
+		],
+		'kanomr' => [
+			self::DESCRIPTION => 'KAN-OMR',
+			self::PAIR => 'KAN-OMR',
+			self::SYMBOL => 'tKANUSD',
+		],
+		'kanbhd' => [
+			self::DESCRIPTION => 'KAN-BHD',
+			self::PAIR => 'KAN-BHD',
+			self::SYMBOL => 'tKANUSD',
+		],
+		'kanqar' => [
+			self::DESCRIPTION => 'KAN-QAR',
+			self::PAIR => 'KAN-QAR',
+			self::SYMBOL => 'tKANUSD',
+		],
+		'kanusdt' => [
+			self::DESCRIPTION => 'KAN-USDT',
+			self::PAIR => 'KAN-USDT',
+			self::SYMBOL => 'tKANUST',
+		],
+		// --------------------------------------------- S pairs
+		'saed' => [
+			self::DESCRIPTION => 'S-AED',
+			self::PAIR => 'S-AED',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'ssar' => [
+			self::DESCRIPTION => 'S-SAR',
+			self::PAIR => 'S-SAR',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'susd' => [
+			self::DESCRIPTION => 'S-USD',
+			self::PAIR => 'S-USD',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'skwd' => [
+			self::DESCRIPTION => 'S-KWD',
+			self::PAIR => 'S-KWD',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'somr' => [
+			self::DESCRIPTION => 'S-OMR',
+			self::PAIR => 'S-OMR',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'sbhd' => [
+			self::DESCRIPTION => 'S-BHD',
+			self::PAIR => 'S-BHD',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'sqar' => [
+			self::DESCRIPTION => 'S-QAR',
+			self::PAIR => 'S-QAR',
+			self::SYMBOL => 'tSONIC:USD',
+		],
+		'susdt' => [
+			self::DESCRIPTION => 'S-USDT',
+			self::PAIR => 'S-USDT',
+			self::SYMBOL => 'tSONIC:UST',
+		],
+		// --------------------------------------------- TOKEN pairs
+		'tokenaed' => [
+			self::DESCRIPTION => 'TOKEN-AED',
+			self::PAIR => 'TOKEN-AED',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokensar' => [
+			self::DESCRIPTION => 'TOKEN-SAR',
+			self::PAIR => 'TOKEN-SAR',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenusd' => [
+			self::DESCRIPTION => 'TOKEN-USD',
+			self::PAIR => 'TOKEN-USD',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenkwd' => [
+			self::DESCRIPTION => 'TOKEN-KWD',
+			self::PAIR => 'TOKEN-KWD',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenomr' => [
+			self::DESCRIPTION => 'TOKEN-OMR',
+			self::PAIR => 'TOKEN-OMR',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenbhd' => [
+			self::DESCRIPTION => 'TOKEN-BHD',
+			self::PAIR => 'TOKEN-BHD',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenqar' => [
+			self::DESCRIPTION => 'TOKEN-QAR',
+			self::PAIR => 'TOKEN-QAR',
+			self::SYMBOL => 'tTOKEN:USD',
+		],
+		'tokenusdt' => [
+			self::DESCRIPTION => 'TOKEN-USDT',
+			self::PAIR => 'TOKEN-USDT',
+			self::SYMBOL => 'tTOKEN:UST',
+		],
+		// --------------------------------------------- EIGEN pairs
+		'eigenaed' => [
+			self::DESCRIPTION => 'EIGEN-AED',
+			self::PAIR => 'EIGEN-AED',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigensar' => [
+			self::DESCRIPTION => 'EIGEN-SAR',
+			self::PAIR => 'EIGEN-SAR',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenusd' => [
+			self::DESCRIPTION => 'EIGEN-USD',
+			self::PAIR => 'EIGEN-USD',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenkwd' => [
+			self::DESCRIPTION => 'EIGEN-KWD',
+			self::PAIR => 'EIGEN-KWD',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenomr' => [
+			self::DESCRIPTION => 'EIGEN-OMR',
+			self::PAIR => 'EIGEN-OMR',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenbhd' => [
+			self::DESCRIPTION => 'EIGEN-BHD',
+			self::PAIR => 'EIGEN-BHD',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenqar' => [
+			self::DESCRIPTION => 'EIGEN-QAR',
+			self::PAIR => 'EIGEN-QAR',
+			self::SYMBOL => 'tEIGEN:USD',
+		],
+		'eigenusdt' => [
+			self::DESCRIPTION => 'EIGEN-USDT',
+			self::PAIR => 'EIGEN-USDT',
+			self::SYMBOL => 'tEIGEN:UST',
+		],
+		// --------------------------------------------- JASMY pairs
+		'jasmyaed' => [
+			self::DESCRIPTION => 'JASMY-AED',
+			self::PAIR => 'JASMY-AED',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmysar' => [
+			self::DESCRIPTION => 'JASMY-SAR',
+			self::PAIR => 'JASMY-SAR',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyusd' => [
+			self::DESCRIPTION => 'JASMY-USD',
+			self::PAIR => 'JASMY-USD',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmykwd' => [
+			self::DESCRIPTION => 'JASMY-KWD',
+			self::PAIR => 'JASMY-KWD',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyomr' => [
+			self::DESCRIPTION => 'JASMY-OMR',
+			self::PAIR => 'JASMY-OMR',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmybhd' => [
+			self::DESCRIPTION => 'JASMY-BHD',
+			self::PAIR => 'JASMY-BHD',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyqar' => [
+			self::DESCRIPTION => 'JASMY-QAR',
+			self::PAIR => 'JASMY-QAR',
+			self::SYMBOL => 'tJASMY:USD',
+		],
+		'jasmyusdt' => [
+			self::DESCRIPTION => 'JASMY-USDT',
+			self::PAIR => 'JASMY-USDT',
+			self::SYMBOL => 'tJASMY:UST',
+		],
+		// --------------------------------------------- STRK pairs
+		'strkaed' => [
+			self::DESCRIPTION => 'STRK-AED',
+			self::PAIR => 'STRK-AED',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strksar' => [
+			self::DESCRIPTION => 'STRK-SAR',
+			self::PAIR => 'STRK-SAR',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkusd' => [
+			self::DESCRIPTION => 'STRK-USD',
+			self::PAIR => 'STRK-USD',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkkwd' => [
+			self::DESCRIPTION => 'STRK-KWD',
+			self::PAIR => 'STRK-KWD',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkomr' => [
+			self::DESCRIPTION => 'STRK-OMR',
+			self::PAIR => 'STRK-OMR',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkbhd' => [
+			self::DESCRIPTION => 'STRK-BHD',
+			self::PAIR => 'STRK-BHD',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkqar' => [
+			self::DESCRIPTION => 'STRK-QAR',
+			self::PAIR => 'STRK-QAR',
+			self::SYMBOL => 'tSTRK:USD',
+		],
+		'strkusdt' => [
+			self::DESCRIPTION => 'STRK-USDT',
+			self::PAIR => 'STRK-USDT',
+			self::SYMBOL => 'tSTRK:UST',
+		],
+		// --------------------------------------------- ATH pairs
+		'athaed' => [
+			self::DESCRIPTION => 'ATH-AED',
+			self::PAIR => 'ATH-AED',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athsar' => [
+			self::DESCRIPTION => 'ATH-SAR',
+			self::PAIR => 'ATH-SAR',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athusd' => [
+			self::DESCRIPTION => 'ATH-USD',
+			self::PAIR => 'ATH-USD',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athkwd' => [
+			self::DESCRIPTION => 'ATH-KWD',
+			self::PAIR => 'ATH-KWD',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athomr' => [
+			self::DESCRIPTION => 'ATH-OMR',
+			self::PAIR => 'ATH-OMR',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athbhd' => [
+			self::DESCRIPTION => 'ATH-BHD',
+			self::PAIR => 'ATH-BHD',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athqar' => [
+			self::DESCRIPTION => 'ATH-QAR',
+			self::PAIR => 'ATH-QAR',
+			self::SYMBOL => 'tATHUSD',
+		],
+		'athusdt' => [
+			self::DESCRIPTION => 'ATH-USDT',
+			self::PAIR => 'ATH-USDT',
+			self::SYMBOL => 'tATHUST',
+		],
+		// --------------------------------------------- BGB pairs
+		'bgbaed' => [
+			self::DESCRIPTION => 'BGB-AED',
+			self::PAIR => 'BGB-AED',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbsar' => [
+			self::DESCRIPTION => 'BGB-SAR',
+			self::PAIR => 'BGB-SAR',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbusd' => [
+			self::DESCRIPTION => 'BGB-USD',
+			self::PAIR => 'BGB-USD',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbkwd' => [
+			self::DESCRIPTION => 'BGB-KWD',
+			self::PAIR => 'BGB-KWD',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbomr' => [
+			self::DESCRIPTION => 'BGB-OMR',
+			self::PAIR => 'BGB-OMR',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbbhd' => [
+			self::DESCRIPTION => 'BGB-BHD',
+			self::PAIR => 'BGB-BHD',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbqar' => [
+			self::DESCRIPTION => 'BGB-QAR',
+			self::PAIR => 'BGB-QAR',
+			self::SYMBOL => 'tBGBUSD',
+		],
+		'bgbusdt' => [
+			self::DESCRIPTION => 'BGB-USDT',
+			self::PAIR => 'BGB-USDT',
+			self::SYMBOL => 'tBGBUST',
+		],
 	];
 
 	private function __construct() {

@@ -158,17 +158,6 @@ class CurrencyCodePair implements Pair {
 		'USDT-BHD' => 'USDT-BHD',
 		'USDT-QAR' => 'USDT-QAR',
 
-		'NEO-AED' => 'NEO-AED',
-		'NEO-SAR' => 'NEO-SAR',
-		'NEO-TRY' => 'NEO-TRY',
-		'NEO-USD' => 'NEO-USD',
-		'NEO-KWD' => 'NEO-KWD',
-		'NEO-OMR' => 'NEO-OMR',
-		'NEO-BHD' => 'NEO-BHD',
-		'NEO-QAR' => 'NEO-QAR',
-		'NEO-USDT' => 'NEO-USDT',
-		'NEO-BTC' => 'NEO-BTC',
-
 		'XTZ-AED' => 'XTZ-AED',
 		'XTZ-SAR' => 'XTZ-SAR',
 		'XTZ-TRY' => 'XTZ-TRY',
@@ -198,7 +187,6 @@ class CurrencyCodePair implements Pair {
 		'DAI-OMR' => 'DAI-OMR',
 		'DAI-BHD' => 'DAI-BHD',
 		'DAI-QAR' => 'DAI-QAR',
-		'DAI-BTC' => 'DAI-BTC',
 
 		'MKR-AED' => 'MKR-AED',
 		'MKR-SAR' => 'MKR-SAR',
@@ -280,15 +268,6 @@ class CurrencyCodePair implements Pair {
 		'AAVE-QAR' => 'AAVE-QAR',
 		'AAVE-USDT' => 'AAVE-USDT',
 
-		'BNT-AED' => 'BNT-AED',
-		'BNT-SAR' => 'BNT-SAR',
-		'BNT-TRY' => 'BNT-TRY',
-		'BNT-USD' => 'BNT-USD',
-		'BNT-KWD' => 'BNT-KWD',
-		'BNT-OMR' => 'BNT-OMR',
-		'BNT-BHD' => 'BNT-BHD',
-		'BNT-QAR' => 'BNT-QAR',
-
 		'LRC-AED' => 'LRC-AED',
 		'LRC-SAR' => 'LRC-SAR',
 		'LRC-TRY' => 'LRC-TRY',
@@ -339,16 +318,6 @@ class CurrencyCodePair implements Pair {
 		'USDC-QAR' => 'USDC-QAR',
 		'USDC-USDT' => 'USDC-USDT',
 
-		'WAVES-AED' => 'WAVES-AED',
-		'WAVES-SAR' => 'WAVES-SAR',
-		'WAVES-TRY' => 'WAVES-TRY',
-		'WAVES-USD' => 'WAVES-USD',
-		'WAVES-KWD' => 'WAVES-KWD',
-		'WAVES-OMR' => 'WAVES-OMR',
-		'WAVES-BHD' => 'WAVES-BHD',
-		'WAVES-QAR' => 'WAVES-QAR',
-		'WAVES-USDT' => 'WAVES-USDT',
-
 		'SOL-AED' => 'SOL-AED',
 		'SOL-SAR' => 'SOL-SAR',
 		'SOL-TRY' => 'SOL-TRY',
@@ -391,16 +360,6 @@ class CurrencyCodePair implements Pair {
 		'SHIB-QAR' => 'SHIB-QAR',
 		'SHIB-USDT' => 'SHIB-USDT',
 
-		'AVAX-AED' => 'AVAX-AED',
-		'AVAX-SAR' => 'AVAX-SAR',
-		'AVAX-TRY' => 'AVAX-TRY',
-		'AVAX-USD' => 'AVAX-USD',
-		'AVAX-KWD' => 'AVAX-KWD',
-		'AVAX-OMR' => 'AVAX-OMR',
-		'AVAX-BHD' => 'AVAX-BHD',
-		'AVAX-QAR' => 'AVAX-QAR',
-		'AVAX-USDT' => 'AVAX-USDT',
-
 		'NEAR-AED' => 'NEAR-AED',
 		'NEAR-SAR' => 'NEAR-SAR',
 		'NEAR-TRY' => 'NEAR-TRY',
@@ -440,26 +399,6 @@ class CurrencyCodePair implements Pair {
 		'ATOM-QAR' => 'ATOM-QAR',
 		'ATOM-USDT' => 'ATOM-USDT',
 		'ATOM-BTC' => 'ATOM-BTC',
-
-		'1INCH-AED' => '1INCH-AED',
-		'1INCH-SAR' => '1INCH-SAR',
-		'1INCH-TRY' => '1INCH-TRY',
-		'1INCH-USD' => '1INCH-USD',
-		'1INCH-KWD' => '1INCH-KWD',
-		'1INCH-OMR' => '1INCH-OMR',
-		'1INCH-BHD' => '1INCH-BHD',
-		'1INCH-QAR' => '1INCH-QAR',
-		'1INCH-USDT' => '1INCH-USDT',
-
-		'ANT-AED' => 'ANT-AED',
-		'ANT-SAR' => 'ANT-SAR',
-		'ANT-TRY' => 'ANT-TRY',
-		'ANT-USD' => 'ANT-USD',
-		'ANT-KWD' => 'ANT-KWD',
-		'ANT-OMR' => 'ANT-OMR',
-		'ANT-BHD' => 'ANT-BHD',
-		'ANT-QAR' => 'ANT-QAR',
-		'ANT-BTC' => 'ANT-BTC',
 
 		'AXS-AED' => 'AXS-AED',
 		'AXS-SAR' => 'AXS-SAR',
@@ -501,35 +440,6 @@ class CurrencyCodePair implements Pair {
 		'CRV-QAR' => 'CRV-QAR',
 		'CRV-USDT' => 'CRV-USDT',
 
-		'DGB-AED' => 'DGB-AED',
-		'DGB-SAR' => 'DGB-SAR',
-		'DGB-TRY' => 'DGB-TRY',
-		'DGB-USD' => 'DGB-USD',
-		'DGB-KWD' => 'DGB-KWD',
-		'DGB-OMR' => 'DGB-OMR',
-		'DGB-BHD' => 'DGB-BHD',
-		'DGB-QAR' => 'DGB-QAR',
-
-		'EGLD-AED' => 'EGLD-AED',
-		'EGLD-SAR' => 'EGLD-SAR',
-		'EGLD-TRY' => 'EGLD-TRY',
-		'EGLD-USD' => 'EGLD-USD',
-		'EGLD-KWD' => 'EGLD-KWD',
-		'EGLD-OMR' => 'EGLD-OMR',
-		'EGLD-BHD' => 'EGLD-BHD',
-		'EGLD-QAR' => 'EGLD-QAR',
-		'EGLD-USDT' => 'EGLD-USDT',
-
-		'FIL-AED' => 'FIL-AED',
-		'FIL-SAR' => 'FIL-SAR',
-		'FIL-TRY' => 'FIL-TRY',
-		'FIL-USD' => 'FIL-USD',
-		'FIL-KWD' => 'FIL-KWD',
-		'FIL-OMR' => 'FIL-OMR',
-		'FIL-BHD' => 'FIL-BHD',
-		'FIL-QAR' => 'FIL-QAR',
-		'FIL-USDT' => 'FIL-USDT',
-
 		'GALA-AED' => 'GALA-AED',
 		'GALA-SAR' => 'GALA-SAR',
 		'GALA-TRY' => 'GALA-TRY',
@@ -558,16 +468,6 @@ class CurrencyCodePair implements Pair {
 		'GRT-BHD' => 'GRT-BHD',
 		'GRT-QAR' => 'GRT-QAR',
 		'GRT-USDT' => 'GRT-USDT',
-
-		'IOTA-AED' => 'IOTA-AED',
-		'IOTA-SAR' => 'IOTA-SAR',
-		'IOTA-TRY' => 'IOTA-TRY',
-		'IOTA-USD' => 'IOTA-USD',
-		'IOTA-KWD' => 'IOTA-KWD',
-		'IOTA-OMR' => 'IOTA-OMR',
-		'IOTA-BHD' => 'IOTA-BHD',
-		'IOTA-QAR' => 'IOTA-QAR',
-		'IOTA-BTC' => 'IOTA-BTC',
 
 		'KSM-AED' => 'KSM-AED',
 		'KSM-SAR' => 'KSM-SAR',
@@ -601,15 +501,6 @@ class CurrencyCodePair implements Pair {
 		'OCEAN-QAR' => 'OCEAN-QAR',
 		'OCEAN-USDT' => 'OCEAN-USDT',
 
-		'QTUM-AED' => 'QTUM-AED',
-		'QTUM-SAR' => 'QTUM-SAR',
-		'QTUM-TRY' => 'QTUM-TRY',
-		'QTUM-USD' => 'QTUM-USD',
-		'QTUM-KWD' => 'QTUM-KWD',
-		'QTUM-OMR' => 'QTUM-OMR',
-		'QTUM-BHD' => 'QTUM-BHD',
-		'QTUM-QAR' => 'QTUM-QAR',
-
 		'SNX-AED' => 'SNX-AED',
 		'SNX-SAR' => 'SNX-SAR',
 		'SNX-TRY' => 'SNX-TRY',
@@ -619,16 +510,6 @@ class CurrencyCodePair implements Pair {
 		'SNX-BHD' => 'SNX-BHD',
 		'SNX-QAR' => 'SNX-QAR',
 		'SNX-USDT' => 'SNX-USDT',
-
-		'THETA-AED' => 'THETA-AED',
-		'THETA-SAR' => 'THETA-SAR',
-		'THETA-TRY' => 'THETA-TRY',
-		'THETA-USD' => 'THETA-USD',
-		'THETA-KWD' => 'THETA-KWD',
-		'THETA-OMR' => 'THETA-OMR',
-		'THETA-BHD' => 'THETA-BHD',
-		'THETA-QAR' => 'THETA-QAR',
-		'THETA-USDT' => 'THETA-USDT',
 
 		'TRX-AED' => 'TRX-AED',
 		'TRX-SAR' => 'TRX-SAR',
@@ -641,26 +522,6 @@ class CurrencyCodePair implements Pair {
 		'TRX-USDT' => 'TRX-USDT',
 		'TRX-BTC' => 'TRX-BTC',
 		'TRX-ETH' => 'TRX-ETH',
-
-		'VET-AED' => 'VET-AED',
-		'VET-SAR' => 'VET-SAR',
-		'VET-TRY' => 'VET-TRY',
-		'VET-USD' => 'VET-USD',
-		'VET-KWD' => 'VET-KWD',
-		'VET-OMR' => 'VET-OMR',
-		'VET-BHD' => 'VET-BHD',
-		'VET-QAR' => 'VET-QAR',
-		'VET-USDT' => 'VET-USDT',
-		'VET-BTC' => 'VET-BTC',
-
-		'XVG-AED' => 'XVG-AED',
-		'XVG-SAR' => 'XVG-SAR',
-		'XVG-TRY' => 'XVG-TRY',
-		'XVG-USD' => 'XVG-USD',
-		'XVG-KWD' => 'XVG-KWD',
-		'XVG-OMR' => 'XVG-OMR',
-		'XVG-BHD' => 'XVG-BHD',
-		'XVG-QAR' => 'XVG-QAR',
 
 		'LUNA2-AED' => 'LUNA2-AED',
 		'LUNA2-SAR' => 'LUNA2-SAR',
@@ -745,14 +606,6 @@ class CurrencyCodePair implements Pair {
 		'RLY-QAR' => 'RLY-QAR',
 		'RLY-USDT' => 'RLY-USDT',
 
-		'RBTC-AED' => 'RBTC-AED',
-		'RBTC-SAR' => 'RBTC-SAR',
-		'RBTC-USD' => 'RBTC-USD',
-		'RBTC-KWD' => 'RBTC-KWD',
-		'RBTC-OMR' => 'RBTC-OMR',
-		'RBTC-BHD' => 'RBTC-BHD',
-		'RBTC-QAR' => 'RBTC-QAR',
-
 		'VRA-AED' => 'VRA-AED',
 		'VRA-SAR' => 'VRA-SAR',
 		'VRA-USD' => 'VRA-USD',
@@ -762,14 +615,6 @@ class CurrencyCodePair implements Pair {
 		'VRA-QAR' => 'VRA-QAR',
 		'VRA-USDT' => 'VRA-USDT',
 
-		'UTK-AED' => 'UTK-AED',
-		'UTK-SAR' => 'UTK-SAR',
-		'UTK-USD' => 'UTK-USD',
-		'UTK-KWD' => 'UTK-KWD',
-		'UTK-OMR' => 'UTK-OMR',
-		'UTK-BHD' => 'UTK-BHD',
-		'UTK-QAR' => 'UTK-QAR',
-
 		'SGB-AED' => 'SGB-AED',
 		'SGB-SAR' => 'SGB-SAR',
 		'SGB-USD' => 'SGB-USD',
@@ -778,6 +623,531 @@ class CurrencyCodePair implements Pair {
 		'SGB-BHD' => 'SGB-BHD',
 		'SGB-QAR' => 'SGB-QAR',
 		'SGB-USDT' => 'SGB-USDT',
+
+		'BLUR-AED' => 'BLUR-AED',
+		'BLUR-SAR' => 'BLUR-SAR',
+		'BLUR-USD' => 'BLUR-USD',
+		'BLUR-KWD' => 'BLUR-KWD',
+		'BLUR-OMR' => 'BLUR-OMR',
+		'BLUR-BHD' => 'BLUR-BHD',
+		'BLUR-QAR' => 'BLUR-QAR',
+		'BLUR-USDT' => 'BLUR-USDT',
+
+		'OP-AED' => 'OP-AED',
+		'OP-SAR' => 'OP-SAR',
+		'OP-USD' => 'OP-USD',
+		'OP-KWD' => 'OP-KWD',
+		'OP-OMR' => 'OP-OMR',
+		'OP-BHD' => 'OP-BHD',
+		'OP-QAR' => 'OP-QAR',
+		'OP-USDT' => 'OP-USDT',
+
+		'OPEN-AED' => 'OPEN-AED',
+		'OPEN-SAR' => 'OPEN-SAR',
+		'OPEN-USD' => 'OPEN-USD',
+		'OPEN-KWD' => 'OPEN-KWD',
+		'OPEN-OMR' => 'OPEN-OMR',
+		'OPEN-BHD' => 'OPEN-BHD',
+		'OPEN-QAR' => 'OPEN-QAR',
+		'OPEN-USDT' => 'OPEN-USDT',
+
+		'BOSON-AED' => 'BOSON-AED',
+		'BOSON-SAR' => 'BOSON-SAR',
+		'BOSON-USD' => 'BOSON-USD',
+		'BOSON-KWD' => 'BOSON-KWD',
+		'BOSON-OMR' => 'BOSON-OMR',
+		'BOSON-BHD' => 'BOSON-BHD',
+		'BOSON-QAR' => 'BOSON-QAR',
+		'BOSON-USDT' => 'BOSON-USDT',
+
+		'FLOKI-AED' => 'FLOKI-AED',
+		'FLOKI-SAR' => 'FLOKI-SAR',
+		'FLOKI-USD' => 'FLOKI-USD',
+		'FLOKI-KWD' => 'FLOKI-KWD',
+		'FLOKI-OMR' => 'FLOKI-OMR',
+		'FLOKI-BHD' => 'FLOKI-BHD',
+		'FLOKI-QAR' => 'FLOKI-QAR',
+		'FLOKI-USDT' => 'FLOKI-USDT',
+
+		'TUSD-AED' => 'TUSD-AED',
+		'TUSD-SAR' => 'TUSD-SAR',
+		'TUSD-USD' => 'TUSD-USD',
+		'TUSD-KWD' => 'TUSD-KWD',
+		'TUSD-OMR' => 'TUSD-OMR',
+		'TUSD-BHD' => 'TUSD-BHD',
+		'TUSD-QAR' => 'TUSD-QAR',
+		'TUSD-USDT' => 'TUSD-USDT',
+
+		'SUI-AED' => 'SUI-AED',
+		'SUI-SAR' => 'SUI-SAR',
+		'SUI-USD' => 'SUI-USD',
+		'SUI-KWD' => 'SUI-KWD',
+		'SUI-OMR' => 'SUI-OMR',
+		'SUI-BHD' => 'SUI-BHD',
+		'SUI-QAR' => 'SUI-QAR',
+		'SUI-USDT' => 'SUI-USDT',
+
+		'SEI-AED' => 'SEI-AED',
+		'SEI-SAR' => 'SEI-SAR',
+		'SEI-USD' => 'SEI-USD',
+		'SEI-KWD' => 'SEI-KWD',
+		'SEI-OMR' => 'SEI-OMR',
+		'SEI-BHD' => 'SEI-BHD',
+		'SEI-QAR' => 'SEI-QAR',
+		'SEI-USDT' => 'SEI-USDT',
+
+		'TON-AED' => 'TON-AED',
+		'TON-SAR' => 'TON-SAR',
+		'TON-USD' => 'TON-USD',
+		'TON-KWD' => 'TON-KWD',
+		'TON-OMR' => 'TON-OMR',
+		'TON-BHD' => 'TON-BHD',
+		'TON-QAR' => 'TON-QAR',
+		'TON-USDT' => 'TON-USDT',
+
+		'AMPL-AED' => 'AMPL-AED',
+		'AMPL-SAR' => 'AMPL-SAR',
+		'AMPL-USD' => 'AMPL-USD',
+		'AMPL-KWD' => 'AMPL-KWD',
+		'AMPL-OMR' => 'AMPL-OMR',
+		'AMPL-BHD' => 'AMPL-BHD',
+		'AMPL-QAR' => 'AMPL-QAR',
+		'AMPL-USDT' => 'AMPL-USDT',
+		'AMPL-BTC' => 'AMPL-BTC',
+
+		'BEST-AED' => 'BEST-AED',
+		'BEST-SAR' => 'BEST-SAR',
+		'BEST-USD' => 'BEST-USD',
+		'BEST-KWD' => 'BEST-KWD',
+		'BEST-OMR' => 'BEST-OMR',
+		'BEST-BHD' => 'BEST-BHD',
+		'BEST-QAR' => 'BEST-QAR',
+
+		'CELO-AED' => 'CELO-AED',
+		'CELO-SAR' => 'CELO-SAR',
+		'CELO-USD' => 'CELO-USD',
+		'CELO-KWD' => 'CELO-KWD',
+		'CELO-OMR' => 'CELO-OMR',
+		'CELO-BHD' => 'CELO-BHD',
+		'CELO-QAR' => 'CELO-QAR',
+		'CELO-USDT' => 'CELO-USDT',
+
+		'DUSK-AED' => 'DUSK-AED',
+		'DUSK-SAR' => 'DUSK-SAR',
+		'DUSK-USD' => 'DUSK-USD',
+		'DUSK-KWD' => 'DUSK-KWD',
+		'DUSK-OMR' => 'DUSK-OMR',
+		'DUSK-BHD' => 'DUSK-BHD',
+		'DUSK-QAR' => 'DUSK-QAR',
+
+		'DVF-AED' => 'DVF-AED',
+		'DVF-SAR' => 'DVF-SAR',
+		'DVF-USD' => 'DVF-USD',
+		'DVF-KWD' => 'DVF-KWD',
+		'DVF-OMR' => 'DVF-OMR',
+		'DVF-BHD' => 'DVF-BHD',
+		'DVF-QAR' => 'DVF-QAR',
+
+		'FCL-AED' => 'FCL-AED',
+		'FCL-SAR' => 'FCL-SAR',
+		'FCL-USD' => 'FCL-USD',
+		'FCL-KWD' => 'FCL-KWD',
+		'FCL-OMR' => 'FCL-OMR',
+		'FCL-BHD' => 'FCL-BHD',
+		'FCL-QAR' => 'FCL-QAR',
+		'FCL-USDT' => 'FCL-USDT',
+
+		'FLR-AED' => 'FLR-AED',
+		'FLR-SAR' => 'FLR-SAR',
+		'FLR-USD' => 'FLR-USD',
+		'FLR-KWD' => 'FLR-KWD',
+		'FLR-OMR' => 'FLR-OMR',
+		'FLR-BHD' => 'FLR-BHD',
+		'FLR-QAR' => 'FLR-QAR',
+		'FLR-USDT' => 'FLR-USDT',
+
+		'FORTH-AED' => 'FORTH-AED',
+		'FORTH-SAR' => 'FORTH-SAR',
+		'FORTH-USD' => 'FORTH-USD',
+		'FORTH-KWD' => 'FORTH-KWD',
+		'FORTH-OMR' => 'FORTH-OMR',
+		'FORTH-BHD' => 'FORTH-BHD',
+		'FORTH-QAR' => 'FORTH-QAR',
+		'FORTH-USDT' => 'FORTH-USDT',
+
+		'FUN-AED' => 'FUN-AED',
+		'FUN-SAR' => 'FUN-SAR',
+		'FUN-USD' => 'FUN-USD',
+		'FUN-KWD' => 'FUN-KWD',
+		'FUN-OMR' => 'FUN-OMR',
+		'FUN-BHD' => 'FUN-BHD',
+		'FUN-QAR' => 'FUN-QAR',
+
+		'HMT-AED' => 'HMT-AED',
+		'HMT-SAR' => 'HMT-SAR',
+		'HMT-USD' => 'HMT-USD',
+		'HMT-KWD' => 'HMT-KWD',
+		'HMT-OMR' => 'HMT-OMR',
+		'HMT-BHD' => 'HMT-BHD',
+		'HMT-QAR' => 'HMT-QAR',
+		'HMT-USDT' => 'HMT-USDT',
+
+		'INJ-AED' => 'INJ-AED',
+		'INJ-SAR' => 'INJ-SAR',
+		'INJ-USD' => 'INJ-USD',
+		'INJ-KWD' => 'INJ-KWD',
+		'INJ-OMR' => 'INJ-OMR',
+		'INJ-BHD' => 'INJ-BHD',
+		'INJ-QAR' => 'INJ-QAR',
+		'INJ-USDT' => 'INJ-USDT',
+
+		'JUP-AED' => 'JUP-AED',
+		'JUP-SAR' => 'JUP-SAR',
+		'JUP-USD' => 'JUP-USD',
+		'JUP-KWD' => 'JUP-KWD',
+		'JUP-OMR' => 'JUP-OMR',
+		'JUP-BHD' => 'JUP-BHD',
+		'JUP-QAR' => 'JUP-QAR',
+		'JUP-USDT' => 'JUP-USDT',
+
+		'KAVA-AED' => 'KAVA-AED',
+		'KAVA-SAR' => 'KAVA-SAR',
+		'KAVA-USD' => 'KAVA-USD',
+		'KAVA-KWD' => 'KAVA-KWD',
+		'KAVA-OMR' => 'KAVA-OMR',
+		'KAVA-BHD' => 'KAVA-BHD',
+		'KAVA-QAR' => 'KAVA-QAR',
+		'KAVA-USDT' => 'KAVA-USDT',
+
+		'MEME-AED' => 'MEME-AED',
+		'MEME-SAR' => 'MEME-SAR',
+		'MEME-USD' => 'MEME-USD',
+		'MEME-KWD' => 'MEME-KWD',
+		'MEME-OMR' => 'MEME-OMR',
+		'MEME-BHD' => 'MEME-BHD',
+		'MEME-QAR' => 'MEME-QAR',
+		'MEME-USDT' => 'MEME-USDT',
+
+		'MIM-AED' => 'MIM-AED',
+		'MIM-SAR' => 'MIM-SAR',
+		'MIM-USD' => 'MIM-USD',
+		'MIM-KWD' => 'MIM-KWD',
+		'MIM-OMR' => 'MIM-OMR',
+		'MIM-BHD' => 'MIM-BHD',
+		'MIM-QAR' => 'MIM-QAR',
+		'MIM-USDT' => 'MIM-USDT',
+
+		'NEXO-AED' => 'NEXO-AED',
+		'NEXO-SAR' => 'NEXO-SAR',
+		'NEXO-USD' => 'NEXO-USD',
+		'NEXO-KWD' => 'NEXO-KWD',
+		'NEXO-OMR' => 'NEXO-OMR',
+		'NEXO-BHD' => 'NEXO-BHD',
+		'NEXO-QAR' => 'NEXO-QAR',
+		'NEXO-USDT' => 'NEXO-USDT',
+		'NEXO-BTC' => 'NEXO-BTC',
+
+		'OGN-AED' => 'OGN-AED',
+		'OGN-SAR' => 'OGN-SAR',
+		'OGN-USD' => 'OGN-USD',
+		'OGN-KWD' => 'OGN-KWD',
+		'OGN-OMR' => 'OGN-OMR',
+		'OGN-BHD' => 'OGN-BHD',
+		'OGN-QAR' => 'OGN-QAR',
+		'OGN-USDT' => 'OGN-USDT',
+
+		'PAX-AED' => 'PAX-AED',
+		'PAX-SAR' => 'PAX-SAR',
+		'PAX-USD' => 'PAX-USD',
+		'PAX-KWD' => 'PAX-KWD',
+		'PAX-OMR' => 'PAX-OMR',
+		'PAX-BHD' => 'PAX-BHD',
+		'PAX-QAR' => 'PAX-QAR',
+		'PAX-USDT' => 'PAX-USDT',
+
+		'PLU-AED' => 'PLU-AED',
+		'PLU-SAR' => 'PLU-SAR',
+		'PLU-USD' => 'PLU-USD',
+		'PLU-KWD' => 'PLU-KWD',
+		'PLU-OMR' => 'PLU-OMR',
+		'PLU-BHD' => 'PLU-BHD',
+		'PLU-QAR' => 'PLU-QAR',
+
+		'PNK-AED' => 'PNK-AED',
+		'PNK-SAR' => 'PNK-SAR',
+		'PNK-USD' => 'PNK-USD',
+		'PNK-KWD' => 'PNK-KWD',
+		'PNK-OMR' => 'PNK-OMR',
+		'PNK-BHD' => 'PNK-BHD',
+		'PNK-QAR' => 'PNK-QAR',
+
+		'REQ-AED' => 'REQ-AED',
+		'REQ-SAR' => 'REQ-SAR',
+		'REQ-USD' => 'REQ-USD',
+		'REQ-KWD' => 'REQ-KWD',
+		'REQ-OMR' => 'REQ-OMR',
+		'REQ-BHD' => 'REQ-BHD',
+		'REQ-QAR' => 'REQ-QAR',
+
+		'SIDUS-AED' => 'SIDUS-AED',
+		'SIDUS-SAR' => 'SIDUS-SAR',
+		'SIDUS-USD' => 'SIDUS-USD',
+		'SIDUS-KWD' => 'SIDUS-KWD',
+		'SIDUS-OMR' => 'SIDUS-OMR',
+		'SIDUS-BHD' => 'SIDUS-BHD',
+		'SIDUS-QAR' => 'SIDUS-QAR',
+
+		'SPELL-AED' => 'SPELL-AED',
+		'SPELL-SAR' => 'SPELL-SAR',
+		'SPELL-USD' => 'SPELL-USD',
+		'SPELL-KWD' => 'SPELL-KWD',
+		'SPELL-OMR' => 'SPELL-OMR',
+		'SPELL-BHD' => 'SPELL-BHD',
+		'SPELL-QAR' => 'SPELL-QAR',
+		'SPELL-USDT' => 'SPELL-USDT',
+
+		'STG-AED' => 'STG-AED',
+		'STG-SAR' => 'STG-SAR',
+		'STG-USD' => 'STG-USD',
+		'STG-KWD' => 'STG-KWD',
+		'STG-OMR' => 'STG-OMR',
+		'STG-BHD' => 'STG-BHD',
+		'STG-QAR' => 'STG-QAR',
+		'STG-USDT' => 'STG-USDT',
+
+		'SUKU-AED' => 'SUKU-AED',
+		'SUKU-SAR' => 'SUKU-SAR',
+		'SUKU-USD' => 'SUKU-USD',
+		'SUKU-KWD' => 'SUKU-KWD',
+		'SUKU-OMR' => 'SUKU-OMR',
+		'SUKU-BHD' => 'SUKU-BHD',
+		'SUKU-QAR' => 'SUKU-QAR',
+		'SUKU-USDT' => 'SUKU-USDT',
+
+		'UOS-AED' => 'UOS-AED',
+		'UOS-SAR' => 'UOS-SAR',
+		'UOS-USD' => 'UOS-USD',
+		'UOS-KWD' => 'UOS-KWD',
+		'UOS-OMR' => 'UOS-OMR',
+		'UOS-BHD' => 'UOS-BHD',
+		'UOS-QAR' => 'UOS-QAR',
+		'UOS-BTC' => 'UOS-BTC',
+
+		'WOO-AED' => 'WOO-AED',
+		'WOO-SAR' => 'WOO-SAR',
+		'WOO-USD' => 'WOO-USD',
+		'WOO-KWD' => 'WOO-KWD',
+		'WOO-OMR' => 'WOO-OMR',
+		'WOO-BHD' => 'WOO-BHD',
+		'WOO-QAR' => 'WOO-QAR',
+		'WOO-USDT' => 'WOO-USDT',
+
+		'XTP-AED' => 'XTP-AED',
+		'XTP-SAR' => 'XTP-SAR',
+		'XTP-USD' => 'XTP-USD',
+		'XTP-KWD' => 'XTP-KWD',
+		'XTP-OMR' => 'XTP-OMR',
+		'XTP-BHD' => 'XTP-BHD',
+		'XTP-QAR' => 'XTP-QAR',
+		'XTP-USDT' => 'XTP-USDT',
+
+		'POL-AED' => 'POL-AED',
+		'POL-SAR' => 'POL-SAR',
+		'POL-USD' => 'POL-USD',
+		'POL-KWD' => 'POL-KWD',
+		'POL-OMR' => 'POL-OMR',
+		'POL-BHD' => 'POL-BHD',
+		'POL-QAR' => 'POL-QAR',
+		'POL-USDT' => 'POL-USDT',
+
+		'PEPE-AED' => 'PEPE-AED',
+		'PEPE-SAR' => 'PEPE-SAR',
+		'PEPE-USD' => 'PEPE-USD',
+		'PEPE-KWD' => 'PEPE-KWD',
+		'PEPE-OMR' => 'PEPE-OMR',
+		'PEPE-BHD' => 'PEPE-BHD',
+		'PEPE-QAR' => 'PEPE-QAR',
+		'PEPE-USDT' => 'PEPE-USDT',
+
+		'BONK-AED' => 'BONK-AED',
+		'BONK-SAR' => 'BONK-SAR',
+		'BONK-USD' => 'BONK-USD',
+		'BONK-KWD' => 'BONK-KWD',
+		'BONK-OMR' => 'BONK-OMR',
+		'BONK-BHD' => 'BONK-BHD',
+		'BONK-QAR' => 'BONK-QAR',
+		'BONK-USDT' => 'BONK-USDT',
+
+		'TURBO-AED' => 'TURBO-AED',
+		'TURBO-SAR' => 'TURBO-SAR',
+		'TURBO-USD' => 'TURBO-USD',
+		'TURBO-KWD' => 'TURBO-KWD',
+		'TURBO-OMR' => 'TURBO-OMR',
+		'TURBO-BHD' => 'TURBO-BHD',
+		'TURBO-QAR' => 'TURBO-QAR',
+		'TURBO-USDT' => 'TURBO-USDT',
+
+		'WBT-AED' => 'WBT-AED',
+		'WBT-SAR' => 'WBT-SAR',
+		'WBT-USD' => 'WBT-USD',
+		'WBT-KWD' => 'WBT-KWD',
+		'WBT-OMR' => 'WBT-OMR',
+		'WBT-BHD' => 'WBT-BHD',
+		'WBT-QAR' => 'WBT-QAR',
+		'WBT-USDT' => 'WBT-USDT',
+
+		'ENA-AED' => 'ENA-AED',
+		'ENA-SAR' => 'ENA-SAR',
+		'ENA-USD' => 'ENA-USD',
+		'ENA-KWD' => 'ENA-KWD',
+		'ENA-OMR' => 'ENA-OMR',
+		'ENA-BHD' => 'ENA-BHD',
+		'ENA-QAR' => 'ENA-QAR',
+		'ENA-USDT' => 'ENA-USDT',
+
+		'MEW-AED' => 'MEW-AED',
+		'MEW-SAR' => 'MEW-SAR',
+		'MEW-USD' => 'MEW-USD',
+		'MEW-KWD' => 'MEW-KWD',
+		'MEW-OMR' => 'MEW-OMR',
+		'MEW-BHD' => 'MEW-BHD',
+		'MEW-QAR' => 'MEW-QAR',
+		'MEW-USDT' => 'MEW-USDT',
+
+		'TIA-AED' => 'TIA-AED',
+		'TIA-SAR' => 'TIA-SAR',
+		'TIA-USD' => 'TIA-USD',
+		'TIA-KWD' => 'TIA-KWD',
+		'TIA-OMR' => 'TIA-OMR',
+		'TIA-BHD' => 'TIA-BHD',
+		'TIA-QAR' => 'TIA-QAR',
+		'TIA-USDT' => 'TIA-USDT',
+
+		'SWEAT-AED' => 'SWEAT-AED',
+		'SWEAT-SAR' => 'SWEAT-SAR',
+		'SWEAT-USD' => 'SWEAT-USD',
+		'SWEAT-KWD' => 'SWEAT-KWD',
+		'SWEAT-OMR' => 'SWEAT-OMR',
+		'SWEAT-BHD' => 'SWEAT-BHD',
+		'SWEAT-QAR' => 'SWEAT-QAR',
+		'SWEAT-USDT' => 'SWEAT-USDT',
+
+		'SPEC-AED' => 'SPEC-AED',
+		'SPEC-SAR' => 'SPEC-SAR',
+		'SPEC-USD' => 'SPEC-USD',
+		'SPEC-KWD' => 'SPEC-KWD',
+		'SPEC-OMR' => 'SPEC-OMR',
+		'SPEC-BHD' => 'SPEC-BHD',
+		'SPEC-QAR' => 'SPEC-QAR',
+		'SPEC-USDT' => 'SPEC-USDT',
+
+		'AIOZ-AED' => 'AIOZ-AED',
+		'AIOZ-SAR' => 'AIOZ-SAR',
+		'AIOZ-USD' => 'AIOZ-USD',
+		'AIOZ-KWD' => 'AIOZ-KWD',
+		'AIOZ-OMR' => 'AIOZ-OMR',
+		'AIOZ-BHD' => 'AIOZ-BHD',
+		'AIOZ-QAR' => 'AIOZ-QAR',
+
+		'GOMINING-AED' => 'GOMINING-AED',
+		'GOMINING-SAR' => 'GOMINING-SAR',
+		'GOMINING-USD' => 'GOMINING-USD',
+		'GOMINING-KWD' => 'GOMINING-KWD',
+		'GOMINING-OMR' => 'GOMINING-OMR',
+		'GOMINING-BHD' => 'GOMINING-BHD',
+		'GOMINING-QAR' => 'GOMINING-QAR',
+		'GOMINING-USDT' => 'GOMINING-USDT',
+
+		'VELAR-AED' => 'VELAR-AED',
+		'VELAR-SAR' => 'VELAR-SAR',
+		'VELAR-USD' => 'VELAR-USD',
+		'VELAR-KWD' => 'VELAR-KWD',
+		'VELAR-OMR' => 'VELAR-OMR',
+		'VELAR-BHD' => 'VELAR-BHD',
+		'VELAR-QAR' => 'VELAR-QAR',
+		'VELAR-USDT' => 'VELAR-USDT',
+
+		'JUSTICE-AED' => 'JUSTICE-AED',
+		'JUSTICE-SAR' => 'JUSTICE-SAR',
+		'JUSTICE-USD' => 'JUSTICE-USD',
+		'JUSTICE-KWD' => 'JUSTICE-KWD',
+		'JUSTICE-OMR' => 'JUSTICE-OMR',
+		'JUSTICE-BHD' => 'JUSTICE-BHD',
+		'JUSTICE-QAR' => 'JUSTICE-QAR',
+		'JUSTICE-USDT' => 'JUSTICE-USDT',
+
+		'KAN-AED' => 'KAN-AED',
+		'KAN-SAR' => 'KAN-SAR',
+		'KAN-USD' => 'KAN-USD',
+		'KAN-KWD' => 'KAN-KWD',
+		'KAN-OMR' => 'KAN-OMR',
+		'KAN-BHD' => 'KAN-BHD',
+		'KAN-QAR' => 'KAN-QAR',
+		'KAN-USDT' => 'KAN-USDT',
+
+		'S-AED' => 'S-AED',
+		'S-SAR' => 'S-SAR',
+		'S-USD' => 'S-USD',
+		'S-KWD' => 'S-KWD',
+		'S-OMR' => 'S-OMR',
+		'S-BHD' => 'S-BHD',
+		'S-QAR' => 'S-QAR',
+		'S-USDT' => 'S-USDT',
+
+		'TOKEN-AED' => 'TOKEN-AED',
+		'TOKEN-SAR' => 'TOKEN-SAR',
+		'TOKEN-USD' => 'TOKEN-USD',
+		'TOKEN-KWD' => 'TOKEN-KWD',
+		'TOKEN-OMR' => 'TOKEN-OMR',
+		'TOKEN-BHD' => 'TOKEN-BHD',
+		'TOKEN-QAR' => 'TOKEN-QAR',
+		'TOKEN-USDT' => 'TOKEN-USDT',
+
+		'EIGEN-AED' => 'EIGEN-AED',
+		'EIGEN-SAR' => 'EIGEN-SAR',
+		'EIGEN-USD' => 'EIGEN-USD',
+		'EIGEN-KWD' => 'EIGEN-KWD',
+		'EIGEN-OMR' => 'EIGEN-OMR',
+		'EIGEN-BHD' => 'EIGEN-BHD',
+		'EIGEN-QAR' => 'EIGEN-QAR',
+		'EIGEN-USDT' => 'EIGEN-USDT',
+
+		'JASMY-AED' => 'JASMY-AED',
+		'JASMY-SAR' => 'JASMY-SAR',
+		'JASMY-USD' => 'JASMY-USD',
+		'JASMY-KWD' => 'JASMY-KWD',
+		'JASMY-OMR' => 'JASMY-OMR',
+		'JASMY-BHD' => 'JASMY-BHD',
+		'JASMY-QAR' => 'JASMY-QAR',
+		'JASMY-USDT' => 'JASMY-USDT',
+
+		'STRK-AED' => 'STRK-AED',
+		'STRK-SAR' => 'STRK-SAR',
+		'STRK-USD' => 'STRK-USD',
+		'STRK-KWD' => 'STRK-KWD',
+		'STRK-OMR' => 'STRK-OMR',
+		'STRK-BHD' => 'STRK-BHD',
+		'STRK-QAR' => 'STRK-QAR',
+		'STRK-USDT' => 'STRK-USDT',
+
+		'ATH-AED' => 'ATH-AED',
+		'ATH-SAR' => 'ATH-SAR',
+		'ATH-USD' => 'ATH-USD',
+		'ATH-KWD' => 'ATH-KWD',
+		'ATH-OMR' => 'ATH-OMR',
+		'ATH-BHD' => 'ATH-BHD',
+		'ATH-QAR' => 'ATH-QAR',
+		'ATH-USDT' => 'ATH-USDT',
+
+		'BGB-AED' => 'BGB-AED',
+		'BGB-SAR' => 'BGB-SAR',
+		'BGB-USD' => 'BGB-USD',
+		'BGB-KWD' => 'BGB-KWD',
+		'BGB-OMR' => 'BGB-OMR',
+		'BGB-BHD' => 'BGB-BHD',
+		'BGB-QAR' => 'BGB-QAR',
+		'BGB-USDT' => 'BGB-USDT',
+
 	];
 
 	const VALID_PAIRS = [
@@ -802,9 +1172,11 @@ class CurrencyCodePair implements Pair {
 		'LTC-AED', 'LTC-SAR', 'LTC-TRY', 'LTC-USD', 'LTC-KWD', 'LTC-OMR', 'LTC-BHD', 'LTC-QAR',
 		'LTC-USDT', 'LTC-BTC',
 
+		// De-listed (keeping for historical support)
 		'ZEC-AED', 'ZEC-USD',
 		'ZEC-BTC',
 
+		// De-listed (keeping for historical support)
 		'XMR-AED', 'XMR-USD',
 		'XMR-BTC',
 
@@ -815,6 +1187,7 @@ class CurrencyCodePair implements Pair {
 		'EOS-AED', 'EOS-SAR', 'EOS-TRY', 'EOS-USD', 'EOS-KWD', 'EOS-OMR', 'EOS-BHD', 'EOS-QAR',
 		'EOS-USDT', 'EOS-BTC', 'EOS-ETH',
 
+		// De-listed (keeping for historical support)
 		'BSV-AED', 'BSV-USD',
 		'BSV-BTC',
 
@@ -832,28 +1205,31 @@ class CurrencyCodePair implements Pair {
 
 		'USDT-AED', 'USDT-SAR', 'USDT-TRY', 'USDT-USD', 'USDT-KWD', 'USDT-OMR', 'USDT-BHD', 'USDT-QAR',
 
+		// De-listed (keeping for historical support)
 		'NEO-AED', 'NEO-SAR', 'NEO-TRY', 'NEO-USD', 'NEO-KWD', 'NEO-OMR', 'NEO-BHD', 'NEO-QAR',
 		'NEO-USDT', 'NEO-BTC',
-		'NEO-ETH', // De-listed (keeping for historical support)
+		'NEO-ETH',
 
 		'XTZ-AED', 'XTZ-SAR', 'XTZ-TRY', 'XTZ-USD', 'XTZ-KWD', 'XTZ-OMR', 'XTZ-BHD', 'XTZ-QAR',
 		'XTZ-USDT', 'XTZ-BTC',
 
 		'LINK-AED', 'LINK-SAR', 'LINK-TRY', 'LINK-USD', 'LINK-KWD', 'LINK-OMR', 'LINK-BHD', 'LINK-QAR',
-		'LINK-USDT', 'LINK-BTC', 'LINK-ETH',
+		'LINK-USDT',
+		'LINK-BTC', 'LINK-ETH', // De-listed
 
 		'DAI-AED', 'DAI-SAR', 'DAI-TRY', 'DAI-USD', 'DAI-KWD', 'DAI-OMR', 'DAI-BHD', 'DAI-QAR',
-		'DAI-BTC',
-		'DAI-ETH', // De-listed
+		'DAI-BTC', 'DAI-ETH', // De-listed
 
 		'MKR-AED', 'MKR-SAR', 'MKR-TRY', 'MKR-USD', 'MKR-KWD', 'MKR-OMR', 'MKR-BHD', 'MKR-QAR',
-		'MKR-USDT', 'MKR-BTC',
+		'MKR-USDT',
+		'MKR-BTC', // De-listed
 
+		// De-listed (keeping for historical support)
 		'REP-AED', 'REP-USD',
 		'REP-BTC',
 
 		'KNC-AED', 'KNC-SAR', 'KNC-TRY', 'KNC-USD', 'KNC-KWD', 'KNC-OMR', 'KNC-BHD', 'KNC-QAR',
-		'KNC-BTC',
+		'KNC-BTC', // De-listed
 
 		'UNI-AED', 'UNI-SAR', 'UNI-TRY', 'UNI-USD', 'UNI-KWD', 'UNI-OMR', 'UNI-BHD', 'UNI-QAR',
 		'UNI-USDT',
@@ -873,8 +1249,10 @@ class CurrencyCodePair implements Pair {
 		'AAVE-AED', 'AAVE-SAR', 'AAVE-TRY', 'AAVE-USD', 'AAVE-KWD', 'AAVE-OMR', 'AAVE-BHD', 'AAVE-QAR',
 		'AAVE-USDT',
 
+		// De-listed (keeping for historical support)
 		'BNT-AED', 'BNT-SAR', 'BNT-TRY', 'BNT-USD', 'BNT-KWD', 'BNT-OMR', 'BNT-BHD', 'BNT-QAR',
 
+		// De-listed (keeping for historical support)
 		'ENJ-AED', 'ENJ-SAR', 'ENJ-TRY', 'ENJ-USD', 'ENJ-KWD', 'ENJ-OMR', 'ENJ-BHD', 'ENJ-QAR',
 
 		'LRC-AED', 'LRC-SAR', 'LRC-TRY', 'LRC-USD', 'LRC-KWD', 'LRC-OMR', 'LRC-BHD', 'LRC-QAR',
@@ -885,6 +1263,7 @@ class CurrencyCodePair implements Pair {
 		'MATIC-AED', 'MATIC-SAR', 'MATIC-TRY', 'MATIC-USD', 'MATIC-KWD', 'MATIC-OMR', 'MATIC-BHD', 'MATIC-QAR',
 		'MATIC-USDT', 'MATIC-BTC',
 
+		// De-listed (keeping for historical support)
 		'STORJ-AED', 'STORJ-SAR', 'STORJ-TRY', 'STORJ-USD', 'STORJ-KWD', 'STORJ-OMR', 'STORJ-BHD', 'STORJ-QAR',
 
 		'SUSHI-AED', 'SUSHI-SAR', 'SUSHI-TRY', 'SUSHI-USD', 'SUSHI-KWD', 'SUSHI-OMR', 'SUSHI-BHD', 'SUSHI-QAR',
@@ -893,6 +1272,7 @@ class CurrencyCodePair implements Pair {
 		'USDC-AED', 'USDC-SAR', 'USDC-TRY', 'USDC-USD', 'USDC-KWD', 'USDC-OMR', 'USDC-BHD', 'USDC-QAR',
 		'USDC-USDT',
 
+		// De-listed (keeping for historical support)
 		'WAVES-AED', 'WAVES-SAR', 'WAVES-TRY', 'WAVES-USD', 'WAVES-KWD', 'WAVES-OMR', 'WAVES-BHD', 'WAVES-QAR',
 		'WAVES-USDT',
 
@@ -908,6 +1288,7 @@ class CurrencyCodePair implements Pair {
 		'SHIB-AED', 'SHIB-SAR', 'SHIB-TRY', 'SHIB-USD', 'SHIB-KWD', 'SHIB-OMR', 'SHIB-BHD', 'SHIB-QAR',
 		'SHIB-USDT',
 
+		// De-listed (keeping for historical support)
 		'AVAX-AED', 'AVAX-SAR', 'AVAX-TRY', 'AVAX-USD', 'AVAX-KWD', 'AVAX-OMR', 'AVAX-BHD', 'AVAX-QAR',
 		'AVAX-USDT',
 
@@ -924,13 +1305,17 @@ class CurrencyCodePair implements Pair {
 		'WBTC-AED', 'WBTC-SAR', 'WBTC-TRY', 'WBTC-USD', 'WBTC-KWD', 'WBTC-OMR', 'WBTC-BHD', 'WBTC-QAR',
 
 		'ATOM-AED', 'ATOM-SAR', 'ATOM-TRY', 'ATOM-USD', 'ATOM-KWD', 'ATOM-OMR', 'ATOM-BHD', 'ATOM-QAR',
-		'ATOM-USDT', 'ATOM-BTC', 'ATOM-ETH',
+		'ATOM-USDT', 'ATOM-BTC',
+		'ATOM-ETH', // De-listed
 
+		// De-listed (keeping for historical support)
 		'1INCH-AED', '1INCH-SAR', '1INCH-TRY', '1INCH-USD', '1INCH-KWD', '1INCH-OMR', '1INCH-BHD', '1INCH-QAR',
 		'1INCH-USDT',
 
+		// De-listed (keeping for historical support)
 		'ANT-AED', 'ANT-SAR', 'ANT-TRY', 'ANT-USD', 'ANT-KWD', 'ANT-OMR', 'ANT-BHD', 'ANT-QAR',
-		'ANT-BTC', 'ANT-ETH',
+		'ANT-BTC',
+		'ANT-ETH', // De-listed
 
 		'AXS-AED', 'AXS-SAR', 'AXS-TRY', 'AXS-USD', 'AXS-KWD', 'AXS-OMR', 'AXS-BHD', 'AXS-QAR',
 		'AXS-USDT',
@@ -944,11 +1329,14 @@ class CurrencyCodePair implements Pair {
 		'CRV-AED', 'CRV-SAR', 'CRV-TRY', 'CRV-USD', 'CRV-KWD', 'CRV-OMR', 'CRV-BHD', 'CRV-QAR',
 		'CRV-USDT',
 
+		// De-listed (keeping for historical support)
 		'DGB-AED', 'DGB-SAR', 'DGB-TRY', 'DGB-USD', 'DGB-KWD', 'DGB-OMR', 'DGB-BHD', 'DGB-QAR',
 
+		// De-listed (keeping for historical support)
 		'EGLD-AED', 'EGLD-SAR', 'EGLD-TRY', 'EGLD-USD', 'EGLD-KWD', 'EGLD-OMR', 'EGLD-BHD', 'EGLD-QAR',
 		'EGLD-USDT',
 
+		// De-listed (keeping for historical support)
 		'FIL-AED', 'FIL-SAR', 'FIL-TRY', 'FIL-USD', 'FIL-KWD', 'FIL-OMR', 'FIL-BHD', 'FIL-QAR',
 		'FIL-USDT',
 
@@ -964,9 +1352,10 @@ class CurrencyCodePair implements Pair {
 		'GRT-AED', 'GRT-SAR', 'GRT-TRY', 'GRT-USD', 'GRT-KWD', 'GRT-OMR', 'GRT-BHD', 'GRT-QAR',
 		'GRT-USDT',
 
+		// De-listed (keeping for historical support)
 		'IOTA-AED', 'IOTA-SAR', 'IOTA-TRY', 'IOTA-USD', 'IOTA-KWD', 'IOTA-OMR', 'IOTA-BHD', 'IOTA-QAR',
 		'IOTA-BTC',
-		'IOTA-ETH', // De-listed
+		'IOTA-ETH',
 
 		'KSM-AED', 'KSM-SAR', 'KSM-TRY', 'KSM-USD', 'KSM-KWD', 'KSM-OMR', 'KSM-BHD', 'KSM-QAR',
 		'KSM-USDT',
@@ -981,12 +1370,14 @@ class CurrencyCodePair implements Pair {
 		'OCEAN-AED', 'OCEAN-SAR', 'OCEAN-TRY', 'OCEAN-USD', 'OCEAN-KWD', 'OCEAN-OMR', 'OCEAN-BHD', 'OCEAN-QAR',
 		'OCEAN-USDT',
 
+		// De-listed (keeping for historical support)
 		'QTUM-AED', 'QTUM-SAR', 'QTUM-TRY', 'QTUM-USD', 'QTUM-KWD', 'QTUM-OMR', 'QTUM-BHD', 'QTUM-QAR',
 		'QTUM-BTC',
 
 		'SNX-AED', 'SNX-SAR', 'SNX-TRY', 'SNX-USD', 'SNX-KWD', 'SNX-OMR', 'SNX-BHD', 'SNX-QAR',
 		'SNX-USDT',
 
+		// De-listed (keeping for historical support)
 		'THETA-AED', 'THETA-SAR', 'THETA-TRY', 'THETA-USD', 'THETA-KWD', 'THETA-OMR', 'THETA-BHD', 'THETA-QAR',
 		'THETA-USDT',
 
@@ -994,16 +1385,17 @@ class CurrencyCodePair implements Pair {
 		'TRX-USDT', 'TRX-BTC', 'TRX-ETH',
 
 		// TUSD is De-listed (keeping for historical support)
-		'TUSD-AED', 'TUSD-SAR', 'TUSD-TRY', 'TUSD-USD',
-		'TUSD-USDT',
+		'TUSD-TRY',
 
 		// UST is De-listed (keeping for historical support)
 		'UST-AED', 'UST-SAR', 'UST-TRY', 'UST-USD',
 		'UST-USDT',
 
+		// De-listed (keeping for historical support)
 		'VET-AED', 'VET-SAR', 'VET-TRY', 'VET-USD', 'VET-KWD', 'VET-OMR', 'VET-BHD', 'VET-QAR',
 		'VET-USDT', 'VET-BTC',
 
+		// De-listed (keeping for historical support)
 		'XVG-AED', 'XVG-SAR', 'XVG-TRY', 'XVG-USD', 'XVG-KWD', 'XVG-OMR', 'XVG-BHD', 'XVG-QAR',
 
 		'LUNA2-AED', 'LUNA2-SAR', 'LUNA2-TRY', 'LUNA2-USD', 'LUNA2-KWD', 'LUNA2-OMR', 'LUNA2-BHD', 'LUNA2-QAR',
@@ -1035,19 +1427,204 @@ class CurrencyCodePair implements Pair {
 		'RLY-AED', 'RLY-SAR', 'RLY-USD', 'RLY-KWD', 'RLY-OMR', 'RLY-BHD', 'RLY-QAR',
 		'RLY-USDT',
 
+		// De-listed (keeping for historical support)
 		'RBTC-AED', 'RBTC-SAR', 'RBTC-USD', 'RBTC-KWD', 'RBTC-OMR', 'RBTC-BHD', 'RBTC-QAR',
 
 		'VRA-AED', 'VRA-SAR', 'VRA-USD', 'VRA-KWD', 'VRA-OMR', 'VRA-BHD', 'VRA-QAR',
 		'VRA-USDT',
 
+		// De-listed (keeping for historical support)
 		'UTK-AED', 'UTK-SAR', 'UTK-USD', 'UTK-KWD', 'UTK-OMR', 'UTK-BHD', 'UTK-QAR',
 
 		'SGB-AED', 'SGB-SAR', 'SGB-USD', 'SGB-KWD', 'SGB-OMR', 'SGB-BHD', 'SGB-QAR',
 		'SGB-USDT',
+
+		'BLUR-AED', 'BLUR-SAR', 'BLUR-USD', 'BLUR-KWD', 'BLUR-OMR', 'BLUR-BHD', 'BLUR-QAR',
+		'BLUR-USDT',
+
+		'OP-AED', 'OP-SAR', 'OP-USD', 'OP-KWD', 'OP-OMR', 'OP-BHD', 'OP-QAR',
+		'OP-USDT',
+
+		'OPEN-AED', 'OPEN-SAR', 'OPEN-USD', 'OPEN-KWD', 'OPEN-OMR', 'OPEN-BHD', 'OPEN-QAR',
+		'OPEN-USDT',
+
+		'BOSON-AED', 'BOSON-SAR', 'BOSON-USD', 'BOSON-KWD', 'BOSON-OMR', 'BOSON-BHD', 'BOSON-QAR',
+		'BOSON-USDT',
+
+		'FLOKI-AED', 'FLOKI-SAR', 'FLOKI-USD', 'FLOKI-KWD', 'FLOKI-OMR', 'FLOKI-BHD', 'FLOKI-QAR',
+		'FLOKI-USDT',
+
+		'TUSD-AED', 'TUSD-SAR', 'TUSD-USD', 'TUSD-KWD', 'TUSD-OMR', 'TUSD-BHD', 'TUSD-QAR',
+		'TUSD-USDT',
+
+		// De-listed (keeping for historical support)
+		'WILD-AED', 'WILD-SAR', 'WILD-USD', 'WILD-KWD', 'WILD-OMR', 'WILD-BHD', 'WILD-QAR',
+		'WILD-USDT',
+
+		'SUI-AED', 'SUI-SAR', 'SUI-USD', 'SUI-KWD', 'SUI-OMR', 'SUI-BHD', 'SUI-QAR',
+		'SUI-USDT',
+
+		'SEI-AED', 'SEI-SAR', 'SEI-USD', 'SEI-KWD', 'SEI-OMR', 'SEI-BHD', 'SEI-QAR',
+		'SEI-USDT',
+
+		'TON-AED', 'TON-SAR', 'TON-USD', 'TON-KWD', 'TON-OMR', 'TON-BHD', 'TON-QAR',
+		'TON-USDT',
+
+		'AMPL-AED', 'AMPL-SAR', 'AMPL-USD', 'AMPL-KWD', 'AMPL-OMR', 'AMPL-BHD', 'AMPL-QAR',
+		'AMPL-USDT', 'AMPL-BTC',
+
+		'BEST-AED', 'BEST-SAR', 'BEST-USD', 'BEST-KWD', 'BEST-OMR', 'BEST-BHD', 'BEST-QAR',
+
+		'CELO-AED', 'CELO-SAR', 'CELO-USD', 'CELO-KWD', 'CELO-OMR', 'CELO-BHD', 'CELO-QAR',
+		'CELO-USDT',
+
+		'DUSK-AED', 'DUSK-SAR', 'DUSK-USD', 'DUSK-KWD', 'DUSK-OMR', 'DUSK-BHD', 'DUSK-QAR',
+
+		'DVF-AED', 'DVF-SAR', 'DVF-USD', 'DVF-KWD', 'DVF-OMR', 'DVF-BHD', 'DVF-QAR',
+
+		'FCL-AED', 'FCL-SAR', 'FCL-USD', 'FCL-KWD', 'FCL-OMR', 'FCL-BHD', 'FCL-QAR',
+		'FCL-USDT',
+
+		'FLR-AED', 'FLR-SAR', 'FLR-USD', 'FLR-KWD', 'FLR-OMR', 'FLR-BHD', 'FLR-QAR',
+		'FLR-USDT',
+
+		'FORTH-AED', 'FORTH-SAR', 'FORTH-USD', 'FORTH-KWD', 'FORTH-OMR', 'FORTH-BHD', 'FORTH-QAR',
+		'FORTH-USDT',
+
+		'FUN-AED', 'FUN-SAR', 'FUN-USD', 'FUN-KWD', 'FUN-OMR', 'FUN-BHD', 'FUN-QAR',
+
+		'HMT-AED', 'HMT-SAR', 'HMT-USD', 'HMT-KWD', 'HMT-OMR', 'HMT-BHD', 'HMT-QAR',
+		'HMT-USDT',
+
+		'INJ-AED', 'INJ-SAR', 'INJ-USD', 'INJ-KWD', 'INJ-OMR', 'INJ-BHD', 'INJ-QAR',
+		'INJ-USDT',
+
+		'JUP-AED', 'JUP-SAR', 'JUP-USD', 'JUP-KWD', 'JUP-OMR', 'JUP-BHD', 'JUP-QAR',
+		'JUP-USDT',
+
+		'KAVA-AED', 'KAVA-SAR', 'KAVA-USD', 'KAVA-KWD', 'KAVA-OMR', 'KAVA-BHD', 'KAVA-QAR',
+		'KAVA-USDT',
+
+		'MEME-AED', 'MEME-SAR', 'MEME-USD', 'MEME-KWD', 'MEME-OMR', 'MEME-BHD', 'MEME-QAR',
+		'MEME-USDT',
+
+		'MIM-AED', 'MIM-SAR', 'MIM-USD', 'MIM-KWD', 'MIM-OMR', 'MIM-BHD', 'MIM-QAR',
+		'MIM-USDT',
+
+		// De-listed (keeping for historical support)
+		'MLN-AED', 'MLN-SAR', 'MLN-USD', 'MLN-KWD', 'MLN-OMR', 'MLN-BHD', 'MLN-QAR',
+
+		'NEXO-AED', 'NEXO-SAR', 'NEXO-USD', 'NEXO-KWD', 'NEXO-OMR', 'NEXO-BHD', 'NEXO-QAR',
+		'NEXO-USDT', 'NEXO-BTC',
+
+		'OGN-AED', 'OGN-SAR', 'OGN-USD', 'OGN-KWD', 'OGN-OMR', 'OGN-BHD', 'OGN-QAR',
+		'OGN-USDT',
+
+		'PAX-AED', 'PAX-SAR', 'PAX-USD', 'PAX-KWD', 'PAX-OMR', 'PAX-BHD', 'PAX-QAR',
+		'PAX-USDT',
+
+		'PLU-AED', 'PLU-SAR', 'PLU-USD', 'PLU-KWD', 'PLU-OMR', 'PLU-BHD', 'PLU-QAR',
+
+		'PNK-AED', 'PNK-SAR', 'PNK-USD', 'PNK-KWD', 'PNK-OMR', 'PNK-BHD', 'PNK-QAR',
+
+		'REQ-AED', 'REQ-SAR', 'REQ-USD', 'REQ-KWD', 'REQ-OMR', 'REQ-BHD', 'REQ-QAR',
+
+		'SIDUS-AED', 'SIDUS-SAR', 'SIDUS-USD', 'SIDUS-KWD', 'SIDUS-OMR', 'SIDUS-BHD', 'SIDUS-QAR',
+
+		'SPELL-AED', 'SPELL-SAR', 'SPELL-USD', 'SPELL-KWD', 'SPELL-OMR', 'SPELL-BHD', 'SPELL-QAR',
+		'SPELL-USDT',
+
+		'STG-AED', 'STG-SAR', 'STG-USD', 'STG-KWD', 'STG-OMR', 'STG-BHD', 'STG-QAR',
+		'STG-USDT',
+
+		'SUKU-AED', 'SUKU-SAR', 'SUKU-USD', 'SUKU-KWD', 'SUKU-OMR', 'SUKU-BHD', 'SUKU-QAR',
+		'SUKU-USDT',
+
+		'UOS-AED', 'UOS-SAR', 'UOS-USD', 'UOS-KWD', 'UOS-OMR', 'UOS-BHD', 'UOS-QAR',
+		'UOS-BTC',
+
+		'WOO-AED', 'WOO-SAR', 'WOO-USD', 'WOO-KWD', 'WOO-OMR', 'WOO-BHD', 'WOO-QAR',
+		'WOO-USDT',
+
+		'XTP-AED', 'XTP-SAR', 'XTP-USD', 'XTP-KWD', 'XTP-OMR', 'XTP-BHD', 'XTP-QAR',
+		'XTP-USDT',
+
+		'POL-AED', 'POL-SAR', 'POL-USD', 'POL-KWD', 'POL-OMR', 'POL-BHD', 'POL-QAR',
+		'POL-USDT',
+
+		'PEPE-AED', 'PEPE-SAR', 'PEPE-USD', 'PEPE-KWD', 'PEPE-OMR', 'PEPE-BHD', 'PEPE-QAR',
+		'PEPE-USDT',
+
+		'BONK-AED', 'BONK-SAR', 'BONK-USD', 'BONK-KWD', 'BONK-OMR', 'BONK-BHD', 'BONK-QAR',
+		'BONK-USDT',
+
+		// De-listed (keeping for historical support)
+		'TOMI-AED', 'TOMI-SAR', 'TOMI-USD', 'TOMI-KWD', 'TOMI-OMR', 'TOMI-BHD', 'TOMI-QAR',
+		'TOMI-USDT',
+
+		'TURBO-AED', 'TURBO-SAR', 'TURBO-USD', 'TURBO-KWD', 'TURBO-OMR', 'TURBO-BHD', 'TURBO-QAR',
+		'TURBO-USDT',
+
+		'WBT-AED', 'WBT-SAR', 'WBT-USD', 'WBT-KWD', 'WBT-OMR', 'WBT-BHD', 'WBT-QAR',
+		'WBT-USDT',
+
+		'ENA-AED', 'ENA-SAR', 'ENA-USD', 'ENA-KWD', 'ENA-OMR', 'ENA-BHD', 'ENA-QAR',
+		'ENA-USDT',
+
+		'MEW-AED', 'MEW-SAR', 'MEW-USD', 'MEW-KWD', 'MEW-OMR', 'MEW-BHD', 'MEW-QAR',
+		'MEW-USDT',
+
+		'TIA-AED', 'TIA-SAR', 'TIA-USD', 'TIA-KWD', 'TIA-OMR', 'TIA-BHD', 'TIA-QAR',
+		'TIA-USDT',
+
+		'SWEAT-AED', 'SWEAT-SAR', 'SWEAT-USD', 'SWEAT-KWD', 'SWEAT-OMR', 'SWEAT-BHD', 'SWEAT-QAR',
+		'SWEAT-USDT',
+
+		// De-listed (keeping for historical support)
+		'DOP-AED', 'DOP-SAR', 'DOP-USD', 'DOP-KWD', 'DOP-OMR', 'DOP-BHD', 'DOP-QAR',
+		'DOP-USDT',
+
+		'SPEC-AED', 'SPEC-SAR', 'SPEC-USD', 'SPEC-KWD', 'SPEC-OMR', 'SPEC-BHD', 'SPEC-QAR',
+		'SPEC-USDT',
+
+		'AIOZ-AED', 'AIOZ-SAR', 'AIOZ-USD', 'AIOZ-KWD', 'AIOZ-OMR', 'AIOZ-BHD', 'AIOZ-QAR',
+
+		'GOMINING-AED', 'GOMINING-SAR', 'GOMINING-USD', 'GOMINING-KWD', 'GOMINING-OMR', 'GOMINING-BHD', 'GOMINING-QAR',
+		'GOMINING-USDT',
+
+		'VELAR-AED', 'VELAR-SAR', 'VELAR-USD', 'VELAR-KWD', 'VELAR-OMR', 'VELAR-BHD', 'VELAR-QAR',
+		'VELAR-USDT',
+
+		'JUSTICE-AED', 'JUSTICE-SAR', 'JUSTICE-USD', 'JUSTICE-KWD', 'JUSTICE-OMR', 'JUSTICE-BHD', 'JUSTICE-QAR',
+		'JUSTICE-USDT',
+
+		'KAN-AED', 'KAN-SAR', 'KAN-USD', 'KAN-KWD', 'KAN-OMR', 'KAN-BHD', 'KAN-QAR',
+		'KAN-USDT',
+
+		'S-AED', 'S-SAR', 'S-USD', 'S-KWD', 'S-OMR', 'S-BHD', 'S-QAR',
+		'S-USDT',
+
+		'TOKEN-AED', 'TOKEN-SAR', 'TOKEN-USD', 'TOKEN-KWD', 'TOKEN-OMR', 'TOKEN-BHD', 'TOKEN-QAR',
+		'TOKEN-USDT',
+
+		'EIGEN-AED', 'EIGEN-SAR', 'EIGEN-USD', 'EIGEN-KWD', 'EIGEN-OMR', 'EIGEN-BHD', 'EIGEN-QAR',
+		'EIGEN-USDT',
+
+		'JASMY-AED', 'JASMY-SAR', 'JASMY-USD', 'JASMY-KWD', 'JASMY-OMR', 'JASMY-BHD', 'JASMY-QAR',
+		'JASMY-USDT',
+
+		'STRK-AED', 'STRK-SAR', 'STRK-USD', 'STRK-KWD', 'STRK-OMR', 'STRK-BHD', 'STRK-QAR',
+		'STRK-USDT',
+
+		'ATH-AED', 'ATH-SAR', 'ATH-USD', 'ATH-KWD', 'ATH-OMR', 'ATH-BHD', 'ATH-QAR',
+		'ATH-USDT',
+
+		'BGB-AED', 'BGB-SAR', 'BGB-USD', 'BGB-KWD', 'BGB-OMR', 'BGB-BHD', 'BGB-QAR',
+		'BGB-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
-	const STABLE_CRYPTOCURRENCY_CODES = ['USDC', 'USDT', 'DAI', 'UST', 'TUSD'];
+	const STABLE_CRYPTOCURRENCY_CODES = ['USDC', 'USDT', 'DAI', 'UST', 'TUSD', 'MIM', 'PAX'];
 
 	/** @var string */
 	protected $baseCryptocurrencyCode;
