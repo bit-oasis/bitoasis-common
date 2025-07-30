@@ -732,11 +732,6 @@ class ConsoleUtils {
 			self::PAIR => 'USDT-QAR',
 			self::SYMBOL => 'tUSTUSD',
 		],
-		'usdtusdc' => [
-			self::DESCRIPTION => 'USDT-USDC',
-			self::PAIR => 'USDT-USDC',
-			self::SYMBOL => 'tUSTUSD',
-		],
 		// --------------------------------------------- NEO pairs
 		'neoaed' => [
 			self::DESCRIPTION => 'NEO-AED',
