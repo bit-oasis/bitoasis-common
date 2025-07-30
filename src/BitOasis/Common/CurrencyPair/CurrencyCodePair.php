@@ -160,6 +160,7 @@ class CurrencyCodePair implements Pair {
 		'USDT-OMR' => 'USDT-OMR',
 		'USDT-BHD' => 'USDT-BHD',
 		'USDT-QAR' => 'USDT-QAR',
+		'USDT-USDC' => 'USDT-USDC',
 
 		'XTZ-AED' => 'XTZ-AED',
 		'XTZ-SAR' => 'XTZ-SAR',
@@ -1214,7 +1215,7 @@ class CurrencyCodePair implements Pair {
 		'ALGO-AED', 'ALGO-SAR', 'ALGO-TRY', 'ALGO-USD', 'ALGO-KWD', 'ALGO-OMR', 'ALGO-BHD', 'ALGO-QAR',
 		'ALGO-USDT', 'ALGO-BTC',
 
-		'USDT-AED', 'USDT-SAR', 'USDT-TRY', 'USDT-USD', 'USDT-KWD', 'USDT-OMR', 'USDT-BHD', 'USDT-QAR',
+		'USDT-AED', 'USDT-SAR', 'USDT-TRY', 'USDT-USD', 'USDT-KWD', 'USDT-OMR', 'USDT-BHD', 'USDT-QAR', 'USDT-USDC',
 
 		// De-listed (keeping for historical support)
 		'NEO-AED', 'NEO-SAR', 'NEO-TRY', 'NEO-USD', 'NEO-KWD', 'NEO-OMR', 'NEO-BHD', 'NEO-QAR',
