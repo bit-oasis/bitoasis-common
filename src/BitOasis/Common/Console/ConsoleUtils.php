@@ -6287,6 +6287,47 @@ class ConsoleUtils {
 			self::PAIR => 'BGB-USDT',
 			self::SYMBOL => 'tBGBUST',
 		],
+		// --------------------------------------------- Sky pairs
+		'skyaed' => [
+			self::DESCRIPTION => 'SKY-AED',
+			self::PAIR => 'SKY-AED',
+			self::SYMBOL => 'tSKYUSD',
+		],
+		'skysar' => [
+			self::DESCRIPTION => 'SKY-SAR',
+			self::PAIR => 'SKY-SAR',
+			self::SYMBOL => 'tSKYUSD',
+		],
+		'skyusd' => [
+			self::DESCRIPTION => 'SKY-USD',
+			self::PAIR => 'SKY-USD',
+			self::SYMBOL => 'tSKYUSD',
+		],
+		'skykwd' => [
+			self::DESCRIPTION => 'SKY-KWD',
+			self::PAIR => 'SKY-KWD',
+			self::SYMBOL => 'tSKYUSD',
+		],
+		'skyomr' => [
+			self::DESCRIPTION => 'SKY-OMR',
+			self::PAIR => 'SKY-OMR',
+			self::SYMBOL => 'tSKYUSD',
+		],
+		'skybhd' => [
+			self::DESCRIPTION => 'SKY-BHD',
+			self::PAIR => 'SKY-BHD',
+			self::SYMBOL => 'tSKYUSD',
+		],
+		'skyqar' => [
+			self::DESCRIPTION => 'SKY-QAR',
+			self::PAIR => 'SKY-QAR',
+			self::SYMBOL => 'tSKYUSD',
+		],
+		'skyusdt' => [
+			self::DESCRIPTION => 'SKY-USDT',
+			self::PAIR => 'SKY-USDT',
+			self::SYMBOL => 'tSKYUST',
+		],
 	];
 
 	private function __construct() {
