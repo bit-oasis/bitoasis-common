@@ -34,16 +34,6 @@ class CurrencyCodePair implements Pair {
 		'ETH-USDT' => 'ETH-USDT',
 		'ETH-BTC' => 'ETH-BTC',
 
-		'ETHW-AED' => 'ETHW-AED',
-		'ETHW-SAR' => 'ETHW-SAR',
-		'ETHW-TRY' => 'ETHW-TRY',
-		'ETHW-USD' => 'ETHW-USD',
-		'ETHW-KWD' => 'ETHW-KWD',
-		'ETHW-OMR' => 'ETHW-OMR',
-		'ETHW-BHD' => 'ETHW-BHD',
-		'ETHW-QAR' => 'ETHW-QAR',
-		'ETHW-USDT' => 'ETHW-USDT',
-
 		'BCH-AED' => 'BCH-AED',
 		'BCH-SAR' => 'BCH-SAR',
 		'BCH-TRY' => 'BCH-TRY',
@@ -109,17 +99,6 @@ class CurrencyCodePair implements Pair {
 		'EOS-USDT' => 'EOS-USDT',
 		'EOS-BTC' => 'EOS-BTC',
 		'EOS-ETH' => 'EOS-ETH',
-
-		'OMG-AED' => 'OMG-AED',
-		'OMG-SAR' => 'OMG-SAR',
-		'OMG-TRY' => 'OMG-TRY',
-		'OMG-USD' => 'OMG-USD',
-		'OMG-KWD' => 'OMG-KWD',
-		'OMG-OMR' => 'OMG-OMR',
-		'OMG-BHD' => 'OMG-BHD',
-		'OMG-QAR' => 'OMG-QAR',
-		'OMG-BTC' => 'OMG-BTC',
-		'OMG-ETH' => 'OMG-ETH',
 
 		'ZRX-AED' => 'ZRX-AED',
 		'ZRX-SAR' => 'ZRX-SAR',
@@ -280,27 +259,6 @@ class CurrencyCodePair implements Pair {
 		'LRC-OMR' => 'LRC-OMR',
 		'LRC-BHD' => 'LRC-BHD',
 		'LRC-QAR' => 'LRC-QAR',
-
-		'MANA-AED' => 'MANA-AED',
-		'MANA-SAR' => 'MANA-SAR',
-		'MANA-TRY' => 'MANA-TRY',
-		'MANA-USD' => 'MANA-USD',
-		'MANA-KWD' => 'MANA-KWD',
-		'MANA-OMR' => 'MANA-OMR',
-		'MANA-BHD' => 'MANA-BHD',
-		'MANA-QAR' => 'MANA-QAR',
-		'MANA-BTC' => 'MANA-BTC',
-
-		'MATIC-AED' => 'MATIC-AED',
-		'MATIC-SAR' => 'MATIC-SAR',
-		'MATIC-TRY' => 'MATIC-TRY',
-		'MATIC-USD' => 'MATIC-USD',
-		'MATIC-KWD' => 'MATIC-KWD',
-		'MATIC-OMR' => 'MATIC-OMR',
-		'MATIC-BHD' => 'MATIC-BHD',
-		'MATIC-QAR' => 'MATIC-QAR',
-		'MATIC-USDT' => 'MATIC-USDT',
-		'MATIC-BTC' => 'MATIC-BTC',
 
 		'SUSHI-AED' => 'SUSHI-AED',
 		'SUSHI-SAR' => 'SUSHI-SAR',
@@ -565,15 +523,6 @@ class CurrencyCodePair implements Pair {
 		'APE-QAR' => 'APE-QAR',
 		'APE-USDT' => 'APE-USDT',
 
-		'SAND-AED' => 'SAND-AED',
-		'SAND-SAR' => 'SAND-SAR',
-		'SAND-USD' => 'SAND-USD',
-		'SAND-KWD' => 'SAND-KWD',
-		'SAND-OMR' => 'SAND-OMR',
-		'SAND-BHD' => 'SAND-BHD',
-		'SAND-QAR' => 'SAND-QAR',
-		'SAND-USDT' => 'SAND-USDT',
-
 		'LDO-AED' => 'LDO-AED',
 		'LDO-SAR' => 'LDO-SAR',
 		'LDO-USD' => 'LDO-USD',
@@ -726,14 +675,6 @@ class CurrencyCodePair implements Pair {
 		'AMPL-QAR' => 'AMPL-QAR',
 		'AMPL-USDT' => 'AMPL-USDT',
 		'AMPL-BTC' => 'AMPL-BTC',
-
-		'BEST-AED' => 'BEST-AED',
-		'BEST-SAR' => 'BEST-SAR',
-		'BEST-USD' => 'BEST-USD',
-		'BEST-KWD' => 'BEST-KWD',
-		'BEST-OMR' => 'BEST-OMR',
-		'BEST-BHD' => 'BEST-BHD',
-		'BEST-QAR' => 'BEST-QAR',
 
 		'CELO-AED' => 'CELO-AED',
 		'CELO-SAR' => 'CELO-SAR',
@@ -1178,6 +1119,7 @@ class CurrencyCodePair implements Pair {
 		'ETH-AED', 'ETH-SAR', 'ETH-TRY', 'ETH-USD', 'ETH-KWD', 'ETH-OMR', 'ETH-BHD', 'ETH-QAR',
 		'ETH-USDT', 'ETH-BTC',
 
+		// De-listed (keeping for historical support)
 		'ETHW-AED', 'ETHW-SAR', 'ETHW-TRY', 'ETHW-USD', 'ETHW-KWD', 'ETHW-OMR', 'ETHW-BHD', 'ETHW-QAR',
 		'ETHW-USDT',
 
@@ -1212,6 +1154,7 @@ class CurrencyCodePair implements Pair {
 		'BSV-AED', 'BSV-USD',
 		'BSV-BTC',
 
+		// De-listed (keeping for historical support)
 		'OMG-AED', 'OMG-SAR', 'OMG-TRY', 'OMG-USD', 'OMG-KWD', 'OMG-OMR', 'OMG-BHD', 'OMG-QAR',
 		'OMG-BTC', 'OMG-ETH',
 
@@ -1278,9 +1221,11 @@ class CurrencyCodePair implements Pair {
 
 		'LRC-AED', 'LRC-SAR', 'LRC-TRY', 'LRC-USD', 'LRC-KWD', 'LRC-OMR', 'LRC-BHD', 'LRC-QAR',
 
+		// De-listed (keeping for historical support)
 		'MANA-AED', 'MANA-SAR', 'MANA-TRY', 'MANA-USD', 'MANA-KWD', 'MANA-OMR', 'MANA-BHD', 'MANA-QAR',
 		'MANA-BTC',
 
+		// De-listed (keeping for historical support)
 		'MATIC-AED', 'MATIC-SAR', 'MATIC-TRY', 'MATIC-USD', 'MATIC-KWD', 'MATIC-OMR', 'MATIC-BHD', 'MATIC-QAR',
 		'MATIC-USDT', 'MATIC-BTC',
 
@@ -1431,6 +1376,7 @@ class CurrencyCodePair implements Pair {
 		'APE-AED', 'APE-SAR', 'APE-USD', 'APE-KWD', 'APE-OMR', 'APE-BHD', 'APE-QAR',
 		'APE-USDT',
 
+		// De-listed (keeping for historical support)
 		'SAND-AED', 'SAND-SAR', 'SAND-USD', 'SAND-KWD', 'SAND-OMR', 'SAND-BHD', 'SAND-QAR',
 		'SAND-USDT',
 
@@ -1494,6 +1440,7 @@ class CurrencyCodePair implements Pair {
 		'AMPL-AED', 'AMPL-SAR', 'AMPL-USD', 'AMPL-KWD', 'AMPL-OMR', 'AMPL-BHD', 'AMPL-QAR',
 		'AMPL-USDT', 'AMPL-BTC',
 
+		// De-listed (keeping for historical support)
 		'BEST-AED', 'BEST-SAR', 'BEST-USD', 'BEST-KWD', 'BEST-OMR', 'BEST-BHD', 'BEST-QAR',
 
 		'CELO-AED', 'CELO-SAR', 'CELO-USD', 'CELO-KWD', 'CELO-OMR', 'CELO-BHD', 'CELO-QAR',
