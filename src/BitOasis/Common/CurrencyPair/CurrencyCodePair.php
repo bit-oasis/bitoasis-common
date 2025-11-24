@@ -1026,15 +1026,6 @@ class CurrencyCodePair implements Pair {
 		'MEW-QAR' => 'MEW-QAR',
 		'MEW-USDT' => 'MEW-USDT',
 
-		'TIA-AED' => 'TIA-AED',
-		'TIA-SAR' => 'TIA-SAR',
-		'TIA-USD' => 'TIA-USD',
-		'TIA-KWD' => 'TIA-KWD',
-		'TIA-OMR' => 'TIA-OMR',
-		'TIA-BHD' => 'TIA-BHD',
-		'TIA-QAR' => 'TIA-QAR',
-		'TIA-USDT' => 'TIA-USDT',
-
 		'SWEAT-AED' => 'SWEAT-AED',
 		'SWEAT-SAR' => 'SWEAT-SAR',
 		'SWEAT-USD' => 'SWEAT-USD',
@@ -1595,6 +1586,7 @@ class CurrencyCodePair implements Pair {
 		'MEW-AED', 'MEW-SAR', 'MEW-USD', 'MEW-KWD', 'MEW-OMR', 'MEW-BHD', 'MEW-QAR',
 		'MEW-USDT',
 
+		// De-listed (keeping for historical support)
 		'TIA-AED', 'TIA-SAR', 'TIA-USD', 'TIA-KWD', 'TIA-OMR', 'TIA-BHD', 'TIA-QAR',
 		'TIA-USDT',
 
