@@ -463,16 +463,6 @@ class CurrencyCodePair implements Pair {
 		'GNO-BHD' => 'GNO-BHD',
 		'GNO-QAR' => 'GNO-QAR',
 
-		'GRT-AED' => 'GRT-AED',
-		'GRT-SAR' => 'GRT-SAR',
-		'GRT-TRY' => 'GRT-TRY',
-		'GRT-USD' => 'GRT-USD',
-		'GRT-KWD' => 'GRT-KWD',
-		'GRT-OMR' => 'GRT-OMR',
-		'GRT-BHD' => 'GRT-BHD',
-		'GRT-QAR' => 'GRT-QAR',
-		'GRT-USDT' => 'GRT-USDT',
-
 		'KSM-AED' => 'KSM-AED',
 		'KSM-SAR' => 'KSM-SAR',
 		'KSM-TRY' => 'KSM-TRY',
@@ -954,15 +944,6 @@ class CurrencyCodePair implements Pair {
 		'WOO-QAR' => 'WOO-QAR',
 		'WOO-USDT' => 'WOO-USDT',
 
-		'XTP-AED' => 'XTP-AED',
-		'XTP-SAR' => 'XTP-SAR',
-		'XTP-USD' => 'XTP-USD',
-		'XTP-KWD' => 'XTP-KWD',
-		'XTP-OMR' => 'XTP-OMR',
-		'XTP-BHD' => 'XTP-BHD',
-		'XTP-QAR' => 'XTP-QAR',
-		'XTP-USDT' => 'XTP-USDT',
-
 		'POL-AED' => 'POL-AED',
 		'POL-SAR' => 'POL-SAR',
 		'POL-USD' => 'POL-USD',
@@ -989,15 +970,6 @@ class CurrencyCodePair implements Pair {
 		'BONK-BHD' => 'BONK-BHD',
 		'BONK-QAR' => 'BONK-QAR',
 		'BONK-USDT' => 'BONK-USDT',
-
-		'TURBO-AED' => 'TURBO-AED',
-		'TURBO-SAR' => 'TURBO-SAR',
-		'TURBO-USD' => 'TURBO-USD',
-		'TURBO-KWD' => 'TURBO-KWD',
-		'TURBO-OMR' => 'TURBO-OMR',
-		'TURBO-BHD' => 'TURBO-BHD',
-		'TURBO-QAR' => 'TURBO-QAR',
-		'TURBO-USDT' => 'TURBO-USDT',
 
 		'WBT-AED' => 'WBT-AED',
 		'WBT-SAR' => 'WBT-SAR',
@@ -1060,15 +1032,6 @@ class CurrencyCodePair implements Pair {
 		'GOMINING-BHD' => 'GOMINING-BHD',
 		'GOMINING-QAR' => 'GOMINING-QAR',
 		'GOMINING-USDT' => 'GOMINING-USDT',
-
-		'VELAR-AED' => 'VELAR-AED',
-		'VELAR-SAR' => 'VELAR-SAR',
-		'VELAR-USD' => 'VELAR-USD',
-		'VELAR-KWD' => 'VELAR-KWD',
-		'VELAR-OMR' => 'VELAR-OMR',
-		'VELAR-BHD' => 'VELAR-BHD',
-		'VELAR-QAR' => 'VELAR-QAR',
-		'VELAR-USDT' => 'VELAR-USDT',
 
 		'JUSTICE-AED' => 'JUSTICE-AED',
 		'JUSTICE-SAR' => 'JUSTICE-SAR',
@@ -1361,6 +1324,7 @@ class CurrencyCodePair implements Pair {
 
 		'GNO-AED', 'GNO-SAR', 'GNO-TRY', 'GNO-USD', 'GNO-KWD', 'GNO-OMR', 'GNO-BHD', 'GNO-QAR',
 
+		// De-listed (keeping for historical support)
 		'GRT-AED', 'GRT-SAR', 'GRT-TRY', 'GRT-USD', 'GRT-KWD', 'GRT-OMR', 'GRT-BHD', 'GRT-QAR',
 		'GRT-USDT',
 
@@ -1558,6 +1522,7 @@ class CurrencyCodePair implements Pair {
 		'WOO-AED', 'WOO-SAR', 'WOO-USD', 'WOO-KWD', 'WOO-OMR', 'WOO-BHD', 'WOO-QAR',
 		'WOO-USDT',
 
+		// De-listed (keeping for historical support)
 		'XTP-AED', 'XTP-SAR', 'XTP-USD', 'XTP-KWD', 'XTP-OMR', 'XTP-BHD', 'XTP-QAR',
 		'XTP-USDT',
 
@@ -1574,6 +1539,7 @@ class CurrencyCodePair implements Pair {
 		'TOMI-AED', 'TOMI-SAR', 'TOMI-USD', 'TOMI-KWD', 'TOMI-OMR', 'TOMI-BHD', 'TOMI-QAR',
 		'TOMI-USDT',
 
+		// De-listed (keeping for historical support)
 		'TURBO-AED', 'TURBO-SAR', 'TURBO-USD', 'TURBO-KWD', 'TURBO-OMR', 'TURBO-BHD', 'TURBO-QAR',
 		'TURBO-USDT',
 
@@ -1605,6 +1571,7 @@ class CurrencyCodePair implements Pair {
 		'GOMINING-AED', 'GOMINING-SAR', 'GOMINING-USD', 'GOMINING-KWD', 'GOMINING-OMR', 'GOMINING-BHD', 'GOMINING-QAR',
 		'GOMINING-USDT',
 
+		// De-listed (keeping for historical support)
 		'VELAR-AED', 'VELAR-SAR', 'VELAR-USD', 'VELAR-KWD', 'VELAR-OMR', 'VELAR-BHD', 'VELAR-QAR',
 		'VELAR-USDT',
 
