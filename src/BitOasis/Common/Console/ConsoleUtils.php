@@ -6564,7 +6564,7 @@ class ConsoleUtils {
 			self::PAIR => 'LIFIII-BHD',
 			self::SYMBOL => 'tLIFIII:USD',
 		],
-		'lifiiiq ar' => [
+		'lifiiiqar' => [
 			self::DESCRIPTION => 'LIFIII-QAR',
 			self::PAIR => 'LIFIII-QAR',
 			self::SYMBOL => 'tLIFIII:USD',
