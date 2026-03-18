@@ -6328,6 +6328,293 @@ class ConsoleUtils {
 			self::PAIR => 'SKY-USDT',
 			self::SYMBOL => 'tSKYUST',
 		],
+		// --------------------------------------------- MNT pairs
+		'mntaed' => [
+			self::DESCRIPTION => 'MNT-AED',
+			self::PAIR => 'MNT-AED',
+			self::SYMBOL => 'tMNTUSD',
+		],
+		'mntsar' => [
+			self::DESCRIPTION => 'MNT-SAR',
+			self::PAIR => 'MNT-SAR',
+			self::SYMBOL => 'tMNTUSD',
+		],
+		'mntusd' => [
+			self::DESCRIPTION => 'MNT-USD',
+			self::PAIR => 'MNT-USD',
+			self::SYMBOL => 'tMNTUSD',
+		],
+		'mntkwd' => [
+			self::DESCRIPTION => 'MNT-KWD',
+			self::PAIR => 'MNT-KWD',
+			self::SYMBOL => 'tMNTUSD',
+		],
+		'mntomr' => [
+			self::DESCRIPTION => 'MNT-OMR',
+			self::PAIR => 'MNT-OMR',
+			self::SYMBOL => 'tMNTUSD',
+		],
+		'mntbhd' => [
+			self::DESCRIPTION => 'MNT-BHD',
+			self::PAIR => 'MNT-BHD',
+			self::SYMBOL => 'tMNTUSD',
+		],
+		'mntqar' => [
+			self::DESCRIPTION => 'MNT-QAR',
+			self::PAIR => 'MNT-QAR',
+			self::SYMBOL => 'tMNTUSD',
+		],
+		'mntusdt' => [
+			self::DESCRIPTION => 'MNT-USDT',
+			self::PAIR => 'MNT-USDT',
+			self::SYMBOL => 'tMNTUST',
+		],
+		// --------------------------------------------- GTX pairs
+		'gtxaed' => [
+			self::DESCRIPTION => 'GTX-AED',
+			self::PAIR => 'GTX-AED',
+			self::SYMBOL => 'tGTXUSD',
+		],
+		'gtxsar' => [
+			self::DESCRIPTION => 'GTX-SAR',
+			self::PAIR => 'GTX-SAR',
+			self::SYMBOL => 'tGTXUSD',
+		],
+		'gtxusd' => [
+			self::DESCRIPTION => 'GTX-USD',
+			self::PAIR => 'GTX-USD',
+			self::SYMBOL => 'tGTXUSD',
+		],
+		'gtxkwd' => [
+			self::DESCRIPTION => 'GTX-KWD',
+			self::PAIR => 'GTX-KWD',
+			self::SYMBOL => 'tGTXUSD',
+		],
+		'gtxomr' => [
+			self::DESCRIPTION => 'GTX-OMR',
+			self::PAIR => 'GTX-OMR',
+			self::SYMBOL => 'tGTXUSD',
+		],
+		'gtxbhd' => [
+			self::DESCRIPTION => 'GTX-BHD',
+			self::PAIR => 'GTX-BHD',
+			self::SYMBOL => 'tGTXUSD',
+		],
+		'gtxqar' => [
+			self::DESCRIPTION => 'GTX-QAR',
+			self::PAIR => 'GTX-QAR',
+			self::SYMBOL => 'tGTXUSD',
+		],
+		'gtxusdt' => [
+			self::DESCRIPTION => 'GTX-USDT',
+			self::PAIR => 'GTX-USDT',
+			self::SYMBOL => 'tGTXUST',
+		],
+		// --------------------------------------------- ZRO pairs
+		'zroaed' => [
+			self::DESCRIPTION => 'ZRO-AED',
+			self::PAIR => 'ZRO-AED',
+			self::SYMBOL => 'tZROUSD',
+		],
+		'zrosar' => [
+			self::DESCRIPTION => 'ZRO-SAR',
+			self::PAIR => 'ZRO-SAR',
+			self::SYMBOL => 'tZROUSD',
+		],
+		'zrousd' => [
+			self::DESCRIPTION => 'ZRO-USD',
+			self::PAIR => 'ZRO-USD',
+			self::SYMBOL => 'tZROUSD',
+		],
+		'zrokwd' => [
+			self::DESCRIPTION => 'ZRO-KWD',
+			self::PAIR => 'ZRO-KWD',
+			self::SYMBOL => 'tZROUSD',
+		],
+		'zroomr' => [
+			self::DESCRIPTION => 'ZRO-OMR',
+			self::PAIR => 'ZRO-OMR',
+			self::SYMBOL => 'tZROUSD',
+		],
+		'zrobhd' => [
+			self::DESCRIPTION => 'ZRO-BHD',
+			self::PAIR => 'ZRO-BHD',
+			self::SYMBOL => 'tZROUSD',
+		],
+		'zroqar' => [
+			self::DESCRIPTION => 'ZRO-QAR',
+			self::PAIR => 'ZRO-QAR',
+			self::SYMBOL => 'tZROUSD',
+		],
+		'zrousdt' => [
+			self::DESCRIPTION => 'ZRO-USDT',
+			self::PAIR => 'ZRO-USDT',
+			self::SYMBOL => 'tZROUST',
+		],
+		// --------------------------------------------- USAT pairs
+		'usataed' => [
+			self::DESCRIPTION => 'USAT-AED',
+			self::PAIR => 'USAT-AED',
+			self::SYMBOL => 'tUSAT:USD',
+		],
+		'usatsar' => [
+			self::DESCRIPTION => 'USAT-SAR',
+			self::PAIR => 'USAT-SAR',
+			self::SYMBOL => 'tUSAT:USD',
+		],
+		'usatusd' => [
+			self::DESCRIPTION => 'USAT-USD',
+			self::PAIR => 'USAT-USD',
+			self::SYMBOL => 'tUSAT:USD',
+		],
+		'usatkwd' => [
+			self::DESCRIPTION => 'USAT-KWD',
+			self::PAIR => 'USAT-KWD',
+			self::SYMBOL => 'tUSAT:USD',
+		],
+		'usatomr' => [
+			self::DESCRIPTION => 'USAT-OMR',
+			self::PAIR => 'USAT-OMR',
+			self::SYMBOL => 'tUSAT:USD',
+		],
+		'usatbhd' => [
+			self::DESCRIPTION => 'USAT-BHD',
+			self::PAIR => 'USAT-BHD',
+			self::SYMBOL => 'tUSAT:USD',
+		],
+		'usatqar' => [
+			self::DESCRIPTION => 'USAT-QAR',
+			self::PAIR => 'USAT-QAR',
+			self::SYMBOL => 'tUSAT:USD',
+		],
+		'usatusdt' => [
+			self::DESCRIPTION => 'USAT-USDT',
+			self::PAIR => 'USAT-USDT',
+			self::SYMBOL => 'tUSAT:UST',
+		],
+		// --------------------------------------------- RLS pairs
+		'rlsaed' => [
+			self::DESCRIPTION => 'RLS-AED',
+			self::PAIR => 'RLS-AED',
+			self::SYMBOL => 'tRLSUSD',
+		],
+		'rlssar' => [
+			self::DESCRIPTION => 'RLS-SAR',
+			self::PAIR => 'RLS-SAR',
+			self::SYMBOL => 'tRLSUSD',
+		],
+		'rlsusd' => [
+			self::DESCRIPTION => 'RLS-USD',
+			self::PAIR => 'RLS-USD',
+			self::SYMBOL => 'tRLSUSD',
+		],
+		'rlskwd' => [
+			self::DESCRIPTION => 'RLS-KWD',
+			self::PAIR => 'RLS-KWD',
+			self::SYMBOL => 'tRLSUSD',
+		],
+		'rlsomr' => [
+			self::DESCRIPTION => 'RLS-OMR',
+			self::PAIR => 'RLS-OMR',
+			self::SYMBOL => 'tRLSUSD',
+		],
+		'rlsbhd' => [
+			self::DESCRIPTION => 'RLS-BHD',
+			self::PAIR => 'RLS-BHD',
+			self::SYMBOL => 'tRLSUSD',
+		],
+		'rlsqar' => [
+			self::DESCRIPTION => 'RLS-QAR',
+			self::PAIR => 'RLS-QAR',
+			self::SYMBOL => 'tRLSUSD',
+		],
+		'rlsusdt' => [
+			self::DESCRIPTION => 'RLS-USDT',
+			self::PAIR => 'RLS-USDT',
+			self::SYMBOL => 'tRLSUST',
+		],
+		// --------------------------------------------- LIFIII pairs
+		'lifiiiaed' => [
+			self::DESCRIPTION => 'LIFIII-AED',
+			self::PAIR => 'LIFIII-AED',
+			self::SYMBOL => 'tLIFIII:USD',
+		],
+		'lifiiisar' => [
+			self::DESCRIPTION => 'LIFIII-SAR',
+			self::PAIR => 'LIFIII-SAR',
+			self::SYMBOL => 'tLIFIII:USD',
+		],
+		'lifiiiusd' => [
+			self::DESCRIPTION => 'LIFIII-USD',
+			self::PAIR => 'LIFIII-USD',
+			self::SYMBOL => 'tLIFIII:USD',
+		],
+		'lifiiikwd' => [
+			self::DESCRIPTION => 'LIFIII-KWD',
+			self::PAIR => 'LIFIII-KWD',
+			self::SYMBOL => 'tLIFIII:USD',
+		],
+		'lifiiiomr' => [
+			self::DESCRIPTION => 'LIFIII-OMR',
+			self::PAIR => 'LIFIII-OMR',
+			self::SYMBOL => 'tLIFIII:USD',
+		],
+		'lifiiibhd' => [
+			self::DESCRIPTION => 'LIFIII-BHD',
+			self::PAIR => 'LIFIII-BHD',
+			self::SYMBOL => 'tLIFIII:USD',
+		],
+		'lifiiiqar' => [
+			self::DESCRIPTION => 'LIFIII-QAR',
+			self::PAIR => 'LIFIII-QAR',
+			self::SYMBOL => 'tLIFIII:USD',
+		],
+		'lifiiiusdt' => [
+			self::DESCRIPTION => 'LIFIII-USDT',
+			self::PAIR => 'LIFIII-USDT',
+			self::SYMBOL => 'tLIFIII:UST',
+		],
+		// --------------------------------------------- B2M pairs
+		'b2maed' => [
+			self::DESCRIPTION => 'B2M-AED',
+			self::PAIR => 'B2M-AED',
+			self::SYMBOL => 'tB2MUSD',
+		],
+		'b2msar' => [
+			self::DESCRIPTION => 'B2M-SAR',
+			self::PAIR => 'B2M-SAR',
+			self::SYMBOL => 'tB2MUSD',
+		],
+		'b2musd' => [
+			self::DESCRIPTION => 'B2M-USD',
+			self::PAIR => 'B2M-USD',
+			self::SYMBOL => 'tB2MUSD',
+		],
+		'b2mkwd' => [
+			self::DESCRIPTION => 'B2M-KWD',
+			self::PAIR => 'B2M-KWD',
+			self::SYMBOL => 'tB2MUSD',
+		],
+		'b2momr' => [
+			self::DESCRIPTION => 'B2M-OMR',
+			self::PAIR => 'B2M-OMR',
+			self::SYMBOL => 'tB2MUSD',
+		],
+		'b2mbhd' => [
+			self::DESCRIPTION => 'B2M-BHD',
+			self::PAIR => 'B2M-BHD',
+			self::SYMBOL => 'tB2MUSD',
+		],
+		'b2mqar' => [
+			self::DESCRIPTION => 'B2M-QAR',
+			self::PAIR => 'B2M-QAR',
+			self::SYMBOL => 'tB2MUSD',
+		],
+		'b2musdt' => [
+			self::DESCRIPTION => 'B2M-USDT',
+			self::PAIR => 'B2M-USDT',
+			self::SYMBOL => 'tB2MUST',
+		],
 	];
 
 	private function __construct() {
