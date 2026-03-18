@@ -1160,6 +1160,69 @@ class CurrencyCodePair implements Pair {
 		'SKY-QAR' => 'SKY-QAR',
 		'SKY-USDT' => 'SKY-USDT',
 
+		'MNT-AED' => 'MNT-AED',
+		'MNT-SAR' => 'MNT-SAR',
+		'MNT-USD' => 'MNT-USD',
+		'MNT-KWD' => 'MNT-KWD',
+		'MNT-OMR' => 'MNT-OMR',
+		'MNT-BHD' => 'MNT-BHD',
+		'MNT-QAR' => 'MNT-QAR',
+		'MNT-USDT' => 'MNT-USDT',
+
+		'GTX-AED' => 'GTX-AED',
+		'GTX-SAR' => 'GTX-SAR',
+		'GTX-USD' => 'GTX-USD',
+		'GTX-KWD' => 'GTX-KWD',
+		'GTX-OMR' => 'GTX-OMR',
+		'GTX-BHD' => 'GTX-BHD',
+		'GTX-QAR' => 'GTX-QAR',
+		'GTX-USDT' => 'GTX-USDT',
+
+		'ZRO-AED' => 'ZRO-AED',
+		'ZRO-SAR' => 'ZRO-SAR',
+		'ZRO-USD' => 'ZRO-USD',
+		'ZRO-KWD' => 'ZRO-KWD',
+		'ZRO-OMR' => 'ZRO-OMR',
+		'ZRO-BHD' => 'ZRO-BHD',
+		'ZRO-QAR' => 'ZRO-QAR',
+		'ZRO-USDT' => 'ZRO-USDT',
+
+		'USAT-AED' => 'USAT-AED',
+		'USAT-SAR' => 'USAT-SAR',
+		'USAT-USD' => 'USAT-USD',
+		'USAT-KWD' => 'USAT-KWD',
+		'USAT-OMR' => 'USAT-OMR',
+		'USAT-BHD' => 'USAT-BHD',
+		'USAT-QAR' => 'USAT-QAR',
+		'USAT-USDT' => 'USAT-USDT',
+
+		'RLS-AED' => 'RLS-AED',
+		'RLS-SAR' => 'RLS-SAR',
+		'RLS-USD' => 'RLS-USD',
+		'RLS-KWD' => 'RLS-KWD',
+		'RLS-OMR' => 'RLS-OMR',
+		'RLS-BHD' => 'RLS-BHD',
+		'RLS-QAR' => 'RLS-QAR',
+		'RLS-USDT' => 'RLS-USDT',
+
+		'LIFIII-AED' => 'LIFIII-AED',
+		'LIFIII-SAR' => 'LIFIII-SAR',
+		'LIFIII-USD' => 'LIFIII-USD',
+		'LIFIII-KWD' => 'LIFIII-KWD',
+		'LIFIII-OMR' => 'LIFIII-OMR',
+		'LIFIII-BHD' => 'LIFIII-BHD',
+		'LIFIII-QAR' => 'LIFIII-QAR',
+		'LIFIII-USDT' => 'LIFIII-USDT',
+
+		'B2M-AED' => 'B2M-AED',
+		'B2M-SAR' => 'B2M-SAR',
+		'B2M-USD' => 'B2M-USD',
+		'B2M-KWD' => 'B2M-KWD',
+		'B2M-OMR' => 'B2M-OMR',
+		'B2M-BHD' => 'B2M-BHD',
+		'B2M-QAR' => 'B2M-QAR',
+		'B2M-USDT' => 'B2M-USDT',
+
 	];
 
 	const VALID_PAIRS = [
@@ -1300,7 +1363,6 @@ class CurrencyCodePair implements Pair {
 		'SHIB-AED', 'SHIB-SAR', 'SHIB-TRY', 'SHIB-USD', 'SHIB-KWD', 'SHIB-OMR', 'SHIB-BHD', 'SHIB-QAR',
 		'SHIB-USDT',
 
-		// De-listed (keeping for historical support)
 		'AVAX-AED', 'AVAX-SAR', 'AVAX-TRY', 'AVAX-USD', 'AVAX-KWD', 'AVAX-OMR', 'AVAX-BHD', 'AVAX-QAR',
 		'AVAX-USDT',
 
@@ -1637,6 +1699,27 @@ class CurrencyCodePair implements Pair {
 
 		'SKY-AED', 'SKY-SAR', 'SKY-USD', 'SKY-KWD', 'SKY-OMR', 'SKY-BHD', 'SKY-QAR',
 		'SKY-USDT',
+
+		'MNT-AED', 'MNT-SAR', 'MNT-USD', 'MNT-KWD', 'MNT-OMR', 'MNT-BHD', 'MNT-QAR',
+		'MNT-USDT',
+
+		'GTX-AED', 'GTX-SAR', 'GTX-USD', 'GTX-KWD', 'GTX-OMR', 'GTX-BHD', 'GTX-QAR',
+		'GTX-USDT',
+
+		'ZRO-AED', 'ZRO-SAR', 'ZRO-USD', 'ZRO-KWD', 'ZRO-OMR', 'ZRO-BHD', 'ZRO-QAR',
+		'ZRO-USDT',
+
+		'USAT-AED', 'USAT-SAR', 'USAT-USD', 'USAT-KWD', 'USAT-OMR', 'USAT-BHD', 'USAT-QAR',
+		'USAT-USDT',
+
+		'RLS-AED', 'RLS-SAR', 'RLS-USD', 'RLS-KWD', 'RLS-OMR', 'RLS-BHD', 'RLS-QAR',
+		'RLS-USDT',
+
+		'LIFIII-AED', 'LIFIII-SAR', 'LIFIII-USD', 'LIFIII-KWD', 'LIFIII-OMR', 'LIFIII-BHD', 'LIFIII-QAR',
+		'LIFIII-USDT',
+
+		'B2M-AED', 'B2M-SAR', 'B2M-USD', 'B2M-KWD', 'B2M-OMR', 'B2M-BHD', 'B2M-QAR',
+		'B2M-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
