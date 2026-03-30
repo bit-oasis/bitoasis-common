@@ -1363,6 +1363,7 @@ class CurrencyCodePair implements Pair {
 		'SHIB-AED', 'SHIB-SAR', 'SHIB-TRY', 'SHIB-USD', 'SHIB-KWD', 'SHIB-OMR', 'SHIB-BHD', 'SHIB-QAR',
 		'SHIB-USDT',
 
+		// De-listed (keeping for historical support)
 		'AVAX-AED', 'AVAX-SAR', 'AVAX-TRY', 'AVAX-USD', 'AVAX-KWD', 'AVAX-OMR', 'AVAX-BHD', 'AVAX-QAR',
 		'AVAX-USDT',
 
