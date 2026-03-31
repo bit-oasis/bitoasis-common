@@ -1160,15 +1160,6 @@ class CurrencyCodePair implements Pair {
 		'SKY-QAR' => 'SKY-QAR',
 		'SKY-USDT' => 'SKY-USDT',
 
-		'AVAX-AED' => 'AVAX-AED',
-		'AVAX-SAR' => 'AVAX-SAR',
-		'AVAX-USD' => 'AVAX-USD',
-		'AVAX-KWD' => 'AVAX-KWD',
-		'AVAX-OMR' => 'AVAX-OMR',
-		'AVAX-BHD' => 'AVAX-BHD',
-		'AVAX-QAR' => 'AVAX-QAR',
-		'AVAX-USDT' => 'AVAX-USDT',
-
 		'MNT-AED' => 'MNT-AED',
 		'MNT-SAR' => 'MNT-SAR',
 		'MNT-USD' => 'MNT-USD',
@@ -1372,6 +1363,7 @@ class CurrencyCodePair implements Pair {
 		'SHIB-AED', 'SHIB-SAR', 'SHIB-TRY', 'SHIB-USD', 'SHIB-KWD', 'SHIB-OMR', 'SHIB-BHD', 'SHIB-QAR',
 		'SHIB-USDT',
 
+		// De-listed (keeping for historical support)
 		'AVAX-AED', 'AVAX-SAR', 'AVAX-TRY', 'AVAX-USD', 'AVAX-KWD', 'AVAX-OMR', 'AVAX-BHD', 'AVAX-QAR',
 		'AVAX-USDT',
 
