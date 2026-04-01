@@ -162,17 +162,6 @@ class CurrencyCodePair implements Pair {
 		'USDT-QAR' => 'USDT-QAR',
 		'USDT-USDC' => 'USDT-USDC',
 
-		'XTZ-AED' => 'XTZ-AED',
-		'XTZ-SAR' => 'XTZ-SAR',
-		'XTZ-TRY' => 'XTZ-TRY',
-		'XTZ-USD' => 'XTZ-USD',
-		'XTZ-KWD' => 'XTZ-KWD',
-		'XTZ-OMR' => 'XTZ-OMR',
-		'XTZ-BHD' => 'XTZ-BHD',
-		'XTZ-QAR' => 'XTZ-QAR',
-		'XTZ-USDT' => 'XTZ-USDT',
-		'XTZ-BTC' => 'XTZ-BTC',
-
 		'LINK-AED' => 'LINK-AED',
 		'LINK-SAR' => 'LINK-SAR',
 		'LINK-TRY' => 'LINK-TRY',
@@ -241,16 +230,6 @@ class CurrencyCodePair implements Pair {
 		'BAL-QAR' => 'BAL-QAR',
 		'BAL-USDT' => 'BAL-USDT',
 
-		'COMP-AED' => 'COMP-AED',
-		'COMP-SAR' => 'COMP-SAR',
-		'COMP-TRY' => 'COMP-TRY',
-		'COMP-USD' => 'COMP-USD',
-		'COMP-KWD' => 'COMP-KWD',
-		'COMP-OMR' => 'COMP-OMR',
-		'COMP-BHD' => 'COMP-BHD',
-		'COMP-QAR' => 'COMP-QAR',
-		'COMP-USDT' => 'COMP-USDT',
-
 		'DOGE-AED' => 'DOGE-AED',
 		'DOGE-SAR' => 'DOGE-SAR',
 		'DOGE-TRY' => 'DOGE-TRY',
@@ -301,16 +280,6 @@ class CurrencyCodePair implements Pair {
 		'MATIC-QAR' => 'MATIC-QAR',
 		'MATIC-USDT' => 'MATIC-USDT',
 		'MATIC-BTC' => 'MATIC-BTC',
-
-		'SUSHI-AED' => 'SUSHI-AED',
-		'SUSHI-SAR' => 'SUSHI-SAR',
-		'SUSHI-TRY' => 'SUSHI-TRY',
-		'SUSHI-USD' => 'SUSHI-USD',
-		'SUSHI-KWD' => 'SUSHI-KWD',
-		'SUSHI-OMR' => 'SUSHI-OMR',
-		'SUSHI-BHD' => 'SUSHI-BHD',
-		'SUSHI-QAR' => 'SUSHI-QAR',
-		'SUSHI-USDT' => 'SUSHI-USDT',
 
 		'USDC-AED' => 'USDC-AED',
 		'USDC-SAR' => 'USDC-SAR',
@@ -444,16 +413,6 @@ class CurrencyCodePair implements Pair {
 		'CRV-QAR' => 'CRV-QAR',
 		'CRV-USDT' => 'CRV-USDT',
 
-		'GALA-AED' => 'GALA-AED',
-		'GALA-SAR' => 'GALA-SAR',
-		'GALA-TRY' => 'GALA-TRY',
-		'GALA-USD' => 'GALA-USD',
-		'GALA-KWD' => 'GALA-KWD',
-		'GALA-OMR' => 'GALA-OMR',
-		'GALA-BHD' => 'GALA-BHD',
-		'GALA-QAR' => 'GALA-QAR',
-		'GALA-USDT' => 'GALA-USDT',
-
 		'GNO-AED' => 'GNO-AED',
 		'GNO-SAR' => 'GNO-SAR',
 		'GNO-TRY' => 'GNO-TRY',
@@ -556,15 +515,6 @@ class CurrencyCodePair implements Pair {
 		'ARB-QAR' => 'ARB-QAR',
 		'ARB-USDT' => 'ARB-USDT',
 
-		'APE-AED' => 'APE-AED',
-		'APE-SAR' => 'APE-SAR',
-		'APE-USD' => 'APE-USD',
-		'APE-KWD' => 'APE-KWD',
-		'APE-OMR' => 'APE-OMR',
-		'APE-BHD' => 'APE-BHD',
-		'APE-QAR' => 'APE-QAR',
-		'APE-USDT' => 'APE-USDT',
-
 		'SAND-AED' => 'SAND-AED',
 		'SAND-SAR' => 'SAND-SAR',
 		'SAND-USD' => 'SAND-USD',
@@ -582,15 +532,6 @@ class CurrencyCodePair implements Pair {
 		'LDO-BHD' => 'LDO-BHD',
 		'LDO-QAR' => 'LDO-QAR',
 		'LDO-USDT' => 'LDO-USDT',
-
-		'FET-AED' => 'FET-AED',
-		'FET-SAR' => 'FET-SAR',
-		'FET-USD' => 'FET-USD',
-		'FET-KWD' => 'FET-KWD',
-		'FET-OMR' => 'FET-OMR',
-		'FET-BHD' => 'FET-BHD',
-		'FET-QAR' => 'FET-QAR',
-		'FET-USDT' => 'FET-USDT',
 
 		'XDC-AED' => 'XDC-AED',
 		'XDC-SAR' => 'XDC-SAR',
@@ -716,16 +657,6 @@ class CurrencyCodePair implements Pair {
 		'TON-BHD' => 'TON-BHD',
 		'TON-QAR' => 'TON-QAR',
 		'TON-USDT' => 'TON-USDT',
-
-		'AMPL-AED' => 'AMPL-AED',
-		'AMPL-SAR' => 'AMPL-SAR',
-		'AMPL-USD' => 'AMPL-USD',
-		'AMPL-KWD' => 'AMPL-KWD',
-		'AMPL-OMR' => 'AMPL-OMR',
-		'AMPL-BHD' => 'AMPL-BHD',
-		'AMPL-QAR' => 'AMPL-QAR',
-		'AMPL-USDT' => 'AMPL-USDT',
-		'AMPL-BTC' => 'AMPL-BTC',
 
 		'BEST-AED' => 'BEST-AED',
 		'BEST-SAR' => 'BEST-SAR',
@@ -909,15 +840,6 @@ class CurrencyCodePair implements Pair {
 		'SIDUS-BHD' => 'SIDUS-BHD',
 		'SIDUS-QAR' => 'SIDUS-QAR',
 
-		'SPELL-AED' => 'SPELL-AED',
-		'SPELL-SAR' => 'SPELL-SAR',
-		'SPELL-USD' => 'SPELL-USD',
-		'SPELL-KWD' => 'SPELL-KWD',
-		'SPELL-OMR' => 'SPELL-OMR',
-		'SPELL-BHD' => 'SPELL-BHD',
-		'SPELL-QAR' => 'SPELL-QAR',
-		'SPELL-USDT' => 'SPELL-USDT',
-
 		'STG-AED' => 'STG-AED',
 		'STG-SAR' => 'STG-SAR',
 		'STG-USD' => 'STG-USD',
@@ -981,15 +903,6 @@ class CurrencyCodePair implements Pair {
 		'PEPE-QAR' => 'PEPE-QAR',
 		'PEPE-USDT' => 'PEPE-USDT',
 
-		'BONK-AED' => 'BONK-AED',
-		'BONK-SAR' => 'BONK-SAR',
-		'BONK-USD' => 'BONK-USD',
-		'BONK-KWD' => 'BONK-KWD',
-		'BONK-OMR' => 'BONK-OMR',
-		'BONK-BHD' => 'BONK-BHD',
-		'BONK-QAR' => 'BONK-QAR',
-		'BONK-USDT' => 'BONK-USDT',
-
 		'TURBO-AED' => 'TURBO-AED',
 		'TURBO-SAR' => 'TURBO-SAR',
 		'TURBO-USD' => 'TURBO-USD',
@@ -1025,24 +938,6 @@ class CurrencyCodePair implements Pair {
 		'MEW-BHD' => 'MEW-BHD',
 		'MEW-QAR' => 'MEW-QAR',
 		'MEW-USDT' => 'MEW-USDT',
-
-		'SWEAT-AED' => 'SWEAT-AED',
-		'SWEAT-SAR' => 'SWEAT-SAR',
-		'SWEAT-USD' => 'SWEAT-USD',
-		'SWEAT-KWD' => 'SWEAT-KWD',
-		'SWEAT-OMR' => 'SWEAT-OMR',
-		'SWEAT-BHD' => 'SWEAT-BHD',
-		'SWEAT-QAR' => 'SWEAT-QAR',
-		'SWEAT-USDT' => 'SWEAT-USDT',
-
-		'SPEC-AED' => 'SPEC-AED',
-		'SPEC-SAR' => 'SPEC-SAR',
-		'SPEC-USD' => 'SPEC-USD',
-		'SPEC-KWD' => 'SPEC-KWD',
-		'SPEC-OMR' => 'SPEC-OMR',
-		'SPEC-BHD' => 'SPEC-BHD',
-		'SPEC-QAR' => 'SPEC-QAR',
-		'SPEC-USDT' => 'SPEC-USDT',
 
 		'AIOZ-AED' => 'AIOZ-AED',
 		'AIOZ-SAR' => 'AIOZ-SAR',
@@ -1088,15 +983,6 @@ class CurrencyCodePair implements Pair {
 		'KAN-QAR' => 'KAN-QAR',
 		'KAN-USDT' => 'KAN-USDT',
 
-		'S-AED' => 'S-AED',
-		'S-SAR' => 'S-SAR',
-		'S-USD' => 'S-USD',
-		'S-KWD' => 'S-KWD',
-		'S-OMR' => 'S-OMR',
-		'S-BHD' => 'S-BHD',
-		'S-QAR' => 'S-QAR',
-		'S-USDT' => 'S-USDT',
-
 		'TOKEN-AED' => 'TOKEN-AED',
 		'TOKEN-SAR' => 'TOKEN-SAR',
 		'TOKEN-USD' => 'TOKEN-USD',
@@ -1123,24 +1009,6 @@ class CurrencyCodePair implements Pair {
 		'JASMY-BHD' => 'JASMY-BHD',
 		'JASMY-QAR' => 'JASMY-QAR',
 		'JASMY-USDT' => 'JASMY-USDT',
-
-		'STRK-AED' => 'STRK-AED',
-		'STRK-SAR' => 'STRK-SAR',
-		'STRK-USD' => 'STRK-USD',
-		'STRK-KWD' => 'STRK-KWD',
-		'STRK-OMR' => 'STRK-OMR',
-		'STRK-BHD' => 'STRK-BHD',
-		'STRK-QAR' => 'STRK-QAR',
-		'STRK-USDT' => 'STRK-USDT',
-
-		'ATH-AED' => 'ATH-AED',
-		'ATH-SAR' => 'ATH-SAR',
-		'ATH-USD' => 'ATH-USD',
-		'ATH-KWD' => 'ATH-KWD',
-		'ATH-OMR' => 'ATH-OMR',
-		'ATH-BHD' => 'ATH-BHD',
-		'ATH-QAR' => 'ATH-QAR',
-		'ATH-USDT' => 'ATH-USDT',
 
 		'BGB-AED' => 'BGB-AED',
 		'BGB-SAR' => 'BGB-SAR',
@@ -1285,6 +1153,7 @@ class CurrencyCodePair implements Pair {
 		'NEO-USDT', 'NEO-BTC',
 		'NEO-ETH',
 
+		// De-listed (keeping for historical support)
 		'XTZ-AED', 'XTZ-SAR', 'XTZ-TRY', 'XTZ-USD', 'XTZ-KWD', 'XTZ-OMR', 'XTZ-BHD', 'XTZ-QAR',
 		'XTZ-USDT', 'XTZ-BTC',
 
@@ -1315,6 +1184,7 @@ class CurrencyCodePair implements Pair {
 		'BAL-AED', 'BAL-SAR', 'BAL-TRY', 'BAL-USD', 'BAL-KWD', 'BAL-OMR', 'BAL-BHD', 'BAL-QAR',
 		'BAL-USDT',
 
+		// De-listed (keeping for historical support)
 		'COMP-AED', 'COMP-SAR', 'COMP-TRY', 'COMP-USD', 'COMP-KWD', 'COMP-OMR', 'COMP-BHD', 'COMP-QAR',
 		'COMP-USDT',
 
@@ -1341,6 +1211,7 @@ class CurrencyCodePair implements Pair {
 		// De-listed (keeping for historical support)
 		'STORJ-AED', 'STORJ-SAR', 'STORJ-TRY', 'STORJ-USD', 'STORJ-KWD', 'STORJ-OMR', 'STORJ-BHD', 'STORJ-QAR',
 
+		// De-listed (keeping for historical support)
 		'SUSHI-AED', 'SUSHI-SAR', 'SUSHI-TRY', 'SUSHI-USD', 'SUSHI-KWD', 'SUSHI-OMR', 'SUSHI-BHD', 'SUSHI-QAR',
 		'SUSHI-USDT',
 
@@ -1419,6 +1290,7 @@ class CurrencyCodePair implements Pair {
 		'FTT-AED', 'FTT-SAR', 'FTT-TRY', 'FTT-USD',
 		'FTT-USDT',
 
+		// De-listed (keeping for historical support)
 		'GALA-AED', 'GALA-SAR', 'GALA-TRY', 'GALA-USD', 'GALA-KWD', 'GALA-OMR', 'GALA-BHD', 'GALA-QAR',
 		'GALA-USDT',
 
@@ -1482,6 +1354,7 @@ class CurrencyCodePair implements Pair {
 		'ARB-AED', 'ARB-SAR', 'ARB-USD', 'ARB-KWD', 'ARB-OMR', 'ARB-BHD', 'ARB-QAR',
 		'ARB-USDT',
 
+		// De-listed (keeping for historical support)
 		'APE-AED', 'APE-SAR', 'APE-USD', 'APE-KWD', 'APE-OMR', 'APE-BHD', 'APE-QAR',
 		'APE-USDT',
 
@@ -1491,6 +1364,7 @@ class CurrencyCodePair implements Pair {
 		'LDO-AED', 'LDO-SAR', 'LDO-USD', 'LDO-KWD', 'LDO-OMR', 'LDO-BHD', 'LDO-QAR',
 		'LDO-USDT',
 
+		// De-listed (keeping for historical support)
 		'FET-AED', 'FET-SAR', 'FET-USD', 'FET-KWD', 'FET-OMR', 'FET-BHD', 'FET-QAR',
 		'FET-USDT',
 
@@ -1545,6 +1419,7 @@ class CurrencyCodePair implements Pair {
 		'TON-AED', 'TON-SAR', 'TON-USD', 'TON-KWD', 'TON-OMR', 'TON-BHD', 'TON-QAR',
 		'TON-USDT',
 
+		// De-listed (keeping for historical support)
 		'AMPL-AED', 'AMPL-SAR', 'AMPL-USD', 'AMPL-KWD', 'AMPL-OMR', 'AMPL-BHD', 'AMPL-QAR',
 		'AMPL-USDT', 'AMPL-BTC',
 
@@ -1606,6 +1481,7 @@ class CurrencyCodePair implements Pair {
 
 		'SIDUS-AED', 'SIDUS-SAR', 'SIDUS-USD', 'SIDUS-KWD', 'SIDUS-OMR', 'SIDUS-BHD', 'SIDUS-QAR',
 
+		// De-listed (keeping for historical support)
 		'SPELL-AED', 'SPELL-SAR', 'SPELL-USD', 'SPELL-KWD', 'SPELL-OMR', 'SPELL-BHD', 'SPELL-QAR',
 		'SPELL-USDT',
 
@@ -1630,6 +1506,7 @@ class CurrencyCodePair implements Pair {
 		'PEPE-AED', 'PEPE-SAR', 'PEPE-USD', 'PEPE-KWD', 'PEPE-OMR', 'PEPE-BHD', 'PEPE-QAR',
 		'PEPE-USDT',
 
+		// De-listed (keeping for historical support)
 		'BONK-AED', 'BONK-SAR', 'BONK-USD', 'BONK-KWD', 'BONK-OMR', 'BONK-BHD', 'BONK-QAR',
 		'BONK-USDT',
 
@@ -1653,6 +1530,7 @@ class CurrencyCodePair implements Pair {
 		'TIA-AED', 'TIA-SAR', 'TIA-USD', 'TIA-KWD', 'TIA-OMR', 'TIA-BHD', 'TIA-QAR',
 		'TIA-USDT',
 
+		// De-listed (keeping for historical support)
 		'SWEAT-AED', 'SWEAT-SAR', 'SWEAT-USD', 'SWEAT-KWD', 'SWEAT-OMR', 'SWEAT-BHD', 'SWEAT-QAR',
 		'SWEAT-USDT',
 
@@ -1660,6 +1538,7 @@ class CurrencyCodePair implements Pair {
 		'DOP-AED', 'DOP-SAR', 'DOP-USD', 'DOP-KWD', 'DOP-OMR', 'DOP-BHD', 'DOP-QAR',
 		'DOP-USDT',
 
+		// De-listed (keeping for historical support)
 		'SPEC-AED', 'SPEC-SAR', 'SPEC-USD', 'SPEC-KWD', 'SPEC-OMR', 'SPEC-BHD', 'SPEC-QAR',
 		'SPEC-USDT',
 
@@ -1677,6 +1556,7 @@ class CurrencyCodePair implements Pair {
 		'KAN-AED', 'KAN-SAR', 'KAN-USD', 'KAN-KWD', 'KAN-OMR', 'KAN-BHD', 'KAN-QAR',
 		'KAN-USDT',
 
+		// De-listed (keeping for historical support)
 		'S-AED', 'S-SAR', 'S-USD', 'S-KWD', 'S-OMR', 'S-BHD', 'S-QAR',
 		'S-USDT',
 
@@ -1689,9 +1569,11 @@ class CurrencyCodePair implements Pair {
 		'JASMY-AED', 'JASMY-SAR', 'JASMY-USD', 'JASMY-KWD', 'JASMY-OMR', 'JASMY-BHD', 'JASMY-QAR',
 		'JASMY-USDT',
 
+		// De-listed (keeping for historical support)
 		'STRK-AED', 'STRK-SAR', 'STRK-USD', 'STRK-KWD', 'STRK-OMR', 'STRK-BHD', 'STRK-QAR',
 		'STRK-USDT',
 
+		// De-listed (keeping for historical support)
 		'ATH-AED', 'ATH-SAR', 'ATH-USD', 'ATH-KWD', 'ATH-OMR', 'ATH-BHD', 'ATH-QAR',
 		'ATH-USDT',
 
