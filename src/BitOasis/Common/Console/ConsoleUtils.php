@@ -6615,6 +6615,211 @@ class ConsoleUtils {
 			self::PAIR => 'B2M-USDT',
 			self::SYMBOL => 'tB2MUST',
 		],
+		// --------------------------------------------- ENS pairs
+		'ensaed' => [
+			self::DESCRIPTION => 'ENS-AED',
+			self::PAIR => 'ENS-AED',
+			self::SYMBOL => 'tENSUSD',
+		],
+		'enssar' => [
+			self::DESCRIPTION => 'ENS-SAR',
+			self::PAIR => 'ENS-SAR',
+			self::SYMBOL => 'tENSUSD',
+		],
+		'ensusd' => [
+			self::DESCRIPTION => 'ENS-USD',
+			self::PAIR => 'ENS-USD',
+			self::SYMBOL => 'tENSUSD',
+		],
+		'enskwd' => [
+			self::DESCRIPTION => 'ENS-KWD',
+			self::PAIR => 'ENS-KWD',
+			self::SYMBOL => 'tENSUSD',
+		],
+		'ensomr' => [
+			self::DESCRIPTION => 'ENS-OMR',
+			self::PAIR => 'ENS-OMR',
+			self::SYMBOL => 'tENSUSD',
+		],
+		'ensbhd' => [
+			self::DESCRIPTION => 'ENS-BHD',
+			self::PAIR => 'ENS-BHD',
+			self::SYMBOL => 'tENSUSD',
+		],
+		'ensqar' => [
+			self::DESCRIPTION => 'ENS-QAR',
+			self::PAIR => 'ENS-QAR',
+			self::SYMBOL => 'tENSUSD',
+		],
+		'ensusdt' => [
+			self::DESCRIPTION => 'ENS-USDT',
+			self::PAIR => 'ENS-USDT',
+			self::SYMBOL => 'tENSUST',
+		],
+		// --------------------------------------------- ONDO pairs
+		'ondoaed' => [
+			self::DESCRIPTION => 'ONDO-AED',
+			self::PAIR => 'ONDO-AED',
+			self::SYMBOL => 'tONDO:USD',
+		],
+		'ondosar' => [
+			self::DESCRIPTION => 'ONDO-SAR',
+			self::PAIR => 'ONDO-SAR',
+			self::SYMBOL => 'tONDO:USD',
+		],
+		'ondousd' => [
+			self::DESCRIPTION => 'ONDO-USD',
+			self::PAIR => 'ONDO-USD',
+			self::SYMBOL => 'tONDO:USD',
+		],
+		'ondokwd' => [
+			self::DESCRIPTION => 'ONDO-KWD',
+			self::PAIR => 'ONDO-KWD',
+			self::SYMBOL => 'tONDO:USD',
+		],
+		'ondoomr' => [
+			self::DESCRIPTION => 'ONDO-OMR',
+			self::PAIR => 'ONDO-OMR',
+			self::SYMBOL => 'tONDO:USD',
+		],
+		'ondobhd' => [
+			self::DESCRIPTION => 'ONDO-BHD',
+			self::PAIR => 'ONDO-BHD',
+			self::SYMBOL => 'tONDO:USD',
+		],
+		'ondoqar' => [
+			self::DESCRIPTION => 'ONDO-QAR',
+			self::PAIR => 'ONDO-QAR',
+			self::SYMBOL => 'tONDO:USD',
+		],
+		'ondousdt' => [
+			self::DESCRIPTION => 'ONDO-USDT',
+			self::PAIR => 'ONDO-USDT',
+			self::SYMBOL => 'tONDO:UST',
+		],
+		// --------------------------------------------- PAXG pairs
+		'paxgaed' => [
+			self::DESCRIPTION => 'PAXG-AED',
+			self::PAIR => 'PAXG-AED',
+			self::SYMBOL => 'tPAXG:USD',
+		],
+		'paxgsar' => [
+			self::DESCRIPTION => 'PAXG-SAR',
+			self::PAIR => 'PAXG-SAR',
+			self::SYMBOL => 'tPAXG:USD',
+		],
+		'paxgusd' => [
+			self::DESCRIPTION => 'PAXG-USD',
+			self::PAIR => 'PAXG-USD',
+			self::SYMBOL => 'tPAXG:USD',
+		],
+		'paxgkwd' => [
+			self::DESCRIPTION => 'PAXG-KWD',
+			self::PAIR => 'PAXG-KWD',
+			self::SYMBOL => 'tPAXG:USD',
+		],
+		'paxgomr' => [
+			self::DESCRIPTION => 'PAXG-OMR',
+			self::PAIR => 'PAXG-OMR',
+			self::SYMBOL => 'tPAXG:USD',
+		],
+		'paxgbhd' => [
+			self::DESCRIPTION => 'PAXG-BHD',
+			self::PAIR => 'PAXG-BHD',
+			self::SYMBOL => 'tPAXG:USD',
+		],
+		'paxgqar' => [
+			self::DESCRIPTION => 'PAXG-QAR',
+			self::PAIR => 'PAXG-QAR',
+			self::SYMBOL => 'tPAXG:USD',
+		],
+		'paxgusdt' => [
+			self::DESCRIPTION => 'PAXG-USDT',
+			self::PAIR => 'PAXG-USDT',
+			self::SYMBOL => 'tPAXG:UST',
+		],
+		// --------------------------------------------- QNT pairs
+		'qntaed' => [
+			self::DESCRIPTION => 'QNT-AED',
+			self::PAIR => 'QNT-AED',
+			self::SYMBOL => 'tQNTUSD',
+		],
+		'qntsar' => [
+			self::DESCRIPTION => 'QNT-SAR',
+			self::PAIR => 'QNT-SAR',
+			self::SYMBOL => 'tQNTUSD',
+		],
+		'qntusd' => [
+			self::DESCRIPTION => 'QNT-USD',
+			self::PAIR => 'QNT-USD',
+			self::SYMBOL => 'tQNTUSD',
+		],
+		'qntkwd' => [
+			self::DESCRIPTION => 'QNT-KWD',
+			self::PAIR => 'QNT-KWD',
+			self::SYMBOL => 'tQNTUSD',
+		],
+		'qntomr' => [
+			self::DESCRIPTION => 'QNT-OMR',
+			self::PAIR => 'QNT-OMR',
+			self::SYMBOL => 'tQNTUSD',
+		],
+		'qntbhd' => [
+			self::DESCRIPTION => 'QNT-BHD',
+			self::PAIR => 'QNT-BHD',
+			self::SYMBOL => 'tQNTUSD',
+		],
+		'qntqar' => [
+			self::DESCRIPTION => 'QNT-QAR',
+			self::PAIR => 'QNT-QAR',
+			self::SYMBOL => 'tQNTUSD',
+		],
+		'qntusdt' => [
+			self::DESCRIPTION => 'QNT-USDT',
+			self::PAIR => 'QNT-USDT',
+			self::SYMBOL => 'tQNTUST',
+		],
+		// --------------------------------------------- BNB pairs
+		'bnbaed' => [
+			self::DESCRIPTION => 'BNB-AED',
+			self::PAIR => 'BNB-AED',
+			self::SYMBOL => 'tBNBUSD',
+		],
+		'bnbsar' => [
+			self::DESCRIPTION => 'BNB-SAR',
+			self::PAIR => 'BNB-SAR',
+			self::SYMBOL => 'tBNBUSD',
+		],
+		'bnbusd' => [
+			self::DESCRIPTION => 'BNB-USD',
+			self::PAIR => 'BNB-USD',
+			self::SYMBOL => 'tBNBUSD',
+		],
+		'bnbkwd' => [
+			self::DESCRIPTION => 'BNB-KWD',
+			self::PAIR => 'BNB-KWD',
+			self::SYMBOL => 'tBNBUSD',
+		],
+		'bnbomr' => [
+			self::DESCRIPTION => 'BNB-OMR',
+			self::PAIR => 'BNB-OMR',
+			self::SYMBOL => 'tBNBUSD',
+		],
+		'bnbbhd' => [
+			self::DESCRIPTION => 'BNB-BHD',
+			self::PAIR => 'BNB-BHD',
+			self::SYMBOL => 'tBNBUSD',
+		],
+		'bnbqar' => [
+			self::DESCRIPTION => 'BNB-QAR',
+			self::PAIR => 'BNB-QAR',
+			self::SYMBOL => 'tBNBUSD',
+		],
+		'bnbusdt' => [
+			self::DESCRIPTION => 'BNB-USDT',
+			self::PAIR => 'BNB-USDT',
+			self::SYMBOL => 'tBNBUST',
+		],
 	];
 
 	private function __construct() {

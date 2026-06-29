@@ -1223,6 +1223,61 @@ class CurrencyCodePair implements Pair {
 		'B2M-QAR' => 'B2M-QAR',
 		'B2M-USDT' => 'B2M-USDT',
 
+		'AVAX-AED' => 'AVAX-AED',
+		'AVAX-SAR' => 'AVAX-SAR',
+		'AVAX-TRY' => 'AVAX-TRY',
+		'AVAX-USD' => 'AVAX-USD',
+		'AVAX-KWD' => 'AVAX-KWD',
+		'AVAX-OMR' => 'AVAX-OMR',
+		'AVAX-BHD' => 'AVAX-BHD',
+		'AVAX-QAR' => 'AVAX-QAR',
+		'AVAX-USDT' => 'AVAX-USDT',
+
+		'ENS-AED' => 'ENS-AED',
+		'ENS-SAR' => 'ENS-SAR',
+		'ENS-USD' => 'ENS-USD',
+		'ENS-KWD' => 'ENS-KWD',
+		'ENS-OMR' => 'ENS-OMR',
+		'ENS-BHD' => 'ENS-BHD',
+		'ENS-QAR' => 'ENS-QAR',
+		'ENS-USDT' => 'ENS-USDT',
+
+		'ONDO-AED' => 'ONDO-AED',
+		'ONDO-SAR' => 'ONDO-SAR',
+		'ONDO-USD' => 'ONDO-USD',
+		'ONDO-KWD' => 'ONDO-KWD',
+		'ONDO-OMR' => 'ONDO-OMR',
+		'ONDO-BHD' => 'ONDO-BHD',
+		'ONDO-QAR' => 'ONDO-QAR',
+		'ONDO-USDT' => 'ONDO-USDT',
+
+		'PAXG-AED' => 'PAXG-AED',
+		'PAXG-SAR' => 'PAXG-SAR',
+		'PAXG-USD' => 'PAXG-USD',
+		'PAXG-KWD' => 'PAXG-KWD',
+		'PAXG-OMR' => 'PAXG-OMR',
+		'PAXG-BHD' => 'PAXG-BHD',
+		'PAXG-QAR' => 'PAXG-QAR',
+		'PAXG-USDT' => 'PAXG-USDT',
+
+		'QNT-AED' => 'QNT-AED',
+		'QNT-SAR' => 'QNT-SAR',
+		'QNT-USD' => 'QNT-USD',
+		'QNT-KWD' => 'QNT-KWD',
+		'QNT-OMR' => 'QNT-OMR',
+		'QNT-BHD' => 'QNT-BHD',
+		'QNT-QAR' => 'QNT-QAR',
+		'QNT-USDT' => 'QNT-USDT',
+
+		'BNB-AED' => 'BNB-AED',
+		'BNB-SAR' => 'BNB-SAR',
+		'BNB-USD' => 'BNB-USD',
+		'BNB-KWD' => 'BNB-KWD',
+		'BNB-OMR' => 'BNB-OMR',
+		'BNB-BHD' => 'BNB-BHD',
+		'BNB-QAR' => 'BNB-QAR',
+		'BNB-USDT' => 'BNB-USDT',
+
 	];
 
 	const VALID_PAIRS = [
@@ -1363,7 +1418,6 @@ class CurrencyCodePair implements Pair {
 		'SHIB-AED', 'SHIB-SAR', 'SHIB-TRY', 'SHIB-USD', 'SHIB-KWD', 'SHIB-OMR', 'SHIB-BHD', 'SHIB-QAR',
 		'SHIB-USDT',
 
-		// De-listed (keeping for historical support)
 		'AVAX-AED', 'AVAX-SAR', 'AVAX-TRY', 'AVAX-USD', 'AVAX-KWD', 'AVAX-OMR', 'AVAX-BHD', 'AVAX-QAR',
 		'AVAX-USDT',
 
@@ -1721,6 +1775,21 @@ class CurrencyCodePair implements Pair {
 
 		'B2M-AED', 'B2M-SAR', 'B2M-USD', 'B2M-KWD', 'B2M-OMR', 'B2M-BHD', 'B2M-QAR',
 		'B2M-USDT',
+
+		'ENS-AED', 'ENS-SAR', 'ENS-USD', 'ENS-KWD', 'ENS-OMR', 'ENS-BHD', 'ENS-QAR',
+		'ENS-USDT',
+
+		'ONDO-AED', 'ONDO-SAR', 'ONDO-USD', 'ONDO-KWD', 'ONDO-OMR', 'ONDO-BHD', 'ONDO-QAR',
+		'ONDO-USDT',
+
+		'PAXG-AED', 'PAXG-SAR', 'PAXG-USD', 'PAXG-KWD', 'PAXG-OMR', 'PAXG-BHD', 'PAXG-QAR',
+		'PAXG-USDT',
+
+		'QNT-AED', 'QNT-SAR', 'QNT-USD', 'QNT-KWD', 'QNT-OMR', 'QNT-BHD', 'QNT-QAR',
+		'QNT-USDT',
+
+		'BNB-AED', 'BNB-SAR', 'BNB-USD', 'BNB-KWD', 'BNB-OMR', 'BNB-BHD', 'BNB-QAR',
+		'BNB-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
