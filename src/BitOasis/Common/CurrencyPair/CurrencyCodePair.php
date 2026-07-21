@@ -1444,7 +1444,6 @@ class CurrencyCodePair implements Pair {
 		'ATOM-USDT', 'ATOM-BTC',
 		'ATOM-ETH', // De-listed
 
-		// De-listed (keeping for historical support)
 		'1INCH-AED', '1INCH-SAR', '1INCH-TRY', '1INCH-USD', '1INCH-KWD', '1INCH-OMR', '1INCH-BHD', '1INCH-QAR',
 		'1INCH-USDT',
 
