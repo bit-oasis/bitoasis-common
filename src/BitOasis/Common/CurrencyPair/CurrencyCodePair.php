@@ -129,6 +129,7 @@ class CurrencyCodePair implements Pair {
 		'ZRX-OMR' => 'ZRX-OMR',
 		'ZRX-BHD' => 'ZRX-BHD',
 		'ZRX-QAR' => 'ZRX-QAR',
+		'ZRX-USDT' => 'ZRX-USDT',
 
 		'BAT-AED' => 'BAT-AED',
 		'BAT-SAR' => 'BAT-SAR',
@@ -290,6 +291,7 @@ class CurrencyCodePair implements Pair {
 		'MANA-BHD' => 'MANA-BHD',
 		'MANA-QAR' => 'MANA-QAR',
 		'MANA-BTC' => 'MANA-BTC',
+		'MANA-USDT' => 'MANA-USDT',
 
 		'MATIC-AED' => 'MATIC-AED',
 		'MATIC-SAR' => 'MATIC-SAR',
@@ -413,6 +415,9 @@ class CurrencyCodePair implements Pair {
 		'AXS-BHD' => 'AXS-BHD',
 		'AXS-QAR' => 'AXS-QAR',
 		'AXS-USDT' => 'AXS-USDT',
+		'1INCH-AED' => '1INCH-AED',
+		'1INCH-USD' => '1INCH-USD',
+		'1INCH-USDT' => '1INCH-USDT',
 
 		'BAND-AED' => 'BAND-AED',
 		'BAND-SAR' => 'BAND-SAR',
@@ -1326,6 +1331,7 @@ class CurrencyCodePair implements Pair {
 
 		'ZRX-AED', 'ZRX-SAR', 'ZRX-TRY', 'ZRX-USD', 'ZRX-KWD', 'ZRX-OMR', 'ZRX-BHD', 'ZRX-QAR',
 		'ZRX-BTC', 'ZRX-ETH', // De-listed
+		'ZRX-USDT',
 
 		'BAT-AED', 'BAT-SAR', 'BAT-TRY', 'BAT-USD', 'BAT-KWD', 'BAT-OMR', 'BAT-BHD', 'BAT-QAR',
 		'BAT-USDT', 'BAT-BTC',
@@ -1389,6 +1395,7 @@ class CurrencyCodePair implements Pair {
 
 		'MANA-AED', 'MANA-SAR', 'MANA-TRY', 'MANA-USD', 'MANA-KWD', 'MANA-OMR', 'MANA-BHD', 'MANA-QAR',
 		'MANA-BTC',
+		'MANA-USDT',
 
 		'MATIC-AED', 'MATIC-SAR', 'MATIC-TRY', 'MATIC-USD', 'MATIC-KWD', 'MATIC-OMR', 'MATIC-BHD', 'MATIC-QAR',
 		'MATIC-USDT', 'MATIC-BTC',
