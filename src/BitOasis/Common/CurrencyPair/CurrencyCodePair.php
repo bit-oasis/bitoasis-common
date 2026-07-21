@@ -416,7 +416,13 @@ class CurrencyCodePair implements Pair {
 		'AXS-QAR' => 'AXS-QAR',
 		'AXS-USDT' => 'AXS-USDT',
 		'1INCH-AED' => '1INCH-AED',
+		'1INCH-SAR' => '1INCH-SAR',
+		'1INCH-TRY' => '1INCH-TRY',
 		'1INCH-USD' => '1INCH-USD',
+		'1INCH-KWD' => '1INCH-KWD',
+		'1INCH-OMR' => '1INCH-OMR',
+		'1INCH-BHD' => '1INCH-BHD',
+		'1INCH-QAR' => '1INCH-QAR',
 		'1INCH-USDT' => '1INCH-USDT',
 
 		'BAND-AED' => 'BAND-AED',
