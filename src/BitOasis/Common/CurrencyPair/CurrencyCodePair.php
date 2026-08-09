@@ -1289,6 +1289,33 @@ class CurrencyCodePair implements Pair {
 		'BNB-QAR' => 'BNB-QAR',
 		'BNB-USDT' => 'BNB-USDT',
 
+		'ANKR-AED' => 'ANKR-AED',
+		'ANKR-SAR' => 'ANKR-SAR',
+		'ANKR-USD' => 'ANKR-USD',
+		'ANKR-KWD' => 'ANKR-KWD',
+		'ANKR-OMR' => 'ANKR-OMR',
+		'ANKR-BHD' => 'ANKR-BHD',
+		'ANKR-QAR' => 'ANKR-QAR',
+		'ANKR-USDT' => 'ANKR-USDT',
+
+		'WLD-AED' => 'WLD-AED',
+		'WLD-SAR' => 'WLD-SAR',
+		'WLD-USD' => 'WLD-USD',
+		'WLD-KWD' => 'WLD-KWD',
+		'WLD-OMR' => 'WLD-OMR',
+		'WLD-BHD' => 'WLD-BHD',
+		'WLD-QAR' => 'WLD-QAR',
+		'WLD-USDT' => 'WLD-USDT',
+
+		'HBAR-AED' => 'HBAR-AED',
+		'HBAR-SAR' => 'HBAR-SAR',
+		'HBAR-USD' => 'HBAR-USD',
+		'HBAR-KWD' => 'HBAR-KWD',
+		'HBAR-OMR' => 'HBAR-OMR',
+		'HBAR-BHD' => 'HBAR-BHD',
+		'HBAR-QAR' => 'HBAR-QAR',
+		'HBAR-USDT' => 'HBAR-USDT',
+
 	];
 
 	const VALID_PAIRS = [
@@ -1802,6 +1829,10 @@ class CurrencyCodePair implements Pair {
 
 		'BNB-AED', 'BNB-SAR', 'BNB-USD', 'BNB-KWD', 'BNB-OMR', 'BNB-BHD', 'BNB-QAR',
 		'BNB-USDT',
+
+		'ANKR-AED', 'ANKR-SAR', 'ANKR-USD', 'ANKR-KWD', 'ANKR-OMR', 'ANKR-BHD', 'ANKR-QAR', 'ANKR-USDT',
+		'WLD-AED', 'WLD-SAR', 'WLD-USD', 'WLD-KWD', 'WLD-OMR', 'WLD-BHD', 'WLD-QAR', 'WLD-USDT',
+		'HBAR-AED', 'HBAR-SAR', 'HBAR-USD', 'HBAR-KWD', 'HBAR-OMR', 'HBAR-BHD', 'HBAR-QAR', 'HBAR-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
