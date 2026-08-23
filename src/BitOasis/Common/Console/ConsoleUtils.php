@@ -6615,6 +6615,47 @@ class ConsoleUtils {
 			self::PAIR => 'B2M-USDT',
 			self::SYMBOL => 'tB2MUST',
 		],
+		// --------------------------------------------- HYPE pairs
+		'hypeaed' => [
+			self::DESCRIPTION => 'HYPE-AED',
+			self::PAIR => 'HYPE-AED',
+			self::SYMBOL => 'tHYPE:USD',
+		],
+		'hypesar' => [
+			self::DESCRIPTION => 'HYPE-SAR',
+			self::PAIR => 'HYPE-SAR',
+			self::SYMBOL => 'tHYPE:USD',
+		],
+		'hypeusd' => [
+			self::DESCRIPTION => 'HYPE-USD',
+			self::PAIR => 'HYPE-USD',
+			self::SYMBOL => 'tHYPE:USD',
+		],
+		'hypekwd' => [
+			self::DESCRIPTION => 'HYPE-KWD',
+			self::PAIR => 'HYPE-KWD',
+			self::SYMBOL => 'tHYPE:USD',
+		],
+		'hypeomr' => [
+			self::DESCRIPTION => 'HYPE-OMR',
+			self::PAIR => 'HYPE-OMR',
+			self::SYMBOL => 'tHYPE:USD',
+		],
+		'hypebhd' => [
+			self::DESCRIPTION => 'HYPE-BHD',
+			self::PAIR => 'HYPE-BHD',
+			self::SYMBOL => 'tHYPE:USD',
+		],
+		'hypeqar' => [
+			self::DESCRIPTION => 'HYPE-QAR',
+			self::PAIR => 'HYPE-QAR',
+			self::SYMBOL => 'tHYPE:USD',
+		],
+		'hypeusdt' => [
+			self::DESCRIPTION => 'HYPE-USDT',
+			self::PAIR => 'HYPE-USDT',
+			self::SYMBOL => 'tHYPE:UST',
+		],
 	];
 
 	private function __construct() {
