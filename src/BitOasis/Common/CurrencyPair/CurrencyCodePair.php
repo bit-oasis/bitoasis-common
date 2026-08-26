@@ -1316,6 +1316,15 @@ class CurrencyCodePair implements Pair {
 		'HBAR-QAR' => 'HBAR-QAR',
 		'HBAR-USDT' => 'HBAR-USDT',
 
+		'HYPE-AED' => 'HYPE-AED',
+		'HYPE-SAR' => 'HYPE-SAR',
+		'HYPE-USD' => 'HYPE-USD',
+		'HYPE-KWD' => 'HYPE-KWD',
+		'HYPE-OMR' => 'HYPE-OMR',
+		'HYPE-BHD' => 'HYPE-BHD',
+		'HYPE-QAR' => 'HYPE-QAR',
+		'HYPE-USDT' => 'HYPE-USDT',
+
 	];
 
 	const VALID_PAIRS = [
@@ -1833,6 +1842,7 @@ class CurrencyCodePair implements Pair {
 		'ANKR-AED', 'ANKR-SAR', 'ANKR-USD', 'ANKR-KWD', 'ANKR-OMR', 'ANKR-BHD', 'ANKR-QAR', 'ANKR-USDT',
 		'WLD-AED', 'WLD-SAR', 'WLD-USD', 'WLD-KWD', 'WLD-OMR', 'WLD-BHD', 'WLD-QAR', 'WLD-USDT',
 		'HBAR-AED', 'HBAR-SAR', 'HBAR-USD', 'HBAR-KWD', 'HBAR-OMR', 'HBAR-BHD', 'HBAR-QAR', 'HBAR-USDT',
+		'HYPE-AED', 'HYPE-SAR', 'HYPE-USD', 'HYPE-KWD', 'HYPE-OMR', 'HYPE-BHD', 'HYPE-QAR', 'HYPE-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
