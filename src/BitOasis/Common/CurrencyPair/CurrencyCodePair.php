@@ -52,7 +52,6 @@ class CurrencyCodePair implements Pair {
 		'BCH-OMR' => 'BCH-OMR',
 		'BCH-BHD' => 'BCH-BHD',
 		'BCH-QAR' => 'BCH-QAR',
-		'BCH-BTC' => 'BCH-BTC',
 
 		'XRP-AED' => 'XRP-AED',
 		'XRP-SAR' => 'XRP-SAR',
@@ -139,8 +138,6 @@ class CurrencyCodePair implements Pair {
 		'BAT-OMR' => 'BAT-OMR',
 		'BAT-BHD' => 'BAT-BHD',
 		'BAT-QAR' => 'BAT-QAR',
-		'BAT-USDT' => 'BAT-USDT',
-		'BAT-BTC' => 'BAT-BTC',
 
 		'ALGO-AED' => 'ALGO-AED',
 		'ALGO-SAR' => 'ALGO-SAR',
@@ -611,14 +608,6 @@ class CurrencyCodePair implements Pair {
 		'XDC-BHD' => 'XDC-BHD',
 		'XDC-QAR' => 'XDC-QAR',
 		'XDC-USDT' => 'XDC-USDT',
-
-		'BTG-AED' => 'BTG-AED',
-		'BTG-SAR' => 'BTG-SAR',
-		'BTG-USD' => 'BTG-USD',
-		'BTG-KWD' => 'BTG-KWD',
-		'BTG-OMR' => 'BTG-OMR',
-		'BTG-BHD' => 'BTG-BHD',
-		'BTG-QAR' => 'BTG-QAR',
 
 		'RLY-AED' => 'RLY-AED',
 		'RLY-SAR' => 'RLY-SAR',
