@@ -2838,6 +2838,14 @@ class CurrencyCodePair implements Pair {
 		'WEN-BHD' => 'WEN-BHD',
 		'WEN-QAR' => 'WEN-QAR',
 		'WEN-USDT' => 'WEN-USDT',
+		'ANTH-AED' => 'ANTH-AED',
+		'ANTH-SAR' => 'ANTH-SAR',
+		'ANTH-USD' => 'ANTH-USD',
+		'ANTH-KWD' => 'ANTH-KWD',
+		'ANTH-OMR' => 'ANTH-OMR',
+		'ANTH-BHD' => 'ANTH-BHD',
+		'ANTH-QAR' => 'ANTH-QAR',
+		'ANTH-USDT' => 'ANTH-USDT',
 
 	];
 
@@ -3528,6 +3536,7 @@ class CurrencyCodePair implements Pair {
 		'FWDI-AED', 'FWDI-SAR', 'FWDI-USD', 'FWDI-KWD', 'FWDI-OMR', 'FWDI-BHD', 'FWDI-QAR', 'FWDI-USDT',
 		'USDE-AED', 'USDE-SAR', 'USDE-USD', 'USDE-KWD', 'USDE-OMR', 'USDE-BHD', 'USDE-QAR', 'USDE-USDT',
 		'WEN-AED', 'WEN-SAR', 'WEN-USD', 'WEN-KWD', 'WEN-OMR', 'WEN-BHD', 'WEN-QAR', 'WEN-USDT',
+		'ANTH-AED', 'ANTH-SAR', 'ANTH-USD', 'ANTH-KWD', 'ANTH-OMR', 'ANTH-BHD', 'ANTH-QAR', 'ANTH-USDT',
 	];
 	const FIAT_CRYPTOCURRENCY_CODES = ['USD', 'AED', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD'];
 	const VALID_BASE_CRYPTOCURRENCIES = ['USD', 'AED', 'BTC', 'ETH', 'USDT', 'SAR', 'TRY', 'KWD', 'OMR', 'QAR', 'BHD']; // This is ment to be quote cryptocurrency codes
